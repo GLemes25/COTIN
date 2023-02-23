@@ -1,0 +1,41 @@
+C:\Lab\TreinamentoCotin\TreinamentoCotin\TreinamentoCotin\obj\Debug\TreinamentoCotin.csproj.AssemblyReference.cache
+C:\Lab\TreinamentoCotin\TreinamentoCotin\TreinamentoCotin\obj\Debug\TreinamentoCotin.csproj.SuggestedBindingRedirects.cache
+C:\Lab\TreinamentoCotin\TreinamentoCotin\TreinamentoCotin\obj\Debug\TreinamentoCotin.csproj.CoreCompileInputs.cache
+C:\Lab\TreinamentoCotin\TreinamentoCotin\TreinamentoCotin\bin\Debug\TreinamentoCotin.exe.config
+C:\Lab\TreinamentoCotin\TreinamentoCotin\TreinamentoCotin\bin\Debug\TreinamentoCotin.exe
+C:\Lab\TreinamentoCotin\TreinamentoCotin\TreinamentoCotin\bin\Debug\TreinamentoCotin.pdb
+C:\Lab\TreinamentoCotin\TreinamentoCotin\TreinamentoCotin\bin\Debug\Encapsulamento.dll
+C:\Lab\TreinamentoCotin\TreinamentoCotin\TreinamentoCotin\bin\Debug\Encapsulamento.pdb
+C:\Lab\TreinamentoCotin\TreinamentoCotin\TreinamentoCotin\obj\Debug\TreinamentoCotin.csproj.CopyComplete
+C:\Lab\TreinamentoCotin\TreinamentoCotin\TreinamentoCotin\obj\Debug\TreinamentoCotin.exe
+C:\Lab\TreinamentoCotin\TreinamentoCotin\TreinamentoCotin\obj\Debug\TreinamentoCotin.pdb
+C:\Users\gabri\Downloads\TreinamentoCotin\TreinamentoCotin\TreinamentoCotin\bin\Debug\TreinamentoCotin.exe.config
+C:\Users\gabri\Downloads\TreinamentoCotin\TreinamentoCotin\TreinamentoCotin\bin\Debug\TreinamentoCotin.exe
+C:\Users\gabri\Downloads\TreinamentoCotin\TreinamentoCotin\TreinamentoCotin\bin\Debug\TreinamentoCotin.pdb
+C:\Users\gabri\Downloads\TreinamentoCotin\TreinamentoCotin\TreinamentoCotin\bin\Debug\Encapsulamento.dll
+C:\Users\gabri\Downloads\TreinamentoCotin\TreinamentoCotin\TreinamentoCotin\bin\Debug\EntityFramework.dll
+C:\Users\gabri\Downloads\TreinamentoCotin\TreinamentoCotin\TreinamentoCotin\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\gabri\Downloads\TreinamentoCotin\TreinamentoCotin\TreinamentoCotin\bin\Debug\Encapsulamento.pdb
+C:\Users\gabri\Downloads\TreinamentoCotin\TreinamentoCotin\TreinamentoCotin\bin\Debug\EntityFramework.xml
+C:\Users\gabri\Downloads\TreinamentoCotin\TreinamentoCotin\TreinamentoCotin\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\gabri\Downloads\TreinamentoCotin\TreinamentoCotin\TreinamentoCotin\obj\Debug\TreinamentoCotin.csproj.AssemblyReference.cache
+C:\Users\gabri\Downloads\TreinamentoCotin\TreinamentoCotin\TreinamentoCotin\obj\Debug\TreinamentoCotin.csproj.SuggestedBindingRedirects.cache
+C:\Users\gabri\Downloads\TreinamentoCotin\TreinamentoCotin\TreinamentoCotin\obj\Debug\TreinamentoCotin.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Downloads\TreinamentoCotin\TreinamentoCotin\TreinamentoCotin\obj\Debug\TreinamentoCotin.csproj.CopyComplete
+C:\Users\gabri\Downloads\TreinamentoCotin\TreinamentoCotin\TreinamentoCotin\obj\Debug\TreinamentoCotin.exe
+C:\Users\gabri\Downloads\TreinamentoCotin\TreinamentoCotin\TreinamentoCotin\obj\Debug\TreinamentoCotin.pdb
+C:\Users\gabri\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\TreinamentoCotin\TreinamentoCotin\TreinamentoCotin\bin\Debug\TreinamentoCotin.exe.config
+C:\Users\gabri\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\TreinamentoCotin\TreinamentoCotin\TreinamentoCotin\bin\Debug\TreinamentoCotin.exe
+C:\Users\gabri\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\TreinamentoCotin\TreinamentoCotin\TreinamentoCotin\bin\Debug\TreinamentoCotin.pdb
+C:\Users\gabri\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\TreinamentoCotin\TreinamentoCotin\TreinamentoCotin\bin\Debug\Encapsulamento.dll
+C:\Users\gabri\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\TreinamentoCotin\TreinamentoCotin\TreinamentoCotin\bin\Debug\EntityFramework.dll
+C:\Users\gabri\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\TreinamentoCotin\TreinamentoCotin\TreinamentoCotin\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\gabri\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\TreinamentoCotin\TreinamentoCotin\TreinamentoCotin\bin\Debug\Encapsulamento.pdb
+C:\Users\gabri\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\TreinamentoCotin\TreinamentoCotin\TreinamentoCotin\bin\Debug\EntityFramework.xml
+C:\Users\gabri\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\TreinamentoCotin\TreinamentoCotin\TreinamentoCotin\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\gabri\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\TreinamentoCotin\TreinamentoCotin\TreinamentoCotin\obj\Debug\TreinamentoCotin.csproj.AssemblyReference.cache
+C:\Users\gabri\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\TreinamentoCotin\TreinamentoCotin\TreinamentoCotin\obj\Debug\TreinamentoCotin.csproj.SuggestedBindingRedirects.cache
+C:\Users\gabri\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\TreinamentoCotin\TreinamentoCotin\TreinamentoCotin\obj\Debug\TreinamentoCotin.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\TreinamentoCotin\TreinamentoCotin\TreinamentoCotin\obj\Debug\TreinamentoCotin.csproj.CopyComplete
+C:\Users\gabri\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\TreinamentoCotin\TreinamentoCotin\TreinamentoCotin\obj\Debug\TreinamentoCotin.exe
+C:\Users\gabri\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\TreinamentoCotin\TreinamentoCotin\TreinamentoCotin\obj\Debug\TreinamentoCotin.pdb

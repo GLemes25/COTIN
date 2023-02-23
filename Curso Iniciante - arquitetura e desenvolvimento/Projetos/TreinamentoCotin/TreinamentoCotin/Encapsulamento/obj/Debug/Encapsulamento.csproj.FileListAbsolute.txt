@@ -1,0 +1,12 @@
+C:\Lab\TreinamentoCotin\TreinamentoCotin\Encapsulamento\bin\Debug\Encapsulamento.dll
+C:\Lab\TreinamentoCotin\TreinamentoCotin\Encapsulamento\bin\Debug\Encapsulamento.pdb
+C:\Lab\TreinamentoCotin\TreinamentoCotin\Encapsulamento\obj\Debug\Encapsulamento.csproj.AssemblyReference.cache
+C:\Lab\TreinamentoCotin\TreinamentoCotin\Encapsulamento\obj\Debug\Encapsulamento.csproj.CoreCompileInputs.cache
+C:\Lab\TreinamentoCotin\TreinamentoCotin\Encapsulamento\obj\Debug\Encapsulamento.dll
+C:\Lab\TreinamentoCotin\TreinamentoCotin\Encapsulamento\obj\Debug\Encapsulamento.pdb
+C:\Users\gabri\Downloads\TreinamentoCotin\TreinamentoCotin\Encapsulamento\bin\Debug\Encapsulamento.dll
+C:\Users\gabri\Downloads\TreinamentoCotin\TreinamentoCotin\Encapsulamento\bin\Debug\Encapsulamento.pdb
+C:\Users\gabri\Downloads\TreinamentoCotin\TreinamentoCotin\Encapsulamento\obj\Debug\Encapsulamento.csproj.AssemblyReference.cache
+C:\Users\gabri\Downloads\TreinamentoCotin\TreinamentoCotin\Encapsulamento\obj\Debug\Encapsulamento.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Downloads\TreinamentoCotin\TreinamentoCotin\Encapsulamento\obj\Debug\Encapsulamento.dll
+C:\Users\gabri\Downloads\TreinamentoCotin\TreinamentoCotin\Encapsulamento\obj\Debug\Encapsulamento.pdb
