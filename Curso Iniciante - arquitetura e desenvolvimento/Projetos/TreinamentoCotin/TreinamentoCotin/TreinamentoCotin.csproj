@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3B3718A4-B66A-42D2-B568-9F81A9780659}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>TreinamentoCotin</RootNamespace>
+    <AssemblyName>TreinamentoCotin</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Api\Diretorios.cs" />
+    <Compile Include="Api\ExemploDateTime.cs" />
+    <Compile Include="Api\ExemploDirectoryInfo.cs" />
+    <Compile Include="Api\ExemploFileInfo.cs" />
+    <Compile Include="Api\ExemploPath.cs" />
+    <Compile Include="Api\ExemploTimeSpan.cs" />
+    <Compile Include="Api\LendoArquivos.cs" />
+    <Compile Include="Api\PrimeiroArquivo.cs" />
+    <Compile Include="ClassesEMetodos\AtributosEstaticos.cs" />
+    <Compile Include="ClassesEMetodos\Construtores.cs" />
+    <Compile Include="ClassesEMetodos\DesafioAtributo.cs" />
+    <Compile Include="ClassesEMetodos\ExemploEnum.cs" />
+    <Compile Include="ClassesEMetodos\GetSet.cs" />
+    <Compile Include="ClassesEMetodos\Membros.cs" />
+    <Compile Include="ClassesEMetodos\MetodosComRetorno.cs" />
+    <Compile Include="ClassesEMetodos\MetodosEstaticos.cs" />
+    <Compile Include="ClassesEMetodos\ParametroPadrao.cs" />
+    <Compile Include="ClassesEMetodos\ParametrosNomeados.cs" />
+    <Compile Include="ClassesEMetodos\ParametrosPorReferencia.cs" />
+    <Compile Include="ClassesEMetodos\Params.cs" />
+    <Compile Include="ClassesEMetodos\Pessoa.cs" />
+    <Compile Include="ClassesEMetodos\Props.cs" />
+    <Compile Include="ClassesEMetodos\Readonly.cs" />
+    <Compile Include="ClassesEMetodos\Struct.cs" />
+    <Compile Include="ClassesEMetodos\StructVsClasse.cs" />
+    <Compile Include="ClassesEMetodos\ValorVsReferencia.cs" />
+    <Compile Include="Colecoes\Array.cs" />
+    <Compile Include="Colecoes\ColecoesArrayList.cs" />
+    <Compile Include="Colecoes\ColecoesDictionary.cs" />
+    <Compile Include="Colecoes\ColecoesList.cs" />
+    <Compile Include="Colecoes\ColecoesNorthWind.cs" />
+    <Compile Include="Colecoes\ColecoesQueue.cs" />
+    <Compile Include="Colecoes\ColecoesSet.cs" />
+    <Compile Include="Colecoes\ColecoesStack.cs" />
+    <Compile Include="Colecoes\Igualdade.cs" />
+    <Compile Include="Data\Northwind\Alphabetical_list_of_products.cs">
+      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Northwind\Categories.cs">
+      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Northwind\Category_Sales_for_1997.cs">
+      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Northwind\Current_Product_List.cs">
+      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Northwind\CustomerDemographics.cs">
+      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Northwind\Customers.cs">
+      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Northwind\Customer_and_Suppliers_by_City.cs">
+      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Northwind\Employees.cs">
+      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Northwind\Invoices.cs">
+      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Northwind\ModelNorthwind.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelNorthwind.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Northwind\ModelNorthwind.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Northwind\ModelNorthwind.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelNorthwind.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Northwind\Orders.cs">
+      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Northwind\Orders_Qry.cs">
+      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Northwind\Order_Details.cs">
+      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Northwind\Order_Details_Extended.cs">
+      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Northwind\Order_Subtotals.cs">
+      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Northwind\Products.cs">
+      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Northwind\Products_Above_Average_Price.cs">
+      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Northwind\Products_by_Category.cs">
+      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Northwind\Product_Sales_for_1997.cs">
+      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Northwind\Region.cs">
+      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Northwind\Sales_by_Category.cs">
+      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Northwind\Sales_Totals_by_Amount.cs">
+      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Northwind\Shippers.cs">
+      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Northwind\Summary_of_Sales_by_Quarter.cs">
+      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Northwind\Summary_of_Sales_by_Year.cs">
+      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Northwind\Suppliers.cs">
+      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Northwind\Territories.cs">
+      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EstruturasDeControle\EstruturaDoWhile.cs" />
+    <Compile Include="EstruturasDeControle\EstruturaFor.cs" />
+    <Compile Include="EstruturasDeControle\EstruturaForEach.cs" />
+    <Compile Include="EstruturasDeControle\EstruturaIf.cs" />
+    <Compile Include="EstruturasDeControle\EstruturaIfElse.cs" />
+    <Compile Include="EstruturasDeControle\EstruturaIfElseIf.cs" />
+    <Compile Include="EstruturasDeControle\EstruturaSwitch.cs" />
+    <Compile Include="EstruturasDeControle\EstruturaWhile.cs" />
+    <Compile Include="EstruturasDeControle\UsandoBreak.cs" />
+    <Compile Include="EstruturasDeControle\UsandoContinue.cs" />
+    <Compile Include="Excecoes\ExcecoesPersonalizadas.cs" />
+    <Compile Include="Excecoes\PrimeiraExcecao.cs" />
+    <Compile Include="Exercicios.cs" />
+    <Compile Include="Fundamentos\Comentarios.cs" />
+    <Compile Include="Fundamentos\Conversoes.cs" />
+    <Compile Include="Fundamentos\FormatandoNumero.cs" />
+    <Compile Include="Fundamentos\Inferencia.cs" />
+    <Compile Include="Fundamentos\Interpolacao.cs" />
+    <Compile Include="Fundamentos\LendoDados.cs" />
+    <Compile Include="Fundamentos\NotacaoPonto.cs" />
+    <Compile Include="Fundamentos\OperadoresAritmeticos.cs" />
+    <Compile Include="Fundamentos\OperadoresAtribuicao.cs" />
+    <Compile Include="Fundamentos\OperadoresLogicos.cs" />
+    <Compile Include="Fundamentos\OperadoresRelacionais.cs" />
+    <Compile Include="Fundamentos\OperadoresUnarios.cs" />
+    <Compile Include="Fundamentos\OperadorTernario.cs" />
+    <Compile Include="Fundamentos\PrimeiroPrograma.cs" />
+    <Compile Include="Fundamentos\VariaveisEConstantes.cs" />
+    <Compile Include="MetodosEFuncoes\DelegateFunAnonima.cs" />
+    <Compile Include="MetodosEFuncoes\DelegatesComoParametros.cs" />
+    <Compile Include="MetodosEFuncoes\ExemploLambda.cs" />
+    <Compile Include="MetodosEFuncoes\LambdasDelegate.cs" />
+    <Compile Include="MetodosEFuncoes\MetodosDeExtensao.cs" />
+    <Compile Include="MetodosEFuncoes\UsandoDelegates.cs" />
+    <Compile Include="OO\Abstract.cs" />
+    <Compile Include="OO\ConstrutorThis.cs" />
+    <Compile Include="OO\Encapsulamento.cs" />
+    <Compile Include="OO\Heranca.cs" />
+    <Compile Include="OO\Interface.cs" />
+    <Compile Include="OO\Polimorfismo.cs" />
+    <Compile Include="OO\Sealed.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TopicosAvancados\Dynamics.cs" />
+    <Compile Include="TopicosAvancados\Genericos.cs" />
+    <Compile Include="TopicosAvancados\LINQ1.cs" />
+    <Compile Include="TopicosAvancados\LINQ2.cs" />
+    <Compile Include="TopicosAvancados\Nullables.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <EntityDeploy Include="Data\Northwind\ModelNorthwind.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ModelNorthwind.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Data\Northwind\ModelNorthwind.edmx.diagram">
+      <DependentUpon>ModelNorthwind.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Encapsulamento\Encapsulamento.csproj">
+      <Project>{418d9b3f-07a6-4ef3-b369-250c43c1aba7}</Project>
+      <Name>Encapsulamento</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Data\Northwind\ModelNorthwind.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>ModelNorthwind.Context.cs</LastGenOutput>
+      <DependentUpon>ModelNorthwind.edmx</DependentUpon>
+    </Content>
+    <Content Include="Data\Northwind\ModelNorthwind.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ModelNorthwind.edmx</DependentUpon>
+      <LastGenOutput>ModelNorthwind.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
