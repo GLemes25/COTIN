@@ -52,132 +52,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Data\Alphabetical_list_of_product.cs">
-      <DependentUpon>ModelNorthwind.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Data\Category.cs">
-      <DependentUpon>ModelNorthwind.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Data\Category_Sales_for_1997.cs">
-      <DependentUpon>ModelNorthwind.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Data\Current_Product_List.cs">
-      <DependentUpon>ModelNorthwind.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Data\Customer.cs">
-      <DependentUpon>ModelNorthwind.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Data\CustomerDemographic.cs">
-      <DependentUpon>ModelNorthwind.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Data\Customer_and_Suppliers_by_City.cs">
-      <DependentUpon>ModelNorthwind.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Data\Employee.cs">
-      <DependentUpon>ModelNorthwind.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Data\Interface\IRepository.cs" />
-    <Compile Include="Data\Invoice.cs">
-      <DependentUpon>ModelNorthwind.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Data\ModelNorthwind.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ModelNorthwind.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Data\ModelNorthwind.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ModelNorthwind.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Data\ModelNorthwind.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ModelNorthwind.edmx</DependentUpon>
-    </Compile>
-    <Compile Include="Data\Order.cs">
-      <DependentUpon>ModelNorthwind.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Data\Orders_Qry.cs">
-      <DependentUpon>ModelNorthwind.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Data\Order_Detail.cs">
-      <DependentUpon>ModelNorthwind.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Data\Order_Details_Extended.cs">
-      <DependentUpon>ModelNorthwind.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Data\Order_Subtotal.cs">
-      <DependentUpon>ModelNorthwind.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Data\Product.cs">
-      <DependentUpon>ModelNorthwind.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Data\Products_Above_Average_Price.cs">
-      <DependentUpon>ModelNorthwind.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Data\Products_by_Category.cs">
-      <DependentUpon>ModelNorthwind.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Data\Product_Sales_for_1997.cs">
-      <DependentUpon>ModelNorthwind.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Data\Region.cs">
-      <DependentUpon>ModelNorthwind.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Data\Repository\Repository.cs" />
-    <Compile Include="Data\Sales_by_Category.cs">
-      <DependentUpon>ModelNorthwind.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Data\Sales_Totals_by_Amount.cs">
-      <DependentUpon>ModelNorthwind.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Data\Shipper.cs">
-      <DependentUpon>ModelNorthwind.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Data\Summary_of_Sales_by_Quarter.cs">
-      <DependentUpon>ModelNorthwind.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Data\Summary_of_Sales_by_Year.cs">
-      <DependentUpon>ModelNorthwind.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Data\Supplier.cs">
-      <DependentUpon>ModelNorthwind.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Data\Territory.cs">
-      <DependentUpon>ModelNorthwind.tt</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <EntityDeploy Include="Data\ModelNorthwind.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>ModelNorthwind.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <None Include="Data\ModelNorthwind.edmx.diagram">
-      <DependentUpon>ModelNorthwind.edmx</DependentUpon>
-    </None>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Data\ModelNorthwind.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>ModelNorthwind.Context.cs</LastGenOutput>
-      <DependentUpon>ModelNorthwind.edmx</DependentUpon>
-    </Content>
-    <Content Include="Data\ModelNorthwind.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>ModelNorthwind.edmx</DependentUpon>
-      <LastGenOutput>ModelNorthwind.cs</LastGenOutput>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Class\" />
+    <ProjectReference Include="..\Northwind.Data\Northwind.Data.csproj">
+      <Project>{C783E9B3-226C-430A-96F8-49D315F40F51}</Project>
+      <Name>Northwind.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

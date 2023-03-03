@@ -1,0 +1,13 @@
+C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ConsoleApp2\Northwind.Data\obj\Debug\Northwind.Data.csproj.AssemblyReference.cache
+C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ConsoleApp2\Northwind.Data\obj\Debug\Northwind.Data.csproj.SuggestedBindingRedirects.cache
+C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ConsoleApp2\Northwind.Data\obj\Debug\Northwind.Data.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ConsoleApp2\Northwind.Data\bin\Debug\Northwind.Data.exe.config
+C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ConsoleApp2\Northwind.Data\bin\Debug\Northwind.Data.exe
+C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ConsoleApp2\Northwind.Data\bin\Debug\Northwind.Data.pdb
+C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ConsoleApp2\Northwind.Data\bin\Debug\EntityFramework.dll
+C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ConsoleApp2\Northwind.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ConsoleApp2\Northwind.Data\bin\Debug\EntityFramework.xml
+C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ConsoleApp2\Northwind.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ConsoleApp2\Northwind.Data\obj\Debug\Northwind.Data.csproj.CopyComplete
+C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ConsoleApp2\Northwind.Data\obj\Debug\Northwind.Data.exe
+C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ConsoleApp2\Northwind.Data\obj\Debug\Northwind.Data.pdb
