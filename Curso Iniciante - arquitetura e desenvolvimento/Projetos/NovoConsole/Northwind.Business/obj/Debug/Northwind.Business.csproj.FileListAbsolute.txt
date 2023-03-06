@@ -16,3 +16,4 @@ C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento
 C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\NovoConsole\Northwind.Business\obj\Debug\Northwind.Business.csproj.CopyComplete
 C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\NovoConsole\Northwind.Business\obj\Debug\Northwind.Business.dll
 C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\NovoConsole\Northwind.Business\obj\Debug\Northwind.Business.pdb
+C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\NovoConsole\Northwind.Business\bin\Debug\Northwind.Business.dll.config

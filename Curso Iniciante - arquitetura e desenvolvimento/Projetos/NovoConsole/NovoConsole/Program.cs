@@ -16,17 +16,18 @@ namespace NovoConsole
     {
         static void Main(string[] args)
         {
-            IRepository<Categories> _Repository = new Repository<Categories>();
-            var Category = _Repository.GetByID(1);
-
-            Category.CategoryName = "dsadsadsadsaasscassadadasdasadadadadaxasxadsadasasfsfdf";
+            IRepository<Products> _Repository = new Repository<Products>();
+            var Product = _Repository.GetByID(1);
 
             CategoriesValidation validation = new CategoriesValidation();
-            var result = validation.Validate(Category);   
+            var result = validation.Validate(Product);
 
-            Console.WriteLine("Category ID : {0}", Category.CategoryID);
-            Console.WriteLine("Category Name : {0}", Category.CategoryName);
-
+            if (result.IsValid)
+            {
+                Console.WriteLine("Product ID : {0}", Product.ProductID);
+                Console.WriteLine("Product Name : {0}", Product.ProductName);
+            }
+            else { Console.WriteLine(result); }
             Console.WriteLine("=============================");
 
             Console.ReadKey();
