@@ -1,0 +1,82 @@
+﻿
+Executando uma instalação transacionada.
+
+Começando a fase de instalação da instalação.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ProjetoWindows\NorthWindService\bin\Debug\NorthWindService.exe.
+Arquivo está localizado em C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ProjetoWindows\NorthWindService\bin\Debug\NorthWindService.InstallLog.
+
+Ocorreu uma exceção durante a fase de instalação.
+System.ComponentModel.Win32Exception: Não foi feito mapeamento entre os nomes de conta e as identificações de segurança
+
+Fase de reversão da instalação está começando.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ProjetoWindows\NorthWindService\bin\Debug\NorthWindService.exe.
+Arquivo está localizado em C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ProjetoWindows\NorthWindService\bin\Debug\NorthWindService.InstallLog.
+
+Fase de reversão foi concluída com êxito.
+
+Instalação transacionada concluída.
+
+Executando uma instalação transacionada.
+
+Começando a fase de instalação da instalação.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ProjetoWindows\NorthWindService\bin\Debug\NorthWindService.exe.
+Arquivo está localizado em C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ProjetoWindows\NorthWindService\bin\Debug\NorthWindService.InstallLog.
+
+Ocorreu uma exceção durante a fase de instalação.
+System.ComponentModel.Win32Exception: O nome da conta é inválido, inexistente ou a senha não é válida para o nome de conta especificado
+
+Fase de reversão da instalação está começando.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ProjetoWindows\NorthWindService\bin\Debug\NorthWindService.exe.
+Arquivo está localizado em C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ProjetoWindows\NorthWindService\bin\Debug\NorthWindService.InstallLog.
+
+Fase de reversão foi concluída com êxito.
+
+Instalação transacionada concluída.
+
+Executando uma instalação transacionada.
+
+Começando a fase de instalação da instalação.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ProjetoWindows\NorthWindService\bin\Debug\NorthWindService.exe.
+Arquivo está localizado em C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ProjetoWindows\NorthWindService\bin\Debug\NorthWindService.InstallLog.
+
+Ocorreu uma exceção durante a fase de instalação.
+System.ComponentModel.Win32Exception: O nome da conta é inválido, inexistente ou a senha não é válida para o nome de conta especificado
+
+Fase de reversão da instalação está começando.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ProjetoWindows\NorthWindService\bin\Debug\NorthWindService.exe.
+Arquivo está localizado em C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ProjetoWindows\NorthWindService\bin\Debug\NorthWindService.InstallLog.
+
+Fase de reversão foi concluída com êxito.
+
+Instalação transacionada concluída.
+
+Executando uma instalação transacionada.
+
+Começando a fase de instalação da instalação.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ProjetoWindows\NorthWindService\bin\Debug\NorthWindService.exe.
+Arquivo está localizado em C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ProjetoWindows\NorthWindService\bin\Debug\NorthWindService.InstallLog.
+
+Ocorreu uma exceção durante a fase de instalação.
+System.ComponentModel.Win32Exception: Não foi feito mapeamento entre os nomes de conta e as identificações de segurança
+
+Fase de reversão da instalação está começando.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ProjetoWindows\NorthWindService\bin\Debug\NorthWindService.exe.
+Arquivo está localizado em C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ProjetoWindows\NorthWindService\bin\Debug\NorthWindService.InstallLog.
+
+Fase de reversão foi concluída com êxito.
+
+Instalação transacionada concluída.
+
+Executando uma instalação transacionada.
+
+Começando a fase de instalação da instalação.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ProjetoWindows\NorthWindService\bin\Debug\NorthWindService.exe.
+Arquivo está localizado em C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ProjetoWindows\NorthWindService\bin\Debug\NorthWindService.InstallLog.
+
+Fase de instalação foi concluída com êxito e a fase de confirmação está começando.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ProjetoWindows\NorthWindService\bin\Debug\NorthWindService.exe.
+Arquivo está localizado em C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ProjetoWindows\NorthWindService\bin\Debug\NorthWindService.InstallLog.
+
+Fase de confirmação foi concluída com êxito.
+
+Instalação transacionada concluída.

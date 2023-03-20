@@ -1,0 +1,267 @@
+﻿Instalando o assembly 'C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.InstallLog
+   assemblypath = C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe
+Revertendo o assembly 'C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.InstallLog
+   assemblypath = C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe
+Instalando o assembly 'C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.InstallLog
+   assemblypath = C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe
+Instalando o serviço Service1...
+Criando a origem de EventLog Service1 no log Application...
+Revertendo o assembly 'C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.InstallLog
+   assemblypath = C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe
+Restaurando o log de eventos para o estado anterior da origem Service1.
+Instalando o assembly 'C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.InstallLog
+   assemblypath = C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe
+Instalando o serviço Service1...
+Criando a origem de EventLog Service1 no log Application...
+Revertendo o assembly 'C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.InstallLog
+   assemblypath = C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe
+Restaurando o log de eventos para o estado anterior da origem Service1.
+Instalando o assembly 'C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.InstallLog
+   assemblypath = C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe
+Revertendo o assembly 'C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.InstallLog
+   assemblypath = C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe
+Instalando o assembly 'C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.InstallLog
+   assemblypath = C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe
+Instalando o serviço Service1...
+Serviço Service1 foi instalado com êxito.
+Criando a origem de EventLog Service1 no log Application...
+Confirmando o assembly 'C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.InstallLog
+   assemblypath = C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe
+Installing assembly 'C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.InstallLog
+   assemblypath = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe
+Installing assembly 'C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.InstallLog
+   assemblypath = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe
+Installing service Service1...
+Creating EventLog source Service1 in log Application...
+Rolling back assembly 'C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.InstallLog
+   assemblypath = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe
+Restoring event log to previous state for source Service1.
+Installing assembly 'C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.InstallLog
+   assemblypath = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe
+Installing service Service1...
+Creating EventLog source Service1 in log Application...
+Rolling back assembly 'C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.InstallLog
+   assemblypath = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe
+Restoring event log to previous state for source Service1.
+Installing assembly 'C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.InstallLog
+   assemblypath = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe
+Installing service Service1...
+Creating EventLog source Service1 in log Application...
+Rolling back assembly 'C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.InstallLog
+   assemblypath = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe
+Restoring event log to previous state for source Service1.
+Installing assembly 'C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.InstallLog
+   assemblypath = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe
+Installing service Service1...
+Creating EventLog source Service1 in log Application...
+Rolling back assembly 'C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.InstallLog
+   assemblypath = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe
+Restoring event log to previous state for source Service1.
+Installing assembly 'C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.InstallLog
+   assemblypath = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe
+Installing service Service1...
+Creating EventLog source Service1 in log Application...
+Rolling back assembly 'C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.InstallLog
+   assemblypath = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe
+Restoring event log to previous state for source Service1.
+Installing assembly 'C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.InstallLog
+   assemblypath = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe
+Rolling back assembly 'C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.InstallLog
+   assemblypath = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe
+Installing assembly 'C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.InstallLog
+   assemblypath = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe
+Installing service Service1...
+Creating EventLog source Service1 in log Application...
+Rolling back assembly 'C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.InstallLog
+   assemblypath = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe
+Restoring event log to previous state for source Service1.
+Installing assembly 'C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.InstallLog
+   assemblypath = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.InstallLog
+   assemblypath = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe
+Installing assembly 'C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.InstallLog
+   assemblypath = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe
+Installing service Service1...
+Creating EventLog source Service1 in log Application...
+Rolling back assembly 'C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.InstallLog
+   assemblypath = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe
+Restoring event log to previous state for source Service1.
+Installing assembly 'C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.InstallLog
+   assemblypath = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe
+Installing service Service1...
+Creating EventLog source Service1 in log Application...
+Rolling back assembly 'C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.InstallLog
+   assemblypath = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe
+Restoring event log to previous state for source Service1.
+Installing assembly 'C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.InstallLog
+   assemblypath = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe
+Installing service Service1...
+Creating EventLog source Service1 in log Application...
+Rolling back assembly 'C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.InstallLog
+   assemblypath = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe
+Restoring event log to previous state for source Service1.
+Uninstalling assembly 'C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.InstallLog
+   assemblypath = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.InstallLog
+   assemblypath = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.InstallLog
+   assemblypath = C:\Users\Gabriel\Downloads\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe
+Uninstalling assembly 'C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ProjetoWindows\NorthWindService\bin\Debug\NorthWindService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ProjetoWindows\NorthWindService\bin\Debug\NorthWindService.InstallLog
+   assemblypath = C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ProjetoWindows\NorthWindService\bin\Debug\NorthWindService.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ProjetoWindows\NorthWindService\bin\Debug\NorthWindService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ProjetoWindows\NorthWindService\bin\Debug\NorthWindService.InstallLog
+   assemblypath = C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ProjetoWindows\NorthWindService\bin\Debug\NorthWindService.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ProjetoWindows\NorthWindService\bin\Debug\NorthWindService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ProjetoWindows\NorthWindService\bin\Debug\NorthWindService.InstallLog
+   assemblypath = C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ProjetoWindows\NorthWindService\bin\Debug\NorthWindService.exe
+Uninstalling assembly 'C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ProjetoWindows\NorthWindService\bin\Debug\NorthWindService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ProjetoWindows\NorthWindService\bin\Debug\NorthWindService.InstallLog
+   assemblypath = C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ProjetoWindows\NorthWindService\bin\Debug\NorthWindService.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ProjetoWindows\NorthWindService\bin\Debug\NorthWindService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ProjetoWindows\NorthWindService\bin\Debug\NorthWindService.InstallLog
+   assemblypath = C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ProjetoWindows\NorthWindService\bin\Debug\NorthWindService.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ProjetoWindows\NorthWindService\bin\Debug\NorthWindService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ProjetoWindows\NorthWindService\bin\Debug\NorthWindService.InstallLog
+   assemblypath = C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\ProjetoWindows\NorthWindService\bin\Debug\NorthWindService.exe
