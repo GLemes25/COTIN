@@ -1,0 +1,45 @@
+﻿
+Executando uma instalação transacionada.
+
+Começando a fase de instalação da instalação.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\Users\vverissimo\Curso\repos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.exe.
+Arquivo está localizado em C:\Users\vverissimo\Curso\repos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.InstallLog.
+
+Fase de instalação foi concluída com êxito e a fase de confirmação está começando.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\Users\vverissimo\Curso\repos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.exe.
+Arquivo está localizado em C:\Users\vverissimo\Curso\repos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.InstallLog.
+
+Fase de confirmação foi concluída com êxito.
+
+Instalação transacionada concluída.
+
+Executando uma instalação transacionada.
+
+Começando a fase de instalação da instalação.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\Users\imagetech\Downloads\NovoConsole-20230321T142007Z-001\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.exe.
+Arquivo está localizado em C:\Users\imagetech\Downloads\NovoConsole-20230321T142007Z-001\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.InstallLog.
+
+Fase de instalação foi concluída com êxito e a fase de confirmação está começando.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\Users\imagetech\Downloads\NovoConsole-20230321T142007Z-001\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.exe.
+Arquivo está localizado em C:\Users\imagetech\Downloads\NovoConsole-20230321T142007Z-001\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.InstallLog.
+
+Fase de confirmação foi concluída com êxito.
+
+Instalação transacionada concluída.
+
+Executando uma instalação transacionada.
+
+Começando a fase de instalação da instalação.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\Users\imagetech\Downloads\NovoConsole-20230321T142007Z-001\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.exe.
+Arquivo está localizado em C:\Users\imagetech\Downloads\NovoConsole-20230321T142007Z-001\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.InstallLog.
+
+Ocorreu uma exceção durante a fase de instalação.
+System.InvalidOperationException: Usuário cancelou a instalação dos serviços no executável C:\Users\imagetech\Downloads\NovoConsole-20230321T142007Z-001\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.exe.
+
+Fase de reversão da instalação está começando.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\Users\imagetech\Downloads\NovoConsole-20230321T142007Z-001\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.exe.
+Arquivo está localizado em C:\Users\imagetech\Downloads\NovoConsole-20230321T142007Z-001\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.InstallLog.
+
+Fase de reversão foi concluída com êxito.
+
+Instalação transacionada concluída.

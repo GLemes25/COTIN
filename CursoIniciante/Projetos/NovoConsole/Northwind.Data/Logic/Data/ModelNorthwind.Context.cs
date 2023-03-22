@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Northwind.Data.Logic.Data
+namespace NorthWind.Data.Logic.Data
 {
     using System;
     using System.Data.Entity;
@@ -35,6 +35,7 @@ namespace Northwind.Data.Logic.Data
         public virtual DbSet<Region> Region { get; set; }
         public virtual DbSet<Shippers> Shippers { get; set; }
         public virtual DbSet<Suppliers> Suppliers { get; set; }
+        public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
         public virtual DbSet<Territories> Territories { get; set; }
     }
 }

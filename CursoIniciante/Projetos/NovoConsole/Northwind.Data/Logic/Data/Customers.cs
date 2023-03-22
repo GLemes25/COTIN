@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Northwind.Data.Logic.Data
+namespace NorthWind.Data.Logic.Data
 {
     using System;
     using System.Collections.Generic;

@@ -36,22 +36,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    <Reference Include="EntityFramework.PowerShell">
+      <HintPath>..\..\CriandoProgramaComWilson\packages\EntityFramework.6.2.0\tools\EntityFramework.PowerShell.dll</HintPath>
     </Reference>
-    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    <Reference Include="EntityFramework.PowerShell.Utility">
+      <HintPath>..\..\CriandoProgramaComWilson\packages\EntityFramework.6.2.0\tools\EntityFramework.PowerShell.Utility.dll</HintPath>
     </Reference>
-    <Reference Include="FluentValidation, Version=11.0.0.0, Culture=neutral, PublicKeyToken=7de548da2fbae0f0" />
+    <Reference Include="FluentValidation">
+      <HintPath>..\..\CriandoProgramaComWilson\packages\FluentValidation.11.5.1\lib\net5.0\FluentValidation.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
-    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -68,13 +64,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\Northwind.Data\Northwind.Data.csproj">
+      <Project>{6303D7F3-6F4A-443C-93B8-BD1C7A680FD0}</Project>
+      <Name>Northwind.Data</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Northwind.Business\Northwind.Business.csproj">
       <Project>{81f656a8-a308-49eb-ab78-52433979a06d}</Project>
       <Name>Northwind.Business</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Northwind.Data\Northwind.Data.csproj">
-      <Project>{6303D7F3-6F4A-443C-93B8-BD1C7A680FD0}</Project>
-      <Name>Northwind.Data</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

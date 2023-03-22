@@ -57,3 +57,32 @@ Parâmetros afetados são:
    logtoconsole = 
    logfile = C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.InstallLog
    assemblypath = C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe
+Desinstalando o assembly 'C:\Users\mathe\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthwindService.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\mathe\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthwindService.InstallLog
+   assemblypath = C:\Users\mathe\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthwindService.exe
+Removendo a origem do EventLog Service1.
+Serviço Service1 está sendo removido do sistema...
+Serviço Service1 foi removido com êxito do sistema.
+Instalando o assembly 'C:\Users\mathe\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\mathe\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.InstallLog
+   assemblypath = C:\Users\mathe\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe
+Instalando o serviço ServiceNorthwind...
+Serviço ServiceNorthwind foi instalado com êxito.
+Criando a origem de EventLog ServiceNorthwind no log Application...
+Confirmando o assembly 'C:\Users\mathe\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\mathe\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.InstallLog
+   assemblypath = C:\Users\mathe\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe
+Desinstalando o assembly 'C:\Users\mathe\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthwindService.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\mathe\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthwindService.InstallLog
+   assemblypath = C:\Users\mathe\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthwindService.exe
+Removendo a origem do EventLog ServiceNorthwind.
+Serviço ServiceNorthwind está sendo removido do sistema...
+Serviço ServiceNorthwind foi removido com êxito do sistema.

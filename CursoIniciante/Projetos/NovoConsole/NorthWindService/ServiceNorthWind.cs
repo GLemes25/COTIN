@@ -1,19 +1,12 @@
-﻿using Northwind.Data.Logic.Interface;
-using Northwind.Data.Logic.Data;
-using Northwind.Data.Logic.Repository;
+﻿using NorthWind.Data.Logic.Data;
+using NorthWind.Data.Logic.Interface;
+using NorthWind.Data.Logic.Repository;
 using NorthWindService.Logic;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Configuration;
-using System.Data;
-using System.Diagnostics;
 using System.IO;
-using System.Linq;
 using System.ServiceProcess;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 
 namespace NorthWindService
 {
@@ -40,7 +33,7 @@ namespace NorthWindService
 
         private void WriteToFile(string text)
         {
-            string path = "C:\\Users\\Gabriel\\source\\repos\\CriandoProgramaComWilson\\Log\\ProjetoServiceLog.txt";
+            string path = "C:\\Users\\mathe\\source\\repos\\CriandoProgramaComWilson\\Log\\ProjetoServiceLog.txt";
             using (StreamWriter writer = new StreamWriter(path, true))
             {
                 writer.WriteLine(string.Format(text, DateTime.Now.ToString("dd/MM/yyyy hh:mm:ss tt")));
@@ -51,7 +44,8 @@ namespace NorthWindService
         {
             _EsperaInicial = (Convert.ToInt32(ConfigurationManager.AppSettings["ESPERAINICIAL_SEGUNDOS"]) * 1000);
             _Periodo = ConfigurationManager.AppSettings["PERIODO"].ToString();
-            _Intervalo = (Convert.ToInt32(ConfigurationManager.AppSettings["INTERVALOMINUTO"]) * 60000); this.WriteToFile("Projeto Service Ambiente Started {0}");
+            _Intervalo = (Convert.ToInt32(ConfigurationManager.AppSettings["INTERVALOMINUTO"]) * 60000);
+            this.WriteToFile("Projeto Service Ambiente Started {0}");
         }
 
         private void executar_Tarefa()
@@ -66,17 +60,17 @@ namespace NorthWindService
 
                         IRepository<Orders> _Repository = new Repository<Orders>();
 
-                        var listaOrders = _Repository.GetAll();
+                        var listaOrders = _Repository.ObterTodos();
 
                         foreach (var item in listaOrders)
                         {
                             var dataAnterior = item.OrderDate;
                             item.OrderDate = DateTime.Now;
-                            _Repository.Update(item);
+                            _Repository.Alterar(item);
                             this.WriteToFile("Order número: " + item.OrderID + " Data anterior: " + dataAnterior + " Nova Data: " + item.OrderDate + "{0}");
                         }
 
-                        _Repository.Save();
+                        _Repository.Salvar();
 
                     }
                 }

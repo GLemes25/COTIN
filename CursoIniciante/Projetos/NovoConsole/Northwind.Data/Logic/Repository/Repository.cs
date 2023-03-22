@@ -1,60 +1,68 @@
-﻿
-using Northwind.Data.Logic.Data;
-using Northwind.Data.Logic.Interface;
-using System;
+﻿using NorthWind.Data.Logic.Data;
+using NorthWind.Data.Logic.Interface;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Data.Entity.Validation;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Northwind.Data.Logic.Repository
+namespace NorthWind.Data.Logic.Repository
 {
     public class Repository<T> : IRepository<T> where T : class
     {
-        private NorthwindEntities context;
+        private NorthwindEntities contexto;
 
-        private DbSet<T> dbSet;
+        private DbSet<T> DbSet;
 
         public Repository()
         {
-            context = new NorthwindEntities();
-            dbSet = context.Set<T>();
+            contexto = new NorthwindEntities();
+
+            DbSet = contexto.Set<T>();
         }
-
-        public void Delete(T entityToDelete)
+        public T Alterar(T obj)
         {
-            if (context.Entry(entityToDelete).State == EntityState.Detached)
-            {
-                dbSet.Attach(entityToDelete);
-            }
-            dbSet.Remove(entityToDelete);
-        }
-
-        public IEnumerable<T> GetAll()
-        {
-            return dbSet.ToList();
-        }
-
-        public T GetByID(int Id)
-        {
-            return dbSet.Find(Id);
-
-        }
-
-        public T Insert(T obj)
-        {
-            dbSet.Add(obj);
-            Save();
+            DbSet.Attach(obj);
+            contexto.Entry(obj).State = EntityState.Modified;
+            Salvar();
             return obj;
         }
 
-        public void Save()
+        public void Apagar(object Id)
+        {
+            T entityToDelete = DbSet.Find(Id);
+            Apagar(entityToDelete);
+        }
+
+        public void Apagar(T entityToDelete)
+        {
+            if (contexto.Entry(entityToDelete).State == EntityState.Detached)
+            {
+                DbSet.Attach(entityToDelete);
+            }
+            DbSet.Remove(entityToDelete);
+        }
+        public T Inserir(T obj)
+        {
+            DbSet.Add(obj);
+            Salvar();
+            return obj;
+        }
+
+        public T ObterPorID(object Id)
+        {
+            return DbSet.Find(Id);
+        }
+
+        public IEnumerable<T> ObterTodos()
+        {
+            return DbSet.ToList();
+        }
+
+        public void Salvar()
         {
             try
             {
-                context.SaveChanges();
+                contexto.SaveChanges();
             }
             catch (DbEntityValidationException dbEx)
             {
@@ -67,13 +75,16 @@ namespace Northwind.Data.Logic.Repository
                 }
             }
         }
-
-        public T Update(T obj)
+        protected virtual void Dispose(bool disposing)
         {
-            dbSet.Attach(obj);
-            context.Entry(obj).State = EntityState.Modified;
-            Save();
-            return obj;
+            if (disposing)
+            {
+                if (contexto != null)
+                {
+                    contexto.Dispose();
+                    contexto = null;
+                }
+            }
         }
     }
 }

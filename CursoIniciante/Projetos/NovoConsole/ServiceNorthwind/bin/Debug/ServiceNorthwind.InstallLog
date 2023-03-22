@@ -1,0 +1,13 @@
+﻿Instalando o assembly 'C:\Users\mathe\source\repos\NovoConsole\ServiceNorthwind\bin\Debug\ServiceNorthwind.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\mathe\source\repos\NovoConsole\ServiceNorthwind\bin\Debug\ServiceNorthwind.InstallLog
+   assemblypath = C:\Users\mathe\source\repos\NovoConsole\ServiceNorthwind\bin\Debug\ServiceNorthwind.exe
+Instalando o serviço NorthwindService...
+Serviço NorthwindService foi instalado com êxito.
+Criando a origem de EventLog NorthwindService no log Application...
+Confirmando o assembly 'C:\Users\mathe\source\repos\NovoConsole\ServiceNorthwind\bin\Debug\ServiceNorthwind.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\mathe\source\repos\NovoConsole\ServiceNorthwind\bin\Debug\ServiceNorthwind.InstallLog
+   assemblypath = C:\Users\mathe\source\repos\NovoConsole\ServiceNorthwind\bin\Debug\ServiceNorthwind.exe

@@ -1,4 +1,3 @@
-C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\NovoConsole\Northwind.Business\bin\Debug\Northwind.Business.dll.config
 C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\NovoConsole\Northwind.Business\bin\Debug\Northwind.Business.dll
 C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\NovoConsole\Northwind.Business\bin\Debug\Northwind.Business.pdb
 C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\NovoConsole\Northwind.Business\bin\Debug\FluentValidation.dll
@@ -17,3 +16,52 @@ C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento
 C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\NovoConsole\Northwind.Business\obj\Debug\Northwind.Business.csproj.CopyComplete
 C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\NovoConsole\Northwind.Business\obj\Debug\Northwind.Business.dll
 C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\NovoConsole\Northwind.Business\obj\Debug\Northwind.Business.pdb
+C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\NovoConsole\Northwind.Business\bin\Debug\Northwind.Business.dll.config
+C:\Users\mathe\source\repos\NovoConsole\Northwind.Business\bin\Debug\Northwind.Business.dll.config
+C:\Users\mathe\source\repos\NovoConsole\Northwind.Business\bin\Debug\Northwind.Business.dll
+C:\Users\mathe\source\repos\NovoConsole\Northwind.Business\bin\Debug\Northwind.Business.pdb
+C:\Users\mathe\source\repos\NovoConsole\Northwind.Business\bin\Debug\Northwind.Data.dll
+C:\Users\mathe\source\repos\NovoConsole\Northwind.Business\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\mathe\source\repos\NovoConsole\Northwind.Business\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\mathe\source\repos\NovoConsole\Northwind.Business\bin\Debug\EntityFramework.dll
+C:\Users\mathe\source\repos\NovoConsole\Northwind.Business\bin\Debug\Northwind.Data.pdb
+C:\Users\mathe\source\repos\NovoConsole\Northwind.Business\bin\Debug\Northwind.Data.dll.config
+C:\Users\mathe\source\repos\NovoConsole\Northwind.Business\bin\Debug\FluentValidation.xml
+C:\Users\mathe\source\repos\NovoConsole\Northwind.Business\bin\Debug\EntityFramework.xml
+C:\Users\mathe\source\repos\NovoConsole\Northwind.Business\obj\Debug\Northwind.Business.csproj.AssemblyReference.cache
+C:\Users\mathe\source\repos\NovoConsole\Northwind.Business\obj\Debug\Northwind.Business.csproj.CoreCompileInputs.cache
+C:\Users\mathe\source\repos\NovoConsole\Northwind.Business\obj\Debug\Northwind.Business.csproj.CopyComplete
+C:\Users\mathe\source\repos\NovoConsole\Northwind.Business\obj\Debug\Northwind.Business.dll
+C:\Users\mathe\source\repos\NovoConsole\Northwind.Business\obj\Debug\Northwind.Business.pdb
+C:\Users\vverissimo\Curso\repos\NovoConsole\Northwind.Business\bin\Debug\Northwind.Business.dll.config
+C:\Users\vverissimo\Curso\repos\NovoConsole\Northwind.Business\bin\Debug\Northwind.Business.dll
+C:\Users\vverissimo\Curso\repos\NovoConsole\Northwind.Business\bin\Debug\Northwind.Business.pdb
+C:\Users\vverissimo\Curso\repos\NovoConsole\Northwind.Business\bin\Debug\NorthWind.Data.dll
+C:\Users\vverissimo\Curso\repos\NovoConsole\Northwind.Business\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\vverissimo\Curso\repos\NovoConsole\Northwind.Business\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\vverissimo\Curso\repos\NovoConsole\Northwind.Business\bin\Debug\EntityFramework.dll
+C:\Users\vverissimo\Curso\repos\NovoConsole\Northwind.Business\bin\Debug\NorthWind.Data.pdb
+C:\Users\vverissimo\Curso\repos\NovoConsole\Northwind.Business\bin\Debug\NorthWind.Data.dll.config
+C:\Users\vverissimo\Curso\repos\NovoConsole\Northwind.Business\bin\Debug\FluentValidation.xml
+C:\Users\vverissimo\Curso\repos\NovoConsole\Northwind.Business\bin\Debug\EntityFramework.xml
+C:\Users\vverissimo\Curso\repos\NovoConsole\Northwind.Business\obj\Debug\Northwind.Business.csproj.AssemblyReference.cache
+C:\Users\vverissimo\Curso\repos\NovoConsole\Northwind.Business\obj\Debug\Northwind.Business.csproj.CoreCompileInputs.cache
+C:\Users\vverissimo\Curso\repos\NovoConsole\Northwind.Business\obj\Debug\Northwind.Business.csproj.CopyComplete
+C:\Users\vverissimo\Curso\repos\NovoConsole\Northwind.Business\obj\Debug\Northwind.Business.dll
+C:\Users\vverissimo\Curso\repos\NovoConsole\Northwind.Business\obj\Debug\Northwind.Business.pdb
+C:\Users\imagetech\Downloads\NovoConsole-20230321T142007Z-001\NovoConsole\Northwind.Business\obj\Debug\Northwind.Business.csproj.AssemblyReference.cache
+C:\Users\imagetech\Downloads\NovoConsole-20230321T142007Z-001\NovoConsole\Northwind.Business\obj\Debug\Northwind.Business.csproj.CoreCompileInputs.cache
+C:\Users\imagetech\Downloads\NovoConsole-20230321T142007Z-001\NovoConsole\Northwind.Business\obj\Debug\Northwind.Business.dll
+C:\Users\imagetech\Downloads\NovoConsole-20230321T142007Z-001\NovoConsole\Northwind.Business\obj\Debug\Northwind.Business.pdb
+C:\Users\imagetech\Downloads\NovoConsole-20230321T142007Z-001\NovoConsole\Northwind.Business\bin\Debug\Northwind.Business.dll.config
+C:\Users\imagetech\Downloads\NovoConsole-20230321T142007Z-001\NovoConsole\Northwind.Business\bin\Debug\Northwind.Business.dll
+C:\Users\imagetech\Downloads\NovoConsole-20230321T142007Z-001\NovoConsole\Northwind.Business\bin\Debug\Northwind.Business.pdb
+C:\Users\imagetech\Downloads\NovoConsole-20230321T142007Z-001\NovoConsole\Northwind.Business\bin\Debug\Northwind.Data.dll
+C:\Users\imagetech\Downloads\NovoConsole-20230321T142007Z-001\NovoConsole\Northwind.Business\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\imagetech\Downloads\NovoConsole-20230321T142007Z-001\NovoConsole\Northwind.Business\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\imagetech\Downloads\NovoConsole-20230321T142007Z-001\NovoConsole\Northwind.Business\bin\Debug\EntityFramework.dll
+C:\Users\imagetech\Downloads\NovoConsole-20230321T142007Z-001\NovoConsole\Northwind.Business\bin\Debug\Northwind.Data.pdb
+C:\Users\imagetech\Downloads\NovoConsole-20230321T142007Z-001\NovoConsole\Northwind.Business\bin\Debug\Northwind.Data.dll.config
+C:\Users\imagetech\Downloads\NovoConsole-20230321T142007Z-001\NovoConsole\Northwind.Business\bin\Debug\FluentValidation.xml
+C:\Users\imagetech\Downloads\NovoConsole-20230321T142007Z-001\NovoConsole\Northwind.Business\bin\Debug\EntityFramework.xml
+C:\Users\imagetech\Downloads\NovoConsole-20230321T142007Z-001\NovoConsole\Northwind.Business\obj\Debug\Northwind.Business.csproj.CopyComplete

@@ -1,12 +1,24 @@
-C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\NovoConsole\Northwind.Data\bin\Debug\Northwind.Data.dll.config
-C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\NovoConsole\Northwind.Data\bin\Debug\Northwind.Data.dll
-C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\NovoConsole\Northwind.Data\bin\Debug\Northwind.Data.pdb
-C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\NovoConsole\Northwind.Data\bin\Debug\EntityFramework.dll
-C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\NovoConsole\Northwind.Data\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\NovoConsole\Northwind.Data\bin\Debug\EntityFramework.xml
-C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\NovoConsole\Northwind.Data\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\NovoConsole\Northwind.Data\obj\Debug\NorthWind.Data.csproj.AssemblyReference.cache
-C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\NovoConsole\Northwind.Data\obj\Debug\NorthWind.Data.csproj.CoreCompileInputs.cache
-C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\NovoConsole\NorthWind.Data\obj\Debug\NorthWind.Data.csproj.CopyComplete
-C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\NovoConsole\Northwind.Data\obj\Debug\Northwind.Data.dll
-C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\NovoConsole\Northwind.Data\obj\Debug\Northwind.Data.pdb
+C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWind.Data\bin\Debug\NorthWind.Data.dll.config
+C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWind.Data\bin\Debug\NorthWind.Data.dll
+C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWind.Data\bin\Debug\NorthWind.Data.pdb
+C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWind.Data\bin\Debug\EntityFramework.dll
+C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWind.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWind.Data\bin\Debug\EntityFramework.xml
+C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWind.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWind.Data\obj\Debug\NorthWind.Data.csproj.AssemblyReference.cache
+C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWind.Data\obj\Debug\NorthWind.Data.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWind.Data\obj\Debug\NorthWind.Data.csproj.CopyComplete
+C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWind.Data\obj\Debug\NorthWind.Data.dll
+C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWind.Data\obj\Debug\NorthWind.Data.pdb
+C:\Users\mathe\source\repos\CriandoProgramaComWilson\NorthWind.Data\bin\Debug\NorthWind.Data.dll.config
+C:\Users\mathe\source\repos\CriandoProgramaComWilson\NorthWind.Data\bin\Debug\NorthWind.Data.dll
+C:\Users\mathe\source\repos\CriandoProgramaComWilson\NorthWind.Data\bin\Debug\NorthWind.Data.pdb
+C:\Users\mathe\source\repos\CriandoProgramaComWilson\NorthWind.Data\bin\Debug\EntityFramework.dll
+C:\Users\mathe\source\repos\CriandoProgramaComWilson\NorthWind.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mathe\source\repos\CriandoProgramaComWilson\NorthWind.Data\bin\Debug\EntityFramework.xml
+C:\Users\mathe\source\repos\CriandoProgramaComWilson\NorthWind.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mathe\source\repos\CriandoProgramaComWilson\NorthWind.Data\obj\Debug\NorthWind.Data.csproj.AssemblyReference.cache
+C:\Users\mathe\source\repos\CriandoProgramaComWilson\NorthWind.Data\obj\Debug\NorthWind.Data.csproj.CoreCompileInputs.cache
+C:\Users\mathe\source\repos\CriandoProgramaComWilson\NorthWind.Data\obj\Debug\NorthWind.Data.csproj.CopyComplete
+C:\Users\mathe\source\repos\CriandoProgramaComWilson\NorthWind.Data\obj\Debug\NorthWind.Data.dll
+C:\Users\mathe\source\repos\CriandoProgramaComWilson\NorthWind.Data\obj\Debug\NorthWind.Data.pdb

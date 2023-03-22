@@ -16,8 +16,21 @@ C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debu
 C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWindService\obj\Debug\NorthWindService.csproj.CopyComplete
 C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\NovoConsole\NorthwindService\obj\Debug\NorthwindService.csproj.AssemblyReference.cache
-C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\NovoConsole\NorthwindService\obj\Debug\NorthwindService.csproj.SuggestedBindingRedirects.cache
-C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\NovoConsole\NorthwindService\obj\Debug\NorthWindService.ProjectInstaller.resources
-C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\NovoConsole\NorthwindService\obj\Debug\NorthwindService.csproj.GenerateResource.cache
-C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\NovoConsole\NorthwindService\obj\Debug\NorthwindService.csproj.CoreCompileInputs.cache
+C:\Users\mathe\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe.config
+C:\Users\mathe\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.exe
+C:\Users\mathe\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWindService.pdb
+C:\Users\mathe\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\EntityFramework.dll
+C:\Users\mathe\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mathe\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWind.Data.dll
+C:\Users\mathe\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWind.Data.pdb
+C:\Users\mathe\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\NorthWind.Data.dll.config
+C:\Users\mathe\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\EntityFramework.xml
+C:\Users\mathe\source\repos\CriandoProgramaComWilson\NorthWindService\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mathe\source\repos\CriandoProgramaComWilson\NorthWindService\obj\Debug\NorthWindService.csproj.AssemblyReference.cache
+C:\Users\mathe\source\repos\CriandoProgramaComWilson\NorthWindService\obj\Debug\NorthWindService.csproj.SuggestedBindingRedirects.cache
+C:\Users\mathe\source\repos\CriandoProgramaComWilson\NorthWindService\obj\Debug\NorthWindService.ProjectInstaller.resources
+C:\Users\mathe\source\repos\CriandoProgramaComWilson\NorthWindService\obj\Debug\NorthWindService.csproj.GenerateResource.cache
+C:\Users\mathe\source\repos\CriandoProgramaComWilson\NorthWindService\obj\Debug\NorthWindService.csproj.CoreCompileInputs.cache
+C:\Users\mathe\source\repos\CriandoProgramaComWilson\NorthWindService\obj\Debug\NorthWindService.csproj.CopyComplete
+C:\Users\mathe\source\repos\CriandoProgramaComWilson\NorthWindService\obj\Debug\NorthWindService.exe
+C:\Users\mathe\source\repos\CriandoProgramaComWilson\NorthWindService\obj\Debug\NorthWindService.pdb

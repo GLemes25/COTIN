@@ -10,3 +10,15 @@ C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWind.Data\obj\Debug\
 C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWind.Data\obj\Debug\NorthWind.Data.csproj.CopyComplete
 C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWind.Data\obj\Debug\NorthWind.Data.dll
 C:\Users\Gabriel\source\repos\CriandoProgramaComWilson\NorthWind.Data\obj\Debug\NorthWind.Data.pdb
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\CriandoProgramaComWilson\NorthWind.Data\bin\Debug\NorthWind.Data.dll.config
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\CriandoProgramaComWilson\NorthWind.Data\bin\Debug\NorthWind.Data.dll
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\CriandoProgramaComWilson\NorthWind.Data\bin\Debug\NorthWind.Data.pdb
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\CriandoProgramaComWilson\NorthWind.Data\bin\Debug\EntityFramework.dll
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\CriandoProgramaComWilson\NorthWind.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\CriandoProgramaComWilson\NorthWind.Data\bin\Debug\EntityFramework.xml
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\CriandoProgramaComWilson\NorthWind.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\CriandoProgramaComWilson\NorthWind.Data\obj\Debug\NorthWind.Data.csproj.AssemblyReference.cache
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\CriandoProgramaComWilson\NorthWind.Data\obj\Debug\NorthWind.Data.csproj.CoreCompileInputs.cache
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\CriandoProgramaComWilson\NorthWind.Data\obj\Debug\NorthWind.Data.csproj.CopyComplete
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\CriandoProgramaComWilson\NorthWind.Data\obj\Debug\NorthWind.Data.dll
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\CriandoProgramaComWilson\NorthWind.Data\obj\Debug\NorthWind.Data.pdb

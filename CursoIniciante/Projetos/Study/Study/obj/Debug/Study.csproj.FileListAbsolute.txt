@@ -1,8 +1,0 @@
-C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\Study\Study\bin\Debug\Study.exe.config
-C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\Study\Study\bin\Debug\Study.exe
-C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\Study\Study\bin\Debug\Study.pdb
-C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\Study\Study\obj\Debug\Study.csproj.AssemblyReference.cache
-C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\Study\Study\obj\Debug\Study.csproj.SuggestedBindingRedirects.cache
-C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\Study\Study\obj\Debug\Study.csproj.CoreCompileInputs.cache
-C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\Study\Study\obj\Debug\Study.exe
-C:\Users\Gabriel\Documents\COTIN\Curso Iniciante - arquitetura e desenvolvimento\Projetos\Study\Study\obj\Debug\Study.pdb

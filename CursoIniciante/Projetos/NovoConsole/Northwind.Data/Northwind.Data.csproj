@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6303D7F3-6F4A-443C-93B8-BD1C7A680FD0}</ProjectGuid>
+    <ProjectGuid>{93B4E9D7-2C66-4469-B588-969BC175A037}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Northwind.Data</RootNamespace>
-    <AssemblyName>Northwind.Data</AssemblyName>
+    <RootNamespace>NorthWind.Data</RootNamespace>
+    <AssemblyName>NorthWind.Data</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -54,84 +54,89 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Logic\Data\Categories.cs">
-      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+      <DependentUpon>ModelNorthWind.tt</DependentUpon>
     </Compile>
     <Compile Include="Logic\Data\CustomerDemographics.cs">
-      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+      <DependentUpon>ModelNorthWind.tt</DependentUpon>
     </Compile>
     <Compile Include="Logic\Data\Customers.cs">
-      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+      <DependentUpon>ModelNorthWind.tt</DependentUpon>
     </Compile>
     <Compile Include="Logic\Data\Employees.cs">
-      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+      <DependentUpon>ModelNorthWind.tt</DependentUpon>
     </Compile>
-    <Compile Include="Logic\Data\ModelNorthwind.Context.cs">
+    <Compile Include="Logic\Data\ModelNorthWind.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>ModelNorthwind.Context.tt</DependentUpon>
+      <DependentUpon>ModelNorthWind.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Logic\Data\ModelNorthwind.cs">
+    <Compile Include="Logic\Data\ModelNorthWind.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+      <DependentUpon>ModelNorthWind.tt</DependentUpon>
     </Compile>
-    <Compile Include="Logic\Data\ModelNorthwind.Designer.cs">
+    <Compile Include="Logic\Data\ModelNorthWind.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>ModelNorthwind.edmx</DependentUpon>
+      <DependentUpon>ModelNorthWind.edmx</DependentUpon>
     </Compile>
     <Compile Include="Logic\Data\Orders.cs">
-      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+      <DependentUpon>ModelNorthWind.tt</DependentUpon>
     </Compile>
     <Compile Include="Logic\Data\Order_Details.cs">
-      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+      <DependentUpon>ModelNorthWind.tt</DependentUpon>
     </Compile>
     <Compile Include="Logic\Data\Products.cs">
-      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+      <DependentUpon>ModelNorthWind.tt</DependentUpon>
     </Compile>
     <Compile Include="Logic\Data\Region.cs">
-      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+      <DependentUpon>ModelNorthWind.tt</DependentUpon>
     </Compile>
     <Compile Include="Logic\Data\Shippers.cs">
-      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+      <DependentUpon>ModelNorthWind.tt</DependentUpon>
     </Compile>
     <Compile Include="Logic\Data\Suppliers.cs">
-      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+      <DependentUpon>ModelNorthWind.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Logic\Data\sysdiagrams.cs">
+      <DependentUpon>ModelNorthWind.tt</DependentUpon>
     </Compile>
     <Compile Include="Logic\Data\Territories.cs">
-      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+      <DependentUpon>ModelNorthWind.tt</DependentUpon>
     </Compile>
     <Compile Include="Logic\Interface\IRepository.cs" />
     <Compile Include="Logic\Repository\Repository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.Config" />
-    <EntityDeploy Include="Logic\Data\ModelNorthwind.edmx">
+    <EntityDeploy Include="Logic\Data\ModelNorthWind.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>ModelNorthwind.Designer.cs</LastGenOutput>
+      <LastGenOutput>ModelNorthWind.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="Logic\Data\ModelNorthwind.edmx.diagram">
-      <DependentUpon>ModelNorthwind.edmx</DependentUpon>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <None Include="Logic\Data\ModelNorthWind.edmx.diagram">
+      <DependentUpon>ModelNorthWind.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Logic\Data\ModelNorthWind.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>ModelNorthWind.Context.cs</LastGenOutput>
+      <DependentUpon>ModelNorthWind.edmx</DependentUpon>
+    </Content>
+    <Content Include="Logic\Data\ModelNorthWind.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ModelNorthWind.edmx</DependentUpon>
+      <LastGenOutput>ModelNorthWind.cs</LastGenOutput>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup />
-  <ItemGroup>
-    <Content Include="Logic\Data\ModelNorthwind.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>ModelNorthwind.edmx</DependentUpon>
-      <LastGenOutput>ModelNorthwind.Context.cs</LastGenOutput>
-    </Content>
-    <Content Include="Logic\Data\ModelNorthwind.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>ModelNorthwind.edmx</DependentUpon>
-      <LastGenOutput>ModelNorthwind.cs</LastGenOutput>
-    </Content>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
