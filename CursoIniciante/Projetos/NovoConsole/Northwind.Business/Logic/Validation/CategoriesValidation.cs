@@ -1,5 +1,5 @@
 ﻿using FluentValidation;
-using Northwind.Data.Logic.Data;
+using NorthWind.Data.Logic.Data;
 
 namespace Northwind.Business.Logic.Validation
 {

@@ -1,0 +1,8 @@
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ConsoleAppWebService\bin\Debug\ConsoleAppWebService.exe.config
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ConsoleAppWebService\bin\Debug\ConsoleAppWebService.exe
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ConsoleAppWebService\bin\Debug\ConsoleAppWebService.pdb
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ConsoleAppWebService\obj\Debug\ConsoleAppWebService.csproj.AssemblyReference.cache
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ConsoleAppWebService\obj\Debug\ConsoleAppWebService.csproj.SuggestedBindingRedirects.cache
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ConsoleAppWebService\obj\Debug\ConsoleAppWebService.csproj.CoreCompileInputs.cache
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ConsoleAppWebService\obj\Debug\ConsoleAppWebService.exe
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ConsoleAppWebService\obj\Debug\ConsoleAppWebService.pdb

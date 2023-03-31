@@ -1,7 +1,7 @@
 ﻿
-using Northwind.Data.Logic.Data;
-using Northwind.Data.Logic.Interface;
-using Northwind.Data.Logic.Repository;
+using NorthWind.Data.Logic.Data;
+using NorthWind.Data.Logic.Interface;
+using NorthWind.Data.Logic.Repository;
 using ServiceNorthwind.Logic;
 using System;
 using System.Configuration;
@@ -56,15 +56,15 @@ namespace ServiceNorthwind
                     if (Service.PossoExecutarServico(_Periodo))
                     {
                         IRepository<Orders> _Repository = new Repository<Orders>();
-                        var listaorders = _Repository.GetAll();
+                        var listaorders = _Repository.ObterTodos();
                         foreach (var item in listaorders)
                         {
                             var dataanterior = item.OrderDate;
                             item.OrderDate = DateTime.Now;
-                            _Repository.Update(item);
+                            _Repository.Alterar(item);
                             this.WriteToFile("Order numero: " + item.OrderID + ", Data Anterior: " + dataanterior + ", Nova Data: " + item.OrderDate + "{0}");
                         }
-                        _Repository.Save();
+                        _Repository.Salvar();
                     }
                 }
                 catch (Exception ex)

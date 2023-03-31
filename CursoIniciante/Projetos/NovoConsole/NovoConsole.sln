@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NovoConsole", "NovoConsole\NovoConsole.csproj", "{431B3107-4E15-41B8-ABFE-B2442322B151}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApi", "NovoConsole\ConsoleApi.csproj", "{431B3107-4E15-41B8-ABFE-B2442322B151}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Business", "Northwind.Business\Northwind.Business.csproj", "{81F656A8-A308-49EB-AB78-52433979A06D}"
 EndProject
@@ -11,7 +11,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceNorthwind", "Service
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceNorhwindThread", "ServiceNorhwindThread\ServiceNorhwindThread.csproj", "{5738B2DE-4BB8-4C00-BFF8-60B6F6BE8F43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Data", "..\..\..\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\Northwind.Data\Northwind.Data.csproj", "{6303D7F3-6F4A-443C-93B8-BD1C7A680FD0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.Data", "NorthWind.Data\NorthWind.Data.csproj", "{93B4E9D7-2C66-4469-B588-969BC175A037}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationNorthwind", "WebApplicationNorthwind\WebApplicationNorthwind.csproj", "{8775CFF9-31E0-4A95-A8C0-913B05EEEDFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppWebService", "ConsoleAppWebService\ConsoleAppWebService.csproj", "{E89EF6F1-C5CB-4F3C-8BC4-17E6029BEA52}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8775CFF9-31E0-4A95-A8C0-913B05EEEDFF} = {8775CFF9-31E0-4A95-A8C0-913B05EEEDFF}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{81BFDAE5-199D-4801-B643-AFD86C44764E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +44,22 @@ Global
 		{5738B2DE-4BB8-4C00-BFF8-60B6F6BE8F43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5738B2DE-4BB8-4C00-BFF8-60B6F6BE8F43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5738B2DE-4BB8-4C00-BFF8-60B6F6BE8F43}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6303D7F3-6F4A-443C-93B8-BD1C7A680FD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6303D7F3-6F4A-443C-93B8-BD1C7A680FD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6303D7F3-6F4A-443C-93B8-BD1C7A680FD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6303D7F3-6F4A-443C-93B8-BD1C7A680FD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93B4E9D7-2C66-4469-B588-969BC175A037}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93B4E9D7-2C66-4469-B588-969BC175A037}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93B4E9D7-2C66-4469-B588-969BC175A037}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93B4E9D7-2C66-4469-B588-969BC175A037}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8775CFF9-31E0-4A95-A8C0-913B05EEEDFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8775CFF9-31E0-4A95-A8C0-913B05EEEDFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8775CFF9-31E0-4A95-A8C0-913B05EEEDFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8775CFF9-31E0-4A95-A8C0-913B05EEEDFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E89EF6F1-C5CB-4F3C-8BC4-17E6029BEA52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E89EF6F1-C5CB-4F3C-8BC4-17E6029BEA52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E89EF6F1-C5CB-4F3C-8BC4-17E6029BEA52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E89EF6F1-C5CB-4F3C-8BC4-17E6029BEA52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81BFDAE5-199D-4801-B643-AFD86C44764E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81BFDAE5-199D-4801-B643-AFD86C44764E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81BFDAE5-199D-4801-B643-AFD86C44764E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81BFDAE5-199D-4801-B643-AFD86C44764E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

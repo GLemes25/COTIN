@@ -1,7 +1,7 @@
 ﻿
-using Northwind.Data.Logic.Data;
-using Northwind.Data.Logic.Interface;
-using Northwind.Data.Logic.Repository;
+using NorthWind.Data.Logic.Data;
+using NorthWind.Data.Logic.Interface;
+using NorthWind.Data.Logic.Repository;
 using ServiceNorhwindThread.Logic;
 using System;
 using System.Configuration;
@@ -34,7 +34,7 @@ namespace ServiceNorhwindThread
         }
         private void WriteToFile(string text)
         {
-            string path = "C:\\Log\\ProjetoServiceLog.txt";
+            string path = "C:\\ArquivosRecebidos\\ProjetoServiceLog.txt";
             using (StreamWriter writer = new StreamWriter(path, true))
             {
                 writer.WriteLine(string.Format(text, DateTime.Now.ToString("dd/MM/yyyy hh:mm:ss tt")));
@@ -57,16 +57,17 @@ namespace ServiceNorhwindThread
                 {
                     if (Servico.PossoExecutarServico(_Periodo))
                     {
-                        IRepository<Orders> _Repository = new Repository<Orders>();
-                        var listaorders = _Repository.GetAll();
-                        foreach (var item in listaorders)
-                        {
-                            var dataanterior = item.OrderDate;
-                            item.OrderDate = DateTime.Now;
-                            _Repository.Update(item);
-                            this.WriteToFile("Order numero: " + item.OrderID + ", Data Anterior: " + dataanterior + ", Nova Data: " + item.OrderDate + "{0}");
-                        }
-                        _Repository.Save();
+                        //IRepository<Orders> _Repository = new Repository<Orders>();
+                        //var listaorders = _Repository.ObterTodos();
+
+                        //foreach (var item in listaorders)
+                        //{
+                        //    var dataanterior = item.OrderDate;
+                        //    item.OrderDate = DateTime.Now;
+                        //    _Repository.Alterar(item);
+                        //    this.WriteToFile("Order numero: " + item.OrderID + ", Data Anterior: " + dataanterior + ", Nova Data: " + item.OrderDate + "{0}");
+                        //}
+                        //_Repository.Salvar();
                     }
                 }
                 catch (Exception ex)

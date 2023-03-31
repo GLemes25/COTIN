@@ -59,9 +59,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\Northwind.Data\Northwind.Data.csproj">
-      <Project>{6303D7F3-6F4A-443C-93B8-BD1C7A680FD0}</Project>
-      <Name>Northwind.Data</Name>
+    <ProjectReference Include="..\NorthWind.Data\NorthWind.Data.csproj">
+      <Project>{93B4E9D7-2C66-4469-B588-969BC175A037}</Project>
+      <Name>NorthWind.Data</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

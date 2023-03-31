@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:tns="http://tempuri.org/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="ObterCategoriaPorId">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="categoryId" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObterCategoriaPorIdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ObterCategoriaPorIdResult" type="tns:CategoriesDto" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="CategoriesDto">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="CategoryID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="CategoryName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Description" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ObterProdutoPorId">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="productId" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObterProdutoPorIdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ObterProdutoPorIdResult" type="tns:ProductsDto" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ProductsDto">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ProductID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ProductName" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="SupplierID" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="CategoryID" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Category" type="tns:CategoriesDto" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ObterListaDeCategorias">
+        <s:complexType />
+      </s:element>
+      <s:element name="ObterListaDeCategoriasResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ObterListaDeCategoriasResult" type="tns:ArrayOfCategoriesDto" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfCategoriesDto">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="CategoriesDto" nillable="true" type="tns:CategoriesDto" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ObterListaDeProdutos">
+        <s:complexType />
+      </s:element>
+      <s:element name="ObterListaDeProdutosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ObterListaDeProdutosResult" type="tns:ArrayOfProductsDto" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfProductsDto">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ProductsDto" nillable="true" type="tns:ProductsDto" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ObterCategoriaPorIdSoapIn">
+    <wsdl:part name="parameters" element="tns:ObterCategoriaPorId" />
+  </wsdl:message>
+  <wsdl:message name="ObterCategoriaPorIdSoapOut">
+    <wsdl:part name="parameters" element="tns:ObterCategoriaPorIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ObterProdutoPorIdSoapIn">
+    <wsdl:part name="parameters" element="tns:ObterProdutoPorId" />
+  </wsdl:message>
+  <wsdl:message name="ObterProdutoPorIdSoapOut">
+    <wsdl:part name="parameters" element="tns:ObterProdutoPorIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ObterListaDeCategoriasSoapIn">
+    <wsdl:part name="parameters" element="tns:ObterListaDeCategorias" />
+  </wsdl:message>
+  <wsdl:message name="ObterListaDeCategoriasSoapOut">
+    <wsdl:part name="parameters" element="tns:ObterListaDeCategoriasResponse" />
+  </wsdl:message>
+  <wsdl:message name="ObterListaDeProdutosSoapIn">
+    <wsdl:part name="parameters" element="tns:ObterListaDeProdutos" />
+  </wsdl:message>
+  <wsdl:message name="ObterListaDeProdutosSoapOut">
+    <wsdl:part name="parameters" element="tns:ObterListaDeProdutosResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WebServiceNorthwindSoap">
+    <wsdl:operation name="ObterCategoriaPorId">
+      <wsdl:input message="tns:ObterCategoriaPorIdSoapIn" />
+      <wsdl:output message="tns:ObterCategoriaPorIdSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ObterProdutoPorId">
+      <wsdl:input message="tns:ObterProdutoPorIdSoapIn" />
+      <wsdl:output message="tns:ObterProdutoPorIdSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ObterListaDeCategorias">
+      <wsdl:input message="tns:ObterListaDeCategoriasSoapIn" />
+      <wsdl:output message="tns:ObterListaDeCategoriasSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ObterListaDeProdutos">
+      <wsdl:input message="tns:ObterListaDeProdutosSoapIn" />
+      <wsdl:output message="tns:ObterListaDeProdutosSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebServiceNorthwindSoap" type="tns:WebServiceNorthwindSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ObterCategoriaPorId">
+      <soap:operation soapAction="http://tempuri.org/ObterCategoriaPorId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObterProdutoPorId">
+      <soap:operation soapAction="http://tempuri.org/ObterProdutoPorId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObterListaDeCategorias">
+      <soap:operation soapAction="http://tempuri.org/ObterListaDeCategorias" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObterListaDeProdutos">
+      <soap:operation soapAction="http://tempuri.org/ObterListaDeProdutos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebServiceNorthwindSoap12" type="tns:WebServiceNorthwindSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ObterCategoriaPorId">
+      <soap12:operation soapAction="http://tempuri.org/ObterCategoriaPorId" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObterProdutoPorId">
+      <soap12:operation soapAction="http://tempuri.org/ObterProdutoPorId" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObterListaDeCategorias">
+      <soap12:operation soapAction="http://tempuri.org/ObterListaDeCategorias" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObterListaDeProdutos">
+      <soap12:operation soapAction="http://tempuri.org/ObterListaDeProdutos" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebServiceNorthwind">
+    <wsdl:port name="WebServiceNorthwindSoap" binding="tns:WebServiceNorthwindSoap">
+      <soap:address location="https://localhost:44389/WebServiceNorthwind.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebServiceNorthwindSoap12" binding="tns:WebServiceNorthwindSoap12">
+      <soap12:address location="https://localhost:44389/WebServiceNorthwind.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

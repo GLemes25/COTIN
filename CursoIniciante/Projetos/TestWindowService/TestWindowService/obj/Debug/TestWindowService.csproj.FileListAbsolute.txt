@@ -1,0 +1,13 @@
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\TestWindowService\bin\Debug\TestWindowService.exe.config
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\TestWindowService\bin\Debug\TestWindowService.exe
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\TestWindowService\bin\Debug\TestWindowService.pdb
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\TestWindowService\bin\Debug\EntityFramework.dll
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\TestWindowService\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\TestWindowService\bin\Debug\EntityFramework.xml
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\TestWindowService\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\TestWindowService\obj\Debug\TestWindowService.csproj.AssemblyReference.cache
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\TestWindowService\obj\Debug\TestWindowService.csproj.SuggestedBindingRedirects.cache
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\TestWindowService\obj\Debug\TestWindowService.csproj.CoreCompileInputs.cache
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\TestWindowService\obj\Debug\TestWindowService.csproj.CopyComplete
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\TestWindowService\obj\Debug\TestWindowService.exe
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\TestWindowService\obj\Debug\TestWindowService.pdb

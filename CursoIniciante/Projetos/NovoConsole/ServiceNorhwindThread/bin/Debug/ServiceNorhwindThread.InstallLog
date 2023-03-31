@@ -34,3 +34,118 @@ Parâmetros afetados são:
    logtoconsole = 
    logfile = C:\Users\imagetech\Downloads\NovoConsole-20230321T142007Z-001\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.InstallLog
    assemblypath = C:\Users\imagetech\Downloads\NovoConsole-20230321T142007Z-001\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.exe
+Instalando o assembly 'C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.InstallLog
+   assemblypath = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.exe
+Instalando o serviço Service1...
+Criando a origem de EventLog Service1 no log Application...
+Revertendo o assembly 'C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.InstallLog
+   assemblypath = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.exe
+Restaurando o log de eventos para o estado anterior da origem Service1.
+Desinstalando o assembly 'C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.InstallLog
+   assemblypath = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.exe
+Removendo a origem do EventLog Service1.
+Serviço Service1 está sendo removido do sistema...
+Serviço Service1 foi removido com êxito do sistema.
+Instalando o assembly 'C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.InstallLog
+   assemblypath = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.exe
+Instalando o serviço Service1...
+Serviço Service1 foi instalado com êxito.
+Criando a origem de EventLog Service1 no log Application...
+Confirmando o assembly 'C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.InstallLog
+   assemblypath = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.exe
+Desinstalando o assembly 'C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.InstallLog
+   assemblypath = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.exe
+Removendo a origem do EventLog Service1.
+Serviço Service1 está sendo removido do sistema...
+Serviço Service1 foi removido com êxito do sistema.
+Tentativa de parar o serviço Service1.
+Instalando o assembly 'C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.InstallLog
+   assemblypath = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.exe
+Instalando o serviço Service1...
+Criando a origem de EventLog Service1 no log Application...
+Revertendo o assembly 'C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.InstallLog
+   assemblypath = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.exe
+Restaurando o log de eventos para o estado anterior da origem Service1.
+Instalando o assembly 'C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.InstallLog
+   assemblypath = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.exe
+Instalando o serviço Service1...
+Criando a origem de EventLog Service1 no log Application...
+Revertendo o assembly 'C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.InstallLog
+   assemblypath = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.exe
+Restaurando o log de eventos para o estado anterior da origem Service1.
+Desinstalando o assembly 'C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.InstallLog
+   assemblypath = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.exe
+Removendo a origem do EventLog Service1.
+Aviso: a origem Service1 não está registrada no computador local.
+Serviço Service1 está sendo removido do sistema...
+Serviço Service1 foi removido com êxito do sistema.
+Tentativa de parar o serviço Service1.
+Instalando o assembly 'C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.InstallLog
+   assemblypath = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.exe
+Instalando o serviço Service1...
+Criando a origem de EventLog Service1 no log Application...
+Revertendo o assembly 'C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.InstallLog
+   assemblypath = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.exe
+Restaurando o log de eventos para o estado anterior da origem Service1.
+Desinstalando o assembly 'C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.InstallLog
+   assemblypath = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.exe
+Removendo a origem do EventLog Service1.
+Aviso: a origem Service1 não está registrada no computador local.
+Serviço Service1 está sendo removido do sistema...
+Serviço Service1 foi removido com êxito do sistema.
+Tentativa de parar o serviço Service1.
+Instalando o assembly 'C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.InstallLog
+   assemblypath = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.exe
+Instalando o serviço Service1...
+Criando a origem de EventLog Service1 no log Application...
+Revertendo o assembly 'C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.InstallLog
+   assemblypath = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\NovoConsole\ServiceNorhwindThread\bin\Debug\ServiceNorhwindThread.exe
+Restaurando o log de eventos para o estado anterior da origem Service1.

@@ -1,0 +1,87 @@
+﻿Instalando o assembly 'C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsServiceThread\bin\Debug\WindowsServiceThread.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsServiceThread\bin\Debug\WindowsServiceThread.InstallLog
+   assemblypath = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsServiceThread\bin\Debug\WindowsServiceThread.exe
+Instalando o serviço Service1...
+Criando a origem de EventLog Service1 no log Application...
+Revertendo o assembly 'C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsServiceThread\bin\Debug\WindowsServiceThread.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsServiceThread\bin\Debug\WindowsServiceThread.InstallLog
+   assemblypath = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsServiceThread\bin\Debug\WindowsServiceThread.exe
+Restaurando o log de eventos para o estado anterior da origem Service1.
+Instalando o assembly 'C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsServiceThread\bin\Debug\WindowsServiceThread.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsServiceThread\bin\Debug\WindowsServiceThread.InstallLog
+   assemblypath = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsServiceThread\bin\Debug\WindowsServiceThread.exe
+Instalando o serviço Service1...
+Criando a origem de EventLog Service1 no log Application...
+Revertendo o assembly 'C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsServiceThread\bin\Debug\WindowsServiceThread.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsServiceThread\bin\Debug\WindowsServiceThread.InstallLog
+   assemblypath = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsServiceThread\bin\Debug\WindowsServiceThread.exe
+Restaurando o log de eventos para o estado anterior da origem Service1.
+Instalando o assembly 'C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsServiceThread\bin\Debug\WindowsServiceThread.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsServiceThread\bin\Debug\WindowsServiceThread.InstallLog
+   assemblypath = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsServiceThread\bin\Debug\WindowsServiceThread.exe
+Instalando o serviço Service1...
+Criando a origem de EventLog Service1 no log Application...
+Revertendo o assembly 'C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsServiceThread\bin\Debug\WindowsServiceThread.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsServiceThread\bin\Debug\WindowsServiceThread.InstallLog
+   assemblypath = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsServiceThread\bin\Debug\WindowsServiceThread.exe
+Restaurando o log de eventos para o estado anterior da origem Service1.
+Instalando o assembly 'C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsServiceThread\bin\Debug\WindowsServiceThread.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsServiceThread\bin\Debug\WindowsServiceThread.InstallLog
+   assemblypath = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsServiceThread\bin\Debug\WindowsServiceThread.exe
+Instalando o serviço Service1...
+Criando a origem de EventLog Service1 no log Application...
+Revertendo o assembly 'C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsServiceThread\bin\Debug\WindowsServiceThread.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsServiceThread\bin\Debug\WindowsServiceThread.InstallLog
+   assemblypath = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsServiceThread\bin\Debug\WindowsServiceThread.exe
+Restaurando o log de eventos para o estado anterior da origem Service1.
+Desinstalando o assembly 'C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsServiceThread\bin\Debug\WindowsServiceThread.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsServiceThread\bin\Debug\WindowsServiceThread.InstallLog
+   assemblypath = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsServiceThread\bin\Debug\WindowsServiceThread.exe
+Removendo a origem do EventLog Service1.
+Serviço Service1 está sendo removido do sistema...
+Serviço Service1 foi removido com êxito do sistema.
+Tentativa de parar o serviço Service1.
+Instalando o assembly 'C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsServiceThread\bin\Debug\WindowsServiceThread.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsServiceThread\bin\Debug\WindowsServiceThread.InstallLog
+   assemblypath = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsServiceThread\bin\Debug\WindowsServiceThread.exe
+Instalando o serviço Service1...
+Criando a origem de EventLog Service1 no log Application...
+Revertendo o assembly 'C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsServiceThread\bin\Debug\WindowsServiceThread.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsServiceThread\bin\Debug\WindowsServiceThread.InstallLog
+   assemblypath = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsServiceThread\bin\Debug\WindowsServiceThread.exe
+Restaurando o log de eventos para o estado anterior da origem Service1.
+Instalando o assembly 'C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsServiceThread\bin\Debug\WindowsServiceThread.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsServiceThread\bin\Debug\WindowsServiceThread.InstallLog
+   assemblypath = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsServiceThread\bin\Debug\WindowsServiceThread.exe
+Instalando o serviço Service1...
+Serviço Service1 foi instalado com êxito.
+Criando a origem de EventLog Service1 no log Application...
+Confirmando o assembly 'C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsServiceThread\bin\Debug\WindowsServiceThread.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsServiceThread\bin\Debug\WindowsServiceThread.InstallLog
+   assemblypath = C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsServiceThread\bin\Debug\WindowsServiceThread.exe

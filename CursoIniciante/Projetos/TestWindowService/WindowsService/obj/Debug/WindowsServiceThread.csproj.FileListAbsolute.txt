@@ -1,0 +1,15 @@
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsService\bin\Debug\WindowsService.exe.config
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsService\bin\Debug\WindowsService.exe
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsService\bin\Debug\WindowsService.pdb
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsService\bin\Debug\EntityFramework.dll
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsService\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsService\bin\Debug\EntityFramework.xml
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsService\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsService\obj\Debug\WindowsServiceThread.csproj.AssemblyReference.cache
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsService\obj\Debug\WindowsServiceThread.csproj.SuggestedBindingRedirects.cache
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsService\obj\Debug\WindowsService.ProjectInstaller.resources
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsService\obj\Debug\WindowsServiceThread.csproj.GenerateResource.cache
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsService\obj\Debug\WindowsServiceThread.csproj.CoreCompileInputs.cache
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsService\obj\Debug\WindowsServiceThread.csproj.CopyComplete
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsService\obj\Debug\WindowsService.exe
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\TestWindowService\WindowsService\obj\Debug\WindowsService.pdb
