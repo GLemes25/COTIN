@@ -1,0 +1,12 @@
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ProjetoNetCore\Common.Extensions\bin\Debug\net6.0\Common.Extensions.deps.json
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ProjetoNetCore\Common.Extensions\bin\Debug\net6.0\Common.Extensions.dll
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ProjetoNetCore\Common.Extensions\bin\Debug\net6.0\Common.Extensions.pdb
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ProjetoNetCore\Common.Extensions\obj\Debug\net6.0\Common.Extensions.csproj.AssemblyReference.cache
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ProjetoNetCore\Common.Extensions\obj\Debug\net6.0\Common.Extensions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ProjetoNetCore\Common.Extensions\obj\Debug\net6.0\Common.Extensions.AssemblyInfoInputs.cache
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ProjetoNetCore\Common.Extensions\obj\Debug\net6.0\Common.Extensions.AssemblyInfo.cs
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ProjetoNetCore\Common.Extensions\obj\Debug\net6.0\Common.Extensions.csproj.CoreCompileInputs.cache
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ProjetoNetCore\Common.Extensions\obj\Debug\net6.0\Common.Extensions.dll
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ProjetoNetCore\Common.Extensions\obj\Debug\net6.0\refint\Common.Extensions.dll
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ProjetoNetCore\Common.Extensions\obj\Debug\net6.0\Common.Extensions.pdb
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ProjetoNetCore\Common.Extensions\obj\Debug\net6.0\ref\Common.Extensions.dll

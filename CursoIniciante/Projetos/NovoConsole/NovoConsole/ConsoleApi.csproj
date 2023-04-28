@@ -87,6 +87,7 @@
   <ItemGroup>
     <Compile Include="Logic\Model\SupplierDto.cs" />
     <Compile Include="Logic\Services\CategoriesService.cs" />
+    <Compile Include="Logic\Services\OrdersService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Logic\Services\SuppliersService.cs" />

@@ -55,7 +55,7 @@ namespace ServiceNorthwind
                 {
                     if (Service.PossoExecutarServico(_Periodo))
                     {
-                        IRepository<Orders> _Repository = new Repository<Orders>();
+                        IRepository<OrdersDto> _Repository = new Repository<OrdersDto>();
                         var listaorders = _Repository.ObterTodos();
                         foreach (var item in listaorders)
                         {

@@ -52,16 +52,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Logic\Data\Alphabetical_list_of_products.cs">
+      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+    </Compile>
     <Compile Include="Logic\Data\Categories.cs">
       <DependentUpon>ModelNorthwind.tt</DependentUpon>
     </Compile>
-    <Compile Include="Logic\Data\CustomerDemographics.cs">
+    <Compile Include="Logic\Data\Category_Sales_for_1997.cs">
+      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Logic\Data\Current_Product_List.cs">
       <DependentUpon>ModelNorthwind.tt</DependentUpon>
     </Compile>
     <Compile Include="Logic\Data\Customers.cs">
       <DependentUpon>ModelNorthwind.tt</DependentUpon>
     </Compile>
+    <Compile Include="Logic\Data\Customer_and_Suppliers_by_City.cs">
+      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+    </Compile>
     <Compile Include="Logic\Data\Employees.cs">
+      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Logic\Data\Invoices.cs">
       <DependentUpon>ModelNorthwind.tt</DependentUpon>
     </Compile>
     <Compile Include="Logic\Data\ModelNorthwind.Context.cs">
@@ -82,16 +94,46 @@
     <Compile Include="Logic\Data\Orders.cs">
       <DependentUpon>ModelNorthwind.tt</DependentUpon>
     </Compile>
+    <Compile Include="Logic\Data\Orders_Qry.cs">
+      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+    </Compile>
     <Compile Include="Logic\Data\Order_Details.cs">
+      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Logic\Data\Order_Details_Extended.cs">
+      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Logic\Data\Order_Subtotals.cs">
       <DependentUpon>ModelNorthwind.tt</DependentUpon>
     </Compile>
     <Compile Include="Logic\Data\Products.cs">
       <DependentUpon>ModelNorthwind.tt</DependentUpon>
     </Compile>
+    <Compile Include="Logic\Data\Products_Above_Average_Price.cs">
+      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Logic\Data\Products_by_Category.cs">
+      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Logic\Data\Product_Sales_for_1997.cs">
+      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+    </Compile>
     <Compile Include="Logic\Data\Region.cs">
       <DependentUpon>ModelNorthwind.tt</DependentUpon>
     </Compile>
+    <Compile Include="Logic\Data\Sales_by_Category.cs">
+      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Logic\Data\Sales_Totals_by_Amount.cs">
+      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+    </Compile>
     <Compile Include="Logic\Data\Shippers.cs">
+      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Logic\Data\Summary_of_Sales_by_Quarter.cs">
+      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Logic\Data\Summary_of_Sales_by_Year.cs">
       <DependentUpon>ModelNorthwind.tt</DependentUpon>
     </Compile>
     <Compile Include="Logic\Data\Suppliers.cs">
@@ -101,6 +143,9 @@
       <DependentUpon>ModelNorthwind.tt</DependentUpon>
     </Compile>
     <Compile Include="Logic\Data\Territories.cs">
+      <DependentUpon>ModelNorthwind.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Logic\Data\z.cs">
       <DependentUpon>ModelNorthwind.tt</DependentUpon>
     </Compile>
     <Compile Include="Logic\Interface\IRepository.cs" />
@@ -121,7 +166,6 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <Content Include="Logic\Data\ModelNorthwind.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>

@@ -1,0 +1,12 @@
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ProjetoNetCore\Common.UnitOfWork\bin\Debug\net6.0\Common.UnitOfWork.deps.json
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ProjetoNetCore\Common.UnitOfWork\bin\Debug\net6.0\Common.UnitOfWork.dll
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ProjetoNetCore\Common.UnitOfWork\bin\Debug\net6.0\Common.UnitOfWork.pdb
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ProjetoNetCore\Common.UnitOfWork\obj\Debug\net6.0\Common.UnitOfWork.csproj.AssemblyReference.cache
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ProjetoNetCore\Common.UnitOfWork\obj\Debug\net6.0\Common.UnitOfWork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ProjetoNetCore\Common.UnitOfWork\obj\Debug\net6.0\Common.UnitOfWork.AssemblyInfoInputs.cache
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ProjetoNetCore\Common.UnitOfWork\obj\Debug\net6.0\Common.UnitOfWork.AssemblyInfo.cs
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ProjetoNetCore\Common.UnitOfWork\obj\Debug\net6.0\Common.UnitOfWork.csproj.CoreCompileInputs.cache
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ProjetoNetCore\Common.UnitOfWork\obj\Debug\net6.0\Common.UnitOfWork.dll
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ProjetoNetCore\Common.UnitOfWork\obj\Debug\net6.0\refint\Common.UnitOfWork.dll
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ProjetoNetCore\Common.UnitOfWork\obj\Debug\net6.0\Common.UnitOfWork.pdb
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ProjetoNetCore\Common.UnitOfWork\obj\Debug\net6.0\ref\Common.UnitOfWork.dll

@@ -1,0 +1,112 @@
+﻿@model IEnumerable<Northwind.Data.Logic.Data.Customer>
+
+@{
+    ViewBag.Title = "Inicio";
+}
+
+
+<div class="button-container">
+    <h2>Clientes</h2>
+
+    @Html.ActionLink("Novo Pedido", "Create", null, new { type = "button", @class = "glow-on-hover" })
+</div>
+<div class="container">
+    <br />
+    <div style="width:100%; margin:0 auto;">
+        <table id="customerGrid" class="table table-striped table-bordered dt-responsive nowrap" width="100%" cellspacing="0">
+            <thead>
+                <tr>
+                    <th text-align="left" rowspan="1" colspan="1" style=" white-space: nowrap;">Código</th>
+                    <th text-align="left" rowspan="1" colspan="1" style=" white-space: nowrap;">Nome da Empresa</th>
+                    <th text-align="left" rowspan="1" colspan="1" style=" white-space: nowrap;">Nome do Contato</th>
+                    <th text-align="left" rowspan="1" colspan="1" style=" white-space: nowrap;">Título</th>
+                    <th text-align="left" rowspan="1" colspan="1" style=" white-space: nowrap;">Endereço</th>
+                    <th text-align="left" rowspan="1" colspan="1" style=" white-space: nowrap;">Cidade</th>
+                    <th text-align="left" rowspan="1" colspan="1" style=" white-space: nowrap;">Região</th>
+                    <th text-align="left" rowspan="1" colspan="1" style=" white-space: nowrap;">Caixa Postal</th>
+                    <th text-align="left" rowspan="1" colspan="1" style=" white-space: nowrap;">País</th>
+                    <th text-align="left" rowspan="1" colspan="1" style=" white-space: nowrap;">Telefone</th>
+                    <th text-align="left" rowspan="1" colspan="1" style=" white-space: nowrap;">Fax</th>
+                    <th text-align="left" rowspan="1" colspan="1" style=" white-space: nowrap;">Edit</th>
+                    <th text-align="left" rowspan="1" colspan="1" style=" white-space: nowrap;">Delete</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+</div>
+@section scripts{
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap.min.js"></script>
+    <script>
+
+            $(document).ready(function () {
+                $("#customerGrid").DataTable({
+
+                    "language": {
+                        //"lengthMenu": "",
+                        "search": "Procurar",
+                        "paginate": "",
+                        "zeroRecords": "Nada foi encontrado",
+                        "info": "",
+                        "infoEmpty": "Sem registros",
+                        "infoFiltered": "(filtrado de MAX regitros totais)"
+                    },
+
+                    "dom": '<"pull-left"f><"pull-right"l>tip',
+                    "processing": true, // para mostrar a barra de progresso
+                    "serverSide": true, // para o lado do servidor de processo
+                    "destroy": false,
+                    "filter": true, // isto é para desativar o filtro (caixa de pesquisa)
+                    "orderMulti": false, // para desativar várias colunas de uma só vez
+                    "pageLength": 10,
+
+                    "ajax": /// Ele faz uma requisição e traz um json, ele não altera o conteúdo
+                    {
+                        "url": "/Customers/LoadData",
+                        "type": "POST",
+                        "datatype": "json"
+                    },
+
+                    "columnDefs": ///Definição das tabelas/colunas
+                        [
+
+                        {
+                            "targets": [10],
+                            "searchable": false,
+                            "orderable": false
+                        },
+                        {
+                            "targets": [11],
+                            "searchable": false,
+                            "orderable": false
+                        },
+                        ],
+
+                    "columns":
+                    [
+                            { "data": "CustomerID", "name": "CustomerID", "autoWidth": true },
+                            { "data": "CompanyName", "name": "CompanyName", "autoWidth": true },
+                            { "data": "ContactName", "name": "ContactName", "autoWidth": true },
+                            { "data": "ContactTitle", "name": "ContactTitle", "autoWidth": true },
+                            { "data": "Address", "name": "Address", "autoWidth": true },
+                            { "data": "City", "name": "City", "autoWidth": true },
+                            { "data": "Region", "name": "Region", "autoWidth": true },
+                            { "data": "PostalCode", "name": "PostalCode", "autoWidth": true },
+                            { "data": "Country", "name": "Country", "autoWidth": true },
+                            { "data": "Phone", "name": "Phone", "autoWidth": true },
+                            { "data": "Fax", "name": "+", "autoWidth": true },
+                        {
+                            "render": function (data, type, full, meta) { return '<a class="btn btn-info" href="/Customers/Edit/' + full.CustomerID + '">Editar</a>'; }
+                        },
+                        {
+                            "render": function (data, type, full, meta) { return '<a class="btn btn-danger" href="/Customers/Delete/' + full.CustomerID + '">Deletar</a>'; }
+
+                        },
+                    ]
+
+                });
+            });
+
+     
+    </script>
+}

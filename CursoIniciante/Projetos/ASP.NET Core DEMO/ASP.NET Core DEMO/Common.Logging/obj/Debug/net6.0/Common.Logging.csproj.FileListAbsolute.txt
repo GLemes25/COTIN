@@ -1,0 +1,48 @@
+D:\eCCE\ProjetoCCE\src\Backend\Common\Common.Logging\bin\Debug\net6.0\Common.Logging.deps.json
+D:\eCCE\ProjetoCCE\src\Backend\Common\Common.Logging\bin\Debug\net6.0\Common.Logging.dll
+D:\eCCE\ProjetoCCE\src\Backend\Common\Common.Logging\bin\Debug\net6.0\Common.Logging.pdb
+D:\eCCE\ProjetoCCE\src\Backend\Common\Common.Logging\obj\Debug\net6.0\Common.Logging.csproj.AssemblyReference.cache
+D:\eCCE\ProjetoCCE\src\Backend\Common\Common.Logging\obj\Debug\net6.0\Common.Logging.GeneratedMSBuildEditorConfig.editorconfig
+D:\eCCE\ProjetoCCE\src\Backend\Common\Common.Logging\obj\Debug\net6.0\Common.Logging.AssemblyInfoInputs.cache
+D:\eCCE\ProjetoCCE\src\Backend\Common\Common.Logging\obj\Debug\net6.0\Common.Logging.AssemblyInfo.cs
+D:\eCCE\ProjetoCCE\src\Backend\Common\Common.Logging\obj\Debug\net6.0\Common.Logging.csproj.CoreCompileInputs.cache
+D:\eCCE\ProjetoCCE\src\Backend\Common\Common.Logging\obj\Debug\net6.0\Common.Logging.dll
+D:\eCCE\ProjetoCCE\src\Backend\Common\Common.Logging\obj\Debug\net6.0\refint\Common.Logging.dll
+D:\eCCE\ProjetoCCE\src\Backend\Common\Common.Logging\obj\Debug\net6.0\Common.Logging.pdb
+D:\eCCE\ProjetoCCE\src\Backend\Common\Common.Logging\obj\Debug\net6.0\ref\Common.Logging.dll
+E:\Curso\ASP.NET Core DEMO\Common.Logging\bin\Debug\net6.0\Common.Logging.deps.json
+E:\Curso\ASP.NET Core DEMO\Common.Logging\bin\Debug\net6.0\Common.Logging.dll
+E:\Curso\ASP.NET Core DEMO\Common.Logging\bin\Debug\net6.0\Common.Logging.pdb
+E:\Curso\ASP.NET Core DEMO\Common.Logging\obj\Debug\net6.0\Common.Logging.csproj.AssemblyReference.cache
+E:\Curso\ASP.NET Core DEMO\Common.Logging\obj\Debug\net6.0\Common.Logging.GeneratedMSBuildEditorConfig.editorconfig
+E:\Curso\ASP.NET Core DEMO\Common.Logging\obj\Debug\net6.0\Common.Logging.AssemblyInfoInputs.cache
+E:\Curso\ASP.NET Core DEMO\Common.Logging\obj\Debug\net6.0\Common.Logging.AssemblyInfo.cs
+E:\Curso\ASP.NET Core DEMO\Common.Logging\obj\Debug\net6.0\Common.Logging.csproj.CoreCompileInputs.cache
+E:\Curso\ASP.NET Core DEMO\Common.Logging\obj\Debug\net6.0\Common.Logging.dll
+E:\Curso\ASP.NET Core DEMO\Common.Logging\obj\Debug\net6.0\refint\Common.Logging.dll
+E:\Curso\ASP.NET Core DEMO\Common.Logging\obj\Debug\net6.0\Common.Logging.pdb
+E:\Curso\ASP.NET Core DEMO\Common.Logging\obj\Debug\net6.0\ref\Common.Logging.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Logging\bin\Debug\net6.0\Common.Logging.deps.json
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Logging\bin\Debug\net6.0\Common.Logging.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Logging\bin\Debug\net6.0\Common.Logging.pdb
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Logging\obj\Debug\net6.0\Common.Logging.csproj.AssemblyReference.cache
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Logging\obj\Debug\net6.0\Common.Logging.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Logging\obj\Debug\net6.0\Common.Logging.AssemblyInfoInputs.cache
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Logging\obj\Debug\net6.0\Common.Logging.AssemblyInfo.cs
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Logging\obj\Debug\net6.0\Common.Logging.csproj.CoreCompileInputs.cache
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Logging\obj\Debug\net6.0\Common.Logging.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Logging\obj\Debug\net6.0\refint\Common.Logging.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Logging\obj\Debug\net6.0\Common.Logging.pdb
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Logging\obj\Debug\net6.0\ref\Common.Logging.dll
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Logging\bin\Debug\net6.0\Common.Logging.deps.json
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Logging\bin\Debug\net6.0\Common.Logging.dll
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Logging\bin\Debug\net6.0\Common.Logging.pdb
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Logging\obj\Debug\net6.0\Common.Logging.csproj.AssemblyReference.cache
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Logging\obj\Debug\net6.0\Common.Logging.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Logging\obj\Debug\net6.0\Common.Logging.AssemblyInfoInputs.cache
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Logging\obj\Debug\net6.0\Common.Logging.AssemblyInfo.cs
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Logging\obj\Debug\net6.0\Common.Logging.csproj.CoreCompileInputs.cache
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Logging\obj\Debug\net6.0\Common.Logging.dll
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Logging\obj\Debug\net6.0\refint\Common.Logging.dll
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Logging\obj\Debug\net6.0\Common.Logging.pdb
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Logging\obj\Debug\net6.0\ref\Common.Logging.dll

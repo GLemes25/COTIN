@@ -1,0 +1,18 @@
+version: '3.4'
+
+services:
+
+  webnorthwind:
+    container_name: webnorthwindapp
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "8001:80"
+
+  apinorthwind:
+    container_name: apinorthwind
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "8002:80"
+      

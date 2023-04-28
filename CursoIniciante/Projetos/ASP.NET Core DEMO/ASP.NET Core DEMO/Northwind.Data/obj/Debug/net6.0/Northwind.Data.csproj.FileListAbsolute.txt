@@ -1,0 +1,36 @@
+E:\Curso\ASP.NET Core DEMO\Northwind.Data\bin\Debug\net6.0\Northwind.Data.deps.json
+E:\Curso\ASP.NET Core DEMO\Northwind.Data\bin\Debug\net6.0\Northwind.Data.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.Data\bin\Debug\net6.0\Northwind.Data.pdb
+E:\Curso\ASP.NET Core DEMO\Northwind.Data\obj\Debug\net6.0\Northwind.Data.csproj.AssemblyReference.cache
+E:\Curso\ASP.NET Core DEMO\Northwind.Data\obj\Debug\net6.0\Northwind.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\Curso\ASP.NET Core DEMO\Northwind.Data\obj\Debug\net6.0\Northwind.Data.AssemblyInfoInputs.cache
+E:\Curso\ASP.NET Core DEMO\Northwind.Data\obj\Debug\net6.0\Northwind.Data.AssemblyInfo.cs
+E:\Curso\ASP.NET Core DEMO\Northwind.Data\obj\Debug\net6.0\Northwind.Data.csproj.CoreCompileInputs.cache
+E:\Curso\ASP.NET Core DEMO\Northwind.Data\obj\Debug\net6.0\Northwind.Data.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.Data\obj\Debug\net6.0\refint\Northwind.Data.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.Data\obj\Debug\net6.0\Northwind.Data.pdb
+E:\Curso\ASP.NET Core DEMO\Northwind.Data\obj\Debug\net6.0\ref\Northwind.Data.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.Data\bin\Debug\net6.0\Northwind.Data.deps.json
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.Data\bin\Debug\net6.0\Northwind.Data.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.Data\bin\Debug\net6.0\Northwind.Data.pdb
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.Data\obj\Debug\net6.0\Northwind.Data.csproj.AssemblyReference.cache
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.Data\obj\Debug\net6.0\Northwind.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.Data\obj\Debug\net6.0\Northwind.Data.AssemblyInfoInputs.cache
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.Data\obj\Debug\net6.0\Northwind.Data.AssemblyInfo.cs
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.Data\obj\Debug\net6.0\Northwind.Data.csproj.CoreCompileInputs.cache
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.Data\obj\Debug\net6.0\Northwind.Data.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.Data\obj\Debug\net6.0\refint\Northwind.Data.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.Data\obj\Debug\net6.0\Northwind.Data.pdb
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.Data\obj\Debug\net6.0\ref\Northwind.Data.dll
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.Data\bin\Debug\net6.0\Northwind.Data.deps.json
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.Data\bin\Debug\net6.0\Northwind.Data.dll
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.Data\bin\Debug\net6.0\Northwind.Data.pdb
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.Data\obj\Debug\net6.0\Northwind.Data.csproj.AssemblyReference.cache
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.Data\obj\Debug\net6.0\Northwind.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.Data\obj\Debug\net6.0\Northwind.Data.AssemblyInfoInputs.cache
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.Data\obj\Debug\net6.0\Northwind.Data.AssemblyInfo.cs
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.Data\obj\Debug\net6.0\Northwind.Data.csproj.CoreCompileInputs.cache
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.Data\obj\Debug\net6.0\Northwind.Data.dll
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.Data\obj\Debug\net6.0\refint\Northwind.Data.dll
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.Data\obj\Debug\net6.0\Northwind.Data.pdb
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.Data\obj\Debug\net6.0\ref\Northwind.Data.dll

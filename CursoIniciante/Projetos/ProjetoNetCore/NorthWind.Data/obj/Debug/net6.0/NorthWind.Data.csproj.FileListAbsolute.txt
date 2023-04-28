@@ -1,0 +1,12 @@
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ProjetoNetCore\NorthWind.Data\bin\Debug\net6.0\NorthWind.Data.deps.json
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ProjetoNetCore\NorthWind.Data\bin\Debug\net6.0\NorthWind.Data.dll
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ProjetoNetCore\NorthWind.Data\bin\Debug\net6.0\NorthWind.Data.pdb
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ProjetoNetCore\NorthWind.Data\obj\Debug\net6.0\NorthWind.Data.csproj.AssemblyReference.cache
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ProjetoNetCore\NorthWind.Data\obj\Debug\net6.0\NorthWind.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ProjetoNetCore\NorthWind.Data\obj\Debug\net6.0\NorthWind.Data.AssemblyInfoInputs.cache
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ProjetoNetCore\NorthWind.Data\obj\Debug\net6.0\NorthWind.Data.AssemblyInfo.cs
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ProjetoNetCore\NorthWind.Data\obj\Debug\net6.0\NorthWind.Data.csproj.CoreCompileInputs.cache
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ProjetoNetCore\NorthWind.Data\obj\Debug\net6.0\NorthWind.Data.dll
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ProjetoNetCore\NorthWind.Data\obj\Debug\net6.0\refint\NorthWind.Data.dll
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ProjetoNetCore\NorthWind.Data\obj\Debug\net6.0\NorthWind.Data.pdb
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ProjetoNetCore\NorthWind.Data\obj\Debug\net6.0\ref\NorthWind.Data.dll

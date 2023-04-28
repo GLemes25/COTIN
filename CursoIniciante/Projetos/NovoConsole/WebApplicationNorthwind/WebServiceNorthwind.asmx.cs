@@ -24,7 +24,7 @@ namespace WebApplicationNorthwind
         [WebMethod]
         public CategoriesDto ObterCategoriaPorId(int categoryId)
         {
-            IRepository<Categories> _Repository = new Repository<Categories>();
+            IRepository<Order> _Repository = new Repository<Order>();
 
             CategoriesDto categoriesDto = new CategoriesDto();
             var categoria = _Repository.ObterPorID(categoryId);
@@ -67,7 +67,7 @@ namespace WebApplicationNorthwind
         [WebMethod]
         public List<CategoriesDto> ObterListaDeCategorias()
         {
-            IRepository<Categories> _Repository = new Repository<Categories>();
+            IRepository<Order> _Repository = new Repository<Order>();
 
             List<CategoriesDto> categoriesDto = new List<CategoriesDto>();
             var categorias = _Repository.ObterTodos();

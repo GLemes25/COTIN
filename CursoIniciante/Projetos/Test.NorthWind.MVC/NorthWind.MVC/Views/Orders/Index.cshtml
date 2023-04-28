@@ -1,0 +1,214 @@
+﻿@model IEnumerable<Northwind.Data.Logic.Data.Order>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="button-container">
+    <h2>Pedidos</h2>
+
+    @Html.ActionLink("Novo Pedido", "Create", null, new { type = "button", @class = "glow-on-hover" })
+</div>
+<div class="container">
+    <br />
+    <div class="table-responsive" >
+        <table id="OrdersGrid" class="table table-striped table-bordered" style="width: 100%; margin-bottom: 0; ">
+            <thead >
+                <tr >
+                    <th text-align="left" rowspan="1" colspan="1" style="white-space: nowrap;">ID do Pedido</th>
+                    <th text-align="left" rowspan="1" colspan="1" style="white-space: nowrap;">ID do Cliente</th>
+                    <th text-align="left" rowspan="1" colspan="1" style="white-space: nowrap;">ID do Funcionário</th>
+                    <th text-align="left" rowspan="1" colspan="1" style="white-space: nowrap;">Data do Pedido</th>
+                    <th text-align="left" rowspan="1" colspan="1" style="white-space: nowrap;">Data Requerida</th>
+                    <th text-align="left" rowspan="1" colspan="1" style="white-space: nowrap;">Data de Envio</th>
+                    <th text-align="left" rowspan="1" colspan="1" style="white-space: nowrap;">Método de Envio</th>
+                    <th text-align="left" rowspan="1" colspan="1" style="white-space: nowrap;">Frete</th>
+                    <th text-align="left" rowspan="1" colspan="1" style="white-space: nowrap;">Nome do Destinatário</th>
+                    <th text-align="left" rowspan="1" colspan="1" style="white-space: nowrap;">Endereço de Envio</th>
+                    <th text-align="left" rowspan="1" colspan="1" style="white-space: nowrap;">Cidade de Envio</th>
+                    <th text-align="left" rowspan="1" colspan="1" style="white-space: nowrap;">Região de Envio</th>
+                    <th text-align="left" rowspan="1" colspan="1" style="white-space: nowrap;">CEP de Envio</th>
+                    <th text-align="left" rowspan="1" colspan="1" style="white-space: nowrap;">País de Envio</th>
+                    <th text-align="left" rowspan="1" colspan="1" style=" white-space: nowrap;">Edit</th>
+                    <th text-align="left" rowspan="1" colspan="1" style=" white-space: nowrap;">Delete</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+</div>
+@section scripts{
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#example').DataTable();
+        });
+        $(document).ready(function () {
+            $("#OrdersGrid").DataTable({
+                "scrollX": true,
+                "language": {
+                    //"lengthMenu": "",
+                    "search": "Procurar ",
+                    "paginate": "",
+                    "zeroRecords": "Nada foi encontrado",
+                    "info": "",
+                    "infoEmpty": "Sem registros",
+                    "infoFiltered": "(filtrado de MAX regitros totais)"
+                },
+                "dom": '<"pull-left"f><"pull-right"l>tip',
+                "processing": true, // for show progress bar
+                "serverSide": true, // for process server side
+                "destroy": false,
+                "filter": true, // this is for disable filter (search box)
+                "orderMulti": false, // for disable multiple column at once
+                "pageLength": 10,
+
+  
+
+                "ajax": {
+                    "url": "/Orders/LoadData",
+                    "type": "POST",
+                    "datatype": "json"
+                },
+
+                "columnDefs":
+                    [
+
+                    {
+                        "targets": [14],
+                        "searchable": false,
+                        "orderable": false
+                    },
+                    {
+                        "targets": [15],
+                        "searchable": false,
+                        "orderable": false
+                        }
+                    ],
+
+                "columns": [
+                    {
+                        "data": "OrderID",
+                        "name": "OrderID",
+                        "className": "text-center align-middle",
+                        "autoWidth": true
+                    },
+                    {
+                        "data": "CustomerID",
+                        "name": "CustomerID",
+                        "className": "text-center align-middle",
+                        "autoWidth": true
+                    },
+                    {
+                        "data": "EmployeeID",
+                        "name": "EmployeeID",
+                        "className": "text-center align-middle",
+                        "autoWidth": true
+                    },
+                    {
+                        "data": "OrderDate",
+                        "name": "OrderDate",
+                        "autoWidth": true,
+                        "render": function (data, type, full, meta) {
+                            return moment(data).format('DD/MM/YY HH:mm');
+                        }
+
+                    },
+                    {
+                        "data": "RequiredDate",
+                        "name": "RequiredDate",
+                        "autoWidth": true,
+                        "render": function (data, type, full, meta) {
+                            return moment(data).format('DD/MM/YY HH:mm');
+                        }
+                    },
+                    {
+                        "data": "ShippedDate",
+                        "name": "ShippedDate",
+                        "autoWidth": true,
+                        "render": function (data, type, full, meta) {
+                            return moment(data).format('DD/MM/YY HH:mm');
+                        }
+                    },
+                    {
+                        "data": "ShipVia",
+                        "name": "ShipVia",
+                        "className": "text-center align-middle",
+                        "autoWidth": true
+                    },
+                    {
+                        "data": "Freight",
+                        "name": "Freight",
+                        "autoWidth": true
+                    },
+                    {
+                        "data": "ShipName",
+                        "name": "ShipName",
+                        "autoWidth": true
+                    },
+                    {
+                        "data": "ShipAddress",
+                        "name": "ShipAddress",
+                        "autoWidth": true
+                    },
+                    {
+                        "data": "ShipCity",
+                        "name": "ShipCity",
+                        "autoWidth": true
+                    },
+                    {
+                        "data": "ShipRegion",
+                        "name": "ShipRegion",
+                        "className": "text-center align-middle",
+                        "autoWidth": true
+                    },
+                    {
+                        "data": "ShipPostalCode",
+                        "name": "ShipPostalCode",
+                        "autoWidth": true
+                    },
+                    {
+                        "data": "ShipCountry",
+                        "name": "ShipCountry",
+                        "autoWidth": true
+                    },
+                    {
+                        "render": function (data, type, full, meta) { return '<a class="btn btn-info" href="/Orders/Edit/' + full.OrderID + '">Edit</a>'; }
+                    },
+                    {
+                        data: null, render: function (data, type, row) {
+                            return "<a href='#' class='btn btn-danger' onclick=DeleteData('" + row.OrderID + "'); >Delete</a>";
+                        }
+                    },
+
+                ]
+
+            });
+        });
+
+        function DeleteData(OrderID) {
+        if (confirm("Are you sure you want to delete ...?")) {
+            Delete(OrderID);
+        }
+        else {
+            return false;
+        }
+    }
+
+        function Delete(OrderID) {
+        var url = '@Url.Content("~/")' + "Demo/DeleteCustomer";
+            $.post(url, { ID: OrderID }, function (data) {
+            if (data == "Deleted") {
+                alert("Delete Customer !");
+                oTable = $('#demoGrid').DataTable();
+                oTable.draw();
+            }
+            else {
+                alert("Something Went Wrong!");
+            }
+        });
+    }
+    </script>
+}

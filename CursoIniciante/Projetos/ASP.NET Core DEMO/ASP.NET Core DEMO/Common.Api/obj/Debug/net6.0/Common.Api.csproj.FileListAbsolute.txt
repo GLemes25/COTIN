@@ -1,0 +1,80 @@
+D:\eCCE\ProjetoCCE\src\Backend\Common\Common.Api\bin\Debug\net6.0\Common.Api.deps.json
+D:\eCCE\ProjetoCCE\src\Backend\Common\Common.Api\bin\Debug\net6.0\Common.Api.dll
+D:\eCCE\ProjetoCCE\src\Backend\Common\Common.Api\bin\Debug\net6.0\Common.Api.pdb
+D:\eCCE\ProjetoCCE\src\Backend\Common\Common.Api\bin\Debug\net6.0\Common.Extensions.dll
+D:\eCCE\ProjetoCCE\src\Backend\Common\Common.Api\bin\Debug\net6.0\Common.Jwt.dll
+D:\eCCE\ProjetoCCE\src\Backend\Common\Common.Api\bin\Debug\net6.0\Common.Logging.dll
+D:\eCCE\ProjetoCCE\src\Backend\Common\Common.Api\bin\Debug\net6.0\Common.OpenTelemetry.dll
+D:\eCCE\ProjetoCCE\src\Backend\Common\Common.Api\bin\Debug\net6.0\Common.UnitOfWork.dll
+D:\eCCE\ProjetoCCE\src\Backend\Common\Common.Api\bin\Debug\net6.0\Common.Extensions.pdb
+D:\eCCE\ProjetoCCE\src\Backend\Common\Common.Api\bin\Debug\net6.0\Common.Jwt.pdb
+D:\eCCE\ProjetoCCE\src\Backend\Common\Common.Api\bin\Debug\net6.0\Common.Logging.pdb
+D:\eCCE\ProjetoCCE\src\Backend\Common\Common.Api\bin\Debug\net6.0\Common.OpenTelemetry.pdb
+D:\eCCE\ProjetoCCE\src\Backend\Common\Common.Api\bin\Debug\net6.0\Common.UnitOfWork.pdb
+D:\eCCE\ProjetoCCE\src\Backend\Common\Common.Api\obj\Debug\net6.0\Common.Api.csproj.AssemblyReference.cache
+D:\eCCE\ProjetoCCE\src\Backend\Common\Common.Api\obj\Debug\net6.0\Common.Api.GeneratedMSBuildEditorConfig.editorconfig
+D:\eCCE\ProjetoCCE\src\Backend\Common\Common.Api\obj\Debug\net6.0\Common.Api.AssemblyInfoInputs.cache
+D:\eCCE\ProjetoCCE\src\Backend\Common\Common.Api\obj\Debug\net6.0\Common.Api.AssemblyInfo.cs
+D:\eCCE\ProjetoCCE\src\Backend\Common\Common.Api\obj\Debug\net6.0\Common.Api.csproj.CoreCompileInputs.cache
+D:\eCCE\ProjetoCCE\src\Backend\Common\Common.Api\obj\Debug\net6.0\Common.Api.csproj.CopyComplete
+D:\eCCE\ProjetoCCE\src\Backend\Common\Common.Api\obj\Debug\net6.0\Common.Api.dll
+D:\eCCE\ProjetoCCE\src\Backend\Common\Common.Api\obj\Debug\net6.0\refint\Common.Api.dll
+D:\eCCE\ProjetoCCE\src\Backend\Common\Common.Api\obj\Debug\net6.0\Common.Api.pdb
+D:\eCCE\ProjetoCCE\src\Backend\Common\Common.Api\obj\Debug\net6.0\ref\Common.Api.dll
+E:\Curso\ASP.NET Core DEMO\Common.Api\bin\Debug\net6.0\Common.Api.deps.json
+E:\Curso\ASP.NET Core DEMO\Common.Api\bin\Debug\net6.0\Common.Api.dll
+E:\Curso\ASP.NET Core DEMO\Common.Api\bin\Debug\net6.0\Common.Api.pdb
+E:\Curso\ASP.NET Core DEMO\Common.Api\bin\Debug\net6.0\Common.Extensions.dll
+E:\Curso\ASP.NET Core DEMO\Common.Api\bin\Debug\net6.0\Common.Logging.dll
+E:\Curso\ASP.NET Core DEMO\Common.Api\bin\Debug\net6.0\Common.UnitOfWork.dll
+E:\Curso\ASP.NET Core DEMO\Common.Api\bin\Debug\net6.0\Common.Extensions.pdb
+E:\Curso\ASP.NET Core DEMO\Common.Api\bin\Debug\net6.0\Common.Logging.pdb
+E:\Curso\ASP.NET Core DEMO\Common.Api\bin\Debug\net6.0\Common.UnitOfWork.pdb
+E:\Curso\ASP.NET Core DEMO\Common.Api\obj\Debug\net6.0\Common.Api.csproj.AssemblyReference.cache
+E:\Curso\ASP.NET Core DEMO\Common.Api\obj\Debug\net6.0\Common.Api.GeneratedMSBuildEditorConfig.editorconfig
+E:\Curso\ASP.NET Core DEMO\Common.Api\obj\Debug\net6.0\Common.Api.AssemblyInfoInputs.cache
+E:\Curso\ASP.NET Core DEMO\Common.Api\obj\Debug\net6.0\Common.Api.AssemblyInfo.cs
+E:\Curso\ASP.NET Core DEMO\Common.Api\obj\Debug\net6.0\Common.Api.csproj.CoreCompileInputs.cache
+E:\Curso\ASP.NET Core DEMO\Common.Api\obj\Debug\net6.0\Common.Api.csproj.CopyComplete
+E:\Curso\ASP.NET Core DEMO\Common.Api\obj\Debug\net6.0\Common.Api.dll
+E:\Curso\ASP.NET Core DEMO\Common.Api\obj\Debug\net6.0\refint\Common.Api.dll
+E:\Curso\ASP.NET Core DEMO\Common.Api\obj\Debug\net6.0\Common.Api.pdb
+E:\Curso\ASP.NET Core DEMO\Common.Api\obj\Debug\net6.0\ref\Common.Api.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Api\bin\Debug\net6.0\Common.Api.deps.json
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Api\bin\Debug\net6.0\Common.Api.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Api\bin\Debug\net6.0\Common.Api.pdb
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Api\bin\Debug\net6.0\Common.Extensions.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Api\bin\Debug\net6.0\Common.Logging.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Api\bin\Debug\net6.0\Common.UnitOfWork.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Api\bin\Debug\net6.0\Common.Extensions.pdb
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Api\bin\Debug\net6.0\Common.Logging.pdb
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Api\bin\Debug\net6.0\Common.UnitOfWork.pdb
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Api\obj\Debug\net6.0\Common.Api.csproj.AssemblyReference.cache
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Api\obj\Debug\net6.0\Common.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Api\obj\Debug\net6.0\Common.Api.AssemblyInfoInputs.cache
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Api\obj\Debug\net6.0\Common.Api.AssemblyInfo.cs
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Api\obj\Debug\net6.0\Common.Api.csproj.CoreCompileInputs.cache
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Api\obj\Debug\net6.0\Common.Api.csproj.CopyComplete
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Api\obj\Debug\net6.0\Common.Api.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Api\obj\Debug\net6.0\refint\Common.Api.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Api\obj\Debug\net6.0\Common.Api.pdb
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Api\obj\Debug\net6.0\ref\Common.Api.dll
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Api\bin\Debug\net6.0\Common.Api.deps.json
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Api\bin\Debug\net6.0\Common.Api.dll
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Api\bin\Debug\net6.0\Common.Api.pdb
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Api\bin\Debug\net6.0\Common.Extensions.dll
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Api\bin\Debug\net6.0\Common.Logging.dll
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Api\bin\Debug\net6.0\Common.UnitOfWork.dll
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Api\bin\Debug\net6.0\Common.Extensions.pdb
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Api\bin\Debug\net6.0\Common.Logging.pdb
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Api\bin\Debug\net6.0\Common.UnitOfWork.pdb
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Api\obj\Debug\net6.0\Common.Api.csproj.AssemblyReference.cache
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Api\obj\Debug\net6.0\Common.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Api\obj\Debug\net6.0\Common.Api.AssemblyInfoInputs.cache
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Api\obj\Debug\net6.0\Common.Api.AssemblyInfo.cs
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Api\obj\Debug\net6.0\Common.Api.csproj.CoreCompileInputs.cache
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Api\obj\Debug\net6.0\Common.Api.csproj.CopyComplete
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Api\obj\Debug\net6.0\Common.Api.dll
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Api\obj\Debug\net6.0\refint\Common.Api.dll
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Api\obj\Debug\net6.0\Common.Api.pdb
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.Api\obj\Debug\net6.0\ref\Common.Api.dll

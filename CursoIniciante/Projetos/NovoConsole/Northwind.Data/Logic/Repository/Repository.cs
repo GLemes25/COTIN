@@ -86,5 +86,10 @@ namespace NorthWind.Data.Logic.Repository
                 }
             }
         }
+
+        //public IEnumerable<T> ObterPorPagina(int itemPorPagina, int IndexPagina)
+        //{
+        //    return DbSet.OrderBy(x => x.Id).Skip(IndexPagina * itemPorPagina).Take(itemPorPagina).ToList();
+        //}
     }
 }

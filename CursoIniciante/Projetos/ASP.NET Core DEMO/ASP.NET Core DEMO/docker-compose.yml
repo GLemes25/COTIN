@@ -1,0 +1,19 @@
+version: '3.4'
+
+services:
+
+  webnorthwindapp:
+    image: ${DOCKER_REGISTRY-}webnorthwindapp
+    build:
+      context: .
+      dockerfile: Northwind.MVC/Dockerfile
+
+
+  apinorthwind:
+    image: ${DOCKER_REGISTRY-}apinorthwind
+    build:
+      context: .
+      dockerfile: Northwind.API/Dockerfile
+
+  
+

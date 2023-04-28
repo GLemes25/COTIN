@@ -1,0 +1,12 @@
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ProjetoMVC\Northwind.Data\bin\Debug\Northwind.Data.dll.config
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ProjetoMVC\Northwind.Data\bin\Debug\Northwind.Data.dll
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ProjetoMVC\Northwind.Data\bin\Debug\Northwind.Data.pdb
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ProjetoMVC\Northwind.Data\bin\Debug\EntityFramework.dll
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ProjetoMVC\Northwind.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ProjetoMVC\Northwind.Data\bin\Debug\EntityFramework.xml
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ProjetoMVC\Northwind.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ProjetoMVC\Northwind.Data\obj\Debug\Northwind.Data.csproj.AssemblyReference.cache
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ProjetoMVC\Northwind.Data\obj\Debug\Northwind.Data.csproj.CoreCompileInputs.cache
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ProjetoMVC\Northwind.Data\obj\Debug\Northwind.Data.csproj.CopyComplete
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ProjetoMVC\Northwind.Data\obj\Debug\Northwind.Data.dll
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ProjetoMVC\Northwind.Data\obj\Debug\Northwind.Data.pdb

@@ -1,0 +1,167 @@
+name: dockercompose5600419038709792063
+services:
+  apiauthentication:
+    build:
+      context: E:\Curso\ASP.NET Core DEMO
+      dockerfile: src/Backend/Microservices/WebAPI/API.Authentication/Dockerfile
+    container_name: apiauthentication
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: apiauthentication
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "8001"
+      protocol: tcp
+  apicomum:
+    build:
+      context: E:\Curso\ASP.NET Core DEMO
+      dockerfile: src/Backend/Microservices/WebAPI/API.Comum/Dockerfile
+    container_name: apicomum
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: apicomum
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "8003"
+      protocol: tcp
+  apiconfiguracao:
+    build:
+      context: E:\Curso\ASP.NET Core DEMO
+      dockerfile: src/Backend/Microservices/WebAPI/API.Configuracao/Dockerfile
+    container_name: apiconfiguracao
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: apiconfiguracao
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "8011"
+      protocol: tcp
+  apicp:
+    build:
+      context: E:\Curso\ASP.NET Core DEMO
+      dockerfile: src/Backend/Microservices/WebAPI/API.CP/Dockerfile
+    container_name: apicp
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: apicp
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "8034"
+      protocol: tcp
+  apicredenciamento:
+    build:
+      context: E:\Curso\ASP.NET Core DEMO
+      dockerfile: src/Backend/Microservices/WebAPI/API.CredenciamentoCNE/Dockerfile
+    container_name: apicredenciamento
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: apicredenciamento
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "8035"
+      protocol: tcp
+  apiminio:
+    build:
+      context: E:\Curso\ASP.NET Core DEMO
+      dockerfile: src/Backend/Microservices/WebAPI/API.Minio/Dockerfile
+    container_name: apiminio
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: apiminio
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "8012"
+      protocol: tcp
+  apirelatorios:
+    build:
+      context: E:\Curso\ASP.NET Core DEMO
+      dockerfile: src/Backend/Microservices/WebAPI/API.Relatorios/Dockerfile
+    container_name: apirelatorios
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: apirelatorios
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "8044"
+      protocol: tcp
+  minio:
+    command:
+    - minio
+    - server
+    - /data
+    container_name: minio
+    environment:
+      MINIO_ADDRESS: :9000
+      MINIO_CONSOLE_ADDRESS: :9001
+      MINIO_ROOT_PASSWORD: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+      MINIO_ROOT_USER: AKIAIOSFODNN7EXAMPLE
+    hostname: minio
+    image: minio/minio
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 9000
+      published: "9000"
+      protocol: tcp
+    - mode: ingress
+      target: 9001
+      published: "9001"
+      protocol: tcp
+    volumes:
+    - type: volume
+      source: minio_storage
+      target: /data
+      volume: {}
+  redisdb:
+    container_name: cache
+    image: redis
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 6379
+      published: "6379"
+      protocol: tcp
+  webecce:
+    build:
+      context: E:\Curso\ASP.NET Core DEMO
+      dockerfile: src/Frontend/CCE/Dockerfile
+    container_name: webecce
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: webecce
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "8009"
+      protocol: tcp
+networks:
+  default:
+    name: dockercompose5600419038709792063_default
+volumes:
+  minio_storage:
+    name: dockercompose5600419038709792063_minio_storage

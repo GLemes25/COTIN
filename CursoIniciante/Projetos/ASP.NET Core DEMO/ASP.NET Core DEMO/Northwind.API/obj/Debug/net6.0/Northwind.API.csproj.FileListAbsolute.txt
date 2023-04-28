@@ -1,0 +1,628 @@
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\appsettings.Development.json
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\appsettings.json
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\appsettings.Production.json
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\appsettings.Staging.json
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Northwind.API.exe
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Northwind.API.deps.json
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Northwind.API.runtimeconfig.json
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Northwind.API.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Northwind.API.pdb
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\AutoMapper.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\EntityFrameworkCore.UseRowNumberForPaging.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\FluentValidation.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Humanizer.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\MessagePack.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\MessagePack.Annotations.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.Build.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.Build.Framework.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.AutoHistory.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\NuGet.Common.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\NuGet.Configuration.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\NuGet.Frameworks.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\NuGet.LibraryModel.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\NuGet.Packaging.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\NuGet.ProjectModel.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\NuGet.Protocol.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\NuGet.Versioning.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\RestSharp.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Serilog.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Serilog.AspNetCore.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Serilog.Enrichers.CorrelationId.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Serilog.Enrichers.Environment.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Serilog.Exceptions.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Serilog.Sinks.Async.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Serilog.Sinks.Console.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Serilog.Sinks.File.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\System.Composition.Convention.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\System.Composition.Hosting.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\System.Composition.Runtime.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\System.Composition.TypedParts.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\System.Reflection.MetadataLoadContext.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Common.Api.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Common.Extensions.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Common.Logging.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Common.UnitOfWork.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Northwind.Data.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Common.Api.pdb
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Northwind.Data.pdb
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Common.Extensions.pdb
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Common.Logging.pdb
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Common.UnitOfWork.pdb
+E:\Curso\ASP.NET Core DEMO\Northwind.API\obj\Debug\net6.0\Northwind.API.csproj.AssemblyReference.cache
+E:\Curso\ASP.NET Core DEMO\Northwind.API\obj\Debug\net6.0\Northwind.API.GeneratedMSBuildEditorConfig.editorconfig
+E:\Curso\ASP.NET Core DEMO\Northwind.API\obj\Debug\net6.0\Northwind.API.AssemblyInfoInputs.cache
+E:\Curso\ASP.NET Core DEMO\Northwind.API\obj\Debug\net6.0\Northwind.API.AssemblyInfo.cs
+E:\Curso\ASP.NET Core DEMO\Northwind.API\obj\Debug\net6.0\Northwind.API.csproj.CoreCompileInputs.cache
+E:\Curso\ASP.NET Core DEMO\Northwind.API\obj\Debug\net6.0\Northwind.API.MvcApplicationPartsAssemblyInfo.cs
+E:\Curso\ASP.NET Core DEMO\Northwind.API\obj\Debug\net6.0\Northwind.API.MvcApplicationPartsAssemblyInfo.cache
+E:\Curso\ASP.NET Core DEMO\Northwind.API\obj\Debug\net6.0\staticwebassets\msbuild.Northwind.API.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Curso\ASP.NET Core DEMO\Northwind.API\obj\Debug\net6.0\staticwebassets\msbuild.build.Northwind.API.props
+E:\Curso\ASP.NET Core DEMO\Northwind.API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Northwind.API.props
+E:\Curso\ASP.NET Core DEMO\Northwind.API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Northwind.API.props
+E:\Curso\ASP.NET Core DEMO\Northwind.API\obj\Debug\net6.0\staticwebassets.pack.json
+E:\Curso\ASP.NET Core DEMO\Northwind.API\obj\Debug\net6.0\staticwebassets.build.json
+E:\Curso\ASP.NET Core DEMO\Northwind.API\obj\Debug\net6.0\staticwebassets.development.json
+E:\Curso\ASP.NET Core DEMO\Northwind.API\obj\Debug\net6.0\scopedcss\bundle\Northwind.API.styles.css
+E:\Curso\ASP.NET Core DEMO\Northwind.API\obj\Debug\net6.0\Northwind.API.csproj.CopyComplete
+E:\Curso\ASP.NET Core DEMO\Northwind.API\obj\Debug\net6.0\Northwind.API.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\obj\Debug\net6.0\refint\Northwind.API.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\obj\Debug\net6.0\Northwind.API.pdb
+E:\Curso\ASP.NET Core DEMO\Northwind.API\obj\Debug\net6.0\Northwind.API.genruntimeconfig.cache
+E:\Curso\ASP.NET Core DEMO\Northwind.API\obj\Debug\net6.0\ref\Northwind.API.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Northwind.API.xml
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\HealthChecks.UI.Client.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\HealthChecks.UI.Core.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Curso\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\appsettings.json
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\appsettings.Production.json
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\appsettings.Staging.json
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Northwind.API.exe
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Northwind.API.xml
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Northwind.API.deps.json
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Northwind.API.runtimeconfig.json
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Northwind.API.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Northwind.API.pdb
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\HealthChecks.UI.Client.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\HealthChecks.UI.Core.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\EntityFrameworkCore.UseRowNumberForPaging.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Humanizer.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\MessagePack.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\MessagePack.Annotations.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.Build.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.Build.Framework.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.AutoHistory.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\NuGet.Common.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\NuGet.Configuration.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\NuGet.Frameworks.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\NuGet.LibraryModel.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\NuGet.Packaging.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\NuGet.ProjectModel.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\NuGet.Protocol.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\NuGet.Versioning.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\RestSharp.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Serilog.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Serilog.AspNetCore.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Serilog.Enrichers.CorrelationId.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Serilog.Enrichers.Environment.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Serilog.Exceptions.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Serilog.Sinks.Async.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Serilog.Sinks.Console.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Serilog.Sinks.File.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\System.Composition.Convention.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\System.Composition.Hosting.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\System.Composition.Runtime.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\System.Composition.TypedParts.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\System.Reflection.MetadataLoadContext.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Common.Api.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Common.Extensions.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Common.Logging.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Common.UnitOfWork.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Northwind.Data.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Common.Api.pdb
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Northwind.Data.pdb
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Common.Extensions.pdb
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Common.Logging.pdb
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\bin\Debug\net6.0\Common.UnitOfWork.pdb
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\obj\Debug\net6.0\Northwind.API.csproj.AssemblyReference.cache
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\obj\Debug\net6.0\Northwind.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\obj\Debug\net6.0\Northwind.API.AssemblyInfoInputs.cache
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\obj\Debug\net6.0\Northwind.API.AssemblyInfo.cs
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\obj\Debug\net6.0\Northwind.API.csproj.CoreCompileInputs.cache
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\obj\Debug\net6.0\Northwind.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\obj\Debug\net6.0\Northwind.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\obj\Debug\net6.0\staticwebassets\msbuild.Northwind.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\obj\Debug\net6.0\staticwebassets\msbuild.build.Northwind.API.props
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Northwind.API.props
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Northwind.API.props
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\obj\Debug\net6.0\scopedcss\bundle\Northwind.API.styles.css
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\obj\Debug\net6.0\Northwind.API.csproj.CopyComplete
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\obj\Debug\net6.0\Northwind.API.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\obj\Debug\net6.0\refint\Northwind.API.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\obj\Debug\net6.0\Northwind.API.pdb
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\obj\Debug\net6.0\Northwind.API.genruntimeconfig.cache
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Northwind.API\obj\Debug\net6.0\ref\Northwind.API.dll

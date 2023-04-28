@@ -1,0 +1,166 @@
+﻿@model IEnumerable<Northwind.Data.Logic.Data.Products>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<style type="text/css">
+    label, .editor-label {
+        font-weight: bold !important;
+    }
+
+
+
+    .row {
+        margin-left: 0%;
+    }
+
+    a {
+        color: red;
+        text-decoration: none;
+    }
+
+        a:hover, a:focus {
+            color: rebeccapurple;
+            text-decoration: underline;
+        }
+</style>
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+<div class="container">
+    <br />
+
+
+    <div style="width:110%; margin:0 auto;">
+        <table id="productGrid" class="table table-striped table-bordered dt-responsive nowrap" width="100%" >
+            <thead>
+                <tr>
+                    <th text-align="left" rowspan="1" colspan="1" style=" white-space: nowrap;">Codigo do Produto</th>
+                    <th text-align="left" rowspan="1" colspan="1" style=" white-space: nowrap;">Nome do Produto</th>
+                    <th text-align="left" rowspan="1" colspan="1" style=" white-space: nowrap;">Fornecedor</th>
+                    <th text-align="left" rowspan="1" colspan="1" style=" white-space: nowrap;">Categoria</th>
+                    <th text-align="left" rowspan="1" colspan="1" style=" white-space: nowrap;">Quantidade por Unidade</th>
+                    <th text-align="left" rowspan="1" colspan="1" style=" white-space: nowrap;">Preço Unitário</th>
+                    <th text-align="left" rowspan="1" colspan="1" style=" white-space: nowrap;">Unidades em Estoque</th>
+                    <th text-align="left" rowspan="1" colspan="1" style=" white-space: nowrap;">Unidades em Pedido</th>
+                    <th text-align="left" rowspan="1" colspan="1" style=" white-space: nowrap;">Nível de Reabastecimento</th>
+                    <th text-align="left" rowspan="1" colspan="1" style=" white-space: nowrap;">Interrompido</th>
+                    <th text-align="left" rowspan="1" colspan="1" style=" white-space: nowrap;">Edit</th>
+                    <th text-align="left" rowspan="1" colspan="1" style=" white-space: nowrap;">Delete</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+</div>
+@section scripts{
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#example').DataTable();
+        });
+        $(document).ready(function () {
+            $("#productGrid").DataTable({
+
+                "language": {
+                    //"lengthMenu": "",
+                    "search": "Procurar",
+                    "paginate": "",
+                    "zeroRecords": "Nada foi encontrado",
+                    "info": "",
+                    "infoEmpty": "Sem registros",
+                    "infoFiltered": "(filtrado de MAX regitros totais)"
+                },
+                "dom": '<"pull-left"f><"pull-right"l>tip',
+                "processing": true, // for show progress bar
+                "serverSide": true, // for process server side
+                "destroy": false,
+                "filter": true, // this is for disable filter (search box)
+                "orderMulti": false, // for disable multiple column at once
+                "pageLength": 10,
+
+                "processing": true, // for show progress bar
+                "serverSide": true, // for process server side
+                "filter": true, // this is for disable filter (search box)
+                "orderMulti": false, // for disable multiple column at once
+                "pageLength": 5,
+
+                "ajax": {
+                    "url": "/Products/LoadData",
+                    "type": "POST",
+                    "datatype": "json"
+                },
+
+                "columnDefs":
+                    [{
+                        "targets": [0],
+                        "visible": false,
+                        "searchable": false
+                    }
+
+                    ,{
+                        "targets": [10],
+                        "searchable": false,
+                        "orderable": false
+                    },
+                    {
+                        "targets": [11],
+                        "searchable": false,
+                        "orderable": false
+                        }
+                    ],
+
+                "columns": [
+                    { "data": "ProductID", "name": "ProductID", "autoWidth": true },
+                    { "data": "ProductName", "name": "ProductName", "autoWidth": true },
+                    { "data": "SupplierID", "name": "SupplierID", "autoWidth": true },
+                    { "data": "CategoryID", "name": "CategoryID", "autoWidth": true },
+                    { "data": "QuantityPerUnit", "name": "QuantityPerUnit", "autoWidth": true },
+                    { "data": "UnitPrice", "name": "UnitPrice", "autoWidth": true },
+                    { "data": "UnitsInStock", "name": "UnitsInStock", "autoWidth": true },
+                    { "data": "UnitsOnOrder", "name": "UnitsOnOrder", "autoWidth": true },
+                    { "data": "ReorderLevel", "name": "ReorderLevel", "autoWidth": true },
+                    { "data": "Discontinued", "name": "Discontinued", "autoWidth": true },
+                    {
+                        "render": function (data, type, full, meta) { return '<a class="btn btn-info" href="/Products/Edit/' + full.ProductID + '">Edit</a>'; }
+                    },
+                    {
+                        data: null, render: function (data, type, row) {
+                            return "<a href='#' class='btn btn-danger' onclick=DeleteData('" + row.ProductID + "'); >Delete</a>";
+                        }
+                    },
+                ]
+
+            });
+        });
+
+        function DeleteData(ProductID) {
+        if (confirm("Are you sure you want to delete ...?")) {
+            Delete(ProductID);
+        }
+        else {
+            return false;
+        }
+    }
+
+
+        function Delete(ProductID) {
+        var url = '@Url.Content("~/")' + "Demo/DeleteCustomer";
+            $.post(url, { ID: ProductID }, function (data) {
+            if (data == "Deleted") {
+                alert("Delete Customer !");
+                oTable = $('#demoGrid').DataTable();
+                oTable.draw();
+            }
+            else {
+                alert("Something Went Wrong!");
+            }
+        });
+    }
+    </script>
+}

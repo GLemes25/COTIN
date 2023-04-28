@@ -1,0 +1,12 @@
+E:\Curso\ASP.NET Core DEMO\ASP.NET Core DEMO\bin\Debug\net6.0\ASP.NET Core DEMO.deps.json
+E:\Curso\ASP.NET Core DEMO\ASP.NET Core DEMO\bin\Debug\net6.0\ASP.NET Core DEMO.dll
+E:\Curso\ASP.NET Core DEMO\ASP.NET Core DEMO\bin\Debug\net6.0\ASP.NET Core DEMO.pdb
+E:\Curso\ASP.NET Core DEMO\ASP.NET Core DEMO\obj\Debug\net6.0\ASP.NET Core DEMO.csproj.AssemblyReference.cache
+E:\Curso\ASP.NET Core DEMO\ASP.NET Core DEMO\obj\Debug\net6.0\ASP.NET Core DEMO.GeneratedMSBuildEditorConfig.editorconfig
+E:\Curso\ASP.NET Core DEMO\ASP.NET Core DEMO\obj\Debug\net6.0\ASP.NET Core DEMO.AssemblyInfoInputs.cache
+E:\Curso\ASP.NET Core DEMO\ASP.NET Core DEMO\obj\Debug\net6.0\ASP.NET Core DEMO.AssemblyInfo.cs
+E:\Curso\ASP.NET Core DEMO\ASP.NET Core DEMO\obj\Debug\net6.0\ASP.NET Core DEMO.csproj.CoreCompileInputs.cache
+E:\Curso\ASP.NET Core DEMO\ASP.NET Core DEMO\obj\Debug\net6.0\ASP.NET Core DEMO.dll
+E:\Curso\ASP.NET Core DEMO\ASP.NET Core DEMO\obj\Debug\net6.0\refint\ASP.NET Core DEMO.dll
+E:\Curso\ASP.NET Core DEMO\ASP.NET Core DEMO\obj\Debug\net6.0\ASP.NET Core DEMO.pdb
+E:\Curso\ASP.NET Core DEMO\ASP.NET Core DEMO\obj\Debug\net6.0\ref\ASP.NET Core DEMO.dll

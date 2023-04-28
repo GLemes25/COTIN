@@ -1,0 +1,173 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Northwind.API</name>
+    </assembly>
+    <members>
+        <member name="M:Northwind.API.V1.Controllers.CategoriesController.GetCategories">
+            <summary>
+            Método GET, Lista com todos os registros.
+            </summary>
+            <param name="Categories">Instância em JSON do registro que será alterado.</param>
+            <returns>O envelope JSON com registro alterado.</returns>
+        </member>
+        <member name="M:Northwind.API.V1.Controllers.CategoriesController.Get_ListaCategoriesPage(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Método GET, destinado a busca de registros, com paginação.
+            </summary>
+            <param name="pageNo">Número da página que será exibida (default = 1).</param>
+            <param name="pageSize">Quantidade de registros que serão exibidos (default = 20).</param>
+            <returns>O envelope JSON correspondente ao resultado da pesquisa.</returns>
+        </member>
+        <member name="M:Northwind.API.V1.Controllers.CategoriesController.GetCategories(System.Int32)">
+            <summary>
+            Método GET, destinado a busca de registros por ID.
+            </summary>
+            <param name="id">Chave primária da tabela.</param>
+            <returns>O envelope JSON correspondente ao resultado da pesquisa.</returns>
+        </member>
+        <member name="M:Northwind.API.V1.Controllers.CategoriesController.PutCategories(Northwind.API.Logic.Model.CategoriesViewModel)">
+            <summary>
+            Método PUT, destinado a alteração de registros no banco.
+            </summary>
+            <param name="Categories">Instância em JSON do registro que será alterado.</param>
+            <returns>O envelope JSON com registro alterado.</returns>
+        </member>
+        <member name="M:Northwind.API.V1.Controllers.CategoriesController.PostCategories(Northwind.API.Logic.Model.CategoriesViewModel)">
+            <summary>
+            Método POST, destinado a criação de registros.
+            </summary>
+            <param name="Categories">Instância em JSON do registro para inclusão.</param>
+            <returns>O envelope JSON do registro incluso com Chave Primária.</returns>
+        </member>
+        <member name="M:Northwind.API.V1.Controllers.CategoriesController.DeleteCategories(System.Int32)">
+            <summary>
+            Método DELETE, destinado a exclusão de registros do banco, utilizando o ID.
+            </summary>
+            <param name="id">Chave primária do registro.</param>
+            <returns>O envelope JSON com registro excluído.</returns>
+        </member>
+        <member name="M:Northwind.API.V1.Controllers.ProductsController.GetProducts">
+            <summary>
+            Método GET, Lista com todos os registros.
+            </summary>
+            <param name="Products">Instância em JSON do registro que será alterado.</param>
+            <returns>O envelope JSON com registro alterado.</returns>
+        </member>
+        <member name="M:Northwind.API.V1.Controllers.ProductsController.Get_ListaProductsPage(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Método GET, destinado a busca de registros, com paginação.
+            </summary>
+            <param name="pageNo">Número da página que será exibida (default = 1).</param>
+            <param name="pageSize">Quantidade de registros que serão exibidos (default = 20).</param>
+            <returns>O envelope JSON correspondente ao resultado da pesquisa.</returns>
+        </member>
+        <member name="M:Northwind.API.V1.Controllers.ProductsController.GetProducts(System.Int32)">
+            <summary>
+            Método GET, destinado a busca de registros por ID.
+            </summary>
+            <param name="id">Chave primária da tabela.</param>
+            <returns>O envelope JSON correspondente ao resultado da pesquisa.</returns>
+            GET: api/Products/5
+        </member>
+        <member name="M:Northwind.API.V1.Controllers.ProductsController.PutProducts(Northwind.API.Logic.Model.ProductsViewModel)">
+            <summary>
+            Método PUT, destinado a alteração de registros no banco.
+            </summary>
+            <param name="Products">Instância em JSON do registro que será alterado.</param>
+            <returns>O envelope JSON com registro alterado.</returns>
+        </member>
+        <member name="M:Northwind.API.V1.Controllers.ProductsController.PostProducts(Northwind.API.Logic.Model.ProductsViewModel)">
+            <summary>
+            Método POST, destinado a criação de registros.
+            </summary>
+            <param name="Products">Instância em JSON do registro para inclusão.</param>
+            <returns>O envelope JSON do registro incluso com Chave Primária.</returns>
+        </member>
+        <member name="M:Northwind.API.V1.Controllers.ProductsController.DeleteProducts(System.Int32)">
+            <summary>
+            Método DELETE, destinado a exclusão de registros do banco, utilizando o ID.
+            </summary>
+            <param name="id">Chave primária do registro.</param>
+            <returns>O envelope JSON com registro excluído.</returns>
+        </member>
+        <member name="M:Northwind.API.V1.Controllers.SuppliersController.GetSuppliers">
+            <summary>
+            Método GET, Lista com todos os registros.
+            </summary>
+            <param name="Suppliers">Instância em JSON do registro que será alterado.</param>
+            <returns>O envelope JSON com registro alterado.</returns>
+        </member>
+        <member name="M:Northwind.API.V1.Controllers.SuppliersController.GetSuppliers(System.Int32)">
+            <summary>
+            Método GET, destinado a busca de registros por ID.
+            </summary>
+            <param name="id">Chave primária da tabela.</param>
+            <returns>O envelope JSON correspondente ao resultado da pesquisa.</returns>
+        </member>
+        <member name="M:Northwind.API.V1.Controllers.SuppliersController.PutSuppliers(Northwind.API.Logic.Model.SuppliersViewModel)">
+            <summary>
+            Método PUT, destinado a alteração de registros no banco.
+            </summary>
+            <param name="Suppliers">Instância em JSON do registro que será alterado.</param>
+            <returns>O envelope JSON com registro alterado.</returns>
+        </member>
+        <member name="M:Northwind.API.V1.Controllers.SuppliersController.PostSuppliers(Northwind.API.Logic.Model.SuppliersViewModel)">
+            <summary>
+            Método POST, destinado a criação de registros.
+            </summary>
+            <param name="Suppliers">Instância em JSON do registro para inclusão.</param>
+            <returns>O envelope JSON do registro incluso com Chave Primária.</returns>
+        </member>
+        <member name="M:Northwind.API.V1.Controllers.SuppliersController.DeleteSuppliers(System.Int32)">
+            <summary>
+            Método DELETE, destinado a exclusão de registros do banco, utilizando o ID.
+            </summary>
+            <param name="id">Chave primária do registro.</param>
+            <returns>O envelope JSON com registro excluído.</returns>
+        </member>
+        <member name="M:Northwind.API.V2.Controllers.CategoriesController.GetCategories">
+            <summary>
+            Método GET, Lista com todos os registros.
+            </summary>
+            <param name="Employees">Instância em JSON do registro que será alterado.</param>
+            <returns>O envelope JSON com registro alterado.</returns>
+        </member>
+        <member name="M:Northwind.API.V2.Controllers.CategoriesController.Get_ListaCategoriesPage(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Método GET, destinado a busca de registros, com paginação.
+            </summary>
+            <param name="pageNo">Número da página que será exibida (default = 1).</param>
+            <param name="pageSize">Quantidade de registros que serão exibidos (default = 20).</param>
+            <returns>O envelope JSON correspondente ao resultado da pesquisa.</returns>
+        </member>
+        <member name="M:Northwind.API.V2.Controllers.CategoriesController.GetCategories(System.Int32)">
+            <summary>
+            Método GET, destinado a busca de registros por ID.
+            </summary>
+            <param name="id">Chave primária da tabela.</param>
+            <returns>O envelope JSON correspondente ao resultado da pesquisa.</returns>
+        </member>
+        <member name="M:Northwind.API.V2.Controllers.CategoriesController.PutCategories(Northwind.API.Logic.Model.CategoriesViewModel)">
+            <summary>
+            Método PUT, destinado a alteração de registros no banco.
+            </summary>
+            <param name="Employees">Instância em JSON do registro que será alterado.</param>
+            <returns>O envelope JSON com registro alterado.</returns>
+        </member>
+        <member name="M:Northwind.API.V2.Controllers.CategoriesController.PostCategories(Northwind.API.Logic.Model.CategoriesViewModel)">
+            <summary>
+            Método POST, destinado a criação de registros.
+            </summary>
+            <param name="Employees">Instância em JSON do registro para inclusão.</param>
+            <returns>O envelope JSON do registro incluso com Chave Primária.</returns>
+        </member>
+        <member name="M:Northwind.API.V2.Controllers.CategoriesController.DeleteCategories(System.Int32)">
+            <summary>
+            Método DELETE, destinado a exclusão de registros do banco, utilizando o ID.
+            </summary>
+            <param name="id">Chave primária do registro.</param>
+            <returns>O envelope JSON com registro excluído.</returns>
+        </member>
+    </members>
+</doc>

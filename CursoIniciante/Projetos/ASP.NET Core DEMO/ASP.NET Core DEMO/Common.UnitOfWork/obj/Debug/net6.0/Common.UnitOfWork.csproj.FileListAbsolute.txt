@@ -1,0 +1,48 @@
+D:\eCCE\ProjetoCCE\src\Backend\Common\Common.UnitOfWork\bin\Debug\net6.0\Common.UnitOfWork.deps.json
+D:\eCCE\ProjetoCCE\src\Backend\Common\Common.UnitOfWork\bin\Debug\net6.0\Common.UnitOfWork.dll
+D:\eCCE\ProjetoCCE\src\Backend\Common\Common.UnitOfWork\bin\Debug\net6.0\Common.UnitOfWork.pdb
+D:\eCCE\ProjetoCCE\src\Backend\Common\Common.UnitOfWork\obj\Debug\net6.0\Common.UnitOfWork.csproj.AssemblyReference.cache
+D:\eCCE\ProjetoCCE\src\Backend\Common\Common.UnitOfWork\obj\Debug\net6.0\Common.UnitOfWork.GeneratedMSBuildEditorConfig.editorconfig
+D:\eCCE\ProjetoCCE\src\Backend\Common\Common.UnitOfWork\obj\Debug\net6.0\Common.UnitOfWork.AssemblyInfoInputs.cache
+D:\eCCE\ProjetoCCE\src\Backend\Common\Common.UnitOfWork\obj\Debug\net6.0\Common.UnitOfWork.AssemblyInfo.cs
+D:\eCCE\ProjetoCCE\src\Backend\Common\Common.UnitOfWork\obj\Debug\net6.0\Common.UnitOfWork.csproj.CoreCompileInputs.cache
+D:\eCCE\ProjetoCCE\src\Backend\Common\Common.UnitOfWork\obj\Debug\net6.0\Common.UnitOfWork.dll
+D:\eCCE\ProjetoCCE\src\Backend\Common\Common.UnitOfWork\obj\Debug\net6.0\refint\Common.UnitOfWork.dll
+D:\eCCE\ProjetoCCE\src\Backend\Common\Common.UnitOfWork\obj\Debug\net6.0\Common.UnitOfWork.pdb
+D:\eCCE\ProjetoCCE\src\Backend\Common\Common.UnitOfWork\obj\Debug\net6.0\ref\Common.UnitOfWork.dll
+E:\Curso\ASP.NET Core DEMO\Common.UnitOfWork\bin\Debug\net6.0\Common.UnitOfWork.deps.json
+E:\Curso\ASP.NET Core DEMO\Common.UnitOfWork\bin\Debug\net6.0\Common.UnitOfWork.dll
+E:\Curso\ASP.NET Core DEMO\Common.UnitOfWork\bin\Debug\net6.0\Common.UnitOfWork.pdb
+E:\Curso\ASP.NET Core DEMO\Common.UnitOfWork\obj\Debug\net6.0\Common.UnitOfWork.csproj.AssemblyReference.cache
+E:\Curso\ASP.NET Core DEMO\Common.UnitOfWork\obj\Debug\net6.0\Common.UnitOfWork.GeneratedMSBuildEditorConfig.editorconfig
+E:\Curso\ASP.NET Core DEMO\Common.UnitOfWork\obj\Debug\net6.0\Common.UnitOfWork.AssemblyInfoInputs.cache
+E:\Curso\ASP.NET Core DEMO\Common.UnitOfWork\obj\Debug\net6.0\Common.UnitOfWork.AssemblyInfo.cs
+E:\Curso\ASP.NET Core DEMO\Common.UnitOfWork\obj\Debug\net6.0\Common.UnitOfWork.csproj.CoreCompileInputs.cache
+E:\Curso\ASP.NET Core DEMO\Common.UnitOfWork\obj\Debug\net6.0\Common.UnitOfWork.dll
+E:\Curso\ASP.NET Core DEMO\Common.UnitOfWork\obj\Debug\net6.0\refint\Common.UnitOfWork.dll
+E:\Curso\ASP.NET Core DEMO\Common.UnitOfWork\obj\Debug\net6.0\Common.UnitOfWork.pdb
+E:\Curso\ASP.NET Core DEMO\Common.UnitOfWork\obj\Debug\net6.0\ref\Common.UnitOfWork.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.UnitOfWork\bin\Debug\net6.0\Common.UnitOfWork.deps.json
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.UnitOfWork\bin\Debug\net6.0\Common.UnitOfWork.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.UnitOfWork\bin\Debug\net6.0\Common.UnitOfWork.pdb
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.UnitOfWork\obj\Debug\net6.0\Common.UnitOfWork.csproj.AssemblyReference.cache
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.UnitOfWork\obj\Debug\net6.0\Common.UnitOfWork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.UnitOfWork\obj\Debug\net6.0\Common.UnitOfWork.AssemblyInfoInputs.cache
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.UnitOfWork\obj\Debug\net6.0\Common.UnitOfWork.AssemblyInfo.cs
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.UnitOfWork\obj\Debug\net6.0\Common.UnitOfWork.csproj.CoreCompileInputs.cache
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.UnitOfWork\obj\Debug\net6.0\Common.UnitOfWork.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.UnitOfWork\obj\Debug\net6.0\refint\Common.UnitOfWork.dll
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.UnitOfWork\obj\Debug\net6.0\Common.UnitOfWork.pdb
+C:\Users\imagetech\Documents\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.UnitOfWork\obj\Debug\net6.0\ref\Common.UnitOfWork.dll
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.UnitOfWork\bin\Debug\net6.0\Common.UnitOfWork.deps.json
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.UnitOfWork\bin\Debug\net6.0\Common.UnitOfWork.dll
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.UnitOfWork\bin\Debug\net6.0\Common.UnitOfWork.pdb
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.UnitOfWork\obj\Debug\net6.0\Common.UnitOfWork.csproj.AssemblyReference.cache
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.UnitOfWork\obj\Debug\net6.0\Common.UnitOfWork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.UnitOfWork\obj\Debug\net6.0\Common.UnitOfWork.AssemblyInfoInputs.cache
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.UnitOfWork\obj\Debug\net6.0\Common.UnitOfWork.AssemblyInfo.cs
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.UnitOfWork\obj\Debug\net6.0\Common.UnitOfWork.csproj.CoreCompileInputs.cache
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.UnitOfWork\obj\Debug\net6.0\Common.UnitOfWork.dll
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.UnitOfWork\obj\Debug\net6.0\refint\Common.UnitOfWork.dll
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.UnitOfWork\obj\Debug\net6.0\Common.UnitOfWork.pdb
+C:\Users\imagetech\Documents\COTIN\CursoIniciante\Projetos\ASP.NET Core DEMO\ASP.NET Core DEMO\Common.UnitOfWork\obj\Debug\net6.0\ref\Common.UnitOfWork.dll
