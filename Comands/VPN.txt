@@ -1,0 +1,4 @@
+Server: vpn.sgi.ms.gov.br:4433
+Username: gldoliveira
+Password: Gl&m&s25
+Domain: FAZENDA.MS

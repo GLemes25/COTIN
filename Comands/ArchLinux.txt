@@ -1,0 +1,14 @@
+Cria arquivos
+	$touch Exemplo.txt 
+	
+Mudar comandos 
+	OPEN ~/.bashrc
+	ADD alias {novocomando}='{comando}'
+	$source ~/.bashrc
+
+Listar serviços
+	 ps -aux | grep {NomeServiço}
+
+Docker Status
+	sudo systemctl status docker
+

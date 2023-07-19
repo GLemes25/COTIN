@@ -1,0 +1,31 @@
+Create New Branch:
+
+	git checkout -b <BranchName>
+	
+Change Branch:
+
+	git switch <BranchName>
+	
+Exibir Informações do Usuario:
+
+	git config --local --list
+
+Remover Todas as Informações de usuario:
+
+	git config --local --unset-all user.name
+	git config --local --unset-all user.email
+	git config --local --unset-all credential.helper
+
+Visualizar Modificações Anteriores
+
+	git log
+	git log --oneline (um em cada linha)
+	git log -p (ver mais alterações)
+	git log --since=1.month.ago --until=1.day.ago
+
+Restaurar Commite passado	
+
+	git restore --source <HashDoCommit> .
+	
+Fazer Merge 
+	git merge <Branch>
