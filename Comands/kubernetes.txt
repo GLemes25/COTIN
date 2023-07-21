@@ -1,0 +1,1 @@
+kubectl port-forward k0098-db-sdt-0 27018:27017
