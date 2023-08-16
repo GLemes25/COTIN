@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "64aed0ab718efd229bd16986"
+  },
+  "nome": "xTexto",
+  "pai": "obsCont",
+  "path": "/NFe/infNFe/det/obsItem/obsCont/xTexto",
+  "ordem": "sp01",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-60",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64aed0ab718efd229bd16988"
+  },
+  "nome": "xTexto",
+  "pai": "obsFisco",
+  "path": "/NFe/infNFe/det/obsItem/obsFisco/xTexto",
+  "ordem": "sr01",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-60",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64aed0ab718efd229bd169f6"
+  },
+  "nome": "xTexto",
+  "pai": "obsCont",
+  "path": "/NFe/infNFe/infAdic/obsCont/xTexto",
+  "ordem": "wx01",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-60",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64aed0ab718efd229bd169f8"
+  },
+  "nome": "xTexto",
+  "pai": "obsFisco",
+  "path": "/NFe/infNFe/infAdic/obsFisco/xTexto",
+  "ordem": "wz01",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-60",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  }
+}]

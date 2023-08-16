@@ -1,0 +1,150 @@
+[{
+  "_id": {
+    "$oid": "64b5624a873f9c2e434f2d73"
+  },
+  "nome": "TESTE",
+  "modelo": 86,
+  "descricao": "TESTE",
+  "versoes": [
+    {
+      "servicos": [
+        {
+          "assincrono": false,
+          "metodos": [
+            {
+              "compactar": false
+            }
+          ],
+          "eventos": [
+            {}
+          ]
+        }
+      ]
+    }
+  ],
+  "ambientes": [
+    {
+      "_id": 0
+    }
+  ],
+  "_class": "br.gov.ms.sefaz.sat.cotin.dfe.projeto.ProjetoEntity"
+},
+{
+  "_id": {
+    "$oid": "64b562b2873f9c2e434f2d74"
+  },
+  "nome": "TESTE",
+  "modelo": 31,
+  "descricao": "TESTE",
+  "versoes": [
+    {
+      "versao": "1.00",
+      "contexto": "w",
+      "servicos": [
+        {
+          "nome": "teste",
+          "nomeWsdl": "teste",
+          "assincrono": false,
+          "metodos": [
+            {
+              "compactar": false
+            }
+          ],
+          "eventos": [
+            {}
+          ]
+        }
+      ]
+    }
+  ],
+  "ambientes": [
+    {
+      "_id": 0,
+      "nome": "teste",
+      "uri": "teste"
+    }
+  ],
+  "_class": "br.gov.ms.sefaz.sat.cotin.dfe.projeto.ProjetoEntity"
+},
+{
+  "_id": {
+    "$oid": "64b56438d6f33007a11e32d8"
+  },
+  "nome": "TESTE",
+  "modelo": 22,
+  "descricao": "TESTE",
+  "versoes": [
+    {
+      "versao": "1.00",
+      "contexto": "ws",
+      "servicos": [
+        {
+          "nome": "TESTE",
+          "nomeWsdl": "TESTE",
+          "assincrono": false,
+          "cabecalho": false,
+          "metodos": [
+            {
+              "compactar": false
+            }
+          ],
+          "esquemas": [
+            {}
+          ],
+          "eventos": [
+            {}
+          ]
+        }
+      ]
+    }
+  ],
+  "ambientes": [
+    {
+      "_id": 0,
+      "nome": "TESTE",
+      "uri": "TESTE"
+    }
+  ],
+  "_class": "br.gov.ms.sefaz.sat.cotin.dfe.persistence.sdt.entity.ProjetoEntity"
+},
+{
+  "_id": {
+    "$oid": "64b56637d6f33007a11e32d9"
+  },
+  "nome": "TESTE",
+  "modelo": 88,
+  "descricao": "TESTE",
+  "versoes": [
+    {
+      "versao": "4.00",
+      "contexto": "ws",
+      "servicos": [
+        {
+          "nome": "TESTE",
+          "nomeWsdl": "TESTE",
+          "assincrono": true,
+          "cabecalho": false,
+          "metodos": [
+            {
+              "compactar": false
+            }
+          ],
+          "esquemas": [
+            {}
+          ],
+          "eventos": [
+            {}
+          ]
+        }
+      ]
+    }
+  ],
+  "ambientes": [
+    {
+      "_id": 0,
+      "nome": "TESTE",
+      "uri": "TESTE"
+    }
+  ],
+  "_class": "br.gov.ms.sefaz.sat.cotin.dfe.persistence.sdt.entity.ProjetoEntity"
+}]

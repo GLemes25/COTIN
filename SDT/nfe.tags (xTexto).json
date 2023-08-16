@@ -1,0 +1,146 @@
+[{
+  "_id": {
+    "$oid": "64ac0a40ef53d594902fd8bc"
+  },
+  "nome": "NFe",
+  "pai": "enviNFe",
+  "path": "/NFe",
+  "ordem": "aa00",
+  "tipo": "ROOT",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64ac0a40ef53d594902fd8bd"
+  },
+  "nome": "infNFe",
+  "pai": "NFe",
+  "path": "/NFe/infNFe",
+  "ordem": "ab00",
+  "tipo": "FIXED",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": [
+    {
+      "nome": "versao",
+      "valor": "4.00"
+    }
+  ]
+},
+
+{
+  "_id": {
+    "$oid": "64ac0a40ef53d594902fd94b"
+  },
+  "nome": "det",
+  "pai": "infNFe",
+  "path": "/NFe/infNFe/det",
+  "ordem": "fb00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": [
+    {
+      "nome": "nItem",
+      "valor": "[1-9]{1}[0-9]{0,1}|[1-8]{1}[0-9]{2}|[9]{1}[0-8]{1}[0-9]{1}|[9]{1}[9]{1}[0]{1}"
+    }
+  ]
+},
+
+{
+  "_id": {
+    "$oid": "64ac0a40ef53d594902fdb39"
+  },
+  "nome": "obsItem",
+  "pai": "det",
+  "path": "/NFe/infNFe/det/obsItem",
+  "ordem": "so00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64ac0a40ef53d594902fdb3a"
+  },
+  "nome": "obsCont",
+  "pai": "obsItem",
+  "path": "/NFe/infNFe/det/obsItem/obsCont",
+  "ordem": "sp00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": [
+    {
+      "nome": "xCampo",
+      "valor": "1-20"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64ac0a40ef53d594902fdb3b"
+  },
+  "nome": "xTexto",
+  "pai": "obsCont",
+  "path": "/NFe/infNFe/det/obsItem/obsCont/xTexto",
+  "ordem": "sp01",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-60",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64ac0a40ef53d594902fdb3c"
+  },
+  "nome": "obsFisco",
+  "pai": "obsItem",
+  "path": "/NFe/infNFe/det/obsItem/obsFisco",
+  "ordem": "sr00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": [
+    {
+      "nome": "xCampo",
+      "valor": "1-20"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64ac0a40ef53d594902fdb3d"
+  },
+  "nome": "xTexto",
+  "pai": "obsFisco",
+  "path": "/NFe/infNFe/det/obsItem/obsFisco/xTexto",
+  "ordem": "sr01",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-60",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  }
+}]
+

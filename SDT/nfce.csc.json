@@ -1,0 +1,18 @@
+[{
+  "_id": {
+    "$oid": "64aefff155cf198ed314e714"
+  },
+  "idCsc": "17",
+  "raizCNPJ": "02935843",
+  "protocolo": "000064",
+  "codigoCSC": "27a9c94af54324618fd9a8fe372c216542f4"
+},
+{
+  "_id": {
+    "$oid": "64b80942a5ab6f473432bcf4"
+  },
+  "idCsc": "15",
+  "raizCNPJ": "39582746",
+  "protocolo": "000001",
+  "codigoCSC": "e8316831ab478254f44372bee67acbb39862"
+}]

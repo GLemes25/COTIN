@@ -1,0 +1,6323 @@
+[{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825ca7d"
+  },
+  "nome": "NF3e",
+  "pai": "enviNF3e",
+  "path": "/NF3e",
+  "ordem": "003",
+  "tipo": "ROOT",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825ca7e"
+  },
+  "nome": "infNF3e",
+  "pai": "NF3e",
+  "path": "/NF3e/infNF3e",
+  "ordem": "A01",
+  "tipo": "PAI",
+  "versao": "1.00",
+  "atributos": [
+    {
+      "nome": "versao",
+      "valor": "1.00"
+    }
+  ],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825ca7f"
+  },
+  "nome": "ide",
+  "pai": "infNF3e",
+  "path": "/NF3e/infNF3e/ide",
+  "ordem": "B04",
+  "tipo": "PAI",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825ca80"
+  },
+  "nome": "cUF",
+  "pai": "ide",
+  "path": "/NF3e/infNF3e/ide/cUF",
+  "ordem": "B05",
+  "tipo": "FIXED",
+  "pattern": "50",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825ca81"
+  },
+  "nome": "tpAmb",
+  "pai": "ide",
+  "path": "/NF3e/infNF3e/ide/tpAmb",
+  "ordem": "B06",
+  "tipo": "FIXED",
+  "pattern": "2",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false,
+    "valorPadrao": "",
+    "operacao": ""
+  },
+  "dependente": {
+    "nome": "",
+    "tipo": ""
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825ca82"
+  },
+  "nome": "mod",
+  "pai": "ide",
+  "path": "/NF3e/infNF3e/ide/mod",
+  "ordem": "B07",
+  "tipo": "FIXED",
+  "pattern": "66",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825ca83"
+  },
+  "nome": "serie",
+  "pai": "ide",
+  "path": "/NF3e/infNF3e/ide/serie",
+  "ordem": "B08",
+  "tipo": "FIXED",
+  "pattern": "1",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825ca84"
+  },
+  "nome": "nNF",
+  "pai": "ide",
+  "path": "/NF3e/infNF3e/ide/nNF",
+  "ordem": "B09",
+  "tipo": "REGEX",
+  "pattern": "[1-9]{9}",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825ca85"
+  },
+  "nome": "cNF",
+  "pai": "ide",
+  "path": "/NF3e/infNF3e/ide/cNF",
+  "ordem": "B10",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{7}",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false,
+    "valorPadrao": "",
+    "operacao": ""
+  },
+  "dependente": {
+    "nome": "",
+    "tipo": ""
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825ca86"
+  },
+  "nome": "cDV",
+  "pai": "ide",
+  "path": "/NF3e/infNF3e/ide/cDV",
+  "ordem": "B11",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{1}",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825ca87"
+  },
+  "nome": "dhEmi",
+  "pai": "ide",
+  "path": "/NF3e/infNF3e/ide/dhEmi",
+  "ordem": "B12",
+  "tipo": "DATE",
+  "pattern": "yyyy-MM-dd'T'HH:mm:ssXXX",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825ca88"
+  },
+  "nome": "nSiteAutoriz",
+  "pai": "ide",
+  "path": "/NF3e/infNF3e/ide/nSiteAutoriz",
+  "ordem": "B13a",
+  "tipo": "FIXED",
+  "pattern": "0",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false,
+    "valorPadrao": "",
+    "operacao": ""
+  },
+  "dependente": {
+    "nome": "",
+    "tipo": ""
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825ca89"
+  },
+  "nome": "cMunFG",
+  "pai": "ide",
+  "path": "/NF3e/infNF3e/ide/cMunFG",
+  "ordem": "B14",
+  "tipo": "FIXED",
+  "pattern": "5008305",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825ca8a"
+  },
+  "nome": "finNF3e",
+  "pai": "ide",
+  "path": "/NF3e/infNF3e/ide/finNF3e",
+  "ordem": "B15",
+  "tipo": "FIXED",
+  "pattern": "1",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825ca8b"
+  },
+  "nome": "verProc",
+  "pai": "ide",
+  "path": "/NF3e/infNF3e/ide/verProc",
+  "ordem": "B16",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-20",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825ca8c"
+  },
+  "nome": "emit",
+  "pai": "infNF3e",
+  "path": "/NF3e/infNF3e/emit",
+  "ordem": "C19",
+  "tipo": "PAI",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825ca8d"
+  },
+  "nome": "CNPJ",
+  "pai": "emit",
+  "path": "/NF3e/infNF3e/emit/CNPJ",
+  "ordem": "C20",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{14}",
+  "versao": "1.00",
+  "choiceElement": "CNPJ",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825ca8e"
+  },
+  "nome": "IE",
+  "pai": "emit",
+  "path": "/NF3e/infNF3e/emit/IE",
+  "ordem": "C21",
+  "tipo": "FIXED",
+  "pattern": "287637204",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825ca8f"
+  },
+  "nome": "xNome",
+  "pai": "emit",
+  "path": "/NF3e/infNF3e/emit/xNome",
+  "ordem": "C22",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825ca90"
+  },
+  "nome": "xFant",
+  "pai": "emit",
+  "path": "/NF3e/infNF3e/emit/xFant",
+  "ordem": "C23",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825ca91"
+  },
+  "nome": "enderEmit",
+  "pai": "emit",
+  "path": "/NF3e/infNF3e/emit/enderEmit",
+  "ordem": "C24",
+  "tipo": "PAI",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825ca92"
+  },
+  "nome": "xLgr",
+  "pai": "enderEmit",
+  "path": "/NF3e/infNF3e/emit/enderEmit/xLgr",
+  "ordem": "C25",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825ca93"
+  },
+  "nome": "nro",
+  "pai": "enderEmit",
+  "path": "/NF3e/infNF3e/emit/enderEmit/nro",
+  "ordem": "C26",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-60",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825ca94"
+  },
+  "nome": "xCpl",
+  "pai": "enderEmit",
+  "path": "/NF3e/infNF3e/emit/enderEmit/xCpl",
+  "ordem": "C27",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-60",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825ca95"
+  },
+  "nome": "xBairro",
+  "pai": "enderEmit",
+  "path": "/NF3e/infNF3e/emit/enderEmit/xBairro",
+  "ordem": "C28",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825ca96"
+  },
+  "nome": "cMun",
+  "pai": "enderEmit",
+  "path": "/NF3e/infNF3e/emit/enderEmit/cMun",
+  "ordem": "C29",
+  "tipo": "FIXED",
+  "pattern": "5008305",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825ca97"
+  },
+  "nome": "xMun",
+  "pai": "enderEmit",
+  "path": "/NF3e/infNF3e/emit/enderEmit/xMun",
+  "ordem": "C30",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825ca98"
+  },
+  "nome": "CEP",
+  "pai": "enderEmit",
+  "path": "/NF3e/infNF3e/emit/enderEmit/CEP",
+  "ordem": "C31",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{8}",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825ca99"
+  },
+  "nome": "UF",
+  "pai": "enderEmit",
+  "path": "/NF3e/infNF3e/emit/enderEmit/UF",
+  "ordem": "C32",
+  "tipo": "FIXED",
+  "pattern": "MS",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825ca9a"
+  },
+  "nome": "fone",
+  "pai": "enderEmit",
+  "path": "/NF3e/infNF3e/emit/enderEmit/fone",
+  "ordem": "C33",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{7,12}",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825ca9b"
+  },
+  "nome": "email",
+  "pai": "enderEmit",
+  "path": "/NF3e/infNF3e/emit/enderEmit/email",
+  "ordem": "C34",
+  "tipo": "FIXED",
+  "pattern": "teste@teste.com",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825ca9c"
+  },
+  "nome": "dest",
+  "pai": "infNF3e",
+  "path": "/NF3e/infNF3e/dest",
+  "ordem": "E35",
+  "tipo": "PAI",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825ca9d"
+  },
+  "nome": "xNome",
+  "pai": "dest",
+  "path": "/NF3e/infNF3e/dest/xNome",
+  "ordem": "E36",
+  "tipo": "FIXED",
+  "pattern": "NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825ca9e"
+  },
+  "nome": "CNPJ",
+  "pai": "dest",
+  "path": "/NF3e/infNF3e/dest/CNPJ",
+  "ordem": "E37",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{14}",
+  "versao": "1.00",
+  "choiceElement": "dest",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825ca9f"
+  },
+  "nome": "CPF",
+  "pai": "dest",
+  "path": "/NF3e/infNF3e/dest/CPF",
+  "ordem": "E38",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{11}",
+  "versao": "1.00",
+  "choiceElement": "dest",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825caa0"
+  },
+  "nome": "idOutros",
+  "pai": "dest",
+  "path": "/NF3e/infNF3e/dest/idOutros",
+  "ordem": "E39",
+  "tipo": "REGEX",
+  "pattern": "([!-ÿ]{0}|[!-ÿ]{2,20})?",
+  "versao": "1.00",
+  "choiceElement": "dest",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false,
+    "valorPadrao": "",
+    "operacao": ""
+  },
+  "dependente": {
+    "nome": "",
+    "tipo": ""
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825caa1"
+  },
+  "nome": "indIEDest",
+  "pai": "dest",
+  "path": "/NF3e/infNF3e/dest/indIEDest",
+  "ordem": "E40",
+  "tipo": "FIXED",
+  "pattern": "9",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825caa3"
+  },
+  "nome": "IM",
+  "pai": "dest",
+  "path": "/NF3e/infNF3e/dest/IM",
+  "ordem": "E42",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-15",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825caa4"
+  },
+  "nome": "cNIS",
+  "pai": "dest",
+  "path": "/NF3e/infNF3e/dest/cNIS",
+  "ordem": "E43",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{15}",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false,
+    "valorPadrao": "",
+    "operacao": ""
+  },
+  "dependente": {
+    "nome": "",
+    "tipo": ""
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825caa5"
+  },
+  "nome": "enderDest",
+  "pai": "dest",
+  "path": "/NF3e/infNF3e/dest/enderDest",
+  "ordem": "E45",
+  "tipo": "PAI",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": null,
+    "valorPadrao": null,
+    "operacao": null
+  },
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825caa6"
+  },
+  "nome": "xLgr",
+  "pai": "enderDest",
+  "path": "/NF3e/infNF3e/dest/enderDest/xLgr",
+  "ordem": "E45",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825caa7"
+  },
+  "nome": "nro",
+  "pai": "enderDest",
+  "path": "/NF3e/infNF3e/dest/enderDest/nro",
+  "ordem": "E46",
+  "tipo": "RANGE_NUMBER",
+  "pattern": "1-60",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825caa8"
+  },
+  "nome": "xCpl",
+  "pai": "enderDest",
+  "path": "/NF3e/infNF3e/dest/enderDest/xCpl",
+  "ordem": "E47",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-60",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825caa9"
+  },
+  "nome": "xBairro",
+  "pai": "enderDest",
+  "path": "/NF3e/infNF3e/dest/enderDest/xBairro",
+  "ordem": "E48",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825caaa"
+  },
+  "nome": "cMun",
+  "pai": "enderDest",
+  "path": "/NF3e/infNF3e/dest/enderDest/cMun",
+  "ordem": "E49",
+  "tipo": "FIXED",
+  "pattern": "5008305",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825caab"
+  },
+  "nome": "xMun",
+  "pai": "enderDest",
+  "path": "/NF3e/infNF3e/dest/enderDest/xMun",
+  "ordem": "E50",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825caac"
+  },
+  "nome": "CEP",
+  "pai": "enderDest",
+  "path": "/NF3e/infNF3e/dest/enderDest/CEP",
+  "ordem": "E51",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{8}",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825caad"
+  },
+  "nome": "UF",
+  "pai": "enderDest",
+  "path": "/NF3e/infNF3e/dest/enderDest/UF",
+  "ordem": "E52",
+  "tipo": "FIXED",
+  "pattern": "MS",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825caae"
+  },
+  "nome": "fone",
+  "pai": "enderDest",
+  "path": "/NF3e/infNF3e/dest/enderDest/fone",
+  "ordem": "E53",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{7,12}",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825caaf"
+  },
+  "nome": "email",
+  "pai": "enderDest",
+  "path": "/NF3e/infNF3e/dest/enderDest/email",
+  "ordem": "E54",
+  "tipo": "FIXED",
+  "pattern": "teste@teste.com",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cab0"
+  },
+  "nome": "acessante",
+  "pai": "infNF3e",
+  "path": "/NF3e/infNF3e/acessante",
+  "ordem": "E55",
+  "tipo": "PAI",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cab1"
+  },
+  "nome": "idAcesso",
+  "pai": "acessante",
+  "path": "/NF3e/infNF3e/acessante/idAcesso",
+  "ordem": "E56",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-15",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cab2"
+  },
+  "nome": "idCodCliente",
+  "pai": "acessante",
+  "path": "/NF3e/infNF3e/acessante/idCodCliente",
+  "ordem": "E57",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "5-20",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cab3"
+  },
+  "nome": "tpAcesso",
+  "pai": "acessante",
+  "path": "/NF3e/infNF3e/acessante/tpAcesso",
+  "ordem": "E58",
+  "tipo": "FIXED",
+  "pattern": "0",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cab4"
+  },
+  "nome": "xNomeUC",
+  "pai": "acessante",
+  "path": "/NF3e/infNF3e/acessante/xNomeUC",
+  "ordem": "E59",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cab5"
+  },
+  "nome": "tpClasse",
+  "pai": "acessante",
+  "path": "/NF3e/infNF3e/acessante/tpClasse",
+  "ordem": "E60",
+  "tipo": "FIXED",
+  "pattern": "01",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cab6"
+  },
+  "nome": "tpSubClasse",
+  "pai": "acessante",
+  "path": "/NF3e/infNF3e/acessante/tpSubClasse",
+  "ordem": "E61",
+  "tipo": "FIXED",
+  "pattern": "01",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cab7"
+  },
+  "nome": "tpFase",
+  "pai": "acessante",
+  "path": "/NF3e/infNF3e/acessante/tpFase",
+  "ordem": "E62",
+  "tipo": "FIXED",
+  "pattern": "1",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cab8"
+  },
+  "nome": "tpGrpTensao",
+  "pai": "acessante",
+  "path": "/NF3e/infNF3e/acessante/tpGrpTensao",
+  "ordem": "E63",
+  "tipo": "FIXED",
+  "pattern": "01",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cab9"
+  },
+  "nome": "tpModTar",
+  "pai": "acessante",
+  "path": "/NF3e/infNF3e/acessante/tpModTar",
+  "ordem": "E64",
+  "tipo": "FIXED",
+  "pattern": "01",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825caba"
+  },
+  "nome": "longGPS",
+  "pai": "acessante",
+  "path": "/NF3e/infNF3e/acessante/longGPS",
+  "ordem": "E66",
+  "tipo": "REGEX",
+  "pattern": "[0-9]\\.[0-9]{6}|[1-9][0-9]\\.[0-9]{6}|1[0-7][0-9]\\.[0-9]{6}|180\\.[0-9]{6}|-[0-9]\\.[0-9]{6}|-[1-9][0-9]\\.[0-9]{6}|-1[0-7][0-9]\\.[0-9]{6}|-180\\.[0-9]{6}",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false,
+    "valorPadrao": "",
+    "operacao": ""
+  },
+  "dependente": {
+    "nome": "",
+    "tipo": ""
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cabb"
+  },
+  "nome": "codRoteiroLeitura",
+  "pai": "acessante",
+  "path": "/NF3e/infNF3e/acessante/codRoteiroLeitura",
+  "ordem": "E66a",
+  "tipo": "FIXED",
+  "pattern": "nome un consumidora",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": null,
+    "valorPadrao": null,
+    "operacao": null
+  },
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cabc"
+  },
+  "nome": "gSub",
+  "pai": "infNF3e",
+  "path": "/NF3e/infNF3e/gSub",
+  "ordem": "F67",
+  "tipo": "PAI",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cabd"
+  },
+  "nome": "chNF3e",
+  "pai": "gSub",
+  "path": "/NF3e/infNF3e/gSub/chNF3e",
+  "ordem": "F68",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{44}",
+  "versao": "1.00",
+  "choiceElement": "chNF3e",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cabe"
+  },
+  "nome": "gNF",
+  "pai": "gSub",
+  "path": "/NF3e/infNF3e/gSub/gNF",
+  "ordem": "F69",
+  "tipo": "PAI",
+  "versao": "1.00",
+  "choiceElement": "gNF",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cabf"
+  },
+  "nome": "CNPJ",
+  "pai": "gNF",
+  "path": "/NF3e/infNF3e/gSub/gNF/CNPJ",
+  "ordem": "F70",
+  "tipo": "FIXED",
+  "pattern": "33041260095793",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cac0"
+  },
+  "nome": "serie",
+  "pai": "gNF",
+  "path": "/NF3e/infNF3e/gSub/gNF/serie",
+  "ordem": "F71",
+  "tipo": "FIXED",
+  "pattern": "001",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cac1"
+  },
+  "nome": "nNF",
+  "pai": "gNF",
+  "path": "/NF3e/infNF3e/gSub/gNF/nNF",
+  "ordem": "F72",
+  "tipo": "REGEX",
+  "pattern": "[1-9]{9}",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cac2"
+  },
+  "nome": "CompetEmis",
+  "pai": "gNF",
+  "path": "/NF3e/infNF3e/gSub/gNF/CompetEmis",
+  "ordem": "F73",
+  "tipo": "DATE",
+  "pattern": "yyyyMM",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cac3"
+  },
+  "nome": "CompetApur",
+  "pai": "gNF",
+  "path": "/NF3e/infNF3e/gSub/gNF/CompetApur",
+  "ordem": "F74",
+  "tipo": "DATE",
+  "pattern": "yyyyMM",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cac4"
+  },
+  "nome": "hash115",
+  "pai": "gNF",
+  "path": "/NF3e/infNF3e/gSub/gNF/hash115",
+  "ordem": "ZD288",
+  "tipo": "FIXED",
+  "pattern": "aaaaaaaaaaaaaaaafWxpstRiP8MsMNrMli1X7AdKMsI=",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cac5"
+  },
+  "nome": "motSub",
+  "pai": "gSub",
+  "path": "/NF3e/infNF3e/gSub/motSub",
+  "ordem": "F76",
+  "tipo": "FIXED",
+  "pattern": "01",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cac6"
+  },
+  "nome": "gJudic",
+  "pai": "infNF3e",
+  "path": "/NF3e/infNF3e/gJudic",
+  "ordem": "F77",
+  "tipo": "PAI",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cac7"
+  },
+  "nome": "chNF3e",
+  "pai": "gJudic",
+  "path": "/NF3e/infNF3e/gJudic/chNF3e",
+  "ordem": "F78",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{44}",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cac8"
+  },
+  "nome": "gGrContrat",
+  "pai": "infNF3e",
+  "path": "/NF3e/infNF3e/gGrContrat",
+  "ordem": "F79",
+  "tipo": "PAI",
+  "versao": "1.00",
+  "atributos": [
+    {
+      "nome": "nContrat",
+      "tipo": "INDEX",
+      "tamanho": 2,
+      "zeroEsquerda": true
+    }
+  ],
+  "ocorrencias": "2",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cac9"
+  },
+  "nome": "tpGrContrat",
+  "pai": "gGrContrat",
+  "path": "/NF3e/infNF3e/gGrContrat/tpGrContrat",
+  "ordem": "F81",
+  "tipo": "RANGE_NUMBER",
+  "pattern": "1-4",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  },
+  "dependente": {
+    "nome": "",
+    "tipo": ""
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825caca"
+  },
+  "nome": "tpPosTar",
+  "pai": "gGrContrat",
+  "path": "/NF3e/infNF3e/gGrContrat/tpPosTar",
+  "ordem": "F82",
+  "tipo": "RANGE_NUMBER",
+  "pattern": "0-2",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cacb"
+  },
+  "nome": "qUnidContrat",
+  "pai": "gGrContrat",
+  "path": "/NF3e/infNF3e/gGrContrat/qUnidContrat",
+  "ordem": "F83",
+  "tipo": "FIXED",
+  "pattern": "0.01",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cacc"
+  },
+  "nome": "gMed",
+  "pai": "infNF3e",
+  "path": "/NF3e/infNF3e/gMed",
+  "ordem": "F84",
+  "tipo": "PAI",
+  "versao": "1.00",
+  "atributos": [
+    {
+      "nome": "nMed",
+      "tipo": "INDEX",
+      "tamanho": 2,
+      "zeroEsquerda": true
+    }
+  ],
+  "ocorrencias": "2",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cacd"
+  },
+  "nome": "idMedidor",
+  "pai": "gMed",
+  "path": "/NF3e/infNF3e/gMed/idMedidor",
+  "ordem": "F86",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-15",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  },
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cace"
+  },
+  "nome": "dMedAnt",
+  "pai": "gMed",
+  "path": "/NF3e/infNF3e/gMed/dMedAnt",
+  "ordem": "F87",
+  "tipo": "DATE",
+  "pattern": "yyyy-MM-dd",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cacf"
+  },
+  "nome": "dMedAtu",
+  "pai": "gMed",
+  "path": "/NF3e/infNF3e/gMed/dMedAtu",
+  "ordem": "F88",
+  "tipo": "DATE",
+  "pattern": "yyyy-MM-dd",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cad0"
+  },
+  "nome": "gSCEE",
+  "pai": "infNF3e",
+  "path": "/NF3e/infNF3e/gSCEE",
+  "ordem": "F89",
+  "tipo": "PAI",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cad1"
+  },
+  "nome": "tpPartComp",
+  "pai": "gSCEE",
+  "path": "/NF3e/infNF3e/gSCEE/tpPartComp",
+  "ordem": "F90",
+  "tipo": "RANGE_NUMBER",
+  "pattern": "1-4",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cad2"
+  },
+  "nome": "vPotInst",
+  "pai": "gConsumidor",
+  "path": "/NF3e/infNF3e/gSCEE/gConsumidor/vPotInst",
+  "ordem": "F93a",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{3}|[1-9]{1}[0-9]{0,4}(\\.[0-9]{3})?",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false,
+    "valorPadrao": "",
+    "operacao": ""
+  },
+  "dependente": {
+    "nome": "",
+    "tipo": ""
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cad3"
+  },
+  "nome": "gConsumidor",
+  "pai": "gSCEE",
+  "path": "/NF3e/infNF3e/gSCEE/gConsumidor",
+  "ordem": "F92",
+  "tipo": "PAI",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cad4"
+  },
+  "nome": "idAcessGer",
+  "pai": "gConsumidor",
+  "path": "/NF3e/infNF3e/gSCEE/gConsumidor/idAcessGer",
+  "ordem": "F93",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-20",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cad5"
+  },
+  "nome": "enerAloc",
+  "pai": "gConsumidor",
+  "path": "/NF3e/infNF3e/gSCEE/gConsumidor/enerAloc",
+  "ordem": "F94",
+  "tipo": "FIXED",
+  "pattern": "0",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cad6"
+  },
+  "nome": "tpPosTar",
+  "pai": "gConsumidor",
+  "path": "/NF3e/infNF3e/gSCEE/gConsumidor/tpPosTar",
+  "ordem": "F95",
+  "tipo": "RANGE_NUMBER",
+  "pattern": "0-3",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cad7"
+  },
+  "nome": "gSaldoCred",
+  "pai": "gSCEE",
+  "path": "/NF3e/infNF3e/gSCEE/gSaldoCred",
+  "ordem": "F96",
+  "tipo": "PAI",
+  "versao": "1.00",
+  "ocorrencias": "3",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cad8"
+  },
+  "nome": "tpPosTar",
+  "pai": "gSaldoCred",
+  "path": "/NF3e/infNF3e/gSCEE/gSaldoCred/tpPosTar",
+  "ordem": "F97",
+  "tipo": "RANGE_NUMBER",
+  "pattern": "0-3",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cad9"
+  },
+  "nome": "vSaldAnt",
+  "pai": "gSaldoCred",
+  "path": "/NF3e/infNF3e/gSCEE/gSaldoCred/vSaldAnt",
+  "ordem": "F98",
+  "tipo": "FIXED",
+  "pattern": "0",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cada"
+  },
+  "nome": "vCredExpirado",
+  "pai": "gSaldoCred",
+  "path": "/NF3e/infNF3e/gSCEE/gSaldoCred/vCredExpirado",
+  "ordem": "F99",
+  "tipo": "FIXED",
+  "pattern": "0",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cadb"
+  },
+  "nome": "vSaldAtual",
+  "pai": "gSaldoCred",
+  "path": "/NF3e/infNF3e/gSCEE/gSaldoCred/vSaldAtual",
+  "ordem": "G100",
+  "tipo": "FIXED",
+  "pattern": "0",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cadc"
+  },
+  "nome": "vCredExpirar",
+  "pai": "gSaldoCred",
+  "path": "/NF3e/infNF3e/gSCEE/gSaldoCred/vCredExpirar",
+  "ordem": "G101",
+  "tipo": "FIXED",
+  "pattern": "0",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cadd"
+  },
+  "nome": "CompetExpirar",
+  "pai": "gSaldoCred",
+  "path": "/NF3e/infNF3e/gSCEE/gSaldoCred/CompetExpirar",
+  "ordem": "G102",
+  "tipo": "DATE",
+  "pattern": "yyyyMM",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cade"
+  },
+  "nome": "NFdet",
+  "pai": "infNF3e",
+  "path": "/NF3e/infNF3e/NFdet",
+  "ordem": "H103",
+  "tipo": "PAI",
+  "versao": "1.00",
+  "atributos": [
+    {
+      "nome": "chNF3eAnt",
+      "valor": "11111111111111111111111111111111111111111111"
+    }
+  ],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cadf"
+  },
+  "nome": "det",
+  "pai": "NFdet",
+  "path": "/NF3e/infNF3e/NFdet/det",
+  "ordem": "H105",
+  "tipo": "PAI",
+  "versao": "1.00",
+  "atributos": [
+    {
+      "nome": "nItem",
+      "tipo": "INDEX"
+    }
+  ],
+  "ocorrencias": "2",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cae0"
+  },
+  "nome": "gAjusteNF3eAnt",
+  "pai": "det",
+  "path": "/NF3e/infNF3e/NFdet/det/gAjusteNF3eAnt",
+  "ordem": "H107",
+  "tipo": "PAI",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cae1"
+  },
+  "nome": "tpAjuste",
+  "pai": "gAjusteNF3eAnt",
+  "path": "/NF3e/infNF3e/NFdet/det/gAjusteNF3eAnt/tpAjuste",
+  "ordem": "H108",
+  "tipo": "RANGE_NUMBER",
+  "pattern": "1-4",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cae2"
+  },
+  "nome": "motAjuste",
+  "pai": "gAjusteNF3eAnt",
+  "path": "/NF3e/infNF3e/NFdet/det/gAjusteNF3eAnt/motAjuste",
+  "ordem": "H109",
+  "tipo": "RANGE_NUMBER",
+  "pattern": "1-5",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cae3"
+  },
+  "nome": "detItemAnt",
+  "pai": "det",
+  "path": "/NF3e/infNF3e/NFdet/det/detItemAnt",
+  "ordem": "H110",
+  "tipo": "PAI",
+  "versao": "1.00",
+  "atributos": [
+    {
+      "nome": "nItemAnt",
+      "tipo": "INDEX"
+    }
+  ],
+  "choiceElement": "detItemAnt",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cae4"
+  },
+  "nome": "vItem",
+  "pai": "detItemAnt",
+  "path": "/NF3e/infNF3e/NFdet/det/detItemAnt/vItem",
+  "ordem": "H112",
+  "tipo": "FIXED",
+  "pattern": "0.01",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cae5"
+  },
+  "nome": "qFaturada",
+  "pai": "detItemAnt",
+  "path": "/NF3e/infNF3e/NFdet/det/detItemAnt/qFaturada",
+  "ordem": "H113",
+  "tipo": "FIXED",
+  "pattern": "1",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cae6"
+  },
+  "nome": "vProd",
+  "pai": "detItemAnt",
+  "path": "/NF3e/infNF3e/NFdet/det/detItemAnt/vProd",
+  "ordem": "H114",
+  "tipo": "FIXED",
+  "pattern": "0.01",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cae7"
+  },
+  "nome": "cClass",
+  "pai": "detItemAnt",
+  "path": "/NF3e/infNF3e/NFdet/det/detItemAnt/cClass",
+  "ordem": "H115",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{7}",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cae8"
+  },
+  "nome": "vBC",
+  "pai": "detItemAnt",
+  "path": "/NF3e/infNF3e/NFdet/det/detItemAnt/vBC",
+  "ordem": "H116",
+  "tipo": "FIXED",
+  "pattern": "0.01",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cae9"
+  },
+  "nome": "pICMS",
+  "pai": "detItemAnt",
+  "path": "/NF3e/infNF3e/NFdet/det/detItemAnt/pICMS",
+  "ordem": "H117",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,2}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825caea"
+  },
+  "nome": "vFCPST",
+  "pai": "detItemAnt",
+  "path": "/NF3e/infNF3e/NFdet/det/detItemAnt/vFCPST",
+  "ordem": "H118d",
+  "tipo": "FIXED",
+  "pattern": "0.00",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false,
+    "valorPadrao": "",
+    "operacao": ""
+  },
+  "dependente": {
+    "nome": "",
+    "tipo": ""
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825caeb"
+  },
+  "nome": "vPISEfet",
+  "pai": "detItemAnt",
+  "path": "/NF3e/infNF3e/NFdet/det/detItemAnt/vPISEfet",
+  "ordem": "H119a",
+  "tipo": "FIXED",
+  "pattern": "0.01",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": null,
+    "valorPadrao": null,
+    "operacao": null
+  },
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825caec"
+  },
+  "nome": "vCOFINSEfet",
+  "pai": "detItemAnt",
+  "path": "/NF3e/infNF3e/NFdet/det/detItemAnt/vCOFINSEfet",
+  "ordem": "H120a",
+  "tipo": "FIXED",
+  "pattern": "0.00",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": null,
+    "valorPadrao": null,
+    "operacao": null
+  },
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825caed"
+  },
+  "nome": "detItem",
+  "pai": "det",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem",
+  "ordem": "H121",
+  "tipo": "PAI",
+  "versao": "1.00",
+  "choiceElement": "detItem",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825caee"
+  },
+  "nome": "gTarif",
+  "pai": "detItem",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/gTarif",
+  "ordem": "I123",
+  "tipo": "PAI",
+  "versao": "1.00",
+  "ocorrencias": "2",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825caef"
+  },
+  "nome": "dIniTarif",
+  "pai": "gTarif",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/gTarif/dIniTarif",
+  "ordem": "I124",
+  "tipo": "DATE",
+  "pattern": "yyyy-MM-dd",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825caf0"
+  },
+  "nome": "dFimTarif",
+  "pai": "gTarif",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/gTarif/dFimTarif",
+  "ordem": "I125",
+  "tipo": "DATE",
+  "pattern": "yyyy-MM-dd",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825caf1"
+  },
+  "nome": "tpAto",
+  "pai": "gTarif",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/gTarif/tpAto",
+  "ordem": "I126",
+  "tipo": "RANGE_NUMBER",
+  "pattern": "1-3",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825caf2"
+  },
+  "nome": "nAto",
+  "pai": "gTarif",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/gTarif/nAto",
+  "ordem": "I127",
+  "tipo": "RANGE_NUMBER",
+  "pattern": "1000-9999",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825caf3"
+  },
+  "nome": "anoAto",
+  "pai": "gTarif",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/gTarif/anoAto",
+  "ordem": "I128",
+  "tipo": "RANGE_NUMBER",
+  "pattern": "1900-2500",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825caf4"
+  },
+  "nome": "tpTarif",
+  "pai": "gTarif",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/gTarif/tpTarif",
+  "ordem": "I129",
+  "tipo": "RANGE_NUMBER",
+  "pattern": "1-2",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825caf5"
+  },
+  "nome": "cPosTarif",
+  "pai": "gTarif",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/gTarif/cPosTarif",
+  "ordem": "I130",
+  "tipo": "RANGE_NUMBER",
+  "pattern": "0-7",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825caf6"
+  },
+  "nome": "uMed",
+  "pai": "gTarif",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/gTarif/uMed",
+  "ordem": "I131",
+  "tipo": "RANGE_NUMBER",
+  "pattern": "1-2",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825caf7"
+  },
+  "nome": "vTarifHom",
+  "pai": "gTarif",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/gTarif/vTarifHom",
+  "ordem": "I132",
+  "tipo": "FIXED",
+  "pattern": "0",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825caf8"
+  },
+  "nome": "vTarifAplic",
+  "pai": "gTarif",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/gTarif/vTarifAplic",
+  "ordem": "I133",
+  "tipo": "FIXED",
+  "pattern": "0",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825caf9"
+  },
+  "nome": "motDifTarif",
+  "pai": "gTarif",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/gTarif/motDifTarif",
+  "ordem": "I134",
+  "tipo": "FIXED",
+  "pattern": "01",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cafa"
+  },
+  "nome": "gAdBand",
+  "pai": "detItem",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/gAdBand",
+  "ordem": "I135",
+  "tipo": "PAI",
+  "versao": "1.00",
+  "ocorrencias": "2",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cafb"
+  },
+  "nome": "dIniAdBand",
+  "pai": "gAdBand",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/gAdBand/dIniAdBand",
+  "ordem": "I136",
+  "tipo": "DATE",
+  "pattern": "yyyy-MM-dd",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cafc"
+  },
+  "nome": "dFimAdBand",
+  "pai": "gAdBand",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/gAdBand/dFimAdBand",
+  "ordem": "I137",
+  "tipo": "DATE",
+  "pattern": "yyyy-MM-dd",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cafd"
+  },
+  "nome": "tpBand",
+  "pai": "gAdBand",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/gAdBand/tpBand",
+  "ordem": "I138",
+  "tipo": "RANGE_NUMBER",
+  "pattern": "1-4",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cafe"
+  },
+  "nome": "vAdBand",
+  "pai": "gAdBand",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/gAdBand/vAdBand",
+  "ordem": "I139",
+  "tipo": "FIXED",
+  "pattern": "0",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825caff"
+  },
+  "nome": "vAdBandAplic",
+  "pai": "gAdBand",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/gAdBand/vAdBandAplic",
+  "ordem": "I140",
+  "tipo": "FIXED",
+  "pattern": "0.000",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb00"
+  },
+  "nome": "motDifBand",
+  "pai": "gAdBand",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/gAdBand/motDifBand",
+  "ordem": "I141",
+  "tipo": "FIXED",
+  "pattern": "01",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb01"
+  },
+  "nome": "prod",
+  "pai": "detItem",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/prod",
+  "ordem": "I142",
+  "tipo": "PAI",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb02"
+  },
+  "nome": "indOrigemQtd",
+  "pai": "prod",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/prod/indOrigemQtd",
+  "ordem": "I143",
+  "tipo": "FIXED",
+  "pattern": "1",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb03"
+  },
+  "nome": "gMedicao",
+  "pai": "prod",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/prod/gMedicao",
+  "ordem": "I144",
+  "tipo": "PAI",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb04"
+  },
+  "nome": "nMed",
+  "pai": "gMedicao",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/prod/gMedicao/nMed",
+  "ordem": "I145",
+  "tipo": "REGEX",
+  "pattern": "(0[1-9]|1[0-9]|20)",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb05"
+  },
+  "nome": "nContrat",
+  "pai": "gMedicao",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/prod/gMedicao/nContrat",
+  "ordem": "I146",
+  "tipo": "REGEX",
+  "pattern": "(0[1-9]|1[0-9]|20)",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb06"
+  },
+  "nome": "gMedida",
+  "pai": "gMedicao",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/prod/gMedicao/gMedida",
+  "ordem": "I147",
+  "tipo": "PAI",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb07"
+  },
+  "nome": "tpGrMed",
+  "pai": "gMedida",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/prod/gMedicao/gMedida/tpGrMed",
+  "ordem": "I148",
+  "tipo": "FIXED",
+  "pattern": "01",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb08"
+  },
+  "nome": "cPosTarif",
+  "pai": "gMedida",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/prod/gMedicao/gMedida/cPosTarif",
+  "ordem": "I149",
+  "tipo": "FIXED",
+  "pattern": "0",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb09"
+  },
+  "nome": "uMed",
+  "pai": "gMedida",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/prod/gMedicao/gMedida/uMed",
+  "ordem": "I150",
+  "tipo": "FIXED",
+  "pattern": "1",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb0a"
+  },
+  "nome": "vMedAnt",
+  "pai": "gMedida",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/prod/gMedicao/gMedida/vMedAnt",
+  "ordem": "I151",
+  "tipo": "FIXED",
+  "pattern": "0.01",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb0b"
+  },
+  "nome": "vMedAtu",
+  "pai": "gMedida",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/prod/gMedicao/gMedida/vMedAtu",
+  "ordem": "I152",
+  "tipo": "FIXED",
+  "pattern": "0.01",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb0c"
+  },
+  "nome": "vConst",
+  "pai": "gMedida",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/prod/gMedicao/gMedida/vConst",
+  "ordem": "I153",
+  "tipo": "FIXED",
+  "pattern": "0.01",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb0d"
+  },
+  "nome": "vMed",
+  "pai": "gMedida",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/prod/gMedicao/gMedida/vMed",
+  "ordem": "I154",
+  "tipo": "FIXED",
+  "pattern": "0.01",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb0e"
+  },
+  "nome": "pPerdaTran",
+  "pai": "gMedida",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/prod/gMedicao/gMedida/pPerdaTran",
+  "ordem": "I155",
+  "tipo": "FIXED",
+  "pattern": "0.00",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb0f"
+  },
+  "nome": "vMedPerdaTran",
+  "pai": "gMedida",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/prod/gMedicao/gMedida/vMedPerdaTran",
+  "ordem": "I156",
+  "tipo": "FIXED",
+  "pattern": "0.01",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb10"
+  },
+  "nome": "cProd",
+  "pai": "prod",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/prod/cProd",
+  "ordem": "I158",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-60",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb11"
+  },
+  "nome": "xProd",
+  "pai": "prod",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/prod/xProd",
+  "ordem": "I159",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-120",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb12"
+  },
+  "nome": "cClass",
+  "pai": "prod",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/prod/cClass",
+  "ordem": "I160",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{7}",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb13"
+  },
+  "nome": "CFOP",
+  "pai": "prod",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/prod/CFOP",
+  "ordem": "I161",
+  "tipo": "FIXED",
+  "pattern": "5101",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb14"
+  },
+  "nome": "uMed",
+  "pai": "prod",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/prod/uMed",
+  "ordem": "I162",
+  "tipo": "FIXED",
+  "pattern": "1",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb15"
+  },
+  "nome": "qFaturada",
+  "pai": "prod",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/prod/qFaturada",
+  "ordem": "I163",
+  "tipo": "FIXED",
+  "pattern": "1",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb16"
+  },
+  "nome": "vItem",
+  "pai": "prod",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/prod/vItem",
+  "ordem": "I164",
+  "tipo": "FIXED",
+  "pattern": "0.01",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb17"
+  },
+  "nome": "vProd",
+  "pai": "prod",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/prod/vProd",
+  "ordem": "I165",
+  "tipo": "FIXED",
+  "pattern": "0.01",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb18"
+  },
+  "nome": "indDevolucao",
+  "pai": "prod",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/prod/indDevolucao",
+  "ordem": "I166",
+  "tipo": "FIXED",
+  "pattern": "1",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb19"
+  },
+  "nome": "indPrecoACL",
+  "pai": "prod",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/prod/indPrecoACL",
+  "ordem": "I167",
+  "tipo": "FIXED",
+  "pattern": "1",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb1a"
+  },
+  "nome": "PISEfet",
+  "pai": "imposto",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/PISEfet",
+  "ordem": "I215",
+  "tipo": "PAI",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false,
+    "valorPadrao": "",
+    "operacao": ""
+  },
+  "dependente": {
+    "nome": "",
+    "tipo": ""
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb33"
+  },
+  "nome": "ICMS40",
+  "pai": "imposto",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/ICMS40",
+  "ordem": "I193",
+  "tipo": "PAI",
+  "versao": "1.00",
+  "choiceElement": "ICMS40",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb34"
+  },
+  "nome": "CST",
+  "pai": "ICMS40",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/ICMS40/CST",
+  "ordem": "I194",
+  "tipo": "FIXED",
+  "pattern": "40",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb35"
+  },
+  "nome": "vICMSDeson",
+  "pai": "ICMS40",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/ICMS40/vICMSDeson",
+  "ordem": "I195",
+  "tipo": "FIXED",
+  "pattern": "0.01",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb36"
+  },
+  "nome": "cBenef",
+  "pai": "ICMS40",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/ICMS40/cBenef",
+  "ordem": "I196",
+  "tipo": "REGEX",
+  "pattern": "([!-ÿ]{8}|[!-ÿ]{10}|SEM CBENEF)?",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb37"
+  },
+  "nome": "ICMS51",
+  "pai": "imposto",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/ICMS51",
+  "ordem": "I197",
+  "tipo": "PAI",
+  "versao": "1.00",
+  "choiceElement": "ICMS51",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb38"
+  },
+  "nome": "CST",
+  "pai": "ICMS51",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/ICMS51/CST",
+  "ordem": "I198",
+  "tipo": "FIXED",
+  "pattern": "51",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb39"
+  },
+  "nome": "vICMSDeson",
+  "pai": "ICMS51",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/ICMS51/vICMSDeson",
+  "ordem": "I199",
+  "tipo": "FIXED",
+  "pattern": "0.01",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb3a"
+  },
+  "nome": "cBenef",
+  "pai": "ICMS51",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/ICMS51/cBenef",
+  "ordem": "I200",
+  "tipo": "REGEX",
+  "pattern": "([!-ÿ]{8}|[!-ÿ]{10}|SEM CBENEF)?",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb3b"
+  },
+  "nome": "ICMS90",
+  "pai": "imposto",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/ICMS90",
+  "ordem": "I201",
+  "tipo": "PAI",
+  "versao": "1.00",
+  "choiceElement": "ICMS90",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb3c"
+  },
+  "nome": "CST",
+  "pai": "ICMS90",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/ICMS90/CST",
+  "ordem": "I202",
+  "tipo": "FIXED",
+  "pattern": "90",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb3d"
+  },
+  "nome": "vBC",
+  "pai": "ICMS90",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/ICMS90/vBC",
+  "ordem": "I203",
+  "tipo": "FIXED",
+  "pattern": "0.01",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb3e"
+  },
+  "nome": "pICMS",
+  "pai": "ICMS90",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/ICMS90/pICMS",
+  "ordem": "I204",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,2}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb3f"
+  },
+  "nome": "vICMS",
+  "pai": "ICMS90",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/ICMS90/vICMS",
+  "ordem": "I205",
+  "tipo": "FIXED",
+  "pattern": "0.00",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb40"
+  },
+  "nome": "PIS",
+  "pai": "imposto",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/PIS",
+  "ordem": "I206",
+  "tipo": "PAI",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb41"
+  },
+  "nome": "CST",
+  "pai": "PIS",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/PIS/CST",
+  "ordem": "I207",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "01|02",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb42"
+  },
+  "nome": "vBC",
+  "pai": "PIS",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/PIS/vBC",
+  "ordem": "I208",
+  "tipo": "FIXED",
+  "pattern": "0.01",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb43"
+  },
+  "nome": "pPIS",
+  "pai": "PIS",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/PIS/pPIS",
+  "ordem": "I209",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,2}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb44"
+  },
+  "nome": "vPIS",
+  "pai": "PIS",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/PIS/vPIS",
+  "ordem": "I210",
+  "tipo": "FIXED",
+  "pattern": "0.01",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb45"
+  },
+  "nome": "COFINS",
+  "pai": "imposto",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/COFINS",
+  "ordem": "I211",
+  "tipo": "PAI",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb46"
+  },
+  "nome": "CST",
+  "pai": "COFINS",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/COFINS/CST",
+  "ordem": "S06",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "01|02",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb47"
+  },
+  "nome": "vBC",
+  "pai": "COFINS",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/COFINS/vBC",
+  "ordem": "S07",
+  "tipo": "FIXED",
+  "pattern": "0.01",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb48"
+  },
+  "nome": "pCOFINS",
+  "pai": "COFINS",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/COFINS/pCOFINS",
+  "ordem": "S08",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,2}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb49"
+  },
+  "nome": "vCOFINS",
+  "pai": "COFINS",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/COFINS/vCOFINS",
+  "ordem": "S11",
+  "tipo": "FIXED",
+  "pattern": "0.00",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb4a"
+  },
+  "nome": "gProcRef",
+  "pai": "detItem",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/gProcRef",
+  "ordem": "T216",
+  "tipo": "PAI",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb4b"
+  },
+  "nome": "vItem",
+  "pai": "gProcRef",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/gProcRef/vItem",
+  "ordem": "T217",
+  "tipo": "FIXED",
+  "pattern": "0.01",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb4c"
+  },
+  "nome": "qFaturada",
+  "pai": "gProcRef",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/gProcRef/qFaturada",
+  "ordem": "T218",
+  "tipo": "FIXED",
+  "pattern": "1",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb4d"
+  },
+  "nome": "vProd",
+  "pai": "gProcRef",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/gProcRef/vProd",
+  "ordem": "T219",
+  "tipo": "FIXED",
+  "pattern": "0.01",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb4e"
+  },
+  "nome": "indDevolucao",
+  "pai": "gProcRef",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/gProcRef/indDevolucao",
+  "ordem": "T220",
+  "tipo": "FIXED",
+  "pattern": "1",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb4f"
+  },
+  "nome": "vBC",
+  "pai": "gProcRef",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/gProcRef/vBC",
+  "ordem": "T221",
+  "tipo": "FIXED",
+  "pattern": "0.01",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb50"
+  },
+  "nome": "pICMS",
+  "pai": "gProcRef",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/gProcRef/pICMS",
+  "ordem": "T222",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,2}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb51"
+  },
+  "nome": "vICMS",
+  "pai": "gProcRef",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/gProcRef/vICMS",
+  "ordem": "T223",
+  "tipo": "FIXED",
+  "pattern": "0.00",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb52"
+  },
+  "nome": "vPIS",
+  "pai": "gProcRef",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/gProcRef/vPIS",
+  "ordem": "T224",
+  "tipo": "FIXED",
+  "pattern": "0.01",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb53"
+  },
+  "nome": "vCOFINS",
+  "pai": "gProcRef",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/gProcRef/vCOFINS",
+  "ordem": "T225",
+  "tipo": "FIXED",
+  "pattern": "0.01",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb54"
+  },
+  "nome": "gProc",
+  "pai": "gProcRef",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/gProcRef/gProc",
+  "ordem": "T226",
+  "tipo": "PAI",
+  "versao": "1.00",
+  "ocorrencias": "10",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb55"
+  },
+  "nome": "tpProc",
+  "pai": "gProc",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/gProcRef/gProc/tpProc",
+  "ordem": "T227",
+  "tipo": "FIXED",
+  "pattern": "0",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb56"
+  },
+  "nome": "nProcesso",
+  "pai": "gProc",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/gProcRef/gProc/nProcesso",
+  "ordem": "T228",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-60",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb57"
+  },
+  "nome": "gContab",
+  "pai": "detItem",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/gContab",
+  "ordem": "U229",
+  "tipo": "PAI",
+  "versao": "1.00",
+  "ocorrencias": "10",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb58"
+  },
+  "nome": "cContab",
+  "pai": "gContab",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/gContab/cContab",
+  "ordem": "U230",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "9-13",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb59"
+  },
+  "nome": "xContab",
+  "pai": "gContab",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/gContab/xContab",
+  "ordem": "U231",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-100",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb5a"
+  },
+  "nome": "vContab",
+  "pai": "gContab",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/gContab/vContab",
+  "ordem": "U232",
+  "tipo": "FIXED",
+  "pattern": "0.01",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb5b"
+  },
+  "nome": "tpLanc",
+  "pai": "gContab",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/gContab/tpLanc",
+  "ordem": "U233",
+  "tipo": "FIXED",
+  "pattern": "D",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb5c"
+  },
+  "nome": "infAdProd",
+  "pai": "detItem",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/infAdProd",
+  "ordem": "V234",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-500",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb5d"
+  },
+  "nome": "total",
+  "pai": "infNF3e",
+  "path": "/NF3e/infNF3e/total",
+  "ordem": "W235",
+  "tipo": "PAI",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb5e"
+  },
+  "nome": "vProd",
+  "pai": "total",
+  "path": "/NF3e/infNF3e/total/vProd",
+  "ordem": "W236",
+  "tipo": "REGEX",
+  "pattern": "0\\.[0-9]{1}[1-9]{1}|0\\.[1-9]{1}[0-9]{1}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false,
+    "valorPadrao": "0.00",
+    "operacao": "ADD"
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb5f"
+  },
+  "nome": "ICMSTot",
+  "pai": "total",
+  "path": "/NF3e/infNF3e/total/ICMSTot",
+  "ordem": "W237",
+  "tipo": "PAI",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb60"
+  },
+  "nome": "vBC",
+  "pai": "ICMSTot",
+  "path": "/NF3e/infNF3e/total/ICMSTot/vBC",
+  "ordem": "W238",
+  "tipo": "REGEX",
+  "pattern": "0\\.[0-9]{1}[1-9]{1}|0\\.[1-9]{1}[0-9]{1}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb61"
+  },
+  "nome": "vICMS",
+  "pai": "ICMSTot",
+  "path": "/NF3e/infNF3e/total/ICMSTot/vICMS",
+  "ordem": "W239",
+  "tipo": "REGEX",
+  "pattern": "0\\.[0-9]{1}[1-9]{1}|0\\.[1-9]{1}[0-9]{1}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb62"
+  },
+  "nome": "vICMSDeson",
+  "pai": "ICMSTot",
+  "path": "/NF3e/infNF3e/total/ICMSTot/vICMSDeson",
+  "ordem": "W240",
+  "tipo": "REGEX",
+  "pattern": "0\\.[0-9]{1}[1-9]{1}|0\\.[1-9]{1}[0-9]{1}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false,
+    "valorPadrao": "0.00",
+    "operacao": "SUB"
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb63"
+  },
+  "nome": "vFCP",
+  "pai": "ICMSTot",
+  "path": "/NF3e/infNF3e/total/ICMSTot/vFCP",
+  "ordem": "W241",
+  "tipo": "REGEX",
+  "pattern": "0\\.[0-9]{1}[1-9]{1}|0\\.[1-9]{1}[0-9]{1}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb64"
+  },
+  "nome": "vBCST",
+  "pai": "ICMSTot",
+  "path": "/NF3e/infNF3e/total/ICMSTot/vBCST",
+  "ordem": "W242",
+  "tipo": "REGEX",
+  "pattern": "0\\.[0-9]{1}[1-9]{1}|0\\.[1-9]{1}[0-9]{1}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb65"
+  },
+  "nome": "vST",
+  "pai": "ICMSTot",
+  "path": "/NF3e/infNF3e/total/ICMSTot/vST",
+  "ordem": "W243",
+  "tipo": "REGEX",
+  "pattern": "0\\.[0-9]{1}[1-9]{1}|0\\.[1-9]{1}[0-9]{1}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false,
+    "valorPadrao": "0.00",
+    "operacao": "ADD"
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb66"
+  },
+  "nome": "vFCPST",
+  "pai": "ICMSTot",
+  "path": "/NF3e/infNF3e/total/ICMSTot/vFCPST",
+  "ordem": "W244",
+  "tipo": "REGEX",
+  "pattern": "0\\.[0-9]{1}[1-9]{1}|0\\.[1-9]{1}[0-9]{1}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb67"
+  },
+  "nome": "vRetTribTot",
+  "pai": "total",
+  "path": "/NF3e/infNF3e/total/vRetTribTot",
+  "ordem": "W245",
+  "tipo": "PAI",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb68"
+  },
+  "nome": "vRetPIS",
+  "pai": "vRetTribTot",
+  "path": "/NF3e/infNF3e/total/vRetTribTot/vRetPIS",
+  "ordem": "W246",
+  "tipo": "REGEX",
+  "pattern": "0\\.[0-9]{1}[1-9]{1}|0\\.[1-9]{1}[0-9]{1}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false,
+    "valorPadrao": "0.00",
+    "operacao": "SUB"
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb69"
+  },
+  "nome": "vRetCofins",
+  "pai": "vRetTribTot",
+  "path": "/NF3e/infNF3e/total/vRetTribTot/vRetCofins",
+  "ordem": "W247",
+  "tipo": "REGEX",
+  "pattern": "0\\.[0-9]{1}[1-9]{1}|0\\.[1-9]{1}[0-9]{1}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false,
+    "valorPadrao": "0.00",
+    "operacao": "SUB"
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb6a"
+  },
+  "nome": "vRetCSLL",
+  "pai": "vRetTribTot",
+  "path": "/NF3e/infNF3e/total/vRetTribTot/vRetCSLL",
+  "ordem": "W248",
+  "tipo": "REGEX",
+  "pattern": "0\\.[0-9]{1}[1-9]{1}|0\\.[1-9]{1}[0-9]{1}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false,
+    "valorPadrao": "0.00",
+    "operacao": "SUB"
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb6b"
+  },
+  "nome": "vIRRF",
+  "pai": "vRetTribTot",
+  "path": "/NF3e/infNF3e/total/vRetTribTot/vIRRF",
+  "ordem": "W249",
+  "tipo": "REGEX",
+  "pattern": "0\\.[0-9]{1}[1-9]{1}|0\\.[1-9]{1}[0-9]{1}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false,
+    "valorPadrao": "0.00",
+    "operacao": "SUB"
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb6c"
+  },
+  "nome": "vCOFINS",
+  "pai": "total",
+  "path": "/NF3e/infNF3e/total/vCOFINS",
+  "ordem": "W250",
+  "tipo": "FIXED",
+  "pattern": "0.00",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb6d"
+  },
+  "nome": "vCOFINSEfet",
+  "pai": "total",
+  "path": "/NF3e/infNF3e/total/vCOFINSEfet",
+  "ordem": "W251",
+  "tipo": "FIXED",
+  "pattern": "0.00",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb6e"
+  },
+  "nome": "vPIS",
+  "pai": "total",
+  "path": "/NF3e/infNF3e/total/vPIS",
+  "ordem": "W252",
+  "tipo": "FIXED",
+  "pattern": "0.00",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb6f"
+  },
+  "nome": "vPISEfet",
+  "pai": "total",
+  "path": "/NF3e/infNF3e/total/vPISEfet",
+  "ordem": "W252",
+  "tipo": "FIXED",
+  "pattern": "0.00",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb70"
+  },
+  "nome": "vNF",
+  "pai": "total",
+  "path": "/NF3e/infNF3e/total/vNF",
+  "ordem": "W253",
+  "tipo": "FIXED",
+  "pattern": "0.01",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb71"
+  },
+  "nome": "gFat",
+  "pai": "infNF3e",
+  "path": "/NF3e/infNF3e/gFat",
+  "ordem": "Y24",
+  "tipo": "PAI",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb72"
+  },
+  "nome": "CompetFat",
+  "pai": "gFat",
+  "path": "/NF3e/infNF3e/gFat/CompetFat",
+  "ordem": "Y25",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{6}",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb73"
+  },
+  "nome": "dVencFat",
+  "pai": "gFat",
+  "path": "/NF3e/infNF3e/gFat/dVencFat",
+  "ordem": "Y26",
+  "tipo": "REGEX",
+  "pattern": "((((20|19|18)(([02468][048])|([13579][26]))-02-29))|((20|19|18)[0-9][0-9])-((((0[1-9])|(1[0-2]))-((0[1-9])|(1\\d)|(2[0-8])))|((((0[13578])|(1[02]))-31)|(((0[1,3-9])|(1[0-2]))-(29|30)))))",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb74"
+  },
+  "nome": "dApresFat",
+  "pai": "gFat",
+  "path": "/NF3e/infNF3e/gFat/dApresFat",
+  "ordem": "Y27",
+  "tipo": "REGEX",
+  "pattern": "((((20|19|18)(([02468][048])|([13579][26]))-02-29))|((20|19|18)[0-9][0-9])-((((0[1-9])|(1[0-2]))-((0[1-9])|(1\\d)|(2[0-8])))|((((0[13578])|(1[02]))-31)|(((0[1,3-9])|(1[0-2]))-(29|30)))))",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb75"
+  },
+  "nome": "dProxLeitura",
+  "pai": "gFat",
+  "path": "/NF3e/infNF3e/gFat/dProxLeitura",
+  "ordem": "Y28",
+  "tipo": "REGEX",
+  "pattern": "((((20|19|18)(([02468][048])|([13579][26]))-02-29))|((20|19|18)[0-9][0-9])-((((0[1-9])|(1[0-2]))-((0[1-9])|(1\\d)|(2[0-8])))|((((0[13578])|(1[02]))-31)|(((0[1,3-9])|(1[0-2]))-(29|30)))))",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb76"
+  },
+  "nome": "nFat",
+  "pai": "gFat",
+  "path": "/NF3e/infNF3e/gFat/nFat",
+  "ordem": "Y29",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{20}",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb77"
+  },
+  "nome": "codBarras",
+  "pai": "gFat",
+  "path": "/NF3e/infNF3e/gFat/codBarras",
+  "ordem": "Y30",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{48}",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb78"
+  },
+  "nome": "codDebAuto",
+  "pai": "gFat",
+  "path": "/NF3e/infNF3e/gFat/codDebAuto",
+  "ordem": "Y31",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{20}",
+  "versao": "1.00",
+  "choiceElement": "codDebAuto",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb79"
+  },
+  "nome": "codBanco",
+  "pai": "gFat",
+  "path": "/NF3e/infNF3e/gFat/codBanco",
+  "ordem": "Y32",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "3-5",
+  "versao": "1.00",
+  "choiceElement": "codBanco",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb7a"
+  },
+  "nome": "codAgencia",
+  "pai": "gFat",
+  "path": "/NF3e/infNF3e/gFat/codAgencia",
+  "ordem": "Y33",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-10",
+  "versao": "1.00",
+  "choiceElement": "codAgencia",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb7b"
+  },
+  "nome": "enderCorresp",
+  "pai": "gFat",
+  "path": "/NF3e/infNF3e/gFat/enderCorresp",
+  "ordem": "Y34",
+  "tipo": "PAI",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb7c"
+  },
+  "nome": "xLgr",
+  "pai": "enderCorresp",
+  "path": "/NF3e/infNF3e/gFat/enderCorresp/xLgr",
+  "ordem": "Y35",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb7d"
+  },
+  "nome": "nro",
+  "pai": "enderCorresp",
+  "path": "/NF3e/infNF3e/gFat/enderCorresp/nro",
+  "ordem": "Y36",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-60",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb7e"
+  },
+  "nome": "xCpl",
+  "pai": "enderCorresp",
+  "path": "/NF3e/infNF3e/gFat/enderCorresp/xCpl",
+  "ordem": "Y37",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-60",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb7f"
+  },
+  "nome": "xBairro",
+  "pai": "enderCorresp",
+  "path": "/NF3e/infNF3e/gFat/enderCorresp/xBairro",
+  "ordem": "Y38",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb80"
+  },
+  "nome": "cMun",
+  "pai": "enderCorresp",
+  "path": "/NF3e/infNF3e/gFat/enderCorresp/cMun",
+  "ordem": "Y39",
+  "tipo": "FIXED",
+  "pattern": "5008305",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb81"
+  },
+  "nome": "xMun",
+  "pai": "enderCorresp",
+  "path": "/NF3e/infNF3e/gFat/enderCorresp/xMun",
+  "ordem": "Y40",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb82"
+  },
+  "nome": "CEP",
+  "pai": "enderCorresp",
+  "path": "/NF3e/infNF3e/gFat/enderCorresp/CEP",
+  "ordem": "Y41",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{8}",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb83"
+  },
+  "nome": "UF",
+  "pai": "enderCorresp",
+  "path": "/NF3e/infNF3e/gFat/enderCorresp/UF",
+  "ordem": "Y42",
+  "tipo": "FIXED",
+  "pattern": "MS",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb84"
+  },
+  "nome": "fone",
+  "pai": "enderCorresp",
+  "path": "/NF3e/infNF3e/gFat/enderCorresp/fone",
+  "ordem": "Y43",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{7,12}",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb85"
+  },
+  "nome": "email",
+  "pai": "enderCorresp",
+  "path": "/NF3e/infNF3e/gFat/enderCorresp/email",
+  "ordem": "Y44",
+  "tipo": "FIXED",
+  "pattern": "teste@teste.com",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb86"
+  },
+  "nome": "gPIX",
+  "pai": "gFat",
+  "path": "/NF3e/infNF3e/gFat/gPIX",
+  "ordem": "Y45",
+  "tipo": "PAI",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb87"
+  },
+  "nome": "urlQRCodePIX",
+  "pai": "gPIX",
+  "path": "/NF3e/infNF3e/gFat/gPIX/urlQRCodePIX",
+  "ordem": "Y46",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-2000",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb88"
+  },
+  "nome": "gANEEL",
+  "pai": "infNF3e",
+  "path": "/NF3e/infNF3e/gANEEL",
+  "ordem": "YA24",
+  "tipo": "PAI",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb89"
+  },
+  "nome": "gHistFat",
+  "pai": "gANEEL",
+  "path": "/NF3e/infNF3e/gANEEL/gHistFat",
+  "ordem": "YA25",
+  "tipo": "PAI",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb8a"
+  },
+  "nome": "xGrandFat",
+  "pai": "gHistFat",
+  "path": "/NF3e/infNF3e/gANEEL/gHistFat/xGrandFat",
+  "ordem": "YA26",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb8b"
+  },
+  "nome": "gGrandFat",
+  "pai": "gHistFat",
+  "path": "/NF3e/infNF3e/gANEEL/gHistFat/gGrandFat",
+  "ordem": "YA27",
+  "tipo": "PAI",
+  "versao": "1.00",
+  "ocorrencias": "13",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb8c"
+  },
+  "nome": "CompetFat",
+  "pai": "gGrandFat",
+  "path": "/NF3e/infNF3e/gANEEL/gHistFat/gGrandFat/CompetFat",
+  "ordem": "YA28",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{6}",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb8d"
+  },
+  "nome": "vFat",
+  "pai": "gGrandFat",
+  "path": "/NF3e/infNF3e/gANEEL/gHistFat/gGrandFat/vFat",
+  "ordem": "YA29",
+  "tipo": "FIXED",
+  "pattern": "0.01",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb8e"
+  },
+  "nome": "uMed",
+  "pai": "gGrandFat",
+  "path": "/NF3e/infNF3e/gANEEL/gHistFat/gGrandFat/uMed",
+  "ordem": "YA30",
+  "tipo": "FIXED",
+  "pattern": "1",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb8f"
+  },
+  "nome": "qtdDias",
+  "pai": "gGrandFat",
+  "path": "/NF3e/infNF3e/gANEEL/gHistFat/gGrandFat/qtdDias",
+  "ordem": "YA31",
+  "tipo": "FIXED",
+  "pattern": "01",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb90"
+  },
+  "nome": "autXML",
+  "pai": "infNF3e",
+  "path": "/NF3e/infNF3e/autXML",
+  "ordem": "YB276",
+  "tipo": "PAI",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false,
+    "valorPadrao": "",
+    "operacao": ""
+  },
+  "dependente": {
+    "nome": "",
+    "tipo": ""
+  },
+  "ocorrencias": "10"
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb91"
+  },
+  "nome": "CNPJ",
+  "pai": "autXML",
+  "path": "/NF3e/infNF3e/autXML/CNPJ",
+  "ordem": "YB277",
+  "tipo": "FIXED",
+  "pattern": "07720580000130",
+  "versao": "1.00",
+  "choiceElement": "autXML",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false,
+    "valorPadrao": "",
+    "operacao": ""
+  },
+  "dependente": {
+    "nome": "",
+    "tipo": ""
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb92"
+  },
+  "nome": "CPF",
+  "pai": "autXML",
+  "path": "/NF3e/infNF3e/autXML/CPF",
+  "ordem": "YB278",
+  "tipo": "FIXED",
+  "pattern": "49653999001",
+  "versao": "1.00",
+  "choiceElement": "autXML",
+  "atributos": [],
+  "totais": {
+    "valorTotal": null,
+    "valorPadrao": null,
+    "operacao": null
+  },
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb93"
+  },
+  "nome": "infAdic",
+  "pai": "infNF3e",
+  "path": "/NF3e/infNF3e/infAdic",
+  "ordem": "Z279",
+  "tipo": "PAI",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb94"
+  },
+  "nome": "infAdFisco",
+  "pai": "infAdic",
+  "path": "/NF3e/infNF3e/infAdic/infAdFisco",
+  "ordem": "Z280",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-10",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb95"
+  },
+  "nome": "infCpl",
+  "pai": "infAdic",
+  "path": "/NF3e/infNF3e/infAdic/infCpl",
+  "ordem": "Z281",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-10",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb96"
+  },
+  "nome": "gRespTec",
+  "pai": "infNF3e",
+  "path": "/NF3e/infNF3e/gRespTec",
+  "ordem": "ZD282",
+  "tipo": "PAI",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb97"
+  },
+  "nome": "CNPJ",
+  "pai": "gRespTec",
+  "path": "/NF3e/infNF3e/gRespTec/CNPJ",
+  "ordem": "ZD283",
+  "tipo": "FIXED",
+  "pattern": "33041260095793",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb98"
+  },
+  "nome": "xContato",
+  "pai": "gRespTec",
+  "path": "/NF3e/infNF3e/gRespTec/xContato",
+  "ordem": "ZD284",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb99"
+  },
+  "nome": "email",
+  "pai": "gRespTec",
+  "path": "/NF3e/infNF3e/gRespTec/email",
+  "ordem": "ZD285",
+  "tipo": "FIXED",
+  "pattern": "teste@teste.com",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb9a"
+  },
+  "nome": "fone",
+  "pai": "gRespTec",
+  "path": "/NF3e/infNF3e/gRespTec/fone",
+  "ordem": "ZD286",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{7,12}",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb9b"
+  },
+  "nome": "idCSRT",
+  "pai": "gRespTec",
+  "path": "/NF3e/infNF3e/gRespTec/idCSRT",
+  "ordem": "ZD287",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{3}",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb9c"
+  },
+  "nome": "hashCSRT",
+  "pai": "gRespTec",
+  "path": "/NF3e/infNF3e/gRespTec/hashCSRT",
+  "ordem": "ZD288",
+  "tipo": "FIXED",
+  "pattern": "fWxpstRiP8MsMNrMli1X7AdKMsI=",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb9d"
+  },
+  "nome": "infNF3eSupl",
+  "pai": "NF3e",
+  "path": "/NF3e/infNF3eSupl",
+  "ordem": "ZX289",
+  "tipo": "PAI",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60a43ab7775c3c288825cb9e"
+  },
+  "nome": "qrCodNF3e",
+  "pai": "infNF3eSupl",
+  "path": "/NF3e/infNF3eSupl/qrCodNF3e",
+  "ordem": "ZX290",
+  "tipo": "FIXED",
+  "pattern": "HTTPS://teste.com?chNF3e=74717219995714417248847375765489685847420041&tpAmb=2",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60bf89fd1b251500d687e24d"
+  },
+  "totais": {
+    "valorTotal": false,
+    "valorPadrao": "",
+    "operacao": ""
+  },
+  "atributos": [],
+  "nome": "IE",
+  "pai": "dest",
+  "path": "/NF3e/infNF3e/dest/IE",
+  "ordem": "E41",
+  "versao": "1.00",
+  "tipo": "FIXED",
+  "pattern": "283374047",
+  "valorPadrao": "",
+  "ocorrencias": "",
+  "choiceElement": "",
+  "dependente": {
+    "nome": "",
+    "tipo": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60ca0fb21b251500d687e259"
+  },
+  "totais": {
+    "valorTotal": false,
+    "valorPadrao": "",
+    "operacao": ""
+  },
+  "atributos": [],
+  "nome": "xNomeAdicional",
+  "pai": "dest",
+  "path": "/NF3e/infNF3e/dest/xNomeAdicional",
+  "ordem": "E44a",
+  "versao": "1.00",
+  "tipo": "FIXED",
+  "pattern": "nome do conjuge",
+  "valorPadrao": "",
+  "ocorrencias": "",
+  "choiceElement": "",
+  "dependente": {
+    "nome": "",
+    "tipo": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60d604082c3523001ca3e519"
+  },
+  "totais": {
+    "valorTotal": false,
+    "valorPadrao": "",
+    "operacao": ""
+  },
+  "atributos": [],
+  "nome": "vBC",
+  "pai": "ICMS00",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/ICMS00/vBC",
+  "ordem": "I171",
+  "versao": "1.00",
+  "tipo": "FIXED",
+  "pattern": "0.01",
+  "valorPadrao": "",
+  "ocorrencias": "",
+  "choiceElement": "ICMS00",
+  "dependente": {
+    "nome": "",
+    "tipo": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60d6076a1e415500230621a8"
+  },
+  "totais": {
+    "valorTotal": false,
+    "valorPadrao": "",
+    "operacao": ""
+  },
+  "atributos": [],
+  "nome": "imposto",
+  "pai": "detItem",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto",
+  "ordem": "I168",
+  "versao": "1.00",
+  "tipo": "PAI",
+  "pattern": "",
+  "valorPadrao": "",
+  "ocorrencias": "",
+  "choiceElement": "",
+  "dependente": {
+    "nome": "",
+    "tipo": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60d607ed2c3523001ca3e993"
+  },
+  "totais": {
+    "valorTotal": false,
+    "valorPadrao": "",
+    "operacao": ""
+  },
+  "atributos": [],
+  "nome": "ICMS00",
+  "pai": "imposto",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/ICMS00",
+  "ordem": "I169",
+  "versao": "1.00",
+  "tipo": "PAI",
+  "pattern": "",
+  "valorPadrao": "",
+  "ocorrencias": "",
+  "choiceElement": "ICMS00",
+  "dependente": {
+    "nome": "",
+    "tipo": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60d6083e2c3523001ca3ebb7"
+  },
+  "totais": {
+    "valorTotal": false,
+    "valorPadrao": "",
+    "operacao": ""
+  },
+  "atributos": [],
+  "nome": "CST",
+  "pai": "ICMS00",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/ICMS00/CST",
+  "ordem": "I170",
+  "versao": "1.00",
+  "tipo": "FIXED",
+  "pattern": "00",
+  "valorPadrao": "",
+  "ocorrencias": "",
+  "choiceElement": "",
+  "dependente": {
+    "nome": "",
+    "tipo": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60d608751e415500230622a8"
+  },
+  "totais": {
+    "valorTotal": false,
+    "valorPadrao": "",
+    "operacao": ""
+  },
+  "atributos": [],
+  "nome": "pICMS",
+  "pai": "ICMS00",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/ICMS00/pICMS",
+  "ordem": "I172",
+  "versao": "1.00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,2}(\\.[0-9]{2})?",
+  "valorPadrao": "",
+  "ocorrencias": "",
+  "choiceElement": "",
+  "dependente": {
+    "nome": "",
+    "tipo": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60d608751e415500230622ab"
+  },
+  "totais": {
+    "valorTotal": null,
+    "valorPadrao": null,
+    "operacao": null
+  },
+  "atributos": [],
+  "nome": "vICMS",
+  "pai": "ICMS00",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/ICMS00/vICMS",
+  "ordem": "I173",
+  "versao": "1.00",
+  "tipo": "FIXED",
+  "pattern": "0.00",
+  "valorPadrao": null,
+  "ocorrencias": null,
+  "choiceElement": null,
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60d608a92c3523001ca3ecce"
+  },
+  "totais": {
+    "valorTotal": false,
+    "valorPadrao": "",
+    "operacao": ""
+  },
+  "atributos": [],
+  "nome": "pFCP",
+  "pai": "ICMS00",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/ICMS00/pFCP",
+  "ordem": "I174",
+  "versao": "1.00",
+  "tipo": "FIXED",
+  "pattern": "2.00",
+  "valorPadrao": "",
+  "ocorrencias": "",
+  "choiceElement": "",
+  "dependente": {
+    "nome": "",
+    "tipo": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60d608a92c3523001ca3ecd1"
+  },
+  "totais": {
+    "valorTotal": null,
+    "valorPadrao": null,
+    "operacao": null
+  },
+  "atributos": [],
+  "nome": "vFCP",
+  "pai": "ICMS00",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/ICMS00/vFCP",
+  "ordem": "I175",
+  "versao": "1.00",
+  "tipo": "FIXED",
+  "pattern": "0.01",
+  "valorPadrao": null,
+  "ocorrencias": null,
+  "choiceElement": null,
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60d608e82c3523001ca3edeb"
+  },
+  "totais": {
+    "valorTotal": false,
+    "valorPadrao": "",
+    "operacao": ""
+  },
+  "atributos": [],
+  "nome": "ICMS10",
+  "pai": "imposto",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/ICMS10",
+  "ordem": "I176",
+  "versao": "1.00",
+  "tipo": "PAI",
+  "pattern": "",
+  "valorPadrao": "",
+  "ocorrencias": "",
+  "choiceElement": "ICMS10",
+  "dependente": {
+    "nome": "",
+    "tipo": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60d609072c3523001ca3ef04"
+  },
+  "totais": {
+    "valorTotal": false,
+    "valorPadrao": "",
+    "operacao": ""
+  },
+  "atributos": [],
+  "nome": "CST",
+  "pai": "ICMS10",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/ICMS10/CST",
+  "ordem": "I177",
+  "versao": "1.00",
+  "tipo": "FIXED",
+  "pattern": "10",
+  "valorPadrao": "",
+  "ocorrencias": "",
+  "choiceElement": "",
+  "dependente": {
+    "nome": "",
+    "tipo": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60d6097e1e415500230623c5"
+  },
+  "totais": {
+    "valorTotal": false,
+    "valorPadrao": "",
+    "operacao": ""
+  },
+  "atributos": [],
+  "nome": "vBCST",
+  "pai": "ICMS10",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/ICMS10/vBCST",
+  "ordem": "I178",
+  "versao": "1.00",
+  "tipo": "FIXED",
+  "pattern": "0.01",
+  "valorPadrao": "",
+  "ocorrencias": "",
+  "choiceElement": "",
+  "dependente": {
+    "nome": "",
+    "tipo": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60d6097e1e415500230623c8"
+  },
+  "totais": {
+    "valorTotal": null,
+    "valorPadrao": null,
+    "operacao": null
+  },
+  "atributos": [],
+  "nome": "pICMSST",
+  "pai": "ICMS10",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/ICMS10/pICMSST",
+  "ordem": "I179",
+  "versao": "1.00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,2}(\\.[0-9]{2})?",
+  "valorPadrao": null,
+  "ocorrencias": null,
+  "choiceElement": null,
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60d6097e1e415500230623cb"
+  },
+  "totais": {
+    "valorTotal": null,
+    "valorPadrao": null,
+    "operacao": null
+  },
+  "atributos": [],
+  "nome": "vICMSST",
+  "pai": "ICMS10",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/ICMS10/vICMSST",
+  "ordem": "I180",
+  "versao": "1.00",
+  "tipo": "FIXED",
+  "pattern": "0.01",
+  "valorPadrao": null,
+  "ocorrencias": null,
+  "choiceElement": null,
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60d6097e1e415500230623ce"
+  },
+  "totais": {
+    "valorTotal": null,
+    "valorPadrao": null,
+    "operacao": null
+  },
+  "atributos": [],
+  "nome": "pFCPST",
+  "pai": "ICMS10",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/ICMS10/pFCPST",
+  "ordem": "I181",
+  "versao": "1.00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,2}(\\.[0-9]{2})?",
+  "valorPadrao": null,
+  "ocorrencias": null,
+  "choiceElement": null,
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60d6097e1e415500230623d1"
+  },
+  "totais": {
+    "valorTotal": null,
+    "valorPadrao": null,
+    "operacao": null
+  },
+  "atributos": [],
+  "nome": "vFCPST",
+  "pai": "ICMS10",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/ICMS10/vFCPST",
+  "ordem": "I182",
+  "versao": "1.00",
+  "tipo": "FIXED",
+  "pattern": "0.01",
+  "valorPadrao": null,
+  "ocorrencias": null,
+  "choiceElement": null,
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60d609ae1e415500230624f3"
+  },
+  "totais": {
+    "valorTotal": false,
+    "valorPadrao": "",
+    "operacao": ""
+  },
+  "atributos": [],
+  "nome": "ICMS20",
+  "pai": "imposto",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/ICMS20",
+  "ordem": "I183",
+  "versao": "1.00",
+  "tipo": "PAI",
+  "pattern": "",
+  "valorPadrao": "",
+  "ocorrencias": "",
+  "choiceElement": "ICMS20",
+  "dependente": {
+    "nome": "",
+    "tipo": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60d60a662c3523001ca3f024"
+  },
+  "totais": {
+    "valorTotal": false,
+    "valorPadrao": "",
+    "operacao": ""
+  },
+  "atributos": [],
+  "nome": "CST",
+  "pai": "ICMS20",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/ICMS20/CST",
+  "ordem": "I184",
+  "versao": "1.00",
+  "tipo": "FIXED",
+  "pattern": "20",
+  "valorPadrao": "",
+  "ocorrencias": "",
+  "choiceElement": "",
+  "dependente": {
+    "nome": "",
+    "tipo": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60d60a662c3523001ca3f027"
+  },
+  "totais": {
+    "valorTotal": null,
+    "valorPadrao": null,
+    "operacao": null
+  },
+  "atributos": [],
+  "nome": "pRedBC",
+  "pai": "ICMS20",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/ICMS20/pRedBC",
+  "ordem": "I185",
+  "versao": "1.00",
+  "tipo": "REGEX",
+  "pattern": "0\\.[0-9]{2}|[1-9]{1}[0-9]{0,2}(\\.[0-9]{2})?",
+  "valorPadrao": null,
+  "ocorrencias": null,
+  "choiceElement": null,
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60d60a662c3523001ca3f02a"
+  },
+  "totais": {
+    "valorTotal": null,
+    "valorPadrao": null,
+    "operacao": null
+  },
+  "atributos": [],
+  "nome": "vBC",
+  "pai": "ICMS20",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/ICMS20/vBC",
+  "ordem": "I186",
+  "versao": "1.00",
+  "tipo": "FIXED",
+  "pattern": "0.01",
+  "valorPadrao": null,
+  "ocorrencias": null,
+  "choiceElement": null,
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60d60a662c3523001ca3f02d"
+  },
+  "totais": {
+    "valorTotal": null,
+    "valorPadrao": null,
+    "operacao": null
+  },
+  "atributos": [],
+  "nome": "pICMS",
+  "pai": "ICMS20",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/ICMS20/pICMS",
+  "ordem": "I187",
+  "versao": "1.00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,2}(\\.[0-9]{2})?",
+  "valorPadrao": null,
+  "ocorrencias": null,
+  "choiceElement": null,
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60d60a662c3523001ca3f030"
+  },
+  "totais": {
+    "valorTotal": null,
+    "valorPadrao": null,
+    "operacao": null
+  },
+  "atributos": [],
+  "nome": "vICMS",
+  "pai": "ICMS20",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/ICMS20/vICMS",
+  "ordem": "I188",
+  "versao": "1.00",
+  "tipo": "FIXED",
+  "pattern": "0.00",
+  "valorPadrao": null,
+  "ocorrencias": null,
+  "choiceElement": null,
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60d60a662c3523001ca3f033"
+  },
+  "totais": {
+    "valorTotal": null,
+    "valorPadrao": null,
+    "operacao": null
+  },
+  "atributos": [],
+  "nome": "vICMSDeson",
+  "pai": "ICMS20",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/ICMS20/vICMSDeson",
+  "ordem": "I189",
+  "versao": "1.00",
+  "tipo": "FIXED",
+  "pattern": "0.01",
+  "valorPadrao": null,
+  "ocorrencias": null,
+  "choiceElement": null,
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60d60a662c3523001ca3f036"
+  },
+  "totais": {
+    "valorTotal": null,
+    "valorPadrao": null,
+    "operacao": null
+  },
+  "atributos": [],
+  "nome": "cBenef",
+  "pai": "ICMS20",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/ICMS20/cBenef",
+  "ordem": "I190",
+  "versao": "1.00",
+  "tipo": "REGEX",
+  "pattern": "([!-ÿ]{8}|[!-ÿ]{10}|SEM CBENEF)?",
+  "valorPadrao": null,
+  "ocorrencias": null,
+  "choiceElement": null,
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60d60a662c3523001ca3f039"
+  },
+  "totais": {
+    "valorTotal": null,
+    "valorPadrao": null,
+    "operacao": null
+  },
+  "atributos": [],
+  "nome": "pFCP",
+  "pai": "ICMS20",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/ICMS20/pFCP",
+  "ordem": "I191",
+  "versao": "1.00",
+  "tipo": "FIXED",
+  "pattern": "2.00",
+  "valorPadrao": null,
+  "ocorrencias": null,
+  "choiceElement": null,
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60d60a662c3523001ca3f03c"
+  },
+  "totais": {
+    "valorTotal": null,
+    "valorPadrao": null,
+    "operacao": null
+  },
+  "atributos": [],
+  "nome": "vFCP",
+  "pai": "ICMS20",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/ICMS20/vFCP",
+  "ordem": "I192",
+  "versao": "1.00",
+  "tipo": "FIXED",
+  "pattern": "0.01",
+  "valorPadrao": null,
+  "ocorrencias": null,
+  "choiceElement": null,
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60d9c8652c3523001ca3f149"
+  },
+  "totais": {
+    "valorTotal": false,
+    "valorPadrao": "",
+    "operacao": ""
+  },
+  "atributos": [],
+  "nome": "dhCont",
+  "pai": "ide",
+  "path": "/NF3e/infNF3e/ide/dhCont",
+  "ordem": "B18",
+  "versao": "1.00",
+  "tipo": "DATE",
+  "pattern": "yyyy-MM-dd'T'HH:mm:ssXXX",
+  "valorPadrao": "",
+  "ocorrencias": "",
+  "choiceElement": "",
+  "dependente": {
+    "nome": "",
+    "tipo": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60d9c8662c3523001ca3f14c"
+  },
+  "totais": {
+    "valorTotal": null,
+    "valorPadrao": null,
+    "operacao": null
+  },
+  "atributos": [],
+  "nome": "xJust",
+  "pai": "ide",
+  "path": "/NF3e/infNF3e/ide/xJust",
+  "ordem": "B19",
+  "versao": "1.00",
+  "tipo": "FIXED",
+  "pattern": "Minha Justificativa",
+  "valorPadrao": null,
+  "ocorrencias": null,
+  "choiceElement": null,
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60d9e8e417f20c001cbf7f8b"
+  },
+  "totais": {
+    "valorTotal": null,
+    "valorPadrao": null,
+    "operacao": null
+  },
+  "atributos": [],
+  "nome": "COFINSEfet",
+  "pai": "imposto",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/COFINSEfet",
+  "ordem": "S12",
+  "versao": "1.00",
+  "tipo": "PAI",
+  "pattern": null,
+  "valorPadrao": null,
+  "ocorrencias": null,
+  "choiceElement": null,
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60d9efd517f20c001cbf87f9"
+  },
+  "totais": {
+    "valorTotal": false,
+    "valorPadrao": "",
+    "operacao": ""
+  },
+  "atributos": [],
+  "nome": "vBCCOFINSEfet",
+  "pai": "COFINSEfet",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/COFINSEfet/vBCCOFINSEfet",
+  "ordem": "S13",
+  "versao": "1.00",
+  "tipo": "FIXED",
+  "pattern": "0.00",
+  "valorPadrao": "",
+  "ocorrencias": "",
+  "choiceElement": "",
+  "dependente": {
+    "nome": "",
+    "tipo": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60d9f00117f20c001cbf8927"
+  },
+  "totais": {
+    "valorTotal": false,
+    "valorPadrao": "",
+    "operacao": ""
+  },
+  "atributos": [],
+  "nome": "pCOFINSEfet",
+  "pai": "COFINSEfet",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/COFINSEfet/pCOFINSEfet",
+  "ordem": "S14",
+  "versao": "1.00",
+  "tipo": "FIXED",
+  "pattern": "0.00",
+  "valorPadrao": "",
+  "ocorrencias": "",
+  "choiceElement": "",
+  "dependente": {
+    "nome": "",
+    "tipo": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60d9f01ee5c5ef002364fe9d"
+  },
+  "totais": {
+    "valorTotal": null,
+    "valorPadrao": null,
+    "operacao": null
+  },
+  "atributos": [],
+  "nome": "vCOFINSEfet",
+  "pai": "COFINSEfet",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/COFINSEfet/vCOFINSEfet",
+  "ordem": "S15",
+  "versao": "1.00",
+  "tipo": "FIXED",
+  "pattern": "0.00",
+  "valorPadrao": null,
+  "ocorrencias": null,
+  "choiceElement": null,
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60da0c50e5c5ef0023650014"
+  },
+  "totais": {
+    "valorTotal": false,
+    "valorPadrao": "",
+    "operacao": ""
+  },
+  "atributos": [],
+  "nome": "retTrib",
+  "pai": "imposto",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/retTrib",
+  "ordem": "S16",
+  "versao": "1.00",
+  "tipo": "PAI",
+  "pattern": "",
+  "valorPadrao": "",
+  "ocorrencias": "",
+  "choiceElement": "",
+  "dependente": {
+    "nome": "",
+    "tipo": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60da0c50e5c5ef0023650017"
+  },
+  "totais": {
+    "valorTotal": null,
+    "valorPadrao": null,
+    "operacao": null
+  },
+  "atributos": [],
+  "nome": "vRetPIS",
+  "pai": "retTrib",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/retTrib/vRetPIS",
+  "ordem": "S17",
+  "versao": "1.00",
+  "tipo": "FIXED",
+  "pattern": "0.00",
+  "valorPadrao": null,
+  "ocorrencias": null,
+  "choiceElement": null,
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60da0c50e5c5ef002365001a"
+  },
+  "totais": {
+    "valorTotal": null,
+    "valorPadrao": null,
+    "operacao": null
+  },
+  "atributos": [],
+  "nome": "vRetCofins",
+  "pai": "retTrib",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/retTrib/vRetCofins",
+  "ordem": "S18",
+  "versao": "1.00",
+  "tipo": "FIXED",
+  "pattern": "0.00",
+  "valorPadrao": null,
+  "ocorrencias": null,
+  "choiceElement": null,
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60da0c50e5c5ef002365001d"
+  },
+  "totais": {
+    "valorTotal": null,
+    "valorPadrao": null,
+    "operacao": null
+  },
+  "atributos": [],
+  "nome": "vRetCSLL",
+  "pai": "retTrib",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/retTrib/vRetCSLL",
+  "ordem": "S19",
+  "versao": "1.00",
+  "tipo": "FIXED",
+  "pattern": "0.00",
+  "valorPadrao": null,
+  "ocorrencias": null,
+  "choiceElement": null,
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60da0c50e5c5ef0023650020"
+  },
+  "totais": {
+    "valorTotal": null,
+    "valorPadrao": null,
+    "operacao": null
+  },
+  "atributos": [],
+  "nome": "vBCIRRF",
+  "pai": "retTrib",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/retTrib/vBCIRRF",
+  "ordem": "S20",
+  "versao": "1.00",
+  "tipo": "FIXED",
+  "pattern": "0.00",
+  "valorPadrao": null,
+  "ocorrencias": null,
+  "choiceElement": null,
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60da0c50e5c5ef0023650023"
+  },
+  "totais": {
+    "valorTotal": null,
+    "valorPadrao": null,
+    "operacao": null
+  },
+  "atributos": [],
+  "nome": "vIRRF",
+  "pai": "retTrib",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/retTrib/vIRRF",
+  "ordem": "S21",
+  "versao": "1.00",
+  "tipo": "FIXED",
+  "pattern": "0.00",
+  "valorPadrao": null,
+  "ocorrencias": null,
+  "choiceElement": null,
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60ddec3c78972f001da22afd"
+  },
+  "totais": {
+    "valorTotal": false,
+    "valorPadrao": "",
+    "operacao": ""
+  },
+  "atributos": [
+    {
+      "nome": "versao",
+      "valor": "1.00"
+    }
+  ],
+  "nome": "eventoNF3e",
+  "pai": "",
+  "path": "/eventoNF3e",
+  "ordem": "001",
+  "versao": "evtNF3e",
+  "tipo": "ROOT",
+  "pattern": "",
+  "valorPadrao": "",
+  "ocorrencias": "",
+  "choiceElement": "",
+  "dependente": {
+    "nome": "",
+    "tipo": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60ddec3c78972f001da22b00"
+  },
+  "totais": {
+    "valorTotal": null,
+    "valorPadrao": null,
+    "operacao": null
+  },
+  "atributos": [],
+  "nome": "infEvento",
+  "pai": "eventoNF3e",
+  "path": "/eventoNF3e/infEvento",
+  "ordem": "A01",
+  "versao": "evtNF3e",
+  "tipo": "PAI",
+  "pattern": null,
+  "valorPadrao": null,
+  "ocorrencias": null,
+  "choiceElement": null,
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60ddec3c78972f001da22b03"
+  },
+  "totais": {
+    "valorTotal": null,
+    "valorPadrao": null,
+    "operacao": null
+  },
+  "atributos": [],
+  "nome": "cOrgao",
+  "pai": "infEvento",
+  "path": "/eventoNF3e/infEvento/cOrgao",
+  "ordem": "A02",
+  "versao": "evtNF3e",
+  "tipo": "FIXED",
+  "pattern": "50",
+  "valorPadrao": null,
+  "ocorrencias": null,
+  "choiceElement": null,
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60ddec3c78972f001da22b06"
+  },
+  "totais": {
+    "valorTotal": null,
+    "valorPadrao": null,
+    "operacao": null
+  },
+  "atributos": [],
+  "nome": "tpAmb",
+  "pai": "infEvento",
+  "path": "/eventoNF3e/infEvento/tpAmb",
+  "ordem": "A03",
+  "versao": "evtNF3e",
+  "tipo": "FIXED",
+  "pattern": "2",
+  "valorPadrao": null,
+  "ocorrencias": null,
+  "choiceElement": null,
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60dded4b78972f001da22b10"
+  },
+  "totais": {
+    "valorTotal": false,
+    "valorPadrao": "",
+    "operacao": ""
+  },
+  "atributos": [],
+  "nome": "CNPJ",
+  "pai": "infEvento",
+  "path": "/eventoNF3e/infEvento/CNPJ",
+  "ordem": "A04",
+  "versao": "evtNF3e",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{14}",
+  "valorPadrao": "",
+  "ocorrencias": "",
+  "choiceElement": "",
+  "dependente": {
+    "nome": "",
+    "tipo": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60dded4b78972f001da22b13"
+  },
+  "totais": {
+    "valorTotal": null,
+    "valorPadrao": null,
+    "operacao": null
+  },
+  "atributos": [],
+  "nome": "chNF3e",
+  "pai": "infEvento",
+  "path": "/eventoNF3e/infEvento/chNF3e",
+  "ordem": "A05",
+  "versao": "evtNF3e",
+  "tipo": "FIXED",
+  "pattern": "50210602935843000105660011599357651564506528",
+  "valorPadrao": null,
+  "ocorrencias": null,
+  "choiceElement": null,
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60dded4b78972f001da22b16"
+  },
+  "totais": {
+    "valorTotal": null,
+    "valorPadrao": null,
+    "operacao": null
+  },
+  "atributos": [],
+  "nome": "dhEvento",
+  "pai": "infEvento",
+  "path": "/eventoNF3e/infEvento/dhEvento",
+  "ordem": "A06",
+  "versao": "evtNF3e",
+  "tipo": "DATE",
+  "pattern": "yyyy-MM-dd'T'HH:mm:ssXXX",
+  "valorPadrao": null,
+  "ocorrencias": null,
+  "choiceElement": null,
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60dded4b78972f001da22b19"
+  },
+  "totais": {
+    "valorTotal": null,
+    "valorPadrao": null,
+    "operacao": null
+  },
+  "atributos": [],
+  "nome": "tpEvento",
+  "pai": "infEvento",
+  "path": "/eventoNF3e/infEvento/tpEvento",
+  "ordem": "A07",
+  "versao": "evtNF3e",
+  "tipo": "FIXED",
+  "pattern": "110111",
+  "valorPadrao": null,
+  "ocorrencias": null,
+  "choiceElement": null,
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60ddfc8a78972f001da22b25"
+  },
+  "totais": {
+    "valorTotal": null,
+    "valorPadrao": null,
+    "operacao": null
+  },
+  "atributos": [],
+  "nome": "nSeqEvento",
+  "pai": "infEvento",
+  "path": "/eventoNF3e/infEvento/nSeqEvento",
+  "ordem": "A08",
+  "versao": "evtNF3e",
+  "tipo": "FIXED",
+  "pattern": "1",
+  "valorPadrao": null,
+  "ocorrencias": null,
+  "choiceElement": null,
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60de18c478972f001da22baa"
+  },
+  "totais": {
+    "valorTotal": false,
+    "valorPadrao": "",
+    "operacao": ""
+  },
+  "atributos": [
+    {
+      "nome": "versaoEvento",
+      "valor": "1.00"
+    }
+  ],
+  "nome": "detEvento",
+  "pai": "infEvento",
+  "path": "/eventoNF3e/infEvento/detEvento",
+  "ordem": "A09",
+  "versao": "evtNF3e",
+  "tipo": "PAI",
+  "pattern": "",
+  "valorPadrao": "",
+  "ocorrencias": "",
+  "choiceElement": "",
+  "dependente": {
+    "nome": "",
+    "tipo": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60de18c478972f001da22bad"
+  },
+  "totais": {
+    "valorTotal": null,
+    "valorPadrao": null,
+    "operacao": null
+  },
+  "atributos": [],
+  "nome": "evCancNF3e",
+  "pai": "detEvento",
+  "path": "/eventoNF3e/infEvento/detEvento/evCancNF3e",
+  "ordem": "A10",
+  "versao": "evtNF3e",
+  "tipo": "PAI",
+  "pattern": "",
+  "valorPadrao": null,
+  "ocorrencias": null,
+  "choiceElement": null,
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60e35eecb66418002b00762b"
+  },
+  "totais": {
+    "valorTotal": false,
+    "valorPadrao": "",
+    "operacao": ""
+  },
+  "atributos": [],
+  "nome": "descEvento",
+  "pai": "evCancNF3e",
+  "path": "/eventoNF3e/infEvento/detEvento/evCancNF3e/descEvento",
+  "ordem": "A11",
+  "versao": "evtNF3e",
+  "tipo": "FIXED",
+  "pattern": "Cancelamento",
+  "valorPadrao": "",
+  "ocorrencias": "",
+  "choiceElement": "",
+  "dependente": {
+    "nome": "",
+    "tipo": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60e35eecb66418002b00762e"
+  },
+  "totais": {
+    "valorTotal": null,
+    "valorPadrao": null,
+    "operacao": null
+  },
+  "atributos": [],
+  "nome": "nProt",
+  "pai": "evCancNF3e",
+  "path": "/eventoNF3e/infEvento/detEvento/evCancNF3e/nProt",
+  "ordem": "A12",
+  "versao": "evtNF3e",
+  "tipo": "FIXED",
+  "pattern": "150210000000119",
+  "valorPadrao": null,
+  "ocorrencias": null,
+  "choiceElement": null,
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60e35eecb66418002b007631"
+  },
+  "totais": {
+    "valorTotal": null,
+    "valorPadrao": null,
+    "operacao": null
+  },
+  "atributos": [],
+  "nome": "xJust",
+  "pai": "evCancNF3e",
+  "path": "/eventoNF3e/infEvento/detEvento/evCancNF3e/xJust",
+  "ordem": "A13",
+  "versao": "evtNF3e",
+  "tipo": "FIXED",
+  "pattern": "Pane no sistema",
+  "valorPadrao": null,
+  "ocorrencias": null,
+  "choiceElement": null,
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60ed9cca7a8daa32d0a29fc8"
+  },
+  "nome": "latGPS",
+  "pai": "acessante",
+  "path": "/NF3e/infNF3e/acessante/latGPS",
+  "ordem": "E65",
+  "tipo": "REGEX",
+  "pattern": "[0-9]\\.[0-9]{6}|[1-8][0-9]\\.[0-9]{6}|90\\.[0-9]{6}|-[0-9]\\.[0-9]{6}|-[1-8][0-9]\\.[0-9]{6}|-90\\.[0-9]{6}",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false,
+    "valorPadrao": "",
+    "operacao": ""
+  },
+  "dependente": {
+    "nome": "",
+    "tipo": ""
+  }
+},
+{
+  "_id": {
+    "$oid": "60ed9ee27a8daa32d0a29fe4"
+  },
+  "nome": "tpFonteEnergia",
+  "pai": "gConsumidor",
+  "path": "/NF3e/infNF3e/gSCEE/gConsumidor/tpFonteEnergia",
+  "ordem": "F93b",
+  "tipo": "RANGE_NUMBER",
+  "pattern": "1-5",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60eda12f7a8daa32d0a29fee"
+  },
+  "nome": "vICMS",
+  "pai": "detItemAnt",
+  "path": "/NF3e/infNF3e/NFdet/det/detItemAnt/vICMS",
+  "ordem": "H118",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,2}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60eda18f7a8daa32d0a29fef"
+  },
+  "nome": "vFCP",
+  "pai": "detItemAnt",
+  "path": "/NF3e/infNF3e/NFdet/det/detItemAnt/vFCP",
+  "ordem": "H118a",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,2}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60eda1987a8daa32d0a29ff0"
+  },
+  "nome": "vBCST",
+  "pai": "detItemAnt",
+  "path": "/NF3e/infNF3e/NFdet/det/detItemAnt/vBCST",
+  "ordem": "H118b",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,2}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60eda1f97a8daa32d0a29ff1"
+  },
+  "nome": "vICMSST",
+  "pai": "detItemAnt",
+  "path": "/NF3e/infNF3e/NFdet/det/detItemAnt/vICMSST",
+  "ordem": "H118c",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,2}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60eda2617a8daa32d0a29ff5"
+  },
+  "nome": "vPIS",
+  "pai": "detItemAnt",
+  "path": "/NF3e/infNF3e/NFdet/det/detItemAnt/vPIS",
+  "ordem": "H119",
+  "tipo": "FIXED",
+  "pattern": "0.01",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": null,
+    "valorPadrao": null,
+    "operacao": null
+  },
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  }
+},
+{
+  "_id": {
+    "$oid": "60eda29e7a8daa32d0a29ff9"
+  },
+  "nome": "vCOFINS",
+  "pai": "detItemAnt",
+  "path": "/NF3e/infNF3e/NFdet/det/detItemAnt/vCOFINS",
+  "ordem": "H120",
+  "tipo": "FIXED",
+  "pattern": "0.00",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": null,
+    "valorPadrao": null,
+    "operacao": null
+  },
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  }
+},
+{
+  "_id": {
+    "$oid": "60eda67d7a8daa32d0a29ffe"
+  },
+  "nome": "pFCP",
+  "pai": "gProcRef",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/gProcRef/pFCP",
+  "ordem": "T223a",
+  "tipo": "REGEX",
+  "pattern": "0\\.[0-9]{2,4}|[1-9]{1}[0-9]{0,2}(\\.[0-9]{2,4})?",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60eda6a37a8daa32d0a29fff"
+  },
+  "nome": "vFCP",
+  "pai": "gProcRef",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/gProcRef/vFCP",
+  "ordem": "T223b",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60edc9a07a8daa32d0a2a00d"
+  },
+  "nome": "tpEmis",
+  "pai": "ide",
+  "path": "/NF3e/infNF3e/ide/tpEmis",
+  "ordem": "B13",
+  "tipo": "FIXED",
+  "pattern": "1",
+  "versao": "1.00",
+  "atributos": [],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "60f882821e828c00288f6c97"
+  },
+  "totais": {
+    "valorTotal": false,
+    "valorPadrao": "",
+    "operacao": ""
+  },
+  "atributos": [],
+  "nome": "vBCPISEfet",
+  "pai": "PISEfet",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/PISEfet/vBCPISEfet",
+  "ordem": "I216",
+  "versao": "1.00",
+  "tipo": "FIXED",
+  "pattern": "0.00",
+  "valorPadrao": "",
+  "ocorrencias": "",
+  "choiceElement": "",
+  "dependente": {
+    "nome": "",
+    "tipo": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60f882821e828c00288f6c9a"
+  },
+  "totais": {
+    "valorTotal": null,
+    "valorPadrao": null,
+    "operacao": null
+  },
+  "atributos": [],
+  "nome": "pPISEfet",
+  "pai": "PISEfet",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/PISEfet/pPISEfet",
+  "ordem": "I217",
+  "versao": "1.00",
+  "tipo": "FIXED",
+  "pattern": "0.00",
+  "valorPadrao": null,
+  "ocorrencias": null,
+  "choiceElement": null,
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "60f882821e828c00288f6c9d"
+  },
+  "totais": {
+    "valorTotal": null,
+    "valorPadrao": null,
+    "operacao": null
+  },
+  "atributos": [],
+  "nome": "vPISEfet",
+  "pai": "PISEfet",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/PISEfet/vPISEfet",
+  "ordem": "I218",
+  "versao": "1.00",
+  "tipo": "FIXED",
+  "pattern": "0.00",
+  "valorPadrao": null,
+  "ocorrencias": null,
+  "choiceElement": null,
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "61165e84f989eb001ec5273c"
+  },
+  "totais": {
+    "valorTotal": false,
+    "valorPadrao": "",
+    "operacao": ""
+  },
+  "atributos": [],
+  "nome": "evSubNF3e",
+  "pai": "detEvento",
+  "path": "/eventoNF3e/infEvento/detEvento/evSubNF3e",
+  "ordem": "A11",
+  "versao": "evtNF3e",
+  "tipo": "PAI",
+  "pattern": "",
+  "valorPadrao": "",
+  "ocorrencias": "",
+  "choiceElement": "",
+  "dependente": {
+    "nome": "",
+    "tipo": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "61165e84f989eb001ec5273f"
+  },
+  "totais": {
+    "valorTotal": null,
+    "valorPadrao": null,
+    "operacao": null
+  },
+  "atributos": [],
+  "nome": "descEvento",
+  "pai": "evSubNF3e",
+  "path": "/eventoNF3e/infEvento/detEvento/evSubNF3e/descEvento",
+  "ordem": "A12",
+  "versao": "evtNF3e",
+  "tipo": "FIXED",
+  "pattern": "Autorizado Substituição de NF3e",
+  "valorPadrao": null,
+  "ocorrencias": null,
+  "choiceElement": null,
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "61165e84f989eb001ec52742"
+  },
+  "totais": {
+    "valorTotal": null,
+    "valorPadrao": null,
+    "operacao": null
+  },
+  "atributos": [],
+  "nome": "chNF3eSubstituta",
+  "pai": "evSubNF3e",
+  "path": "/eventoNF3e/infEvento/detEvento/evSubNF3e/chNF3eSubstituta",
+  "ordem": "A13",
+  "versao": "evtNF3e",
+  "tipo": "FIXED",
+  "pattern": "50210802935843000105660011763255111018907970",
+  "valorPadrao": null,
+  "ocorrencias": null,
+  "choiceElement": null,
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "61165e84f989eb001ec52745"
+  },
+  "totais": {
+    "valorTotal": null,
+    "valorPadrao": null,
+    "operacao": null
+  },
+  "atributos": [],
+  "nome": "dhRecbto",
+  "pai": "evSubNF3e",
+  "path": "/eventoNF3e/infEvento/detEvento/evSubNF3e/dhRecbto",
+  "ordem": "A14",
+  "versao": "evtNF3e",
+  "tipo": "DATE",
+  "pattern": "yyyy-MM-dd'T'HH:mm:ssXXX",
+  "valorPadrao": null,
+  "ocorrencias": null,
+  "choiceElement": null,
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "61165e84f989eb001ec52748"
+  },
+  "totais": {
+    "valorTotal": null,
+    "valorPadrao": null,
+    "operacao": null
+  },
+  "atributos": [],
+  "nome": "nProt",
+  "pai": "evSubNF3e",
+  "path": "/eventoNF3e/infEvento/detEvento/evSubNF3e/nProt",
+  "ordem": "A15",
+  "versao": "evtNF3e",
+  "tipo": "FIXED",
+  "pattern": "1502100000001638",
+  "valorPadrao": null,
+  "ocorrencias": null,
+  "choiceElement": null,
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "61f03e0097492c003486f499"
+  },
+  "totais": {
+    "valorTotal": false,
+    "valorPadrao": "",
+    "operacao": ""
+  },
+  "atributos": [],
+  "nome": "NB",
+  "pai": "dest",
+  "path": "/NF3e/infNF3e/dest/NB",
+  "ordem": "E43b",
+  "versao": "1.00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{10}",
+  "valorPadrao": "",
+  "ocorrencias": "",
+  "choiceElement": "",
+  "dependente": {
+    "nome": "",
+    "tipo": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6213990797492c0034870d0c"
+  },
+  "totais": {
+    "valorTotal": false,
+    "valorPadrao": "",
+    "operacao": ""
+  },
+  "atributos": [],
+  "nome": "chNF3eAnt",
+  "pai": "NFdet",
+  "path": "/NF3e/infNF3e/NFdet/chNF3eAnt",
+  "ordem": "H106",
+  "versao": "1.00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{44}",
+  "valorPadrao": "",
+  "ocorrencias": "",
+  "choiceElement": "",
+  "dependente": {
+    "nome": "",
+    "tipo": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6213990797492c0034870d0f"
+  },
+  "totais": {
+    "valorTotal": null,
+    "valorPadrao": null,
+    "operacao": null
+  },
+  "atributos": [],
+  "nome": "mod6HashAnt",
+  "pai": "NFdet",
+  "path": "/NF3e/infNF3e/NFdet/mod6HashAnt",
+  "ordem": "H107",
+  "versao": "1.00",
+  "tipo": "FIXED",
+  "pattern": "12345678911234567891123456789112",
+  "valorPadrao": null,
+  "ocorrencias": null,
+  "choiceElement": null,
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6414c4ffea519e0049451f1b"
+  },
+  "totais": {
+    "valorTotal": false,
+    "valorPadrao": "",
+    "operacao": ""
+  },
+  "atributos": [],
+  "nome": "indSemCST",
+  "pai": "imposto",
+  "path": "/NF3e/infNF3e/NFdet/det/detItem/imposto/indSemCST",
+  "ordem": "I202",
+  "versao": "1.00",
+  "tipo": "FIXED",
+  "pattern": "90",
+  "valorPadrao": "",
+  "ocorrencias": "1",
+  "choiceElement": "indSemCST",
+  "dependente": {
+    "nome": "",
+    "tipo": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64186c1dea519e0049452683"
+  },
+  "totais": {
+    "valorPadrao": "",
+    "operacao": "NONE",
+    "valorTotal": false
+  },
+  "atributos": [
+    {
+      "nome": "nTipoSaldo",
+      "zeroEsquerda": true,
+      "tamanho": 2,
+      "tipo": "INDEX"
+    }
+  ],
+  "nome": "gTipoSaldo",
+  "pai": "gSCEE",
+  "path": "/NF3e/infNF3e/gSCEE/gTipoSaldo",
+  "ordem": "F96a",
+  "versao": "1.00",
+  "tipo": "PAI",
+  "pattern": "",
+  "valorPadrao": "",
+  "ocorrencias": "10",
+  "choiceElement": "",
+  "dependente": {
+    "nome": "",
+    "tipo": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "641872552f387500427213ea"
+  },
+  "totais": {
+    "valorTotal": false,
+    "valorPadrao": null,
+    "operacao": "NONE"
+  },
+  "atributos": [],
+  "nome": "gSaldoCred",
+  "pai": "gTipoSaldo",
+  "path": "/NF3e/infNF3e/gSCEE/gTipoSaldo/gSaldoCred",
+  "ordem": "F96b",
+  "versao": "1.00",
+  "tipo": "PAI",
+  "pattern": null,
+  "valorPadrao": null,
+  "ocorrencias": "3",
+  "choiceElement": null,
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  },
+  "__v": 0
+}]

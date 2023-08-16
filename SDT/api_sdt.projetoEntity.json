@@ -1,0 +1,910 @@
+[{
+  "_id": {
+    "$oid": "63a44f23fd4e5565a433b0f8"
+  },
+  "nome": "NF3e",
+  "modelo": 66,
+  "descricao": "Projeto da Nota Fiscal de Energia Elétrica - NF3e",
+  "versoes": [
+    {
+      "versao": "1.00",
+      "contexto": "ws",
+      "servicos": [
+        {
+          "nome": "NF3eRecepcao",
+          "assincrono": true,
+          "metodos": [
+            {
+              "nome": "nf3eRecepcaoLote",
+              "compactar": true
+            }
+          ]
+        },
+        {
+          "nome": "NF3eRetRecepcao",
+          "assincrono": false,
+          "metodos": [
+            {
+              "nome": "nf3eRetRecepcao",
+              "compactar": false
+            }
+          ]
+        },
+        {
+          "nome": "NF3eRecepcaoSinc",
+          "assincrono": false,
+          "metodos": [
+            {
+              "nome": "nf3eRecepcao",
+              "compactar": true
+            }
+          ]
+        },
+        {
+          "nome": "NF3eStatusServico",
+          "assincrono": false,
+          "metodos": [
+            {
+              "nome": "nf3eStatusServicoNF",
+              "compactar": false
+            }
+          ]
+        },
+        {
+          "nome": "NF3eConsulta",
+          "assincrono": false,
+          "metodos": [
+            {
+              "nome": "nf3eConsultaNF",
+              "compactar": false
+            }
+          ]
+        },
+        {
+          "nome": "NF3eRecepcaoEvento",
+          "assincrono": false,
+          "metodos": [
+            {
+              "nome": "nf3eRecepcaoEvento",
+              "compactar": false
+            }
+          ],
+          "eventos": [
+            {
+              "nome": "Cancelamento"
+            },
+            {
+              "nome": "Substituicao"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "ambientes": [
+    {
+      "_id": 1,
+      "nome": "PRODUCAO",
+      "uri": "https://nf3e.sefaz.ms.gov.br"
+    },
+    {
+      "_id": 2,
+      "nome": "HOMOLOGACAO",
+      "uri": "https://hom.nf3e.sefaz.ms.gov.br"
+    },
+    {
+      "_id": 3,
+      "nome": "DESENVOLVIMENTO",
+      "uri": "https://des.nf3e.sefaz.ms.gov.br"
+    },
+    {
+      "_id": 4,
+      "nome": "LOCAL",
+      "uri": "https://localhost:8443"
+    },
+    {
+      "_id": 5,
+      "nome": "QA",
+      "uri": "https://qa.nf3e.sefaz.ms.gov.br"
+    }
+  ],
+  "_class": "br.gov.ms.sefaz.sat.cotin.dfe.projeto.ProjetoEntity"
+},
+{
+  "_id": {
+    "$oid": "63a4a75c4bbf1c0caa1e9e1f"
+  },
+  "nome": "CTe",
+  "modelo": 57,
+  "descricao": "Projeto de Conhecimento de Transporte Eletrônico - CTe",
+  "versoes": [
+    {
+      "versao": "3.00",
+      "contexto": "ws",
+      "servicos": [
+        {
+          "nome": "CteStatusServico",
+          "assincrono": false,
+          "cabecalho": true,
+          "metodos": [
+            {
+              "nome": "cteStatusServicoCT",
+              "compactar": false
+            }
+          ]
+        },
+        {
+          "nome": "CteConsulta",
+          "assincrono": false,
+          "cabecalho": true,
+          "metodos": [
+            {
+              "nome": "cteConsultaCT",
+              "compactar": false
+            }
+          ]
+        },
+        {
+          "nome": "CteRecepcaoSinc",
+          "assincrono": false,
+          "cabecalho": false,
+          "metodos": [
+            {
+              "nome": "cteRecepcaoSinc",
+              "compactar": true
+            }
+          ]
+        },
+        {
+          "nome": "CteRecepcaoEvento",
+          "assincrono": false,
+          "cabecalho": false,
+          "metodos": [
+            {
+              "nome": "cteRecepcaoEvento",
+              "compactar": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "versao": "4.00",
+      "contexto": "ws",
+      "servicos": [
+        {
+          "nome": "CTeStatusServicoV4",
+          "assincrono": false,
+          "cabecalho": false,
+          "metodos": [
+            {
+              "nome": "cteStatusServicoCT",
+              "compactar": false
+            }
+          ]
+        },
+        {
+          "nome": "CTeConsultaV4",
+          "assincrono": false,
+          "cabecalho": false,
+          "metodos": [
+            {
+              "nome": "cteConsultaCT",
+              "compactar": false
+            }
+          ]
+        },
+        {
+          "nome": "CTeRecepcaoSincV4",
+          "assincrono": false,
+          "cabecalho": false,
+          "metodos": [
+            {
+              "nome": "cteRecepcao",
+              "compactar": true
+            }
+          ]
+        },
+        {
+          "nome": "CTeRecepcaoEventoV4",
+          "assincrono": false,
+          "cabecalho": false,
+          "metodos": [
+            {
+              "nome": "cteRecepcaoEvento",
+              "compactar": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "ambientes": [
+    {
+      "_id": 1,
+      "nome": "PRODUCAO",
+      "uri": "https://producao.cte.ms.gov.br"
+    },
+    {
+      "_id": 2,
+      "nome": "HOMOLOGACAO",
+      "uri": "https://homologacao.cte.ms.gov.br"
+    },
+    {
+      "_id": 3,
+      "nome": "DESENVOLVIMENTO",
+      "uri": "https://desenvolvimento.cte.ms.gov.br"
+    },
+    {
+      "_id": 4,
+      "nome": "LOCAL",
+      "uri": "https://localhost:8443"
+    },
+    {
+      "_id": 5,
+      "nome": "QA",
+      "uri": "https://qa.cte.ms.gov.br"
+    }
+  ],
+  "_class": "br.gov.ms.sefaz.sat.cotin.dfe.projeto.ProjetoEntity"
+},
+{
+  "_id": {
+    "$oid": "64247e5b73b3bcfd49baaf77"
+  },
+  "nome": "CTeOS",
+  "modelo": 67,
+  "descricao": "Projeto de Conhecimento de Transporte Eletrônico para Outros Serviços - CTeOS",
+  "versoes": [
+    {
+      "versao": "3.00",
+      "contexto": "ws",
+      "servicos": [
+        {
+          "nome": "CteStatusServico",
+          "assincrono": false,
+          "cabecalho": true,
+          "metodos": [
+            {
+              "nome": "cteStatusServicoCT",
+              "compactar": false
+            }
+          ]
+        },
+        {
+          "nome": "CteConsulta",
+          "assincrono": false,
+          "cabecalho": true,
+          "metodos": [
+            {
+              "nome": "cteConsultaCT",
+              "compactar": false
+            }
+          ]
+        },
+        {
+          "nome": "CteRecepcaoOS",
+          "assincrono": false,
+          "cabecalho": true,
+          "metodos": [
+            {
+              "nome": "cteRecepcaoOS",
+              "compactar": false
+            }
+          ]
+        },
+        {
+          "nome": "CteRecepcaoEvento",
+          "assincrono": false,
+          "cabecalho": false,
+          "metodos": [
+            {
+              "nome": "cteRecepcaoEvento",
+              "compactar": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "versao": "4.00",
+      "contexto": "ws",
+      "servicos": [
+        {
+          "nome": "CTeStatusServicoV4",
+          "assincrono": false,
+          "cabecalho": false,
+          "metodos": [
+            {
+              "nome": "cteStatusServicoCT",
+              "compactar": false
+            }
+          ]
+        },
+        {
+          "nome": "CTeConsultaV4",
+          "assincrono": false,
+          "cabecalho": false,
+          "metodos": [
+            {
+              "nome": "cteConsultaCT",
+              "compactar": false
+            }
+          ]
+        },
+        {
+          "nome": "CTeRecepcaoOSV4",
+          "assincrono": false,
+          "cabecalho": false,
+          "metodos": [
+            {
+              "nome": "cteRecepcaoOS",
+              "compactar": true
+            }
+          ]
+        },
+        {
+          "nome": "CTeRecepcaoEventoV4",
+          "assincrono": false,
+          "cabecalho": false,
+          "metodos": [
+            {
+              "nome": "cteRecepcaoEvento",
+              "compactar": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "ambientes": [
+    {
+      "_id": 1,
+      "nome": "PRODUCAO",
+      "uri": "https://producao.cte.ms.gov.br"
+    },
+    {
+      "_id": 2,
+      "nome": "HOMOLOGACAO",
+      "uri": "https://homologacao.cte.ms.gov.br"
+    },
+    {
+      "_id": 3,
+      "nome": "DESENVOLVIMENTO",
+      "uri": "https://desenvolvimento.cte.ms.gov.br"
+    },
+    {
+      "_id": 4,
+      "nome": "LOCAL",
+      "uri": "https://localhost:8443"
+    },
+    {
+      "_id": 5,
+      "nome": "QA",
+      "uri": "https://qa.cte.ms.gov.br"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "642c0b91b17b2733af4f81c9"
+  },
+  "nome": "GTVe",
+  "modelo": 64,
+  "descricao": "Guia de Transporte de Valores Eletrônica - GTVe",
+  "versoes": [
+    {
+      "versao": "3.00",
+      "contexto": "ws",
+      "servicos": [
+        {
+          "nome": "CteStatusServico",
+          "assincrono": false,
+          "cabecalho": true,
+          "metodos": [
+            {
+              "nome": "cteStatusServicoCT",
+              "compactar": false
+            }
+          ]
+        },
+        {
+          "nome": "CteConsulta",
+          "assincrono": false,
+          "cabecalho": true,
+          "metodos": [
+            {
+              "nome": "cteConsultaCT",
+              "compactar": false
+            }
+          ]
+        },
+        {
+          "nome": "CTeRecepcaoGTVe",
+          "assincrono": false,
+          "cabecalho": false,
+          "metodos": [
+            {
+              "nome": "cteRecepcaoGTVe",
+              "compactar": true
+            }
+          ]
+        },
+        {
+          "nome": "CteRecepcaoEvento",
+          "assincrono": false,
+          "cabecalho": false,
+          "metodos": [
+            {
+              "nome": "cteRecepcaoEvento",
+              "compactar": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "versao": "4.00",
+      "contexto": "ws",
+      "servicos": [
+        {
+          "nome": "CTeStatusServicoV4",
+          "assincrono": false,
+          "cabecalho": false,
+          "metodos": [
+            {
+              "nome": "cteStatusServicoCT",
+              "compactar": false
+            }
+          ]
+        },
+        {
+          "nome": "CTeConsultaV4",
+          "assincrono": false,
+          "cabecalho": false,
+          "metodos": [
+            {
+              "nome": "cteConsultaCT",
+              "compactar": false
+            }
+          ]
+        },
+        {
+          "nome": "CTeRecepcaoGTVeV4",
+          "assincrono": false,
+          "cabecalho": false,
+          "metodos": [
+            {
+              "nome": "cteRecepcaoGTVe",
+              "compactar": true
+            }
+          ]
+        },
+        {
+          "nome": "CTeRecepcaoEventoV4",
+          "assincrono": false,
+          "cabecalho": false,
+          "metodos": [
+            {
+              "nome": "cteRecepcaoEvento",
+              "compactar": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "ambientes": [
+    {
+      "_id": 1,
+      "nome": "PRODUCAO",
+      "uri": "https://producao.cte.ms.gov.br"
+    },
+    {
+      "_id": 2,
+      "nome": "HOMOLOGACAO",
+      "uri": "https://homologacao.cte.ms.gov.br"
+    },
+    {
+      "_id": 3,
+      "nome": "DESENVOLVIMENTO",
+      "uri": "https://desenvolvimento.cte.ms.gov.br"
+    },
+    {
+      "_id": 4,
+      "nome": "LOCAL",
+      "uri": "https://localhost:8443"
+    },
+    {
+      "_id": 5,
+      "nome": "QA",
+      "uri": "https://qa.cte.ms.gov.br"
+    }
+  ],
+  "_class": "br.gov.ms.sefaz.sat.cotin.dfe.projeto.ProjetoEntity"
+},
+{
+  "_id": {
+    "$oid": "64a8726ce9acff429a25aae4"
+  },
+  "nome": "NFe",
+  "modelo": 55,
+  "descricao": "Projeto da Nota Fiscal Eletrônica- NFe",
+  "versoes": [
+    {
+      "versao": "4.00",
+      "contexto": "ws",
+      "servicos": [
+        {
+          "nome": "NFeAutorizacao4",
+          "assincrono": false,
+          "metodos": [
+            {
+              "nome": "nfeAutorizacaoLote",
+              "compactar": false
+            },
+            {
+              "nome": "nfeAutorizacaoLoteZip",
+              "compactar": true
+            }
+          ]
+        },
+        {
+          "nome": "NFeAutorizacao4",
+          "assincrono": true,
+          "metodos": [
+            {
+              "nome": "nfeAutorizacaoLote",
+              "compactar": false
+            },
+            {
+              "nome": "nfeAutorizacaoLoteZip",
+              "compactar": true
+            }
+          ]
+        },
+        {
+          "nome": "NFeInutilizacao4",
+          "assincrono": false,
+          "metodos": [
+            {
+              "nome": "nfeInutilizacaoNF",
+              "compactar": false
+            }
+          ]
+        },
+        {
+          "nome": "NFeConsultaProtocolo4",
+          "assincrono": false,
+          "metodos": [
+            {
+              "nome": "nfeConsultaNF",
+              "compactar": false
+            }
+          ]
+        },
+        {
+          "nome": "NFeStatusServico4",
+          "assincrono": false,
+          "metodos": [
+            {
+              "nome": "nfeStatusServicoNF",
+              "compactar": false
+            }
+          ]
+        },
+        {
+          "nome": "CadConsultaCadastro4",
+          "assincrono": false,
+          "metodos": [
+            {
+              "nome": "nfeDistDFeInteresse",
+              "compactar": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "versao": "1.00",
+      "contexto": "ws",
+      "servicos": [
+        {
+          "nome": "NFeRecepcaoEvento4",
+          "assincrono": false,
+          "metodos": [
+            {
+              "nome": "nfeRecepcaoEvento",
+              "compactar": false
+            }
+          ],
+          "eventos": [
+            {
+              "nome": "Cancelamento"
+            },
+            {
+              "nome": "Substituicao"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "ambientes": [
+    {
+      "_id": 1,
+      "nome": "PRODUCAO",
+      "uri": "https://nfe.sefaz.ms.gov.br"
+    },
+    {
+      "_id": 2,
+      "nome": "HOMOLOGACAO",
+      "uri": "https://hom.nfe.sefaz.ms.gov.br"
+    },
+    {
+      "_id": 3,
+      "nome": "DESENVOLVIMENTO",
+      "uri": "https://des.nfe.sefaz.ms.gov.br"
+    },
+    {
+      "_id": 4,
+      "nome": "LOCAL",
+      "uri": "https://localhost:8443"
+    },
+    {
+      "_id": 5,
+      "nome": "QA",
+      "uri": "https://qa.nfe.sefaz.ms.gov.br"
+    }
+  ],
+  "_class": "br.gov.ms.sefaz.sat.cotin.dfe.projeto.ProjetoEntity"
+},
+{
+  "_id": {
+    "$oid": "64ad8d18832f7b0a07dfd12a"
+  },
+  "nome": "NFCe",
+  "modelo": 65,
+  "descricao": "Projeto da Nota Fiscal de Consumidor Eletrônica- NFCe",
+  "versoes": [
+    {
+      "versao": "4.00",
+      "contexto": "ws",
+      "servicos": [
+        {
+          "nome": "NFeAutorizacao4",
+          "assincrono": false,
+          "metodos": [
+            {
+              "nome": "nfeAutorizacaoLote",
+              "compactar": false
+            },
+            {
+              "nome": "nfeAutorizacaoLoteZip",
+              "compactar": true
+            }
+          ]
+        },
+        {
+          "nome": "NFeAutorizacao4",
+          "assincrono": true,
+          "metodos": [
+            {
+              "nome": "nfeAutorizacaoLote",
+              "compactar": false
+            },
+            {
+              "nome": "nfeAutorizacaoLoteZip",
+              "compactar": true
+            }
+          ]
+        },
+        {
+          "nome": "NFeInutilizacao4",
+          "assincrono": false,
+          "metodos": [
+            {
+              "nome": "nfeInutilizacaoNF",
+              "compactar": false
+            }
+          ]
+        },
+        {
+          "nome": "NFeConsultaProtocolo4",
+          "assincrono": false,
+          "metodos": [
+            {
+              "nome": "nfeConsultaNF",
+              "compactar": false
+            }
+          ]
+        },
+        {
+          "nome": "NFeStatusServico4",
+          "assincrono": false,
+          "metodos": [
+            {
+              "nome": "nfeStatusServicoNF",
+              "compactar": false
+            }
+          ]
+        },
+        {
+          "nome": "CadConsultaCadastro4",
+          "assincrono": false,
+          "metodos": [
+            {
+              "nome": "nfeDistDFeInteresse",
+              "compactar": false
+            }
+          ]
+        },
+        {
+          "nome": "NFeRecepcaoEvento4",
+          "assincrono": false,
+          "metodos": [
+            {
+              "nome": "nfeRecepcaoEvento",
+              "compactar": false
+            }
+          ],
+          "eventos": [
+            {
+              "nome": "Cancelamento"
+            },
+            {
+              "nome": "Substituicao"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "ambientes": [
+    {
+      "_id": 1,
+      "nome": "PRODUCAO",
+      "uri": "https://nfce.sefaz.ms.gov.br"
+    },
+    {
+      "_id": 2,
+      "nome": "HOMOLOGACAO",
+      "uri": "https://hom.nfce.sefaz.ms.gov.br"
+    },
+    {
+      "_id": 3,
+      "nome": "DESENVOLVIMENTO",
+      "uri": "https://des.nfce.sefaz.ms.gov.br"
+    },
+    {
+      "_id": 4,
+      "nome": "LOCAL",
+      "uri": "https://localhost:8443"
+    },
+    {
+      "_id": 5,
+      "nome": "QA",
+      "uri": "https://qa.nfce.sefaz.ms.gov.br"
+    }
+  ],
+  "_class": "br.gov.ms.sefaz.sat.cotin.dfe.persistence.sdt.entity.ProjetoEntity"
+},
+{
+  "_id": {
+    "$oid": "64b5532f250906028e27037a"
+  },
+  "nome": "NFCom",
+  "modelo": 62,
+  "descricao": "Nota Fiscal Fatura de Serviço de Comunicação Eletrônica",
+  "versoes": [
+    {
+      "versao": "1.00",
+      "contexto": "ws",
+      "servicos": [
+        {
+          "nome": "NFComRecepcao",
+          "nomeWsdl": "NFComRecepcao",
+          "assincrono": false,
+          "cabecalho": false,
+          "metodos": [
+            {
+              "nome": "NFComRecepcao",
+              "compactar": true
+            }
+          ],
+          "esquemas": [
+            {}
+          ],
+          "eventos": [
+            {}
+          ]
+        },
+        {
+          "nome": "NFComConsulta",
+          "nomeWsdl": "NFComConsulta",
+          "assincrono": false,
+          "cabecalho": false,
+          "metodos": [
+            {
+              "nome": "NFComConsulta",
+              "compactar": false
+            }
+          ],
+          "esquemas": [
+            {}
+          ],
+          "eventos": [
+            {}
+          ]
+        },
+        {
+          "nome": "NFComStatusServico",
+          "nomeWsdl": "NFComStatusServico",
+          "assincrono": false,
+          "cabecalho": false,
+          "metodos": [
+            {
+              "nome": "NFComStatusServico",
+              "compactar": false
+            }
+          ],
+          "esquemas": [
+            {}
+          ],
+          "eventos": [
+            {}
+          ]
+        },
+        {
+          "nome": "NFComRecepcaoEvento",
+          "nomeWsdl": "NFComRecepcaoEvento",
+          "assincrono": false,
+          "cabecalho": false,
+          "metodos": [
+            {
+              "nome": "NFComRecepcaoEvento",
+              "compactar": false
+            }
+          ],
+          "esquemas": [
+            {}
+          ],
+          "eventos": [
+            {
+              "nome": "Cancelamento",
+              "esquema": "evCancNFCom_v1.00.xsd"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "ambientes": [
+    {
+      "_id": 0,
+      "nome": "PRODUCAO",
+      "uri": "https://nfcom.sefaz.ms.gov.br"
+    },
+    {
+      "_id": 1,
+      "nome": "HOMOLOGACAO",
+      "uri": "https://hom.nfcom.sefaz.ms.gov.br"
+    },
+    {
+      "_id": 2,
+      "nome": "DESENVOLVIMENTO",
+      "uri": "https://dev.nfcom.sefaz.ms.gov.br"
+    },
+    {
+      "_id": 3,
+      "nome": "LOCAL",
+      "uri": "https://localhost:8443"
+    },
+    {
+      "_id": 4,
+      "nome": "QA",
+      "uri": "https://qa.nfcom.sefaz.ms.gov.br"
+    }
+  ],
+  "_class": "br.gov.ms.sefaz.sat.cotin.dfe.persistence.sdt.entity.ProjetoEntity"
+}]

@@ -1,0 +1,6200 @@
+[{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaf7e"
+  },
+  "nome": "CTeOS",
+  "pai": "enviCTe",
+  "path": "/CTeOS",
+  "ordem": "aa00",
+  "tipo": "ROOT",
+  "versao": "4.00",
+  "atributos": [
+    {
+      "nome": "versao",
+      "tipo": "NORMAL",
+      "valor": "4.00",
+      "zeroEsquerda": false,
+      "tamanho": 0
+    }
+  ],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaf7f"
+  },
+  "nome": "infCte",
+  "pai": "CTeOS",
+  "path": "/CTeOS/infCte",
+  "ordem": "ab00",
+  "tipo": "FIXED",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaf80"
+  },
+  "nome": "ide",
+  "pai": "infCte",
+  "path": "/CTeOS/infCte/ide",
+  "ordem": "ac00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaf81"
+  },
+  "nome": "cUF",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/cUF",
+  "ordem": "ad00",
+  "tipo": "FIXED",
+  "pattern": "50",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaf82"
+  },
+  "nome": "cCT",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/cCT",
+  "ordem": "ae00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{8}",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaf83"
+  },
+  "nome": "CFOP",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/CFOP",
+  "ordem": "af00",
+  "tipo": "REGEX",
+  "pattern": "[123567][0-9]([0-9][1-9]|[1-9][0-9])",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaf84"
+  },
+  "nome": "natOp",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/natOp",
+  "ordem": "ag00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-60",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaf85"
+  },
+  "nome": "mod",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/mod",
+  "ordem": "ah00",
+  "tipo": "FIXED",
+  "pattern": "67",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaf86"
+  },
+  "nome": "serie",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/serie",
+  "ordem": "ai00",
+  "tipo": "FIXED",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaf87"
+  },
+  "nome": "nCT",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/nCT",
+  "ordem": "aj00",
+  "tipo": "REGEX",
+  "pattern": "[1-9]{1}[0-9]{0,8}",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaf88"
+  },
+  "nome": "dhEmi",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/dhEmi",
+  "ordem": "ak00",
+  "tipo": "DATE",
+  "pattern": "yyyy-MM-dd'T'HH:mm:ssXXX",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaf89"
+  },
+  "nome": "tpImp",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/tpImp",
+  "ordem": "al00",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "1|2",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaf8a"
+  },
+  "nome": "tpEmis",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/tpEmis",
+  "ordem": "am00",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "1|5|7|8",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaf8b"
+  },
+  "nome": "cDV",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/cDV",
+  "ordem": "an00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{1}",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaf8c"
+  },
+  "nome": "tpAmb",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/tpAmb",
+  "ordem": "ao00",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "1|2",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaf8d"
+  },
+  "nome": "tpCTe",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/tpCTe",
+  "ordem": "ap00",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "0|1|3",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaf8e"
+  },
+  "nome": "procEmi",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/procEmi",
+  "ordem": "aq00",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "0|3",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaf8f"
+  },
+  "nome": "verProc",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/verProc",
+  "ordem": "ar00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-20",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaf90"
+  },
+  "nome": "cMunEnv",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/cMunEnv",
+  "ordem": "as00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{7}",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaf91"
+  },
+  "nome": "xMunEnv",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/xMunEnv",
+  "ordem": "at00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaf92"
+  },
+  "nome": "UFEnv",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/UFEnv",
+  "ordem": "au00",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "AC|AL|AM|AP|BA|CE|DF|ES|GO|MA|MG|MS|MT|PA|PB|PE|PI|PR|RJ|RN|RO|RR|RS|SC|SE|SP|TO|EX",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaf93"
+  },
+  "nome": "modal",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/modal",
+  "ordem": "av00",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "01|02|03|04",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaf94"
+  },
+  "nome": "tpServ",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/tpServ",
+  "ordem": "aw00",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "6|7|8",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaf95"
+  },
+  "nome": "indIEToma",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/indIEToma",
+  "ordem": "ax00",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "1|2|9",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaf96"
+  },
+  "nome": "cMunIni",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/cMunIni",
+  "ordem": "ay00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{7}",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaf97"
+  },
+  "nome": "xMunIni",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/xMunIni",
+  "ordem": "az00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaf98"
+  },
+  "nome": "UFIni",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/UFIni",
+  "ordem": "ba00",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "AC|AL|AM|AP|BA|CE|DF|ES|GO|MA|MG|MS|MT|PA|PB|PE|PI|PR|RJ|RN|RO|RR|RS|SC|SE|SP|TO|EX",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaf99"
+  },
+  "nome": "cMunFim",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/cMunFim",
+  "ordem": "bb00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{7}",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaf9a"
+  },
+  "nome": "xMunFim",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/xMunFim",
+  "ordem": "bc00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaf9b"
+  },
+  "nome": "UFFim",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/UFFim",
+  "ordem": "bd00",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "AC|AL|AM|AP|BA|CE|DF|ES|GO|MA|MG|MS|MT|PA|PB|PE|PI|PR|RJ|RN|RO|RR|RS|SC|SE|SP|TO|EX",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaf9c"
+  },
+  "nome": "infPercurso",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/infPercurso",
+  "ordem": "be00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaf9d"
+  },
+  "nome": "UFPer",
+  "pai": "infPercurso",
+  "path": "/CTeOS/infCte/ide/infPercurso/UFPer",
+  "ordem": "bf00",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "AC|AL|AM|AP|BA|CE|DF|ES|GO|MA|MG|MS|MT|PA|PB|PE|PI|PR|RJ|RN|RO|RR|RS|SC|SE|SP|TO|EX",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaf9e"
+  },
+  "nome": "dhCont",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/dhCont",
+  "ordem": "bg00",
+  "tipo": "REGEX",
+  "pattern": "(((20(([02468][048])|([13579][26]))-02-29))|(20[0-9][0-9])-((((0[1-9])|(1[0-2]))-((0[1-9])|(1\\d)|(2[0-8])))|((((0[13578])|(1[02]))-31)|(((0[1,3-9])|(1[0-2]))-(29|30)))))T(20|21|22|23|[0-1]\\d):[0-5]\\d:[0-5]\\d([\\-,\\+](0[0-9]|10|11):00|([\\+](12):00))",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaf9f"
+  },
+  "nome": "xJust",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/xJust",
+  "ordem": "bg00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "15-256",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafa0"
+  },
+  "nome": "compl",
+  "pai": "infCte",
+  "path": "/CTeOS/infCte/compl",
+  "ordem": "bg00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafa1"
+  },
+  "nome": "xCaracAd",
+  "pai": "compl",
+  "path": "/CTeOS/infCte/compl/xCaracAd",
+  "ordem": "bh00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-15",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafa2"
+  },
+  "nome": "xCaracSer",
+  "pai": "compl",
+  "path": "/CTeOS/infCte/compl/xCaracSer",
+  "ordem": "bi00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-30",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafa3"
+  },
+  "nome": "xEmi",
+  "pai": "compl",
+  "path": "/CTeOS/infCte/compl/xEmi",
+  "ordem": "bj00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-20",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafa4"
+  },
+  "nome": "xObs",
+  "pai": "compl",
+  "path": "/CTeOS/infCte/compl/xObs",
+  "ordem": "bk00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-2000",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafa5"
+  },
+  "nome": "ObsCont",
+  "pai": "compl",
+  "path": "/CTeOS/infCte/compl/ObsCont",
+  "ordem": "bl00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": [
+    {
+      "nome": "xCampo",
+      "valor": "1-20"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafa6"
+  },
+  "nome": "xTexto",
+  "pai": "ObsCont",
+  "path": "/CTeOS/infCte/compl/ObsCont/xTexto",
+  "ordem": "bm00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-160",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafa7"
+  },
+  "nome": "ObsFisco",
+  "pai": "compl",
+  "path": "/CTeOS/infCte/compl/ObsFisco",
+  "ordem": "bn00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": [
+    {
+      "nome": "xCampo",
+      "valor": "1-20"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafa8"
+  },
+  "nome": "xTexto",
+  "pai": "ObsFisco",
+  "path": "/CTeOS/infCte/compl/ObsFisco/xTexto",
+  "ordem": "bo00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-60",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafa9"
+  },
+  "nome": "emit",
+  "pai": "infCte",
+  "path": "/CTeOS/infCte/emit",
+  "ordem": "bp00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafaa"
+  },
+  "nome": "CNPJ",
+  "pai": "emit",
+  "path": "/CTeOS/infCte/emit/CNPJ",
+  "ordem": "bq00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{14}",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafab"
+  },
+  "nome": "IE",
+  "pai": "emit",
+  "path": "/CTeOS/infCte/emit/IE",
+  "ordem": "br00",
+  "tipo": "FIXED",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafac"
+  },
+  "nome": "IEST",
+  "pai": "emit",
+  "path": "/CTeOS/infCte/emit/IEST",
+  "ordem": "bs00",
+  "tipo": "FIXED",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafad"
+  },
+  "nome": "xNome",
+  "pai": "emit",
+  "path": "/CTeOS/infCte/emit/xNome",
+  "ordem": "bt00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafae"
+  },
+  "nome": "xFant",
+  "pai": "emit",
+  "path": "/CTeOS/infCte/emit/xFant",
+  "ordem": "bu00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafaf"
+  },
+  "nome": "enderEmit",
+  "pai": "emit",
+  "path": "/CTeOS/infCte/emit/enderEmit",
+  "ordem": "bv00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafb0"
+  },
+  "nome": "xLgr",
+  "pai": "enderEmit",
+  "path": "/CTeOS/infCte/emit/enderEmit/xLgr",
+  "ordem": "bw00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafb1"
+  },
+  "nome": "nro",
+  "pai": "enderEmit",
+  "path": "/CTeOS/infCte/emit/enderEmit/nro",
+  "ordem": "bx00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-60",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafb2"
+  },
+  "nome": "xCpl",
+  "pai": "enderEmit",
+  "path": "/CTeOS/infCte/emit/enderEmit/xCpl",
+  "ordem": "by00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-60",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafb3"
+  },
+  "nome": "xBairro",
+  "pai": "enderEmit",
+  "path": "/CTeOS/infCte/emit/enderEmit/xBairro",
+  "ordem": "bz00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafb4"
+  },
+  "nome": "cMun",
+  "pai": "enderEmit",
+  "path": "/CTeOS/infCte/emit/enderEmit/cMun",
+  "ordem": "ca00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{7}",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafb5"
+  },
+  "nome": "xMun",
+  "pai": "enderEmit",
+  "path": "/CTeOS/infCte/emit/enderEmit/xMun",
+  "ordem": "cb00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafb6"
+  },
+  "nome": "CEP",
+  "pai": "enderEmit",
+  "path": "/CTeOS/infCte/emit/enderEmit/CEP",
+  "ordem": "cc00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{8}",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafb7"
+  },
+  "nome": "UF",
+  "pai": "enderEmit",
+  "path": "/CTeOS/infCte/emit/enderEmit/UF",
+  "ordem": "cd00",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "AC|AL|AM|AP|BA|CE|DF|ES|GO|MA|MG|MS|MT|PA|PB|PE|PI|PR|RJ|RN|RO|RR|RS|SC|SE|SP|TO",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafb8"
+  },
+  "nome": "fone",
+  "pai": "enderEmit",
+  "path": "/CTeOS/infCte/emit/enderEmit/fone",
+  "ordem": "ce00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{6,14}",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafb9"
+  },
+  "nome": "CRT",
+  "pai": "emit",
+  "path": "/CTeOS/infCte/emit/CRT",
+  "ordem": "cf00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-1",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafba"
+  },
+  "nome": "toma",
+  "pai": "infCte",
+  "path": "/CTeOS/infCte/toma",
+  "ordem": "cg00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafbb"
+  },
+  "nome": "CNPJ",
+  "pai": "toma",
+  "path": "/CTeOS/infCte/toma/CNPJ",
+  "ordem": "ch00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{0}|[0-9]{14}",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "choiceElement": "CNPJ",
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafbc"
+  },
+  "nome": "CPF",
+  "pai": "toma",
+  "path": "/CTeOS/infCte/toma/CPF",
+  "ordem": "ch00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{11}",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "choiceElement": "CPF",
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafbd"
+  },
+  "nome": "IE",
+  "pai": "toma",
+  "path": "/CTeOS/infCte/toma/IE",
+  "ordem": "ch00",
+  "tipo": "FIXED",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafbe"
+  },
+  "nome": "xNome",
+  "pai": "toma",
+  "path": "/CTeOS/infCte/toma/xNome",
+  "ordem": "ci00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafbf"
+  },
+  "nome": "xFant",
+  "pai": "toma",
+  "path": "/CTeOS/infCte/toma/xFant",
+  "ordem": "cj00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafc0"
+  },
+  "nome": "fone",
+  "pai": "toma",
+  "path": "/CTeOS/infCte/toma/fone",
+  "ordem": "ck00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{6,14}",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafc1"
+  },
+  "nome": "enderToma",
+  "pai": "toma",
+  "path": "/CTeOS/infCte/toma/enderToma",
+  "ordem": "cl00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafc2"
+  },
+  "nome": "xLgr",
+  "pai": "enderToma",
+  "path": "/CTeOS/infCte/toma/enderToma/xLgr",
+  "ordem": "cm00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-255",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafc3"
+  },
+  "nome": "nro",
+  "pai": "enderToma",
+  "path": "/CTeOS/infCte/toma/enderToma/nro",
+  "ordem": "cn00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-60",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafc4"
+  },
+  "nome": "xCpl",
+  "pai": "enderToma",
+  "path": "/CTeOS/infCte/toma/enderToma/xCpl",
+  "ordem": "co00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-60",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafc5"
+  },
+  "nome": "xBairro",
+  "pai": "enderToma",
+  "path": "/CTeOS/infCte/toma/enderToma/xBairro",
+  "ordem": "cp00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafc6"
+  },
+  "nome": "cMun",
+  "pai": "enderToma",
+  "path": "/CTeOS/infCte/toma/enderToma/cMun",
+  "ordem": "cq00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{7}",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafc7"
+  },
+  "nome": "xMun",
+  "pai": "enderToma",
+  "path": "/CTeOS/infCte/toma/enderToma/xMun",
+  "ordem": "cr00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafc8"
+  },
+  "nome": "CEP",
+  "pai": "enderToma",
+  "path": "/CTeOS/infCte/toma/enderToma/CEP",
+  "ordem": "cs00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{8}",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafc9"
+  },
+  "nome": "UF",
+  "pai": "enderToma",
+  "path": "/CTeOS/infCte/toma/enderToma/UF",
+  "ordem": "ct00",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "AC|AL|AM|AP|BA|CE|DF|ES|GO|MA|MG|MS|MT|PA|PB|PE|PI|PR|RJ|RN|RO|RR|RS|SC|SE|SP|TO|EX",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafca"
+  },
+  "nome": "cPais",
+  "pai": "enderToma",
+  "path": "/CTeOS/infCte/toma/enderToma/cPais",
+  "ordem": "cu00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{1,4}",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafcb"
+  },
+  "nome": "xPais",
+  "pai": "enderToma",
+  "path": "/CTeOS/infCte/toma/enderToma/xPais",
+  "ordem": "cv00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafcc"
+  },
+  "nome": "email",
+  "pai": "toma",
+  "path": "/CTeOS/infCte/toma/email",
+  "ordem": "cw00",
+  "tipo": "FIXED",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafcd"
+  },
+  "nome": "vPrest",
+  "pai": "infCte",
+  "path": "/CTeOS/infCte/vPrest",
+  "ordem": "cx00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafce"
+  },
+  "nome": "vTPrest",
+  "pai": "vPrest",
+  "path": "/CTeOS/infCte/vPrest/vTPrest",
+  "ordem": "cy00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafcf"
+  },
+  "nome": "vRec",
+  "pai": "vPrest",
+  "path": "/CTeOS/infCte/vPrest/vRec",
+  "ordem": "cz00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafd0"
+  },
+  "nome": "Comp",
+  "pai": "vPrest",
+  "path": "/CTeOS/infCte/vPrest/Comp",
+  "ordem": "da00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafd1"
+  },
+  "nome": "xNome",
+  "pai": "Comp",
+  "path": "/CTeOS/infCte/vPrest/Comp/xNome",
+  "ordem": "db00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-15",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafd2"
+  },
+  "nome": "vComp",
+  "pai": "Comp",
+  "path": "/CTeOS/infCte/vPrest/Comp/vComp",
+  "ordem": "dc00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafd3"
+  },
+  "nome": "imp",
+  "pai": "infCte",
+  "path": "/CTeOS/infCte/imp",
+  "ordem": "dd00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafd4"
+  },
+  "nome": "ICMS",
+  "pai": "imp",
+  "path": "/CTeOS/infCte/imp/ICMS",
+  "ordem": "de00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafd5"
+  },
+  "nome": "ICMS00",
+  "pai": "ICMS",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMS00",
+  "ordem": "df00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafd6"
+  },
+  "nome": "CST",
+  "pai": "ICMS00",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMS00/CST",
+  "ordem": "df00",
+  "tipo": "FIXED",
+  "pattern": "00",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafd7"
+  },
+  "nome": "vBC",
+  "pai": "ICMS00",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMS00/vBC",
+  "ordem": "dg00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafd8"
+  },
+  "nome": "pICMS",
+  "pai": "ICMS00",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMS00/pICMS",
+  "ordem": "dh00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,2}(\\.[0-9]{2})?",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafd9"
+  },
+  "nome": "vICMS",
+  "pai": "ICMS00",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMS00/vICMS",
+  "ordem": "di00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafda"
+  },
+  "nome": "ICMS20",
+  "pai": "ICMS",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMS20",
+  "ordem": "dj00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafdb"
+  },
+  "nome": "CST",
+  "pai": "ICMS20",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMS20/CST",
+  "ordem": "dj00",
+  "tipo": "FIXED",
+  "pattern": "20",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafdc"
+  },
+  "nome": "pRedBC",
+  "pai": "ICMS20",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMS20/pRedBC",
+  "ordem": "dk00",
+  "tipo": "REGEX",
+  "pattern": "0\\.[0-9]{1}[1-9]{1}|0\\.[1-9]{1}[0-9]{1}|[1-9]{1}[0-9]{0,2}(\\.[0-9]{2})?",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafdd"
+  },
+  "nome": "vBC",
+  "pai": "ICMS20",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMS20/vBC",
+  "ordem": "dl00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafde"
+  },
+  "nome": "pICMS",
+  "pai": "ICMS20",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMS20/pICMS",
+  "ordem": "dm00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,2}(\\.[0-9]{2})?",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafdf"
+  },
+  "nome": "vICMS",
+  "pai": "ICMS20",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMS20/vICMS",
+  "ordem": "dn00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafe0"
+  },
+  "nome": "ICMS45",
+  "pai": "ICMS",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMS45",
+  "ordem": "do00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafe1"
+  },
+  "nome": "CST",
+  "pai": "ICMS45",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMS45/CST",
+  "ordem": "do00",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "40|41|51",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafe2"
+  },
+  "nome": "ICMS90",
+  "pai": "ICMS",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMS90",
+  "ordem": "dp00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafe3"
+  },
+  "nome": "CST",
+  "pai": "ICMS90",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMS90/CST",
+  "ordem": "dp00",
+  "tipo": "FIXED",
+  "pattern": "90",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafe4"
+  },
+  "nome": "pRedBC",
+  "pai": "ICMS90",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMS90/pRedBC",
+  "ordem": "dq00",
+  "tipo": "REGEX",
+  "pattern": "0\\.[0-9]{1}[1-9]{1}|0\\.[1-9]{1}[0-9]{1}|[1-9]{1}[0-9]{0,2}(\\.[0-9]{2})?",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafe5"
+  },
+  "nome": "vBC",
+  "pai": "ICMS90",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMS90/vBC",
+  "ordem": "dr00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafe6"
+  },
+  "nome": "pICMS",
+  "pai": "ICMS90",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMS90/pICMS",
+  "ordem": "ds00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,2}(\\.[0-9]{2})?",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafe7"
+  },
+  "nome": "vICMS",
+  "pai": "ICMS90",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMS90/vICMS",
+  "ordem": "dt00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafe8"
+  },
+  "nome": "vCred",
+  "pai": "ICMS90",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMS90/vCred",
+  "ordem": "du00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafe9"
+  },
+  "nome": "ICMSOutraUF",
+  "pai": "ICMS",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMSOutraUF",
+  "ordem": "dv00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafea"
+  },
+  "nome": "CST",
+  "pai": "ICMSOutraUF",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMSOutraUF/CST",
+  "ordem": "dv00",
+  "tipo": "FIXED",
+  "pattern": "90",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafeb"
+  },
+  "nome": "pRedBCOutraUF",
+  "pai": "ICMSOutraUF",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMSOutraUF/pRedBCOutraUF",
+  "ordem": "dw00",
+  "tipo": "REGEX",
+  "pattern": "0\\.[0-9]{1}[1-9]{1}|0\\.[1-9]{1}[0-9]{1}|[1-9]{1}[0-9]{0,2}(\\.[0-9]{2})?",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafec"
+  },
+  "nome": "vBCOutraUF",
+  "pai": "ICMSOutraUF",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMSOutraUF/vBCOutraUF",
+  "ordem": "dx00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafed"
+  },
+  "nome": "pICMSOutraUF",
+  "pai": "ICMSOutraUF",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMSOutraUF/pICMSOutraUF",
+  "ordem": "dy00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,2}(\\.[0-9]{2})?",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafee"
+  },
+  "nome": "vICMSOutraUF",
+  "pai": "ICMSOutraUF",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMSOutraUF/vICMSOutraUF",
+  "ordem": "dz00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafef"
+  },
+  "nome": "ICMSSN",
+  "pai": "ICMS",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMSSN",
+  "ordem": "ea00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaff0"
+  },
+  "nome": "CST",
+  "pai": "ICMSSN",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMSSN/CST",
+  "ordem": "ea00",
+  "tipo": "FIXED",
+  "pattern": "90",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaff1"
+  },
+  "nome": "indSN",
+  "pai": "ICMSSN",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMSSN/indSN",
+  "ordem": "eb00",
+  "tipo": "FIXED",
+  "pattern": "1",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaff2"
+  },
+  "nome": "vTotTrib",
+  "pai": "imp",
+  "path": "/CTeOS/infCte/imp/vTotTrib",
+  "ordem": "ec00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaff3"
+  },
+  "nome": "infAdFisco",
+  "pai": "imp",
+  "path": "/CTeOS/infCte/imp/infAdFisco",
+  "ordem": "ed00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-2000",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaff4"
+  },
+  "nome": "ICMSUFFim",
+  "pai": "imp",
+  "path": "/CTeOS/infCte/imp/ICMSUFFim",
+  "ordem": "ee00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaff5"
+  },
+  "nome": "vBCUFFim",
+  "pai": "ICMSUFFim",
+  "path": "/CTeOS/infCte/imp/ICMSUFFim/vBCUFFim",
+  "ordem": "ef00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaff6"
+  },
+  "nome": "pFCPUFFim",
+  "pai": "ICMSUFFim",
+  "path": "/CTeOS/infCte/imp/ICMSUFFim/pFCPUFFim",
+  "ordem": "eg00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,2}(\\.[0-9]{2})?",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaff7"
+  },
+  "nome": "pICMSUFFim",
+  "pai": "ICMSUFFim",
+  "path": "/CTeOS/infCte/imp/ICMSUFFim/pICMSUFFim",
+  "ordem": "eh00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,2}(\\.[0-9]{2})?",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaff8"
+  },
+  "nome": "pICMSInter",
+  "pai": "ICMSUFFim",
+  "path": "/CTeOS/infCte/imp/ICMSUFFim/pICMSInter",
+  "ordem": "ei00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,2}(\\.[0-9]{2})?",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaff9"
+  },
+  "nome": "vFCPUFFim",
+  "pai": "ICMSUFFim",
+  "path": "/CTeOS/infCte/imp/ICMSUFFim/vFCPUFFim",
+  "ordem": "ej00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaffa"
+  },
+  "nome": "vICMSUFFim",
+  "pai": "ICMSUFFim",
+  "path": "/CTeOS/infCte/imp/ICMSUFFim/vICMSUFFim",
+  "ordem": "ek00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaffb"
+  },
+  "nome": "vICMSUFIni",
+  "pai": "ICMSUFFim",
+  "path": "/CTeOS/infCte/imp/ICMSUFFim/vICMSUFIni",
+  "ordem": "el00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaffc"
+  },
+  "nome": "infTribFed",
+  "pai": "imp",
+  "path": "/CTeOS/infCte/imp/infTribFed",
+  "ordem": "em00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaffd"
+  },
+  "nome": "vPIS",
+  "pai": "infTribFed",
+  "path": "/CTeOS/infCte/imp/infTribFed/vPIS",
+  "ordem": "en00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baaffe"
+  },
+  "nome": "vCOFINS",
+  "pai": "infTribFed",
+  "path": "/CTeOS/infCte/imp/infTribFed/vCOFINS",
+  "ordem": "eo00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49baafff"
+  },
+  "nome": "vIR",
+  "pai": "infTribFed",
+  "path": "/CTeOS/infCte/imp/infTribFed/vIR",
+  "ordem": "ep00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49bab000"
+  },
+  "nome": "vINSS",
+  "pai": "infTribFed",
+  "path": "/CTeOS/infCte/imp/infTribFed/vINSS",
+  "ordem": "eq00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49bab001"
+  },
+  "nome": "vCSLL",
+  "pai": "infTribFed",
+  "path": "/CTeOS/infCte/imp/infTribFed/vCSLL",
+  "ordem": "er00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49bab002"
+  },
+  "nome": "infCTeNorm",
+  "pai": "infCte",
+  "path": "/CTeOS/infCte/infCTeNorm",
+  "ordem": "es00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "choiceElement": "infCTeNorm",
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49bab003"
+  },
+  "nome": "infServico",
+  "pai": "infCTeNorm",
+  "path": "/CTeOS/infCte/infCTeNorm/infServico",
+  "ordem": "es00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49bab004"
+  },
+  "nome": "xDescServ",
+  "pai": "infServico",
+  "path": "/CTeOS/infCte/infCTeNorm/infServico/xDescServ",
+  "ordem": "et00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-30",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49bab005"
+  },
+  "nome": "infQ",
+  "pai": "infServico",
+  "path": "/CTeOS/infCte/infCTeNorm/infServico/infQ",
+  "ordem": "eu00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49bab006"
+  },
+  "nome": "qCarga",
+  "pai": "infQ",
+  "path": "/CTeOS/infCte/infCTeNorm/infServico/infQ/qCarga",
+  "ordem": "ev00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{4}|[1-9]{1}[0-9]{0,10}(\\.[0-9]{4})?",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49bab007"
+  },
+  "nome": "infDocRef",
+  "pai": "infCTeNorm",
+  "path": "/CTeOS/infCte/infCTeNorm/infDocRef",
+  "ordem": "ew00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49bab008"
+  },
+  "nome": "chBPe",
+  "pai": "infDocRef",
+  "path": "/CTeOS/infCte/infCTeNorm/infDocRef/chBPe",
+  "ordem": "ex00",
+  "tipo": "FIXED",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49bab009"
+  },
+  "nome": "seg",
+  "pai": "infCTeNorm",
+  "path": "/CTeOS/infCte/infCTeNorm/seg",
+  "ordem": "ex00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49bab00a"
+  },
+  "nome": "respSeg",
+  "pai": "seg",
+  "path": "/CTeOS/infCte/infCTeNorm/seg/respSeg",
+  "ordem": "ey00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-1",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49bab00b"
+  },
+  "nome": "xSeg",
+  "pai": "seg",
+  "path": "/CTeOS/infCte/infCTeNorm/seg/xSeg",
+  "ordem": "ez00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-30",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49bab00c"
+  },
+  "nome": "nApol",
+  "pai": "seg",
+  "path": "/CTeOS/infCte/infCTeNorm/seg/nApol",
+  "ordem": "fa00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-20",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49bab00d"
+  },
+  "nome": "infModal",
+  "pai": "infCTeNorm",
+  "path": "/CTeOS/infCte/infCTeNorm/infModal",
+  "ordem": "fb00",
+  "tipo": "FIXED",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": [
+    {
+      "nome": "versaoModal",
+      "valor": "4.00"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49bab00e"
+  },
+  "nome": "infCteSub",
+  "pai": "infCTeNorm",
+  "path": "/CTeOS/infCte/infCTeNorm/infCteSub",
+  "ordem": "fc00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49bab00f"
+  },
+  "nome": "chCte",
+  "pai": "infCteSub",
+  "path": "/CTeOS/infCte/infCTeNorm/infCteSub/chCte",
+  "ordem": "fd00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{44}",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49bab010"
+  },
+  "nome": "refCTeCanc",
+  "pai": "infCTeNorm",
+  "path": "/CTeOS/infCte/infCTeNorm/refCTeCanc",
+  "ordem": "fe00",
+  "tipo": "FIXED",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49bab011"
+  },
+  "nome": "cobr",
+  "pai": "infCTeNorm",
+  "path": "/CTeOS/infCte/infCTeNorm/cobr",
+  "ordem": "ff00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49bab012"
+  },
+  "nome": "fat",
+  "pai": "cobr",
+  "path": "/CTeOS/infCte/infCTeNorm/cobr/fat",
+  "ordem": "fg00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49bab013"
+  },
+  "nome": "nFat",
+  "pai": "fat",
+  "path": "/CTeOS/infCte/infCTeNorm/cobr/fat/nFat",
+  "ordem": "fh00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-60",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49bab014"
+  },
+  "nome": "vOrig",
+  "pai": "fat",
+  "path": "/CTeOS/infCte/infCTeNorm/cobr/fat/vOrig",
+  "ordem": "fi00",
+  "tipo": "REGEX",
+  "pattern": "0\\.[0-9]{1}[1-9]{1}|0\\.[1-9]{1}[0-9]{1}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49bab015"
+  },
+  "nome": "vDesc",
+  "pai": "fat",
+  "path": "/CTeOS/infCte/infCTeNorm/cobr/fat/vDesc",
+  "ordem": "fj00",
+  "tipo": "REGEX",
+  "pattern": "0\\.[0-9]{1}[1-9]{1}|0\\.[1-9]{1}[0-9]{1}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49bab016"
+  },
+  "nome": "vLiq",
+  "pai": "fat",
+  "path": "/CTeOS/infCte/infCTeNorm/cobr/fat/vLiq",
+  "ordem": "fk00",
+  "tipo": "REGEX",
+  "pattern": "0\\.[0-9]{1}[1-9]{1}|0\\.[1-9]{1}[0-9]{1}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49bab017"
+  },
+  "nome": "dup",
+  "pai": "cobr",
+  "path": "/CTeOS/infCte/infCTeNorm/cobr/dup",
+  "ordem": "fl00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49bab018"
+  },
+  "nome": "nDup",
+  "pai": "dup",
+  "path": "/CTeOS/infCte/infCTeNorm/cobr/dup/nDup",
+  "ordem": "fm00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-60",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49bab019"
+  },
+  "nome": "dVenc",
+  "pai": "dup",
+  "path": "/CTeOS/infCte/infCTeNorm/cobr/dup/dVenc",
+  "ordem": "fn00",
+  "tipo": "REGEX",
+  "pattern": "(((20(([02468][048])|([13579][26]))-02-29))|(20[0-9][0-9])-((((0[1-9])|(1[0-2]))-((0[1-9])|(1\\d)|(2[0-8])))|((((0[13578])|(1[02]))-31)|(((0[1,3-9])|(1[0-2]))-(29|30)))))",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49bab01a"
+  },
+  "nome": "vDup",
+  "pai": "dup",
+  "path": "/CTeOS/infCte/infCTeNorm/cobr/dup/vDup",
+  "ordem": "fo00",
+  "tipo": "REGEX",
+  "pattern": "0\\.[0-9]{1}[1-9]{1}|0\\.[1-9]{1}[0-9]{1}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49bab01b"
+  },
+  "nome": "infGTVe",
+  "pai": "infCTeNorm",
+  "path": "/CTeOS/infCte/infCTeNorm/infGTVe",
+  "ordem": "fp00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49bab01c"
+  },
+  "nome": "chCTe",
+  "pai": "infGTVe",
+  "path": "/CTeOS/infCte/infCTeNorm/infGTVe/chCTe",
+  "ordem": "fq00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{44}",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49bab01d"
+  },
+  "nome": "Comp",
+  "pai": "infGTVe",
+  "path": "/CTeOS/infCte/infCTeNorm/infGTVe/Comp",
+  "ordem": "fr00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49bab01e"
+  },
+  "nome": "tpComp",
+  "pai": "Comp",
+  "path": "/CTeOS/infCte/infCTeNorm/infGTVe/Comp/tpComp",
+  "ordem": "fs00",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "1|2|3|4|5|6",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49bab01f"
+  },
+  "nome": "vComp",
+  "pai": "Comp",
+  "path": "/CTeOS/infCte/infCTeNorm/infGTVe/Comp/vComp",
+  "ordem": "ft00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49bab020"
+  },
+  "nome": "xComp",
+  "pai": "Comp",
+  "path": "/CTeOS/infCte/infCTeNorm/infGTVe/Comp/xComp",
+  "ordem": "fu00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "0-15",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49bab021"
+  },
+  "nome": "infCteComp",
+  "pai": "infCte",
+  "path": "/CTeOS/infCte/infCteComp",
+  "ordem": "fv00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "choiceElement": "infCteComp",
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49bab022"
+  },
+  "nome": "chCTe",
+  "pai": "infCteComp",
+  "path": "/CTeOS/infCte/infCteComp/chCTe",
+  "ordem": "fv00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{44}",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49bab023"
+  },
+  "nome": "autXML",
+  "pai": "infCte",
+  "path": "/CTeOS/infCte/autXML",
+  "ordem": "fw00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49bab024"
+  },
+  "nome": "CNPJ",
+  "pai": "autXML",
+  "path": "/CTeOS/infCte/autXML/CNPJ",
+  "ordem": "fx00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{14}",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "choiceElement": "CNPJ",
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49bab025"
+  },
+  "nome": "CPF",
+  "pai": "autXML",
+  "path": "/CTeOS/infCte/autXML/CPF",
+  "ordem": "fx00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{11}",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "choiceElement": "CPF",
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49bab026"
+  },
+  "nome": "infRespTec",
+  "pai": "infCte",
+  "path": "/CTeOS/infCte/infRespTec",
+  "ordem": "fx00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49bab027"
+  },
+  "nome": "CNPJ",
+  "pai": "infRespTec",
+  "path": "/CTeOS/infCte/infRespTec/CNPJ",
+  "ordem": "fy00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{14}",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49bab028"
+  },
+  "nome": "xContato",
+  "pai": "infRespTec",
+  "path": "/CTeOS/infCte/infRespTec/xContato",
+  "ordem": "fz00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49bab029"
+  },
+  "nome": "email",
+  "pai": "infRespTec",
+  "path": "/CTeOS/infCte/infRespTec/email",
+  "ordem": "ga00",
+  "tipo": "REGEX",
+  "pattern": "[^@]+@[^\\.]+\\..+",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49bab02a"
+  },
+  "nome": "fone",
+  "pai": "infRespTec",
+  "path": "/CTeOS/infCte/infRespTec/fone",
+  "ordem": "gb00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{7,12}",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49bab02b"
+  },
+  "nome": "idCSRT",
+  "pai": "infRespTec",
+  "path": "/CTeOS/infCte/infRespTec/idCSRT",
+  "ordem": "gc00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{3}",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49bab02c"
+  },
+  "nome": "hashCSRT",
+  "pai": "infRespTec",
+  "path": "/CTeOS/infCte/infRespTec/hashCSRT",
+  "ordem": "gc00",
+  "tipo": "FIXED",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49bab02d"
+  },
+  "nome": "infCTeSupl",
+  "pai": "CTeOS",
+  "path": "/CTeOS/infCTeSupl",
+  "ordem": "gc00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64248ba173b3bcfd49bab02e"
+  },
+  "nome": "qrCodCTe",
+  "pai": "infCTeSupl",
+  "path": "/CTeOS/infCTeSupl/qrCodCTe",
+  "ordem": "gd00",
+  "tipo": "FIXED",
+  "pattern": "HTTPS://teste.com?chCTe=74717219995714417248847375765489685847420041&tpAmb=2",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a079"
+  },
+  "nome": "CTeOS",
+  "pai": "enviCTe",
+  "path": "/CTeOS",
+  "ordem": "aa00",
+  "tipo": "ROOT",
+  "versao": "3.00",
+  "atributos": [
+    {
+      "nome": "versao",
+      "tipo": "NORMAL",
+      "valor": "3.00",
+      "zeroEsquerda": false,
+      "tamanho": 0
+    }
+  ],
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a07a"
+  },
+  "nome": "infCte",
+  "pai": "CTeOS",
+  "path": "/CTeOS/infCte",
+  "ordem": "ab00",
+  "tipo": "ROOT",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a07b"
+  },
+  "nome": "ide",
+  "pai": "infCte",
+  "path": "/CTeOS/infCte/ide",
+  "ordem": "ac00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a07c"
+  },
+  "nome": "cUF",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/cUF",
+  "ordem": "ad00",
+  "tipo": "FIXED",
+  "pattern": "50",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a07d"
+  },
+  "nome": "cCT",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/cCT",
+  "ordem": "ae00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{8}",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a07e"
+  },
+  "nome": "CFOP",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/CFOP",
+  "ordem": "af00",
+  "tipo": "REGEX",
+  "pattern": "[123567][0-9]([0-9][1-9]|[1-9][0-9])",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a07f"
+  },
+  "nome": "natOp",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/natOp",
+  "ordem": "ag00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-60",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a080"
+  },
+  "nome": "mod",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/mod",
+  "ordem": "ah00",
+  "tipo": "FIXED",
+  "pattern": "67",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a081"
+  },
+  "nome": "serie",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/serie",
+  "ordem": "ai00",
+  "tipo": "FIXED",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a082"
+  },
+  "nome": "nCT",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/nCT",
+  "ordem": "aj00",
+  "tipo": "REGEX",
+  "pattern": "[1-9]{1}[0-9]{0,8}",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a083"
+  },
+  "nome": "dhEmi",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/dhEmi",
+  "ordem": "ak00",
+  "tipo": "DATE",
+  "pattern": "yyyy-MM-dd'T'HH:mm:ssXXX",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a084"
+  },
+  "nome": "tpImp",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/tpImp",
+  "ordem": "al00",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "1|2",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a085"
+  },
+  "nome": "tpEmis",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/tpEmis",
+  "ordem": "am00",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "1|5|7|8",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a086"
+  },
+  "nome": "cDV",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/cDV",
+  "ordem": "an00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{1}",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a087"
+  },
+  "nome": "tpAmb",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/tpAmb",
+  "ordem": "ao00",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "1|2",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a088"
+  },
+  "nome": "tpCTe",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/tpCTe",
+  "ordem": "ap00",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "0|1|2|3",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a089"
+  },
+  "nome": "procEmi",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/procEmi",
+  "ordem": "aq00",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "0|3",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a08a"
+  },
+  "nome": "verProc",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/verProc",
+  "ordem": "ar00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-20",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a08b"
+  },
+  "nome": "cMunEnv",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/cMunEnv",
+  "ordem": "as00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{7}",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a08c"
+  },
+  "nome": "xMunEnv",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/xMunEnv",
+  "ordem": "at00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a08d"
+  },
+  "nome": "UFEnv",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/UFEnv",
+  "ordem": "au00",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "AC|AL|AM|AP|BA|CE|DF|ES|GO|MA|MG|MS|MT|PA|PB|PE|PI|PR|RJ|RN|RO|RR|RS|SC|SE|SP|TO|EX",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a08e"
+  },
+  "nome": "modal",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/modal",
+  "ordem": "av00",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "01|02|03|04",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a08f"
+  },
+  "nome": "tpServ",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/tpServ",
+  "ordem": "aw00",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "6|7|8",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a090"
+  },
+  "nome": "indIEToma",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/indIEToma",
+  "ordem": "ax00",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "1|2|9",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a091"
+  },
+  "nome": "cMunIni",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/cMunIni",
+  "ordem": "ay00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{7}",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a092"
+  },
+  "nome": "xMunIni",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/xMunIni",
+  "ordem": "az00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a093"
+  },
+  "nome": "UFIni",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/UFIni",
+  "ordem": "ba00",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "AC|AL|AM|AP|BA|CE|DF|ES|GO|MA|MG|MS|MT|PA|PB|PE|PI|PR|RJ|RN|RO|RR|RS|SC|SE|SP|TO|EX",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a094"
+  },
+  "nome": "cMunFim",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/cMunFim",
+  "ordem": "bb00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{7}",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a095"
+  },
+  "nome": "xMunFim",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/xMunFim",
+  "ordem": "bc00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a096"
+  },
+  "nome": "UFFim",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/UFFim",
+  "ordem": "bd00",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "AC|AL|AM|AP|BA|CE|DF|ES|GO|MA|MG|MS|MT|PA|PB|PE|PI|PR|RJ|RN|RO|RR|RS|SC|SE|SP|TO|EX",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a097"
+  },
+  "nome": "infPercurso",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/infPercurso",
+  "ordem": "be00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a098"
+  },
+  "nome": "UFPer",
+  "pai": "infPercurso",
+  "path": "/CTeOS/infCte/ide/infPercurso/UFPer",
+  "ordem": "bf00",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "AC|AL|AM|AP|BA|CE|DF|ES|GO|MA|MG|MS|MT|PA|PB|PE|PI|PR|RJ|RN|RO|RR|RS|SC|SE|SP|TO|EX",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a099"
+  },
+  "nome": "dhCont",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/dhCont",
+  "ordem": "bg00",
+  "tipo": "REGEX",
+  "pattern": "(((20(([02468][048])|([13579][26]))-02-29))|(20[0-9][0-9])-((((0[1-9])|(1[0-2]))-((0[1-9])|(1\\d)|(2[0-8])))|((((0[13578])|(1[02]))-31)|(((0[1,3-9])|(1[0-2]))-(29|30)))))T(20|21|22|23|[0-1]\\d):[0-5]\\d:[0-5]\\d([\\-,\\+](0[0-9]|10|11):00|([\\+](12):00))",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a09a"
+  },
+  "nome": "xJust",
+  "pai": "ide",
+  "path": "/CTeOS/infCte/ide/xJust",
+  "ordem": "bg00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "15-256",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a09b"
+  },
+  "nome": "compl",
+  "pai": "infCte",
+  "path": "/CTeOS/infCte/compl",
+  "ordem": "bg00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a09c"
+  },
+  "nome": "xCaracAd",
+  "pai": "compl",
+  "path": "/CTeOS/infCte/compl/xCaracAd",
+  "ordem": "bh00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-15",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a09d"
+  },
+  "nome": "xCaracSer",
+  "pai": "compl",
+  "path": "/CTeOS/infCte/compl/xCaracSer",
+  "ordem": "bi00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-30",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a09e"
+  },
+  "nome": "xEmi",
+  "pai": "compl",
+  "path": "/CTeOS/infCte/compl/xEmi",
+  "ordem": "bj00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-20",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a09f"
+  },
+  "nome": "xObs",
+  "pai": "compl",
+  "path": "/CTeOS/infCte/compl/xObs",
+  "ordem": "bk00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-2000",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0a0"
+  },
+  "nome": "ObsCont",
+  "pai": "compl",
+  "path": "/CTeOS/infCte/compl/ObsCont",
+  "ordem": "bl00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": [
+    {
+      "nome": "xCampo",
+      "valor": "1-20"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0a1"
+  },
+  "nome": "xTexto",
+  "pai": "ObsCont",
+  "path": "/CTeOS/infCte/compl/ObsCont/xTexto",
+  "ordem": "bm00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-160",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0a2"
+  },
+  "nome": "ObsFisco",
+  "pai": "compl",
+  "path": "/CTeOS/infCte/compl/ObsFisco",
+  "ordem": "bn00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": [
+    {
+      "nome": "xCampo",
+      "valor": "1-20"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0a3"
+  },
+  "nome": "xTexto",
+  "pai": "ObsFisco",
+  "path": "/CTeOS/infCte/compl/ObsFisco/xTexto",
+  "ordem": "bo00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-60",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0a4"
+  },
+  "nome": "emit",
+  "pai": "infCte",
+  "path": "/CTeOS/infCte/emit",
+  "ordem": "bp00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0a5"
+  },
+  "nome": "CNPJ",
+  "pai": "emit",
+  "path": "/CTeOS/infCte/emit/CNPJ",
+  "ordem": "bq00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{14}",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0a6"
+  },
+  "nome": "IE",
+  "pai": "emit",
+  "path": "/CTeOS/infCte/emit/IE",
+  "ordem": "br00",
+  "tipo": "FIXED",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0a7"
+  },
+  "nome": "IEST",
+  "pai": "emit",
+  "path": "/CTeOS/infCte/emit/IEST",
+  "ordem": "bs00",
+  "tipo": "FIXED",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0a8"
+  },
+  "nome": "xNome",
+  "pai": "emit",
+  "path": "/CTeOS/infCte/emit/xNome",
+  "ordem": "bt00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0a9"
+  },
+  "nome": "xFant",
+  "pai": "emit",
+  "path": "/CTeOS/infCte/emit/xFant",
+  "ordem": "bu00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0aa"
+  },
+  "nome": "enderEmit",
+  "pai": "emit",
+  "path": "/CTeOS/infCte/emit/enderEmit",
+  "ordem": "bv00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0ab"
+  },
+  "nome": "xLgr",
+  "pai": "enderEmit",
+  "path": "/CTeOS/infCte/emit/enderEmit/xLgr",
+  "ordem": "bw00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0ac"
+  },
+  "nome": "nro",
+  "pai": "enderEmit",
+  "path": "/CTeOS/infCte/emit/enderEmit/nro",
+  "ordem": "bx00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-60",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0ad"
+  },
+  "nome": "xCpl",
+  "pai": "enderEmit",
+  "path": "/CTeOS/infCte/emit/enderEmit/xCpl",
+  "ordem": "by00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-60",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0ae"
+  },
+  "nome": "xBairro",
+  "pai": "enderEmit",
+  "path": "/CTeOS/infCte/emit/enderEmit/xBairro",
+  "ordem": "bz00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0af"
+  },
+  "nome": "cMun",
+  "pai": "enderEmit",
+  "path": "/CTeOS/infCte/emit/enderEmit/cMun",
+  "ordem": "ca00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{7}",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0b0"
+  },
+  "nome": "xMun",
+  "pai": "enderEmit",
+  "path": "/CTeOS/infCte/emit/enderEmit/xMun",
+  "ordem": "cb00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0b1"
+  },
+  "nome": "CEP",
+  "pai": "enderEmit",
+  "path": "/CTeOS/infCte/emit/enderEmit/CEP",
+  "ordem": "cc00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{8}",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0b2"
+  },
+  "nome": "UF",
+  "pai": "enderEmit",
+  "path": "/CTeOS/infCte/emit/enderEmit/UF",
+  "ordem": "cd00",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "AC|AL|AM|AP|BA|CE|DF|ES|GO|MA|MG|MS|MT|PA|PB|PE|PI|PR|RJ|RN|RO|RR|RS|SC|SE|SP|TO",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0b3"
+  },
+  "nome": "fone",
+  "pai": "enderEmit",
+  "path": "/CTeOS/infCte/emit/enderEmit/fone",
+  "ordem": "ce00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{6,14}",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0b4"
+  },
+  "nome": "CRT",
+  "pai": "emit",
+  "path": "/CTeOS/infCte/emit/CRT",
+  "ordem": "cf00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-1",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0b5"
+  },
+  "nome": "toma",
+  "pai": "infCte",
+  "path": "/CTeOS/infCte/toma",
+  "ordem": "cg00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0b6"
+  },
+  "nome": "CNPJ",
+  "pai": "toma",
+  "path": "/CTeOS/infCte/toma/CNPJ",
+  "ordem": "ch00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{0}|[0-9]{14}",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "choiceElement": "CNPJ"
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0b7"
+  },
+  "nome": "CPF",
+  "pai": "toma",
+  "path": "/CTeOS/infCte/toma/CPF",
+  "ordem": "ch00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{11}",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "choiceElement": "CPF"
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0b8"
+  },
+  "nome": "IE",
+  "pai": "toma",
+  "path": "/CTeOS/infCte/toma/IE",
+  "ordem": "ch00",
+  "tipo": "FIXED",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0b9"
+  },
+  "nome": "xNome",
+  "pai": "toma",
+  "path": "/CTeOS/infCte/toma/xNome",
+  "ordem": "ci00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0ba"
+  },
+  "nome": "xFant",
+  "pai": "toma",
+  "path": "/CTeOS/infCte/toma/xFant",
+  "ordem": "cj00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0bb"
+  },
+  "nome": "fone",
+  "pai": "toma",
+  "path": "/CTeOS/infCte/toma/fone",
+  "ordem": "ck00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{6,14}",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0bc"
+  },
+  "nome": "enderToma",
+  "pai": "toma",
+  "path": "/CTeOS/infCte/toma/enderToma",
+  "ordem": "cl00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0bd"
+  },
+  "nome": "xLgr",
+  "pai": "enderToma",
+  "path": "/CTeOS/infCte/toma/enderToma/xLgr",
+  "ordem": "cm00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-255",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0be"
+  },
+  "nome": "nro",
+  "pai": "enderToma",
+  "path": "/CTeOS/infCte/toma/enderToma/nro",
+  "ordem": "cn00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-60",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0bf"
+  },
+  "nome": "xCpl",
+  "pai": "enderToma",
+  "path": "/CTeOS/infCte/toma/enderToma/xCpl",
+  "ordem": "co00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-60",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0c0"
+  },
+  "nome": "xBairro",
+  "pai": "enderToma",
+  "path": "/CTeOS/infCte/toma/enderToma/xBairro",
+  "ordem": "cp00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0c1"
+  },
+  "nome": "cMun",
+  "pai": "enderToma",
+  "path": "/CTeOS/infCte/toma/enderToma/cMun",
+  "ordem": "cq00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{7}",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0c2"
+  },
+  "nome": "xMun",
+  "pai": "enderToma",
+  "path": "/CTeOS/infCte/toma/enderToma/xMun",
+  "ordem": "cr00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0c3"
+  },
+  "nome": "CEP",
+  "pai": "enderToma",
+  "path": "/CTeOS/infCte/toma/enderToma/CEP",
+  "ordem": "cs00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{8}",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0c4"
+  },
+  "nome": "UF",
+  "pai": "enderToma",
+  "path": "/CTeOS/infCte/toma/enderToma/UF",
+  "ordem": "ct00",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "AC|AL|AM|AP|BA|CE|DF|ES|GO|MA|MG|MS|MT|PA|PB|PE|PI|PR|RJ|RN|RO|RR|RS|SC|SE|SP|TO|EX",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0c5"
+  },
+  "nome": "cPais",
+  "pai": "enderToma",
+  "path": "/CTeOS/infCte/toma/enderToma/cPais",
+  "ordem": "cu00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{1,4}",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0c6"
+  },
+  "nome": "xPais",
+  "pai": "enderToma",
+  "path": "/CTeOS/infCte/toma/enderToma/xPais",
+  "ordem": "cv00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0c7"
+  },
+  "nome": "email",
+  "pai": "toma",
+  "path": "/CTeOS/infCte/toma/email",
+  "ordem": "cw00",
+  "tipo": "FIXED",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0c8"
+  },
+  "nome": "vPrest",
+  "pai": "infCte",
+  "path": "/CTeOS/infCte/vPrest",
+  "ordem": "cx00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0c9"
+  },
+  "nome": "vTPrest",
+  "pai": "vPrest",
+  "path": "/CTeOS/infCte/vPrest/vTPrest",
+  "ordem": "cy00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0ca"
+  },
+  "nome": "vRec",
+  "pai": "vPrest",
+  "path": "/CTeOS/infCte/vPrest/vRec",
+  "ordem": "cz00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0cb"
+  },
+  "nome": "Comp",
+  "pai": "vPrest",
+  "path": "/CTeOS/infCte/vPrest/Comp",
+  "ordem": "da00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0cc"
+  },
+  "nome": "xNome",
+  "pai": "Comp",
+  "path": "/CTeOS/infCte/vPrest/Comp/xNome",
+  "ordem": "db00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-15",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0cd"
+  },
+  "nome": "vComp",
+  "pai": "Comp",
+  "path": "/CTeOS/infCte/vPrest/Comp/vComp",
+  "ordem": "dc00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0ce"
+  },
+  "nome": "imp",
+  "pai": "infCte",
+  "path": "/CTeOS/infCte/imp",
+  "ordem": "dd00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0cf"
+  },
+  "nome": "ICMS",
+  "pai": "imp",
+  "path": "/CTeOS/infCte/imp/ICMS",
+  "ordem": "de00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0d0"
+  },
+  "nome": "ICMS00",
+  "pai": "ICMS",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMS00",
+  "ordem": "df00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0d1"
+  },
+  "nome": "CST",
+  "pai": "ICMS00",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMS00/CST",
+  "ordem": "df00",
+  "tipo": "FIXED",
+  "pattern": "00",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0d2"
+  },
+  "nome": "vBC",
+  "pai": "ICMS00",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMS00/vBC",
+  "ordem": "dg00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0d3"
+  },
+  "nome": "pICMS",
+  "pai": "ICMS00",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMS00/pICMS",
+  "ordem": "dh00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,2}(\\.[0-9]{2})?",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0d4"
+  },
+  "nome": "vICMS",
+  "pai": "ICMS00",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMS00/vICMS",
+  "ordem": "di00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0d5"
+  },
+  "nome": "ICMS20",
+  "pai": "ICMS",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMS20",
+  "ordem": "dj00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0d6"
+  },
+  "nome": "CST",
+  "pai": "ICMS20",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMS20/CST",
+  "ordem": "dj00",
+  "tipo": "FIXED",
+  "pattern": "20",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0d7"
+  },
+  "nome": "pRedBC",
+  "pai": "ICMS20",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMS20/pRedBC",
+  "ordem": "dk00",
+  "tipo": "REGEX",
+  "pattern": "0\\.[0-9]{1}[1-9]{1}|0\\.[1-9]{1}[0-9]{1}|[1-9]{1}[0-9]{0,2}(\\.[0-9]{2})?",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0d8"
+  },
+  "nome": "vBC",
+  "pai": "ICMS20",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMS20/vBC",
+  "ordem": "dl00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0d9"
+  },
+  "nome": "pICMS",
+  "pai": "ICMS20",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMS20/pICMS",
+  "ordem": "dm00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,2}(\\.[0-9]{2})?",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0da"
+  },
+  "nome": "vICMS",
+  "pai": "ICMS20",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMS20/vICMS",
+  "ordem": "dn00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0db"
+  },
+  "nome": "ICMS45",
+  "pai": "ICMS",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMS45",
+  "ordem": "do00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0dc"
+  },
+  "nome": "CST",
+  "pai": "ICMS45",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMS45/CST",
+  "ordem": "do00",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "40|41|51",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0dd"
+  },
+  "nome": "ICMS90",
+  "pai": "ICMS",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMS90",
+  "ordem": "dp00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0de"
+  },
+  "nome": "CST",
+  "pai": "ICMS90",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMS90/CST",
+  "ordem": "dp00",
+  "tipo": "FIXED",
+  "pattern": "90",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0df"
+  },
+  "nome": "pRedBC",
+  "pai": "ICMS90",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMS90/pRedBC",
+  "ordem": "dq00",
+  "tipo": "REGEX",
+  "pattern": "0\\.[0-9]{1}[1-9]{1}|0\\.[1-9]{1}[0-9]{1}|[1-9]{1}[0-9]{0,2}(\\.[0-9]{2})?",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0e0"
+  },
+  "nome": "vBC",
+  "pai": "ICMS90",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMS90/vBC",
+  "ordem": "dr00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0e1"
+  },
+  "nome": "pICMS",
+  "pai": "ICMS90",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMS90/pICMS",
+  "ordem": "ds00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,2}(\\.[0-9]{2})?",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0e2"
+  },
+  "nome": "vICMS",
+  "pai": "ICMS90",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMS90/vICMS",
+  "ordem": "dt00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0e3"
+  },
+  "nome": "vCred",
+  "pai": "ICMS90",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMS90/vCred",
+  "ordem": "du00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0e4"
+  },
+  "nome": "ICMSOutraUF",
+  "pai": "ICMS",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMSOutraUF",
+  "ordem": "dv00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0e5"
+  },
+  "nome": "CST",
+  "pai": "ICMSOutraUF",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMSOutraUF/CST",
+  "ordem": "dv00",
+  "tipo": "FIXED",
+  "pattern": "90",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0e6"
+  },
+  "nome": "pRedBCOutraUF",
+  "pai": "ICMSOutraUF",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMSOutraUF/pRedBCOutraUF",
+  "ordem": "dw00",
+  "tipo": "REGEX",
+  "pattern": "0\\.[0-9]{1}[1-9]{1}|0\\.[1-9]{1}[0-9]{1}|[1-9]{1}[0-9]{0,2}(\\.[0-9]{2})?",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0e7"
+  },
+  "nome": "vBCOutraUF",
+  "pai": "ICMSOutraUF",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMSOutraUF/vBCOutraUF",
+  "ordem": "dx00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0e8"
+  },
+  "nome": "pICMSOutraUF",
+  "pai": "ICMSOutraUF",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMSOutraUF/pICMSOutraUF",
+  "ordem": "dy00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,2}(\\.[0-9]{2})?",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0e9"
+  },
+  "nome": "vICMSOutraUF",
+  "pai": "ICMSOutraUF",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMSOutraUF/vICMSOutraUF",
+  "ordem": "dz00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0ea"
+  },
+  "nome": "ICMSSN",
+  "pai": "ICMS",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMSSN",
+  "ordem": "ea00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0eb"
+  },
+  "nome": "CST",
+  "pai": "ICMSSN",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMSSN/CST",
+  "ordem": "ea00",
+  "tipo": "FIXED",
+  "pattern": "90",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0ec"
+  },
+  "nome": "indSN",
+  "pai": "ICMSSN",
+  "path": "/CTeOS/infCte/imp/ICMS/ICMSSN/indSN",
+  "ordem": "eb00",
+  "tipo": "FIXED",
+  "pattern": "1",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0ed"
+  },
+  "nome": "vTotTrib",
+  "pai": "imp",
+  "path": "/CTeOS/infCte/imp/vTotTrib",
+  "ordem": "ec00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0ee"
+  },
+  "nome": "infAdFisco",
+  "pai": "imp",
+  "path": "/CTeOS/infCte/imp/infAdFisco",
+  "ordem": "ed00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-2000",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0ef"
+  },
+  "nome": "ICMSUFFim",
+  "pai": "imp",
+  "path": "/CTeOS/infCte/imp/ICMSUFFim",
+  "ordem": "ee00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0f0"
+  },
+  "nome": "vBCUFFim",
+  "pai": "ICMSUFFim",
+  "path": "/CTeOS/infCte/imp/ICMSUFFim/vBCUFFim",
+  "ordem": "ef00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0f1"
+  },
+  "nome": "pFCPUFFim",
+  "pai": "ICMSUFFim",
+  "path": "/CTeOS/infCte/imp/ICMSUFFim/pFCPUFFim",
+  "ordem": "eg00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,2}(\\.[0-9]{2})?",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0f2"
+  },
+  "nome": "pICMSUFFim",
+  "pai": "ICMSUFFim",
+  "path": "/CTeOS/infCte/imp/ICMSUFFim/pICMSUFFim",
+  "ordem": "eh00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,2}(\\.[0-9]{2})?",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0f3"
+  },
+  "nome": "pICMSInter",
+  "pai": "ICMSUFFim",
+  "path": "/CTeOS/infCte/imp/ICMSUFFim/pICMSInter",
+  "ordem": "ei00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,2}(\\.[0-9]{2})?",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0f4"
+  },
+  "nome": "vFCPUFFim",
+  "pai": "ICMSUFFim",
+  "path": "/CTeOS/infCte/imp/ICMSUFFim/vFCPUFFim",
+  "ordem": "ej00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0f5"
+  },
+  "nome": "vICMSUFFim",
+  "pai": "ICMSUFFim",
+  "path": "/CTeOS/infCte/imp/ICMSUFFim/vICMSUFFim",
+  "ordem": "ek00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0f6"
+  },
+  "nome": "vICMSUFIni",
+  "pai": "ICMSUFFim",
+  "path": "/CTeOS/infCte/imp/ICMSUFFim/vICMSUFIni",
+  "ordem": "el00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0f7"
+  },
+  "nome": "infTribFed",
+  "pai": "imp",
+  "path": "/CTeOS/infCte/imp/infTribFed",
+  "ordem": "em00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0f8"
+  },
+  "nome": "vPIS",
+  "pai": "infTribFed",
+  "path": "/CTeOS/infCte/imp/infTribFed/vPIS",
+  "ordem": "en00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0f9"
+  },
+  "nome": "vCOFINS",
+  "pai": "infTribFed",
+  "path": "/CTeOS/infCte/imp/infTribFed/vCOFINS",
+  "ordem": "eo00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0fa"
+  },
+  "nome": "vIR",
+  "pai": "infTribFed",
+  "path": "/CTeOS/infCte/imp/infTribFed/vIR",
+  "ordem": "ep00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0fb"
+  },
+  "nome": "vINSS",
+  "pai": "infTribFed",
+  "path": "/CTeOS/infCte/imp/infTribFed/vINSS",
+  "ordem": "eq00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0fc"
+  },
+  "nome": "vCSLL",
+  "pai": "infTribFed",
+  "path": "/CTeOS/infCte/imp/infTribFed/vCSLL",
+  "ordem": "er00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0fd"
+  },
+  "nome": "infCTeNorm",
+  "pai": "infCte",
+  "path": "/CTeOS/infCte/infCTeNorm",
+  "ordem": "es00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "choiceElement": "infCTeNorm"
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0fe"
+  },
+  "nome": "infServico",
+  "pai": "infCTeNorm",
+  "path": "/CTeOS/infCte/infCTeNorm/infServico",
+  "ordem": "es00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a0ff"
+  },
+  "nome": "xDescServ",
+  "pai": "infServico",
+  "path": "/CTeOS/infCte/infCTeNorm/infServico/xDescServ",
+  "ordem": "et00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-30",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a100"
+  },
+  "nome": "infQ",
+  "pai": "infServico",
+  "path": "/CTeOS/infCte/infCTeNorm/infServico/infQ",
+  "ordem": "eu00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a101"
+  },
+  "nome": "qCarga",
+  "pai": "infQ",
+  "path": "/CTeOS/infCte/infCTeNorm/infServico/infQ/qCarga",
+  "ordem": "ev00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{4}|[1-9]{1}[0-9]{0,10}(\\.[0-9]{4})?",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a102"
+  },
+  "nome": "infDocRef",
+  "pai": "infCTeNorm",
+  "path": "/CTeOS/infCte/infCTeNorm/infDocRef",
+  "ordem": "ew00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a103"
+  },
+  "nome": "chBPe",
+  "pai": "infDocRef",
+  "path": "/CTeOS/infCte/infCTeNorm/infDocRef/chBPe",
+  "ordem": "ex00",
+  "tipo": "FIXED",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a104"
+  },
+  "nome": "seg",
+  "pai": "infCTeNorm",
+  "path": "/CTeOS/infCte/infCTeNorm/seg",
+  "ordem": "ex00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a105"
+  },
+  "nome": "respSeg",
+  "pai": "seg",
+  "path": "/CTeOS/infCte/infCTeNorm/seg/respSeg",
+  "ordem": "ey00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-1",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a106"
+  },
+  "nome": "xSeg",
+  "pai": "seg",
+  "path": "/CTeOS/infCte/infCTeNorm/seg/xSeg",
+  "ordem": "ez00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-30",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a107"
+  },
+  "nome": "nApol",
+  "pai": "seg",
+  "path": "/CTeOS/infCte/infCTeNorm/seg/nApol",
+  "ordem": "fa00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-20",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a108"
+  },
+  "nome": "infModal",
+  "pai": "infCTeNorm",
+  "path": "/CTeOS/infCte/infCTeNorm/infModal",
+  "ordem": "fb00",
+  "tipo": "FIXED",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": [
+    {
+      "nome": "versaoModal",
+      "valor": "3.00"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a109"
+  },
+  "nome": "infCteSub",
+  "pai": "infCTeNorm",
+  "path": "/CTeOS/infCte/infCTeNorm/infCteSub",
+  "ordem": "fc00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a10a"
+  },
+  "nome": "chCte",
+  "pai": "infCteSub",
+  "path": "/CTeOS/infCte/infCTeNorm/infCteSub/chCte",
+  "ordem": "fd00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{44}",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a10b"
+  },
+  "nome": "refCteAnu",
+  "pai": "infCteSub",
+  "path": "/CTeOS/infCte/infCTeNorm/infCteSub/refCteAnu",
+  "ordem": "fe00",
+  "tipo": "FIXED",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "choiceElement": "refCteAnu"
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a10c"
+  },
+  "nome": "tomaICMS",
+  "pai": "infCteSub",
+  "path": "/CTeOS/infCte/infCTeNorm/infCteSub/tomaICMS",
+  "ordem": "fe00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "choiceElement": "tomaICMS"
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a10d"
+  },
+  "nome": "refNFe",
+  "pai": "tomaICMS",
+  "path": "/CTeOS/infCte/infCTeNorm/infCteSub/tomaICMS/refNFe",
+  "ordem": "fe00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{44}",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a10e"
+  },
+  "nome": "refNF",
+  "pai": "tomaICMS",
+  "path": "/CTeOS/infCte/infCTeNorm/infCteSub/tomaICMS/refNF",
+  "ordem": "fe00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a10f"
+  },
+  "nome": "CNPJ",
+  "pai": "refNF",
+  "path": "/CTeOS/infCte/infCTeNorm/infCteSub/tomaICMS/refNF/CNPJ",
+  "ordem": "fe00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{14}",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "choiceElement": "CNPJ"
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a110"
+  },
+  "nome": "CPF",
+  "pai": "refNF",
+  "path": "/CTeOS/infCte/infCTeNorm/infCteSub/tomaICMS/refNF/CPF",
+  "ordem": "fe00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{11}",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "choiceElement": "CPF"
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a111"
+  },
+  "nome": "mod",
+  "pai": "refNF",
+  "path": "/CTeOS/infCte/infCTeNorm/infCteSub/tomaICMS/refNF/mod",
+  "ordem": "fe00",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "01|1B|02|2D|2E|04|06|07|08|8B|09|10|11|13|14|15|16|17|18|20|21|22|23|24|25|26|27|28|55",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a112"
+  },
+  "nome": "serie",
+  "pai": "refNF",
+  "path": "/CTeOS/infCte/infCTeNorm/infCteSub/tomaICMS/refNF/serie",
+  "ordem": "ff00",
+  "tipo": "REGEX",
+  "pattern": "0|[1-9]{1}[0-9]{0,2}",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a113"
+  },
+  "nome": "subserie",
+  "pai": "refNF",
+  "path": "/CTeOS/infCte/infCTeNorm/infCteSub/tomaICMS/refNF/subserie",
+  "ordem": "fg00",
+  "tipo": "REGEX",
+  "pattern": "0|[1-9]{1}[0-9]{0,2}",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a114"
+  },
+  "nome": "nro",
+  "pai": "refNF",
+  "path": "/CTeOS/infCte/infCTeNorm/infCteSub/tomaICMS/refNF/nro",
+  "ordem": "fh00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{1,6}",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a115"
+  },
+  "nome": "valor",
+  "pai": "refNF",
+  "path": "/CTeOS/infCte/infCTeNorm/infCteSub/tomaICMS/refNF/valor",
+  "ordem": "fi00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a116"
+  },
+  "nome": "dEmi",
+  "pai": "refNF",
+  "path": "/CTeOS/infCte/infCTeNorm/infCteSub/tomaICMS/refNF/dEmi",
+  "ordem": "fj00",
+  "tipo": "REGEX",
+  "pattern": "(((20(([02468][048])|([13579][26]))-02-29))|(20[0-9][0-9])-((((0[1-9])|(1[0-2]))-((0[1-9])|(1\\d)|(2[0-8])))|((((0[13578])|(1[02]))-31)|(((0[1,3-9])|(1[0-2]))-(29|30)))))",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a117"
+  },
+  "nome": "refCte",
+  "pai": "tomaICMS",
+  "path": "/CTeOS/infCte/infCTeNorm/infCteSub/tomaICMS/refCte",
+  "ordem": "fk00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{44}",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a118"
+  },
+  "nome": "refCTeCanc",
+  "pai": "infCTeNorm",
+  "path": "/CTeOS/infCte/infCTeNorm/refCTeCanc",
+  "ordem": "fk00",
+  "tipo": "FIXED",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a119"
+  },
+  "nome": "cobr",
+  "pai": "infCTeNorm",
+  "path": "/CTeOS/infCte/infCTeNorm/cobr",
+  "ordem": "fl00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a11a"
+  },
+  "nome": "fat",
+  "pai": "cobr",
+  "path": "/CTeOS/infCte/infCTeNorm/cobr/fat",
+  "ordem": "fm00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a11b"
+  },
+  "nome": "nFat",
+  "pai": "fat",
+  "path": "/CTeOS/infCte/infCTeNorm/cobr/fat/nFat",
+  "ordem": "fn00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-60",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a11c"
+  },
+  "nome": "vOrig",
+  "pai": "fat",
+  "path": "/CTeOS/infCte/infCTeNorm/cobr/fat/vOrig",
+  "ordem": "fo00",
+  "tipo": "REGEX",
+  "pattern": "0\\.[0-9]{1}[1-9]{1}|0\\.[1-9]{1}[0-9]{1}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a11d"
+  },
+  "nome": "vDesc",
+  "pai": "fat",
+  "path": "/CTeOS/infCte/infCTeNorm/cobr/fat/vDesc",
+  "ordem": "fp00",
+  "tipo": "REGEX",
+  "pattern": "0\\.[0-9]{1}[1-9]{1}|0\\.[1-9]{1}[0-9]{1}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a11e"
+  },
+  "nome": "vLiq",
+  "pai": "fat",
+  "path": "/CTeOS/infCte/infCTeNorm/cobr/fat/vLiq",
+  "ordem": "fq00",
+  "tipo": "REGEX",
+  "pattern": "0\\.[0-9]{1}[1-9]{1}|0\\.[1-9]{1}[0-9]{1}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a11f"
+  },
+  "nome": "dup",
+  "pai": "cobr",
+  "path": "/CTeOS/infCte/infCTeNorm/cobr/dup",
+  "ordem": "fr00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a120"
+  },
+  "nome": "nDup",
+  "pai": "dup",
+  "path": "/CTeOS/infCte/infCTeNorm/cobr/dup/nDup",
+  "ordem": "fs00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-60",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a121"
+  },
+  "nome": "dVenc",
+  "pai": "dup",
+  "path": "/CTeOS/infCte/infCTeNorm/cobr/dup/dVenc",
+  "ordem": "ft00",
+  "tipo": "REGEX",
+  "pattern": "(((20(([02468][048])|([13579][26]))-02-29))|(20[0-9][0-9])-((((0[1-9])|(1[0-2]))-((0[1-9])|(1\\d)|(2[0-8])))|((((0[13578])|(1[02]))-31)|(((0[1,3-9])|(1[0-2]))-(29|30)))))",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a122"
+  },
+  "nome": "vDup",
+  "pai": "dup",
+  "path": "/CTeOS/infCte/infCTeNorm/cobr/dup/vDup",
+  "ordem": "fu00",
+  "tipo": "REGEX",
+  "pattern": "0\\.[0-9]{1}[1-9]{1}|0\\.[1-9]{1}[0-9]{1}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a123"
+  },
+  "nome": "infGTVe",
+  "pai": "infCTeNorm",
+  "path": "/CTeOS/infCte/infCTeNorm/infGTVe",
+  "ordem": "fv00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a124"
+  },
+  "nome": "chCTe",
+  "pai": "infGTVe",
+  "path": "/CTeOS/infCte/infCTeNorm/infGTVe/chCTe",
+  "ordem": "fw00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{44}",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a125"
+  },
+  "nome": "Comp",
+  "pai": "infGTVe",
+  "path": "/CTeOS/infCte/infCTeNorm/infGTVe/Comp",
+  "ordem": "fx00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a126"
+  },
+  "nome": "tpComp",
+  "pai": "Comp",
+  "path": "/CTeOS/infCte/infCTeNorm/infGTVe/Comp/tpComp",
+  "ordem": "fy00",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "1|2|3|4|5|6",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a127"
+  },
+  "nome": "vComp",
+  "pai": "Comp",
+  "path": "/CTeOS/infCte/infCTeNorm/infGTVe/Comp/vComp",
+  "ordem": "fz00",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a128"
+  },
+  "nome": "xComp",
+  "pai": "Comp",
+  "path": "/CTeOS/infCte/infCTeNorm/infGTVe/Comp/xComp",
+  "ordem": "ga00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "0-15",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a129"
+  },
+  "nome": "infCteComp",
+  "pai": "infCte",
+  "path": "/CTeOS/infCte/infCteComp",
+  "ordem": "gb00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "choiceElement": "infCteComp"
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a12a"
+  },
+  "nome": "chCTe",
+  "pai": "infCteComp",
+  "path": "/CTeOS/infCte/infCteComp/chCTe",
+  "ordem": "gb00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{44}",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a12b"
+  },
+  "nome": "infCteAnu",
+  "pai": "infCte",
+  "path": "/CTeOS/infCte/infCteAnu",
+  "ordem": "gc00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "choiceElement": "infCteAnu"
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a12c"
+  },
+  "nome": "chCte",
+  "pai": "infCteAnu",
+  "path": "/CTeOS/infCte/infCteAnu/chCte",
+  "ordem": "gc00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{44}",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a12d"
+  },
+  "nome": "dEmi",
+  "pai": "infCteAnu",
+  "path": "/CTeOS/infCte/infCteAnu/dEmi",
+  "ordem": "gd00",
+  "tipo": "REGEX",
+  "pattern": "(((20(([02468][048])|([13579][26]))-02-29))|(20[0-9][0-9])-((((0[1-9])|(1[0-2]))-((0[1-9])|(1\\d)|(2[0-8])))|((((0[13578])|(1[02]))-31)|(((0[1,3-9])|(1[0-2]))-(29|30)))))",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a12e"
+  },
+  "nome": "autXML",
+  "pai": "infCte",
+  "path": "/CTeOS/infCte/autXML",
+  "ordem": "ge00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a12f"
+  },
+  "nome": "CNPJ",
+  "pai": "autXML",
+  "path": "/CTeOS/infCte/autXML/CNPJ",
+  "ordem": "gf00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{14}",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "choiceElement": "CNPJ"
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a130"
+  },
+  "nome": "CPF",
+  "pai": "autXML",
+  "path": "/CTeOS/infCte/autXML/CPF",
+  "ordem": "gf00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{11}",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "choiceElement": "CPF"
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a131"
+  },
+  "nome": "infRespTec",
+  "pai": "infCte",
+  "path": "/CTeOS/infCte/infRespTec",
+  "ordem": "gf00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a132"
+  },
+  "nome": "CNPJ",
+  "pai": "infRespTec",
+  "path": "/CTeOS/infCte/infRespTec/CNPJ",
+  "ordem": "gg00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{14}",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a133"
+  },
+  "nome": "xContato",
+  "pai": "infRespTec",
+  "path": "/CTeOS/infCte/infRespTec/xContato",
+  "ordem": "gh00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a134"
+  },
+  "nome": "email",
+  "pai": "infRespTec",
+  "path": "/CTeOS/infCte/infRespTec/email",
+  "ordem": "gi00",
+  "tipo": "REGEX",
+  "pattern": "[^@]+@[^\\.]+\\..+",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a135"
+  },
+  "nome": "fone",
+  "pai": "infRespTec",
+  "path": "/CTeOS/infCte/infRespTec/fone",
+  "ordem": "gj00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{7,12}",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a136"
+  },
+  "nome": "idCSRT",
+  "pai": "infRespTec",
+  "path": "/CTeOS/infCte/infRespTec/idCSRT",
+  "ordem": "gk00",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{3}",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a137"
+  },
+  "nome": "hashCSRT",
+  "pai": "infRespTec",
+  "path": "/CTeOS/infCte/infRespTec/hashCSRT",
+  "ordem": "gk00",
+  "tipo": "FIXED",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a138"
+  },
+  "nome": "infCTeSupl",
+  "pai": "CTeOS",
+  "path": "/CTeOS/infCTeSupl",
+  "ordem": "gk00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6425ad1a3d6bb46e4a86a139"
+  },
+  "nome": "qrCodCTe",
+  "pai": "infCTeSupl",
+  "path": "/CTeOS/infCTeSupl/qrCodCTe",
+  "ordem": "gl00",
+  "tipo": "REGEX",
+  "pattern": "((HTTPS?|https?)://.*\\?chCTe=[0-9]{44}&tpAmb=[1-2](&sign=[!-ÿ]{1}[ -ÿ]{0,}[!-ÿ]{1}|[!-ÿ]{1})?)",
+  "versao": "3.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "645120c15ed94c0050cb5106"
+  },
+  "totais": {
+    "valorPadrao": "",
+    "operacao": "",
+    "valorTotal": false
+  },
+  "atributos": [],
+  "nome": "nDoc",
+  "pai": "infDocRef",
+  "path": "/CTeOS/infCte/infCTeNorm/infDocRef/nDoc",
+  "ordem": "ea00",
+  "versao": "4.00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-60",
+  "valorPadrao": "",
+  "ocorrencias": "",
+  "choiceElement": "",
+  "dependente": {
+    "nome": "",
+    "tipo": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "645120c15ed94c0050cb5109"
+  },
+  "totais": {
+    "valorPadrao": null,
+    "operacao": null,
+    "valorTotal": null
+  },
+  "atributos": [],
+  "nome": "serie",
+  "pai": "infDocRef",
+  "path": "/CTeOS/infCte/infCTeNorm/infDocRef/serie",
+  "ordem": "eb00",
+  "versao": "4.00",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-3",
+  "valorPadrao": null,
+  "ocorrencias": null,
+  "choiceElement": null,
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "645120c15ed94c0050cb510c"
+  },
+  "totais": {
+    "valorPadrao": null,
+    "operacao": null,
+    "valorTotal": null
+  },
+  "atributos": [],
+  "nome": "dEmi",
+  "pai": "infDocRef",
+  "path": "/CTeOS/infCte/infCTeNorm/infDocRef/dEmi",
+  "ordem": "ec00",
+  "versao": "4.00",
+  "tipo": "DATE",
+  "pattern": "AAAA-MM-DD",
+  "valorPadrao": null,
+  "ocorrencias": null,
+  "choiceElement": null,
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6451244b5ed94c0050cb51fa"
+  },
+  "totais": {
+    "valorPadrao": null,
+    "operacao": null,
+    "valorTotal": null
+  },
+  "atributos": [],
+  "nome": "vDoc",
+  "pai": "infDocRef",
+  "path": "/CTeOS/infCte/infCTeNorm/infDocRef/vDoc",
+  "ordem": "ed00",
+  "versao": "4.00",
+  "tipo": "FIXED",
+  "pattern": "200.00",
+  "valorPadrao": null,
+  "ocorrencias": null,
+  "choiceElement": null,
+  "dependente": {
+    "nome": null,
+    "tipo": null
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64512b4767e5fd684ca72118"
+  },
+  "nome": "rodoOS",
+  "pai": "infModal",
+  "path": "/CTeOS/infCte/infCTeNorm/infModal/rodoOS",
+  "ordem": "ll01",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64512b4767e5fd684ca72119"
+  },
+  "nome": "TAF",
+  "pai": "rodoOS",
+  "path": "/CTeOS/infCte/infCTeNorm/infModal/rodoOS/TAF",
+  "ordem": "ll02",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "12-12",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64512b4767e5fd684ca7211a"
+  },
+  "nome": "NroRegEstadual",
+  "pai": "rodoOS",
+  "path": "/CTeOS/infCte/infCTeNorm/infModal/rodoOS/NroRegEstadual",
+  "ordem": "ll03",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "25-25",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64512b4767e5fd684ca7211b"
+  },
+  "nome": "veic",
+  "pai": "rodoOS",
+  "path": "/CTeOS/infCte/infCTeNorm/infModal/rodoOS/veic",
+  "ordem": "ll04",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64512b4767e5fd684ca7211c"
+  },
+  "nome": "placa",
+  "pai": "veic",
+  "path": "/CTeOS/infCte/infCTeNorm/infModal/rodoOS/veic/placa",
+  "ordem": "ll05",
+  "tipo": "FIXED",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64512b4767e5fd684ca7211d"
+  },
+  "nome": "RENAVAM",
+  "pai": "veic",
+  "path": "/CTeOS/infCte/infCTeNorm/infModal/rodoOS/veic/RENAVAM",
+  "ordem": "ll06",
+  "tipo": "FIXED",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64512b4767e5fd684ca7211e"
+  },
+  "nome": "prop",
+  "pai": "veic",
+  "path": "/CTeOS/infCte/infCTeNorm/infModal/rodoOS/veic/prop",
+  "ordem": "ll07",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64512b4767e5fd684ca7211f"
+  },
+  "nome": "CPF",
+  "pai": "prop",
+  "path": "/CTeOS/infCte/infCTeNorm/infModal/rodoOS/veic/prop/CPF",
+  "ordem": "ll08",
+  "tipo": "FIXED",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64512b4767e5fd684ca72120"
+  },
+  "nome": "CNPJ",
+  "pai": "prop",
+  "path": "/CTeOS/infCte/infCTeNorm/infModal/rodoOS/veic/prop/CNPJ",
+  "ordem": "ll09",
+  "tipo": "FIXED",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64512b4767e5fd684ca72121"
+  },
+  "nome": "TAF",
+  "pai": "prop",
+  "path": "/CTeOS/infCte/infCTeNorm/infModal/rodoOS/veic/prop/TAF",
+  "ordem": "ll10",
+  "tipo": "FIXED",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64512b4767e5fd684ca72122"
+  },
+  "nome": "NroRegEstadual",
+  "pai": "prop",
+  "path": "/CTeOS/infCte/infCTeNorm/infModal/rodoOS/veic/prop/NroRegEstadual",
+  "ordem": "ll11",
+  "tipo": "FIXED",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64512b4767e5fd684ca72123"
+  },
+  "nome": "IE",
+  "pai": "prop",
+  "path": "/CTeOS/infCte/infCTeNorm/infModal/rodoOS/veic/prop/IE",
+  "ordem": "ll13",
+  "tipo": "FIXED",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64512b4767e5fd684ca72124"
+  },
+  "nome": "UF",
+  "pai": "prop",
+  "path": "/CTeOS/infCte/infCTeNorm/infModal/rodoOS/veic/prop/UF",
+  "ordem": "ll14",
+  "tipo": "FIXED",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64512b4767e5fd684ca72125"
+  },
+  "nome": "tpProp",
+  "pai": "prop",
+  "path": "/CTeOS/infCte/infCTeNorm/infModal/rodoOS/veic/prop/tpProp",
+  "ordem": "ll15",
+  "tipo": "FIXED",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64512b4767e5fd684ca72126"
+  },
+  "nome": "UF",
+  "pai": "veic",
+  "path": "/CTeOS/infCte/infCTeNorm/infModal/rodoOS/veic/UF",
+  "ordem": "ll16",
+  "tipo": "FIXED",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64512b4767e5fd684ca72127"
+  },
+  "nome": "infFretamento",
+  "pai": "rodoOS",
+  "path": "/CTeOS/infCte/infCTeNorm/infModal/rodoOS/infFretamento",
+  "ordem": "ll17",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64512b4767e5fd684ca72128"
+  },
+  "nome": "tpFretamento",
+  "pai": "infFretamento",
+  "path": "/CTeOS/infCte/infCTeNorm/infModal/rodoOS/infFretamento/tpFretamento",
+  "ordem": "ll18",
+  "tipo": "FIXED",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64512b4767e5fd684ca72129"
+  },
+  "nome": "dhViagem",
+  "pai": "infFretamento",
+  "path": "/CTeOS/infCte/infCTeNorm/infModal/rodoOS/infFretamento/dhViagem",
+  "ordem": "ll19",
+  "tipo": "DATE",
+  "pattern": "yyyy-MM-dd'T'HH:mm:ssXXX",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+},
+{
+  "_id": {
+    "$oid": "64512c3d67e5fd684ca7212b"
+  },
+  "nome": "xNome",
+  "pai": "prop",
+  "path": "/CTeOS/infCte/infCTeNorm/infModal/rodoOS/veic/prop/xNome",
+  "ordem": "ll12",
+  "tipo": "FIXED",
+  "pattern": "",
+  "versao": "4.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": []
+}]

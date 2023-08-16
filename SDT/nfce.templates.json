@@ -1,0 +1,4456 @@
+[{
+  "_id": {
+    "$oid": "64aee55968a2e4002d3d3083"
+  },
+  "nome": "AUT_NFCe",
+  "env": "enviNFe",
+  "modelo": "NFCE",
+  "versao": "4.00",
+  "nomeDocumento": "NFe",
+  "nameSpace": "http://www.portalfiscal.inf.br/nfe",
+  "qrcode": "http://www.dfe.ms.gov.br/nfce/qrcode",
+  "possuiLote": true,
+  "indSinc": "",
+  "idLote": "1",
+  "tagInf": "infNFe",
+  "choiceGroups": [
+    {
+      "nome": "emit",
+      "choices": [
+        {
+          "tag": {
+            "nome": "emit",
+            "pai": "infNFe",
+            "path": "/NFe/infNFe/emit",
+            "ordem": "bq00",
+            "tipo": "PAI"
+          },
+          "choiceType": "ESPECIFIC",
+          "tagDefault": "CNPJ"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "NFe",
+      "pai": "enviNFe",
+      "path": "/NFe",
+      "ordem": "aa00",
+      "versao": "4.00",
+      "tipo": "ROOT"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [
+        {
+          "nome": "versao",
+          "valor": "4.00"
+        }
+      ],
+      "tagsCustom": [],
+      "nome": "infNFe",
+      "pai": "NFe",
+      "path": "/NFe/infNFe",
+      "ordem": "ab00",
+      "versao": "4.00",
+      "tipo": "FIXED",
+      "pattern": ""
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "ide",
+      "pai": "infNFe",
+      "path": "/NFe/infNFe/ide",
+      "ordem": "ac00",
+      "versao": "4.00",
+      "tipo": "PAI",
+      "pattern": ""
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "cUF",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/cUF",
+      "ordem": "ac01",
+      "versao": "4.00",
+      "tipo": "FIXED",
+      "pattern": "50"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "cNF",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/cNF",
+      "ordem": "ac02",
+      "tipo": "REGEX",
+      "pattern": "[1-9]{8}"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "natOp",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/natOp",
+      "ordem": "ac03",
+      "versao": "4.00",
+      "tipo": "RANGE_ALFANUMERICO",
+      "pattern": "1-60"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "mod",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/mod",
+      "ordem": "ac04",
+      "tipo": "FIXED",
+      "pattern": "65"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "serie",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/serie",
+      "ordem": "ac05",
+      "tipo": "REGEX",
+      "pattern": "[1-3]{1}"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "nNF",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/nNF",
+      "ordem": "ac06",
+      "versao": "4.00",
+      "tipo": "REGEX",
+      "pattern": "[1-9]{1}[0-9]{0,8}"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "dhEmi",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/dhEmi",
+      "ordem": "ac07",
+      "tipo": "DATE",
+      "pattern": "yyyy-MM-dd'T'HH:mm:ssXXX"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "tpNF",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/tpNF",
+      "ordem": "ac09",
+      "tipo": "FIXED",
+      "pattern": "1"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "idDest",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/idDest",
+      "ordem": "ac10",
+      "tipo": "FIXED",
+      "pattern": "1"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "cMunFG",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/cMunFG",
+      "ordem": "ac11",
+      "tipo": "FIXED",
+      "pattern": "5003702"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "tpImp",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/tpImp",
+      "ordem": "ac12",
+      "tipo": "FIXED",
+      "pattern": "4"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "tpEmis",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/tpEmis",
+      "ordem": "ac13",
+      "tipo": "FIXED",
+      "pattern": "1"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "cDV",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/cDV",
+      "ordem": "ac14",
+      "versao": "4.00",
+      "tipo": "REGEX",
+      "pattern": "[0-9]{1}"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "tpAmb",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/tpAmb",
+      "ordem": "ac15",
+      "tipo": "FIXED",
+      "pattern": "2"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "finNFe",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/finNFe",
+      "ordem": "ac16",
+      "tipo": "FIXED",
+      "pattern": "1"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "indFinal",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/indFinal",
+      "ordem": "ac17",
+      "tipo": "FIXED",
+      "pattern": "1"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "indPres",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/indPres",
+      "ordem": "ac18",
+      "tipo": "FIXED",
+      "pattern": "1"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "procEmi",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/procEmi",
+      "ordem": "ac20",
+      "tipo": "FIXED",
+      "pattern": "0"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "verProc",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/verProc",
+      "ordem": "ac21",
+      "versao": "4.00",
+      "tipo": "RANGE_ALFANUMERICO",
+      "pattern": "1-20"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "emit",
+      "pai": "infNFe",
+      "path": "/NFe/infNFe/emit",
+      "ordem": "bq00",
+      "versao": "4.00",
+      "tipo": "PAI",
+      "pattern": ""
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "CNPJ",
+      "pai": "emit",
+      "path": "/NFe/infNFe/emit/CNPJ",
+      "ordem": "bq01",
+      "tipo": "FIXED",
+      "pattern": "02935843000105",
+      "choiceElement": "CNPJ"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "CPF",
+      "pai": "emit",
+      "path": "/NFe/infNFe/emit/CPF",
+      "ordem": "bq02",
+      "versao": "4.00",
+      "tipo": "REGEX",
+      "pattern": "[0-9]{11}",
+      "choiceElement": "CPF"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "xNome",
+      "pai": "emit",
+      "path": "/NFe/infNFe/emit/xNome",
+      "ordem": "bq03",
+      "tipo": "FIXED",
+      "pattern": "SEFAZ MS"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "xFant",
+      "pai": "emit",
+      "path": "/NFe/infNFe/emit/xFant",
+      "ordem": "bq04",
+      "versao": "4.00",
+      "tipo": "RANGE_ALFANUMERICO",
+      "pattern": "1-60"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "enderEmit",
+      "pai": "emit",
+      "path": "/NFe/infNFe/emit/enderEmit",
+      "ordem": "bv00",
+      "versao": "4.00",
+      "tipo": "PAI",
+      "pattern": ""
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "xLgr",
+      "pai": "enderEmit",
+      "path": "/NFe/infNFe/emit/enderEmit/xLgr",
+      "ordem": "bv01",
+      "versao": "4.00",
+      "tipo": "RANGE_ALFANUMERICO",
+      "pattern": "2-60"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "nro",
+      "pai": "enderEmit",
+      "path": "/NFe/infNFe/emit/enderEmit/nro",
+      "ordem": "bv02",
+      "versao": "4.00",
+      "tipo": "RANGE_ALFANUMERICO",
+      "pattern": "1-60"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "xCpl",
+      "pai": "enderEmit",
+      "path": "/NFe/infNFe/emit/enderEmit/xCpl",
+      "ordem": "bv03",
+      "versao": "4.00",
+      "tipo": "RANGE_ALFANUMERICO",
+      "pattern": "1-60"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "xBairro",
+      "pai": "enderEmit",
+      "path": "/NFe/infNFe/emit/enderEmit/xBairro",
+      "ordem": "bv04",
+      "versao": "4.00",
+      "tipo": "RANGE_ALFANUMERICO",
+      "pattern": "2-60"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "cMun",
+      "pai": "enderEmit",
+      "path": "/NFe/infNFe/emit/enderEmit/cMun",
+      "ordem": "bv05",
+      "tipo": "FIXED",
+      "pattern": "5003702"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "xMun",
+      "pai": "enderEmit",
+      "path": "/NFe/infNFe/emit/enderEmit/xMun",
+      "ordem": "bv06",
+      "versao": "4.00",
+      "tipo": "RANGE_ALFANUMERICO",
+      "pattern": "2-60"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "UF",
+      "pai": "enderEmit",
+      "path": "/NFe/infNFe/emit/enderEmit/UF",
+      "ordem": "bv07",
+      "tipo": "FIXED",
+      "pattern": "MS"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "CEP",
+      "pai": "enderEmit",
+      "path": "/NFe/infNFe/emit/enderEmit/CEP",
+      "ordem": "bv08",
+      "versao": "4.00",
+      "tipo": "REGEX",
+      "pattern": "[0-9]{8}"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "cPais",
+      "pai": "enderEmit",
+      "path": "/NFe/infNFe/emit/enderEmit/cPais",
+      "ordem": "bv09",
+      "versao": "4.00",
+      "tipo": "FIXED",
+      "pattern": "1058"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "xPais",
+      "pai": "enderEmit",
+      "path": "/NFe/infNFe/emit/enderEmit/xPais",
+      "ordem": "bv10",
+      "versao": "4.00",
+      "tipo": "RANDON_PARAMETER",
+      "pattern": "Brasil|BRASIL"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "fone",
+      "pai": "enderEmit",
+      "path": "/NFe/infNFe/emit/enderEmit/fone",
+      "ordem": "bv11",
+      "versao": "4.00",
+      "tipo": "REGEX",
+      "pattern": "[0-9]{6,14}"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "IE",
+      "pai": "emit",
+      "path": "/NFe/infNFe/emit/IE",
+      "ordem": "bv12",
+      "tipo": "FIXED",
+      "pattern": "287637204"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "CRT",
+      "pai": "emit",
+      "path": "/NFe/infNFe/emit/CRT",
+      "ordem": "bv16",
+      "tipo": "FIXED",
+      "pattern": "3"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [
+        {
+          "nome": "nItem",
+          "valor": "1"
+        }
+      ],
+      "tagsCustom": [],
+      "nome": "det",
+      "pai": "infNFe",
+      "path": "/NFe/infNFe/det",
+      "ordem": "fb00",
+      "versao": "4.00",
+      "tipo": "PAI",
+      "pattern": ""
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "prod",
+      "pai": "det",
+      "path": "/NFe/infNFe/det/prod",
+      "ordem": "fc00",
+      "versao": "4.00",
+      "tipo": "PAI",
+      "pattern": ""
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "cProd",
+      "pai": "prod",
+      "path": "/NFe/infNFe/det/prod/cProd",
+      "ordem": "fc01",
+      "tipo": "FIXED",
+      "pattern": "000081"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "cEAN",
+      "pai": "prod",
+      "path": "/NFe/infNFe/det/prod/cEAN",
+      "ordem": "fc02",
+      "tipo": "FIXED",
+      "pattern": "SEM GTIN"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "xProd",
+      "pai": "prod",
+      "path": "/NFe/infNFe/det/prod/xProd",
+      "ordem": "fc04",
+      "tipo": "FIXED",
+      "pattern": "NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "NCM",
+      "pai": "prod",
+      "path": "/NFe/infNFe/det/prod/NCM",
+      "ordem": "fc05",
+      "tipo": "FIXED",
+      "pattern": "08052100"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "CFOP",
+      "pai": "prod",
+      "path": "/NFe/infNFe/det/prod/CFOP",
+      "ordem": "fc12",
+      "tipo": "FIXED",
+      "pattern": "5102"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "uCom",
+      "pai": "prod",
+      "path": "/NFe/infNFe/det/prod/uCom",
+      "ordem": "fc13",
+      "tipo": "FIXED",
+      "pattern": "KG"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "qCom",
+      "pai": "prod",
+      "path": "/NFe/infNFe/det/prod/qCom",
+      "ordem": "fc14",
+      "tipo": "FIXED",
+      "pattern": "2.886"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vUnCom",
+      "pai": "prod",
+      "path": "/NFe/infNFe/det/prod/vUnCom",
+      "ordem": "fc15",
+      "tipo": "FIXED",
+      "pattern": "3.9900"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vProd",
+      "pai": "prod",
+      "path": "/NFe/infNFe/det/prod/vProd",
+      "ordem": "fc16",
+      "tipo": "FIXED",
+      "pattern": "11.52"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "cEANTrib",
+      "pai": "prod",
+      "path": "/NFe/infNFe/det/prod/cEANTrib",
+      "ordem": "fc17",
+      "tipo": "FIXED",
+      "pattern": "SEM GTIN"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "uTrib",
+      "pai": "prod",
+      "path": "/NFe/infNFe/det/prod/uTrib",
+      "ordem": "fc19",
+      "tipo": "FIXED",
+      "pattern": "KG"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "qTrib",
+      "pai": "prod",
+      "path": "/NFe/infNFe/det/prod/qTrib",
+      "ordem": "fc20",
+      "tipo": "FIXED",
+      "pattern": "2.886"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vUnTrib",
+      "pai": "prod",
+      "path": "/NFe/infNFe/det/prod/vUnTrib",
+      "ordem": "fc21",
+      "tipo": "FIXED",
+      "pattern": "3.9900"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "indTot",
+      "pai": "prod",
+      "path": "/NFe/infNFe/det/prod/indTot",
+      "ordem": "fc26",
+      "tipo": "FIXED",
+      "pattern": "1"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "imposto",
+      "pai": "det",
+      "path": "/NFe/infNFe/det/imposto",
+      "ordem": "jw00",
+      "versao": "4.00",
+      "tipo": "PAI",
+      "pattern": ""
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vTotTrib",
+      "pai": "imposto",
+      "path": "/NFe/infNFe/det/imposto/vTotTrib",
+      "ordem": "jw01",
+      "tipo": "FIXED",
+      "pattern": "3.51"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "ICMS",
+      "pai": "imposto",
+      "path": "/NFe/infNFe/det/imposto/ICMS",
+      "ordem": "jy00",
+      "versao": "4.00",
+      "tipo": "PAI",
+      "pattern": ""
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "ICMS20",
+      "pai": "ICMS",
+      "path": "/NFe/infNFe/det/imposto/ICMS/ICMS20",
+      "ordem": "ld00",
+      "versao": "4.00",
+      "tipo": "PAI",
+      "pattern": ""
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "orig",
+      "pai": "ICMS20",
+      "path": "/NFe/infNFe/det/imposto/ICMS/ICMS20/orig",
+      "ordem": "ld01",
+      "tipo": "FIXED",
+      "pattern": "0"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "CST",
+      "pai": "ICMS20",
+      "path": "/NFe/infNFe/det/imposto/ICMS/ICMS20/CST",
+      "ordem": "ld02",
+      "versao": "4.00",
+      "tipo": "FIXED",
+      "pattern": "20"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "modBC",
+      "pai": "ICMS20",
+      "path": "/NFe/infNFe/det/imposto/ICMS/ICMS20/modBC",
+      "ordem": "ld03",
+      "tipo": "FIXED",
+      "pattern": "0"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "pRedBC",
+      "pai": "ICMS20",
+      "path": "/NFe/infNFe/det/imposto/ICMS/ICMS20/pRedBC",
+      "ordem": "ld04",
+      "tipo": "FIXED",
+      "pattern": "58.82"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vBC",
+      "pai": "ICMS20",
+      "path": "/NFe/infNFe/det/imposto/ICMS/ICMS20/vBC",
+      "ordem": "ld05",
+      "tipo": "FIXED",
+      "pattern": "4.74"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "pICMS",
+      "pai": "ICMS20",
+      "path": "/NFe/infNFe/det/imposto/ICMS/ICMS20/pICMS",
+      "ordem": "ld06",
+      "tipo": "FIXED",
+      "pattern": "17.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vICMS",
+      "pai": "ICMS20",
+      "path": "/NFe/infNFe/det/imposto/ICMS/ICMS20/vICMS",
+      "ordem": "ld07",
+      "tipo": "FIXED",
+      "pattern": "0.81"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "total",
+      "pai": "infNFe",
+      "path": "/NFe/infNFe/total",
+      "ordem": "st00",
+      "versao": "4.00",
+      "tipo": "PAI",
+      "pattern": ""
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "ICMSTot",
+      "pai": "total",
+      "path": "/NFe/infNFe/total/ICMSTot",
+      "ordem": "su00",
+      "versao": "4.00",
+      "tipo": "PAI",
+      "pattern": ""
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vBC",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vBC",
+      "ordem": "su01",
+      "tipo": "FIXED",
+      "pattern": "4.74"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vICMS",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vICMS",
+      "ordem": "su02",
+      "tipo": "FIXED",
+      "pattern": "0.81"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vICMSDeson",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vICMSDeson",
+      "ordem": "su03",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vFCPUFDest",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vFCPUFDest",
+      "ordem": "su04",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vICMSUFDest",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vICMSUFDest",
+      "ordem": "su05",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vICMSUFRemet",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vICMSUFRemet",
+      "ordem": "su06",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vFCP",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vFCP",
+      "ordem": "su07",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vBCST",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vBCST",
+      "ordem": "su08",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vST",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vST",
+      "ordem": "su09",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vFCPST",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vFCPST",
+      "ordem": "su10",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vFCPSTRet",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vFCPSTRet",
+      "ordem": "su11",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vProd",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vProd",
+      "ordem": "su18",
+      "tipo": "FIXED",
+      "pattern": "11.52"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vFrete",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vFrete",
+      "ordem": "su19",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vSeg",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vSeg",
+      "ordem": "su20",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vDesc",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vDesc",
+      "ordem": "su21",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vII",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vII",
+      "ordem": "su22",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vIPI",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vIPI",
+      "ordem": "su23",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vIPIDevol",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vIPIDevol",
+      "ordem": "su24",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vPIS",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vPIS",
+      "ordem": "su25",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vCOFINS",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vCOFINS",
+      "ordem": "su26",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vOutro",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vOutro",
+      "ordem": "su27",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vNF",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vNF",
+      "ordem": "su28",
+      "tipo": "FIXED",
+      "pattern": "11.52"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vTotTrib",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vTotTrib",
+      "ordem": "su29",
+      "tipo": "FIXED",
+      "pattern": "3.51"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "transp",
+      "pai": "infNFe",
+      "path": "/NFe/infNFe/transp",
+      "ordem": "ut00",
+      "versao": "4.00",
+      "tipo": "PAI",
+      "pattern": ""
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "modFrete",
+      "pai": "transp",
+      "path": "/NFe/infNFe/transp/modFrete",
+      "ordem": "ut01",
+      "tipo": "FIXED",
+      "pattern": "9"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "pag",
+      "pai": "infNFe",
+      "path": "/NFe/infNFe/pag",
+      "ordem": "wf00",
+      "versao": "4.00",
+      "tipo": "PAI",
+      "pattern": ""
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "detPag",
+      "pai": "pag",
+      "path": "/NFe/infNFe/pag/detPag",
+      "ordem": "wg00",
+      "versao": "4.00",
+      "tipo": "PAI",
+      "pattern": ""
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "tPag",
+      "pai": "detPag",
+      "path": "/NFe/infNFe/pag/detPag/tPag",
+      "ordem": "wg02",
+      "tipo": "FIXED",
+      "pattern": "01"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vPag",
+      "pai": "detPag",
+      "path": "/NFe/infNFe/pag/detPag/vPag",
+      "ordem": "wg04",
+      "tipo": "FIXED",
+      "pattern": "11.52"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "infRespTec",
+      "pai": "infNFe",
+      "path": "/NFe/infNFe/infRespTec",
+      "ordem": "yb00",
+      "versao": "4.00",
+      "tipo": "PAI",
+      "pattern": ""
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "CNPJ",
+      "pai": "infRespTec",
+      "path": "/NFe/infNFe/infRespTec/CNPJ",
+      "ordem": "yb01",
+      "tipo": "FIXED",
+      "pattern": "11172508000193"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "xContato",
+      "pai": "infRespTec",
+      "path": "/NFe/infNFe/infRespTec/xContato",
+      "ordem": "yb02",
+      "versao": "4.00",
+      "tipo": "RANGE_ALFANUMERICO",
+      "pattern": "2-60"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "email",
+      "pai": "infRespTec",
+      "path": "/NFe/infNFe/infRespTec/email",
+      "ordem": "yb03",
+      "tipo": "FIXED",
+      "pattern": "teste@elias.com"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "fone",
+      "pai": "infRespTec",
+      "path": "/NFe/infNFe/infRespTec/fone",
+      "ordem": "yb04",
+      "versao": "4.00",
+      "tipo": "REGEX",
+      "pattern": "[0-9]{6,14}"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "infNFeSupl",
+      "pai": "NFe",
+      "path": "/NFe/infNFeSupl",
+      "ordem": "yi00",
+      "versao": "4.00",
+      "tipo": "PAI",
+      "pattern": ""
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "qrCode",
+      "pai": "infNFeSupl",
+      "path": "/NFe/infNFeSupl/qrCode",
+      "ordem": "yi01",
+      "tipo": "FIXED",
+      "pattern": "TESTE"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "urlChave",
+      "pai": "infNFeSupl",
+      "path": "/NFe/infNFeSupl/urlChave",
+      "ordem": "yi02",
+      "tipo": "FIXED",
+      "pattern": "http://www.dfe.ms.gov.br/nfce/consulta"
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64b6878fc0f36c002def6438"
+  },
+  "nome": "AUT_NFCe_TESTE",
+  "env": "enviNFe",
+  "modelo": "NFCE",
+  "versao": "4.00",
+  "nomeDocumento": "NFe",
+  "nameSpace": "http://www.portalfiscal.inf.br/nfe",
+  "qrcode": "http://www.dfe.ms.gov.br/nfce/qrcode",
+  "possuiLote": true,
+  "indSinc": "",
+  "idLote": "1",
+  "tagInf": "infNFe",
+  "choiceGroups": [
+    {
+      "nome": "emit",
+      "choices": [
+        {
+          "tag": {
+            "nome": "emit",
+            "pai": "infNFe",
+            "path": "/NFe/infNFe/emit",
+            "ordem": "bq00",
+            "tipo": "PAI"
+          },
+          "choiceType": "ESPECIFIC",
+          "tagDefault": "CNPJ"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "NFe",
+      "pai": "enviNFe",
+      "path": "/NFe",
+      "ordem": "aa00",
+      "versao": "4.00",
+      "tipo": "ROOT"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [
+        {
+          "nome": "versao",
+          "valor": "4.00"
+        }
+      ],
+      "tagsCustom": [],
+      "nome": "infNFe",
+      "pai": "NFe",
+      "path": "/NFe/infNFe",
+      "ordem": "ab00",
+      "versao": "4.00",
+      "tipo": "FIXED",
+      "pattern": ""
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "ide",
+      "pai": "infNFe",
+      "path": "/NFe/infNFe/ide",
+      "ordem": "ac00",
+      "versao": "4.00",
+      "tipo": "PAI",
+      "pattern": ""
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "cUF",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/cUF",
+      "ordem": "ac01",
+      "versao": "4.00",
+      "tipo": "FIXED",
+      "pattern": "50"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "cNF",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/cNF",
+      "ordem": "ac02",
+      "tipo": "REGEX",
+      "pattern": "[1-9]{8}"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "natOp",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/natOp",
+      "ordem": "ac03",
+      "versao": "4.00",
+      "tipo": "RANGE_ALFANUMERICO",
+      "pattern": "1-60"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "mod",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/mod",
+      "ordem": "ac04",
+      "tipo": "FIXED",
+      "pattern": "65"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "serie",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/serie",
+      "ordem": "ac05",
+      "tipo": "REGEX",
+      "pattern": "[1-3]{1}"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "nNF",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/nNF",
+      "ordem": "ac06",
+      "versao": "4.00",
+      "tipo": "REGEX",
+      "pattern": "[1-9]{1}[0-9]{0,8}"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "dhEmi",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/dhEmi",
+      "ordem": "ac07",
+      "tipo": "DATE",
+      "pattern": "yyyy-MM-dd'T'HH:mm:ssXXX"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "tpNF",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/tpNF",
+      "ordem": "ac09",
+      "tipo": "FIXED",
+      "pattern": "1"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "idDest",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/idDest",
+      "ordem": "ac10",
+      "tipo": "FIXED",
+      "pattern": "1"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "cMunFG",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/cMunFG",
+      "ordem": "ac11",
+      "tipo": "FIXED",
+      "pattern": "5003702"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "tpImp",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/tpImp",
+      "ordem": "ac12",
+      "tipo": "FIXED",
+      "pattern": "4"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "tpEmis",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/tpEmis",
+      "ordem": "ac13",
+      "tipo": "FIXED",
+      "pattern": "1"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "cDV",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/cDV",
+      "ordem": "ac14",
+      "versao": "4.00",
+      "tipo": "REGEX",
+      "pattern": "[0-9]{1}"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "tpAmb",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/tpAmb",
+      "ordem": "ac15",
+      "tipo": "FIXED",
+      "pattern": "2"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "finNFe",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/finNFe",
+      "ordem": "ac16",
+      "tipo": "FIXED",
+      "pattern": "1"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "indFinal",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/indFinal",
+      "ordem": "ac17",
+      "tipo": "FIXED",
+      "pattern": "1"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "indPres",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/indPres",
+      "ordem": "ac18",
+      "tipo": "FIXED",
+      "pattern": "1"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "procEmi",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/procEmi",
+      "ordem": "ac20",
+      "tipo": "FIXED",
+      "pattern": "0"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "verProc",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/verProc",
+      "ordem": "ac21",
+      "versao": "4.00",
+      "tipo": "RANGE_ALFANUMERICO",
+      "pattern": "1-20"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "emit",
+      "pai": "infNFe",
+      "path": "/NFe/infNFe/emit",
+      "ordem": "bq00",
+      "versao": "4.00",
+      "tipo": "PAI",
+      "pattern": ""
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "CNPJ",
+      "pai": "emit",
+      "path": "/NFe/infNFe/emit/CNPJ",
+      "ordem": "bq01",
+      "tipo": "FIXED",
+      "pattern": "02935843000105",
+      "choiceElement": "CNPJ"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "CPF",
+      "pai": "emit",
+      "path": "/NFe/infNFe/emit/CPF",
+      "ordem": "bq02",
+      "versao": "4.00",
+      "tipo": "REGEX",
+      "pattern": "[0-9]{11}",
+      "choiceElement": "CPF"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "xNome",
+      "pai": "emit",
+      "path": "/NFe/infNFe/emit/xNome",
+      "ordem": "bq03",
+      "tipo": "FIXED",
+      "pattern": "SEFAZ MS"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "xFant",
+      "pai": "emit",
+      "path": "/NFe/infNFe/emit/xFant",
+      "ordem": "bq04",
+      "versao": "4.00",
+      "tipo": "RANGE_ALFANUMERICO",
+      "pattern": "1-60"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "enderEmit",
+      "pai": "emit",
+      "path": "/NFe/infNFe/emit/enderEmit",
+      "ordem": "bv00",
+      "versao": "4.00",
+      "tipo": "PAI",
+      "pattern": ""
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "xLgr",
+      "pai": "enderEmit",
+      "path": "/NFe/infNFe/emit/enderEmit/xLgr",
+      "ordem": "bv01",
+      "versao": "4.00",
+      "tipo": "RANGE_ALFANUMERICO",
+      "pattern": "2-60"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "nro",
+      "pai": "enderEmit",
+      "path": "/NFe/infNFe/emit/enderEmit/nro",
+      "ordem": "bv02",
+      "versao": "4.00",
+      "tipo": "RANGE_ALFANUMERICO",
+      "pattern": "1-60"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "xCpl",
+      "pai": "enderEmit",
+      "path": "/NFe/infNFe/emit/enderEmit/xCpl",
+      "ordem": "bv03",
+      "versao": "4.00",
+      "tipo": "RANGE_ALFANUMERICO",
+      "pattern": "1-60"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "xBairro",
+      "pai": "enderEmit",
+      "path": "/NFe/infNFe/emit/enderEmit/xBairro",
+      "ordem": "bv04",
+      "versao": "4.00",
+      "tipo": "RANGE_ALFANUMERICO",
+      "pattern": "2-60"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "cMun",
+      "pai": "enderEmit",
+      "path": "/NFe/infNFe/emit/enderEmit/cMun",
+      "ordem": "bv05",
+      "tipo": "FIXED",
+      "pattern": "5003702"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "xMun",
+      "pai": "enderEmit",
+      "path": "/NFe/infNFe/emit/enderEmit/xMun",
+      "ordem": "bv06",
+      "versao": "4.00",
+      "tipo": "RANGE_ALFANUMERICO",
+      "pattern": "2-60"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "UF",
+      "pai": "enderEmit",
+      "path": "/NFe/infNFe/emit/enderEmit/UF",
+      "ordem": "bv07",
+      "tipo": "FIXED",
+      "pattern": "MS"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "CEP",
+      "pai": "enderEmit",
+      "path": "/NFe/infNFe/emit/enderEmit/CEP",
+      "ordem": "bv08",
+      "versao": "4.00",
+      "tipo": "REGEX",
+      "pattern": "[0-9]{8}"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "cPais",
+      "pai": "enderEmit",
+      "path": "/NFe/infNFe/emit/enderEmit/cPais",
+      "ordem": "bv09",
+      "versao": "4.00",
+      "tipo": "FIXED",
+      "pattern": "1058"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "xPais",
+      "pai": "enderEmit",
+      "path": "/NFe/infNFe/emit/enderEmit/xPais",
+      "ordem": "bv10",
+      "versao": "4.00",
+      "tipo": "RANDON_PARAMETER",
+      "pattern": "Brasil|BRASIL"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "fone",
+      "pai": "enderEmit",
+      "path": "/NFe/infNFe/emit/enderEmit/fone",
+      "ordem": "bv11",
+      "versao": "4.00",
+      "tipo": "REGEX",
+      "pattern": "[0-9]{6,14}"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "IE",
+      "pai": "emit",
+      "path": "/NFe/infNFe/emit/IE",
+      "ordem": "bv12",
+      "tipo": "FIXED",
+      "pattern": "287637204"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "CRT",
+      "pai": "emit",
+      "path": "/NFe/infNFe/emit/CRT",
+      "ordem": "bv16",
+      "tipo": "FIXED",
+      "pattern": "3"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [
+        {
+          "nome": "nItem",
+          "tipo": "INDEX",
+          "zeroEsquerda": false,
+          "tamanho": 0
+        }
+      ],
+      "tagsCustom": [],
+      "nome": "det",
+      "pai": "infNFe",
+      "path": "/NFe/infNFe/det",
+      "ordem": "fb00",
+      "tipo": "PAI",
+      "pattern": "",
+      "ocorrencias": "1"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "prod",
+      "pai": "det",
+      "path": "/NFe/infNFe/det/prod",
+      "ordem": "fc00",
+      "versao": "4.00",
+      "tipo": "PAI",
+      "pattern": ""
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "cProd",
+      "pai": "prod",
+      "path": "/NFe/infNFe/det/prod/cProd",
+      "ordem": "fc01",
+      "tipo": "FIXED",
+      "pattern": "000081"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "cEAN",
+      "pai": "prod",
+      "path": "/NFe/infNFe/det/prod/cEAN",
+      "ordem": "fc02",
+      "tipo": "FIXED",
+      "pattern": "SEM GTIN"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "xProd",
+      "pai": "prod",
+      "path": "/NFe/infNFe/det/prod/xProd",
+      "ordem": "fc04",
+      "tipo": "FIXED",
+      "pattern": "NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "NCM",
+      "pai": "prod",
+      "path": "/NFe/infNFe/det/prod/NCM",
+      "ordem": "fc05",
+      "tipo": "FIXED",
+      "pattern": "08052100"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "CFOP",
+      "pai": "prod",
+      "path": "/NFe/infNFe/det/prod/CFOP",
+      "ordem": "fc12",
+      "tipo": "FIXED",
+      "pattern": "5102"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "uCom",
+      "pai": "prod",
+      "path": "/NFe/infNFe/det/prod/uCom",
+      "ordem": "fc13",
+      "tipo": "FIXED",
+      "pattern": "KG"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "qCom",
+      "pai": "prod",
+      "path": "/NFe/infNFe/det/prod/qCom",
+      "ordem": "fc14",
+      "tipo": "FIXED",
+      "pattern": "2.886"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vUnCom",
+      "pai": "prod",
+      "path": "/NFe/infNFe/det/prod/vUnCom",
+      "ordem": "fc15",
+      "tipo": "FIXED",
+      "pattern": "3.9900"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vProd",
+      "pai": "prod",
+      "path": "/NFe/infNFe/det/prod/vProd",
+      "ordem": "fc16",
+      "tipo": "FIXED",
+      "pattern": "11.52"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "cEANTrib",
+      "pai": "prod",
+      "path": "/NFe/infNFe/det/prod/cEANTrib",
+      "ordem": "fc17",
+      "tipo": "FIXED",
+      "pattern": "SEM GTIN"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "uTrib",
+      "pai": "prod",
+      "path": "/NFe/infNFe/det/prod/uTrib",
+      "ordem": "fc19",
+      "tipo": "FIXED",
+      "pattern": "KG"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "qTrib",
+      "pai": "prod",
+      "path": "/NFe/infNFe/det/prod/qTrib",
+      "ordem": "fc20",
+      "tipo": "FIXED",
+      "pattern": "2.886"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vUnTrib",
+      "pai": "prod",
+      "path": "/NFe/infNFe/det/prod/vUnTrib",
+      "ordem": "fc21",
+      "tipo": "FIXED",
+      "pattern": "3.9900"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "indTot",
+      "pai": "prod",
+      "path": "/NFe/infNFe/det/prod/indTot",
+      "ordem": "fc26",
+      "tipo": "FIXED",
+      "pattern": "1"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "imposto",
+      "pai": "det",
+      "path": "/NFe/infNFe/det/imposto",
+      "ordem": "jw00",
+      "versao": "4.00",
+      "tipo": "PAI",
+      "pattern": ""
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vTotTrib",
+      "pai": "imposto",
+      "path": "/NFe/infNFe/det/imposto/vTotTrib",
+      "ordem": "jw01",
+      "tipo": "FIXED",
+      "pattern": "3.51"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "ICMS",
+      "pai": "imposto",
+      "path": "/NFe/infNFe/det/imposto/ICMS",
+      "ordem": "jy00",
+      "versao": "4.00",
+      "tipo": "PAI",
+      "pattern": ""
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "ICMS20",
+      "pai": "ICMS",
+      "path": "/NFe/infNFe/det/imposto/ICMS/ICMS20",
+      "ordem": "ld00",
+      "versao": "4.00",
+      "tipo": "PAI",
+      "pattern": ""
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "orig",
+      "pai": "ICMS20",
+      "path": "/NFe/infNFe/det/imposto/ICMS/ICMS20/orig",
+      "ordem": "ld01",
+      "tipo": "FIXED",
+      "pattern": "0"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "CST",
+      "pai": "ICMS20",
+      "path": "/NFe/infNFe/det/imposto/ICMS/ICMS20/CST",
+      "ordem": "ld02",
+      "versao": "4.00",
+      "tipo": "FIXED",
+      "pattern": "20"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "modBC",
+      "pai": "ICMS20",
+      "path": "/NFe/infNFe/det/imposto/ICMS/ICMS20/modBC",
+      "ordem": "ld03",
+      "tipo": "FIXED",
+      "pattern": "0"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "pRedBC",
+      "pai": "ICMS20",
+      "path": "/NFe/infNFe/det/imposto/ICMS/ICMS20/pRedBC",
+      "ordem": "ld04",
+      "tipo": "FIXED",
+      "pattern": "58.82"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vBC",
+      "pai": "ICMS20",
+      "path": "/NFe/infNFe/det/imposto/ICMS/ICMS20/vBC",
+      "ordem": "ld05",
+      "tipo": "FIXED",
+      "pattern": "4.74"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "pICMS",
+      "pai": "ICMS20",
+      "path": "/NFe/infNFe/det/imposto/ICMS/ICMS20/pICMS",
+      "ordem": "ld06",
+      "tipo": "FIXED",
+      "pattern": "17.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vICMS",
+      "pai": "ICMS20",
+      "path": "/NFe/infNFe/det/imposto/ICMS/ICMS20/vICMS",
+      "ordem": "ld07",
+      "tipo": "FIXED",
+      "pattern": "0.81"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "total",
+      "pai": "infNFe",
+      "path": "/NFe/infNFe/total",
+      "ordem": "st00",
+      "versao": "4.00",
+      "tipo": "PAI",
+      "pattern": ""
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "ICMSTot",
+      "pai": "total",
+      "path": "/NFe/infNFe/total/ICMSTot",
+      "ordem": "su00",
+      "versao": "4.00",
+      "tipo": "PAI",
+      "pattern": ""
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vBC",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vBC",
+      "ordem": "su01",
+      "tipo": "FIXED",
+      "pattern": "4.74"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vICMS",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vICMS",
+      "ordem": "su02",
+      "tipo": "FIXED",
+      "pattern": "0.81"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vICMSDeson",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vICMSDeson",
+      "ordem": "su03",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vFCPUFDest",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vFCPUFDest",
+      "ordem": "su04",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vICMSUFDest",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vICMSUFDest",
+      "ordem": "su05",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vICMSUFRemet",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vICMSUFRemet",
+      "ordem": "su06",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vFCP",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vFCP",
+      "ordem": "su07",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vBCST",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vBCST",
+      "ordem": "su08",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vST",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vST",
+      "ordem": "su09",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vFCPST",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vFCPST",
+      "ordem": "su10",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vFCPSTRet",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vFCPSTRet",
+      "ordem": "su11",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vProd",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vProd",
+      "ordem": "su18",
+      "tipo": "FIXED",
+      "pattern": "11.52"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vFrete",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vFrete",
+      "ordem": "su19",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vSeg",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vSeg",
+      "ordem": "su20",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vDesc",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vDesc",
+      "ordem": "su21",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vII",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vII",
+      "ordem": "su22",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vIPI",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vIPI",
+      "ordem": "su23",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vIPIDevol",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vIPIDevol",
+      "ordem": "su24",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vPIS",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vPIS",
+      "ordem": "su25",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vCOFINS",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vCOFINS",
+      "ordem": "su26",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vOutro",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vOutro",
+      "ordem": "su27",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vNF",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vNF",
+      "ordem": "su28",
+      "tipo": "FIXED",
+      "pattern": "11.52"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vTotTrib",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vTotTrib",
+      "ordem": "su29",
+      "tipo": "FIXED",
+      "pattern": "3.51"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "transp",
+      "pai": "infNFe",
+      "path": "/NFe/infNFe/transp",
+      "ordem": "ut00",
+      "versao": "4.00",
+      "tipo": "PAI",
+      "pattern": ""
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "modFrete",
+      "pai": "transp",
+      "path": "/NFe/infNFe/transp/modFrete",
+      "ordem": "ut01",
+      "tipo": "FIXED",
+      "pattern": "9"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "pag",
+      "pai": "infNFe",
+      "path": "/NFe/infNFe/pag",
+      "ordem": "wf00",
+      "versao": "4.00",
+      "tipo": "PAI",
+      "pattern": ""
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "detPag",
+      "pai": "pag",
+      "path": "/NFe/infNFe/pag/detPag",
+      "ordem": "wg00",
+      "versao": "4.00",
+      "tipo": "PAI",
+      "pattern": ""
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "tPag",
+      "pai": "detPag",
+      "path": "/NFe/infNFe/pag/detPag/tPag",
+      "ordem": "wg02",
+      "tipo": "FIXED",
+      "pattern": "01"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vPag",
+      "pai": "detPag",
+      "path": "/NFe/infNFe/pag/detPag/vPag",
+      "ordem": "wg04",
+      "tipo": "FIXED",
+      "pattern": "11.52"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "infRespTec",
+      "pai": "infNFe",
+      "path": "/NFe/infNFe/infRespTec",
+      "ordem": "yb00",
+      "versao": "4.00",
+      "tipo": "PAI",
+      "pattern": ""
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "CNPJ",
+      "pai": "infRespTec",
+      "path": "/NFe/infNFe/infRespTec/CNPJ",
+      "ordem": "yb01",
+      "tipo": "FIXED",
+      "pattern": "11172508000193"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "xContato",
+      "pai": "infRespTec",
+      "path": "/NFe/infNFe/infRespTec/xContato",
+      "ordem": "yb02",
+      "versao": "4.00",
+      "tipo": "RANGE_ALFANUMERICO",
+      "pattern": "2-60"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "email",
+      "pai": "infRespTec",
+      "path": "/NFe/infNFe/infRespTec/email",
+      "ordem": "yb03",
+      "tipo": "FIXED",
+      "pattern": "teste@elias.com"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "fone",
+      "pai": "infRespTec",
+      "path": "/NFe/infNFe/infRespTec/fone",
+      "ordem": "yb04",
+      "versao": "4.00",
+      "tipo": "REGEX",
+      "pattern": "[0-9]{6,14}"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "infNFeSupl",
+      "pai": "NFe",
+      "path": "/NFe/infNFeSupl",
+      "ordem": "yi00",
+      "versao": "4.00",
+      "tipo": "PAI",
+      "pattern": ""
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "qrCode",
+      "pai": "infNFeSupl",
+      "path": "/NFe/infNFeSupl/qrCode",
+      "ordem": "yi01",
+      "tipo": "FIXED",
+      "pattern": "http://www.dfe.ms.gov.br/nfce/qrcode?p=50230702935843000105650010059115871443667767|2|2|64|ca0ff89f05643b91629ad12bbe8a5fbb8202a6fa"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "urlChave",
+      "pai": "infNFeSupl",
+      "path": "/NFe/infNFeSupl/urlChave",
+      "ordem": "yi02",
+      "tipo": "FIXED",
+      "pattern": "http://www.dfe.ms.gov.br/nfce/consulta"
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64cd41b53f2362002dc87a76"
+  },
+  "nome": "AUT_NFCe_TESTE_ICMSTot",
+  "env": "enviNFe",
+  "modelo": "NFCE",
+  "versao": "4.00",
+  "nomeDocumento": "NFe",
+  "nameSpace": "http://www.portalfiscal.inf.br/nfe",
+  "qrcode": "http://www.dfe.ms.gov.br/nfce/qrcode",
+  "possuiLote": true,
+  "indSinc": "",
+  "idLote": "1",
+  "tagInf": "infNFe",
+  "choiceGroups": [
+    {
+      "nome": "emit",
+      "choices": [
+        {
+          "tag": {
+            "nome": "emit",
+            "pai": "infNFe",
+            "path": "/NFe/infNFe/emit",
+            "ordem": "bq00",
+            "tipo": "PAI"
+          },
+          "choiceType": "ESPECIFIC",
+          "tagDefault": "CNPJ"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "NFe",
+      "pai": "enviNFe",
+      "path": "/NFe",
+      "ordem": "aa00",
+      "versao": "4.00",
+      "tipo": "ROOT"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [
+        {
+          "nome": "versao",
+          "valor": "4.00"
+        }
+      ],
+      "tagsCustom": [],
+      "nome": "infNFe",
+      "pai": "NFe",
+      "path": "/NFe/infNFe",
+      "ordem": "ab00",
+      "versao": "4.00",
+      "tipo": "FIXED",
+      "pattern": ""
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "ide",
+      "pai": "infNFe",
+      "path": "/NFe/infNFe/ide",
+      "ordem": "ac00",
+      "versao": "4.00",
+      "tipo": "PAI",
+      "pattern": ""
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "cUF",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/cUF",
+      "ordem": "ac01",
+      "versao": "4.00",
+      "tipo": "FIXED",
+      "pattern": "50"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "cNF",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/cNF",
+      "ordem": "ac02",
+      "tipo": "REGEX",
+      "pattern": "[1-9]{8}"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "natOp",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/natOp",
+      "ordem": "ac03",
+      "versao": "4.00",
+      "tipo": "RANGE_ALFANUMERICO",
+      "pattern": "1-60"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "mod",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/mod",
+      "ordem": "ac04",
+      "tipo": "FIXED",
+      "pattern": "65"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "serie",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/serie",
+      "ordem": "ac05",
+      "tipo": "REGEX",
+      "pattern": "[1-3]{1}"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "nNF",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/nNF",
+      "ordem": "ac06",
+      "versao": "4.00",
+      "tipo": "REGEX",
+      "pattern": "[1-9]{1}[0-9]{0,8}"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "dhEmi",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/dhEmi",
+      "ordem": "ac07",
+      "tipo": "DATE",
+      "pattern": "yyyy-MM-dd'T'HH:mm:ssXXX"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "tpNF",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/tpNF",
+      "ordem": "ac09",
+      "tipo": "FIXED",
+      "pattern": "1"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "idDest",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/idDest",
+      "ordem": "ac10",
+      "tipo": "FIXED",
+      "pattern": "1"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "cMunFG",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/cMunFG",
+      "ordem": "ac11",
+      "tipo": "FIXED",
+      "pattern": "5003702"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "tpImp",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/tpImp",
+      "ordem": "ac12",
+      "tipo": "FIXED",
+      "pattern": "4"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "tpEmis",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/tpEmis",
+      "ordem": "ac13",
+      "tipo": "FIXED",
+      "pattern": "1"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "cDV",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/cDV",
+      "ordem": "ac14",
+      "versao": "4.00",
+      "tipo": "REGEX",
+      "pattern": "[0-9]{1}"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "tpAmb",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/tpAmb",
+      "ordem": "ac15",
+      "tipo": "FIXED",
+      "pattern": "2"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "finNFe",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/finNFe",
+      "ordem": "ac16",
+      "tipo": "FIXED",
+      "pattern": "1"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "indFinal",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/indFinal",
+      "ordem": "ac17",
+      "tipo": "FIXED",
+      "pattern": "1"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "indPres",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/indPres",
+      "ordem": "ac18",
+      "tipo": "FIXED",
+      "pattern": "1"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "procEmi",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/procEmi",
+      "ordem": "ac20",
+      "tipo": "FIXED",
+      "pattern": "0"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "verProc",
+      "pai": "ide",
+      "path": "/NFe/infNFe/ide/verProc",
+      "ordem": "ac21",
+      "versao": "4.00",
+      "tipo": "RANGE_ALFANUMERICO",
+      "pattern": "1-20"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "emit",
+      "pai": "infNFe",
+      "path": "/NFe/infNFe/emit",
+      "ordem": "bq00",
+      "versao": "4.00",
+      "tipo": "PAI",
+      "pattern": ""
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "CNPJ",
+      "pai": "emit",
+      "path": "/NFe/infNFe/emit/CNPJ",
+      "ordem": "bq01",
+      "tipo": "FIXED",
+      "pattern": "02935843000105",
+      "choiceElement": "CNPJ"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "CPF",
+      "pai": "emit",
+      "path": "/NFe/infNFe/emit/CPF",
+      "ordem": "bq02",
+      "versao": "4.00",
+      "tipo": "REGEX",
+      "pattern": "[0-9]{11}",
+      "choiceElement": "CPF"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "xNome",
+      "pai": "emit",
+      "path": "/NFe/infNFe/emit/xNome",
+      "ordem": "bq03",
+      "tipo": "FIXED",
+      "pattern": "SEFAZ MS"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "xFant",
+      "pai": "emit",
+      "path": "/NFe/infNFe/emit/xFant",
+      "ordem": "bq04",
+      "versao": "4.00",
+      "tipo": "RANGE_ALFANUMERICO",
+      "pattern": "1-60"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "enderEmit",
+      "pai": "emit",
+      "path": "/NFe/infNFe/emit/enderEmit",
+      "ordem": "bv00",
+      "versao": "4.00",
+      "tipo": "PAI",
+      "pattern": ""
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "xLgr",
+      "pai": "enderEmit",
+      "path": "/NFe/infNFe/emit/enderEmit/xLgr",
+      "ordem": "bv01",
+      "versao": "4.00",
+      "tipo": "RANGE_ALFANUMERICO",
+      "pattern": "2-60"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "nro",
+      "pai": "enderEmit",
+      "path": "/NFe/infNFe/emit/enderEmit/nro",
+      "ordem": "bv02",
+      "versao": "4.00",
+      "tipo": "RANGE_ALFANUMERICO",
+      "pattern": "1-60"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "xCpl",
+      "pai": "enderEmit",
+      "path": "/NFe/infNFe/emit/enderEmit/xCpl",
+      "ordem": "bv03",
+      "versao": "4.00",
+      "tipo": "RANGE_ALFANUMERICO",
+      "pattern": "1-60"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "xBairro",
+      "pai": "enderEmit",
+      "path": "/NFe/infNFe/emit/enderEmit/xBairro",
+      "ordem": "bv04",
+      "versao": "4.00",
+      "tipo": "RANGE_ALFANUMERICO",
+      "pattern": "2-60"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "cMun",
+      "pai": "enderEmit",
+      "path": "/NFe/infNFe/emit/enderEmit/cMun",
+      "ordem": "bv05",
+      "tipo": "FIXED",
+      "pattern": "5003702"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "xMun",
+      "pai": "enderEmit",
+      "path": "/NFe/infNFe/emit/enderEmit/xMun",
+      "ordem": "bv06",
+      "versao": "4.00",
+      "tipo": "RANGE_ALFANUMERICO",
+      "pattern": "2-60"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "UF",
+      "pai": "enderEmit",
+      "path": "/NFe/infNFe/emit/enderEmit/UF",
+      "ordem": "bv07",
+      "tipo": "FIXED",
+      "pattern": "MS"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "CEP",
+      "pai": "enderEmit",
+      "path": "/NFe/infNFe/emit/enderEmit/CEP",
+      "ordem": "bv08",
+      "versao": "4.00",
+      "tipo": "REGEX",
+      "pattern": "[0-9]{8}"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "cPais",
+      "pai": "enderEmit",
+      "path": "/NFe/infNFe/emit/enderEmit/cPais",
+      "ordem": "bv09",
+      "versao": "4.00",
+      "tipo": "FIXED",
+      "pattern": "1058"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "xPais",
+      "pai": "enderEmit",
+      "path": "/NFe/infNFe/emit/enderEmit/xPais",
+      "ordem": "bv10",
+      "versao": "4.00",
+      "tipo": "RANDON_PARAMETER",
+      "pattern": "Brasil|BRASIL"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "fone",
+      "pai": "enderEmit",
+      "path": "/NFe/infNFe/emit/enderEmit/fone",
+      "ordem": "bv11",
+      "versao": "4.00",
+      "tipo": "REGEX",
+      "pattern": "[0-9]{6,14}"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "IE",
+      "pai": "emit",
+      "path": "/NFe/infNFe/emit/IE",
+      "ordem": "bv12",
+      "tipo": "FIXED",
+      "pattern": "287637204"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "CRT",
+      "pai": "emit",
+      "path": "/NFe/infNFe/emit/CRT",
+      "ordem": "bv16",
+      "tipo": "FIXED",
+      "pattern": "3"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [
+        {
+          "nome": "nItem",
+          "tipo": "INDEX",
+          "zeroEsquerda": false,
+          "tamanho": 0
+        }
+      ],
+      "tagsCustom": [],
+      "nome": "det",
+      "pai": "infNFe",
+      "path": "/NFe/infNFe/det",
+      "ordem": "fb00",
+      "tipo": "PAI",
+      "pattern": "",
+      "ocorrencias": "2"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "prod",
+      "pai": "det",
+      "path": "/NFe/infNFe/det/prod",
+      "ordem": "fc00",
+      "versao": "4.00",
+      "tipo": "PAI",
+      "pattern": ""
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "cProd",
+      "pai": "prod",
+      "path": "/NFe/infNFe/det/prod/cProd",
+      "ordem": "fc01",
+      "tipo": "FIXED",
+      "pattern": "000081"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "cEAN",
+      "pai": "prod",
+      "path": "/NFe/infNFe/det/prod/cEAN",
+      "ordem": "fc02",
+      "tipo": "FIXED",
+      "pattern": "SEM GTIN"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "xProd",
+      "pai": "prod",
+      "path": "/NFe/infNFe/det/prod/xProd",
+      "ordem": "fc04",
+      "tipo": "FIXED",
+      "pattern": "NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "NCM",
+      "pai": "prod",
+      "path": "/NFe/infNFe/det/prod/NCM",
+      "ordem": "fc05",
+      "tipo": "FIXED",
+      "pattern": "08052100"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "CFOP",
+      "pai": "prod",
+      "path": "/NFe/infNFe/det/prod/CFOP",
+      "ordem": "fc12",
+      "tipo": "FIXED",
+      "pattern": "5102"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "uCom",
+      "pai": "prod",
+      "path": "/NFe/infNFe/det/prod/uCom",
+      "ordem": "fc13",
+      "tipo": "FIXED",
+      "pattern": "KG"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "qCom",
+      "pai": "prod",
+      "path": "/NFe/infNFe/det/prod/qCom",
+      "ordem": "fc14",
+      "tipo": "FIXED",
+      "pattern": "2.886"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vUnCom",
+      "pai": "prod",
+      "path": "/NFe/infNFe/det/prod/vUnCom",
+      "ordem": "fc15",
+      "tipo": "FIXED",
+      "pattern": "3.9900"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vProd",
+      "pai": "prod",
+      "path": "/NFe/infNFe/det/prod/vProd",
+      "ordem": "fc16",
+      "tipo": "FIXED",
+      "pattern": "11.52",
+      "totalizador": {
+        "tag": "vProd",
+        "pai": "ICMSTot"
+      }
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "cEANTrib",
+      "pai": "prod",
+      "path": "/NFe/infNFe/det/prod/cEANTrib",
+      "ordem": "fc17",
+      "tipo": "FIXED",
+      "pattern": "SEM GTIN"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "uTrib",
+      "pai": "prod",
+      "path": "/NFe/infNFe/det/prod/uTrib",
+      "ordem": "fc19",
+      "tipo": "FIXED",
+      "pattern": "KG"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "qTrib",
+      "pai": "prod",
+      "path": "/NFe/infNFe/det/prod/qTrib",
+      "ordem": "fc20",
+      "tipo": "FIXED",
+      "pattern": "2.886"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vUnTrib",
+      "pai": "prod",
+      "path": "/NFe/infNFe/det/prod/vUnTrib",
+      "ordem": "fc21",
+      "tipo": "FIXED",
+      "pattern": "3.9900"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "indTot",
+      "pai": "prod",
+      "path": "/NFe/infNFe/det/prod/indTot",
+      "ordem": "fc26",
+      "tipo": "FIXED",
+      "pattern": "1"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "imposto",
+      "pai": "det",
+      "path": "/NFe/infNFe/det/imposto",
+      "ordem": "jw00",
+      "versao": "4.00",
+      "tipo": "PAI",
+      "pattern": ""
+    },
+    {
+      "totais": {
+        "valorTotal": false,
+        "valorPadrao": "",
+        "operacao": "NONE"
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vTotTrib",
+      "pai": "imposto",
+      "path": "/NFe/infNFe/det/imposto/vTotTrib",
+      "ordem": "jw01",
+      "tipo": "FIXED",
+      "pattern": "3.51",
+      "totalizador": {
+        "tag": "vTotTrib",
+        "pai": "ICMSTot"
+      }
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "ICMS",
+      "pai": "imposto",
+      "path": "/NFe/infNFe/det/imposto/ICMS",
+      "ordem": "jy00",
+      "versao": "4.00",
+      "tipo": "PAI",
+      "pattern": ""
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "ICMS20",
+      "pai": "ICMS",
+      "path": "/NFe/infNFe/det/imposto/ICMS/ICMS20",
+      "ordem": "ld00",
+      "versao": "4.00",
+      "tipo": "PAI",
+      "pattern": ""
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "orig",
+      "pai": "ICMS20",
+      "path": "/NFe/infNFe/det/imposto/ICMS/ICMS20/orig",
+      "ordem": "ld01",
+      "tipo": "FIXED",
+      "pattern": "0"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "CST",
+      "pai": "ICMS20",
+      "path": "/NFe/infNFe/det/imposto/ICMS/ICMS20/CST",
+      "ordem": "ld02",
+      "versao": "4.00",
+      "tipo": "FIXED",
+      "pattern": "20"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "modBC",
+      "pai": "ICMS20",
+      "path": "/NFe/infNFe/det/imposto/ICMS/ICMS20/modBC",
+      "ordem": "ld03",
+      "tipo": "FIXED",
+      "pattern": "0"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "pRedBC",
+      "pai": "ICMS20",
+      "path": "/NFe/infNFe/det/imposto/ICMS/ICMS20/pRedBC",
+      "ordem": "ld04",
+      "tipo": "FIXED",
+      "pattern": "58.82"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vBC",
+      "pai": "ICMS20",
+      "path": "/NFe/infNFe/det/imposto/ICMS/ICMS20/vBC",
+      "ordem": "ld05",
+      "tipo": "FIXED",
+      "pattern": "4.74",
+      "totalizador": {
+        "tag": "vBC",
+        "pai": "ICMSTot"
+      }
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "pICMS",
+      "pai": "ICMS20",
+      "path": "/NFe/infNFe/det/imposto/ICMS/ICMS20/pICMS",
+      "ordem": "ld06",
+      "tipo": "FIXED",
+      "pattern": "17.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vICMS",
+      "pai": "ICMS20",
+      "path": "/NFe/infNFe/det/imposto/ICMS/ICMS20/vICMS",
+      "ordem": "ld07",
+      "tipo": "FIXED",
+      "pattern": "0.81",
+      "totalizador": {
+        "tag": "vICMS",
+        "pai": "ICMSTot"
+      }
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "total",
+      "pai": "infNFe",
+      "path": "/NFe/infNFe/total",
+      "ordem": "st00",
+      "versao": "4.00",
+      "tipo": "PAI",
+      "pattern": ""
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "ICMSTot",
+      "pai": "total",
+      "path": "/NFe/infNFe/total/ICMSTot",
+      "ordem": "su00",
+      "versao": "4.00",
+      "tipo": "PAI",
+      "pattern": ""
+    },
+    {
+      "totais": {
+        "valorTotal": true,
+        "operacao": "ADD"
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vBC",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vBC",
+      "ordem": "su01",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": true,
+        "operacao": "ADD"
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vICMS",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vICMS",
+      "ordem": "su02",
+      "tipo": "FIXED",
+      "pattern": "0.81"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vICMSDeson",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vICMSDeson",
+      "ordem": "su03",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vFCPUFDest",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vFCPUFDest",
+      "ordem": "su04",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vICMSUFDest",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vICMSUFDest",
+      "ordem": "su05",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vICMSUFRemet",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vICMSUFRemet",
+      "ordem": "su06",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vFCP",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vFCP",
+      "ordem": "su07",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vBCST",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vBCST",
+      "ordem": "su08",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vST",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vST",
+      "ordem": "su09",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vFCPST",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vFCPST",
+      "ordem": "su10",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vFCPSTRet",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vFCPSTRet",
+      "ordem": "su11",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": true,
+        "operacao": "ADD"
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vProd",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vProd",
+      "ordem": "su18",
+      "tipo": "FIXED",
+      "pattern": "11.52"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vFrete",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vFrete",
+      "ordem": "su19",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vSeg",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vSeg",
+      "ordem": "su20",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vDesc",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vDesc",
+      "ordem": "su21",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vII",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vII",
+      "ordem": "su22",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vIPI",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vIPI",
+      "ordem": "su23",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vIPIDevol",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vIPIDevol",
+      "ordem": "su24",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vPIS",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vPIS",
+      "ordem": "su25",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vCOFINS",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vCOFINS",
+      "ordem": "su26",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vOutro",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vOutro",
+      "ordem": "su27",
+      "tipo": "FIXED",
+      "pattern": "0.00"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vNF",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vNF",
+      "ordem": "su28",
+      "tipo": "FIXED",
+      "pattern": "11.52"
+    },
+    {
+      "totais": {
+        "valorTotal": true,
+        "operacao": "ADD",
+        "valorPadrao": ""
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vTotTrib",
+      "pai": "ICMSTot",
+      "path": "/NFe/infNFe/total/ICMSTot/vTotTrib",
+      "ordem": "su29",
+      "tipo": "FIXED",
+      "pattern": "0.00",
+      "totalizador": {
+        "tag": "",
+        "pai": ""
+      }
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "transp",
+      "pai": "infNFe",
+      "path": "/NFe/infNFe/transp",
+      "ordem": "ut00",
+      "versao": "4.00",
+      "tipo": "PAI",
+      "pattern": ""
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "modFrete",
+      "pai": "transp",
+      "path": "/NFe/infNFe/transp/modFrete",
+      "ordem": "ut01",
+      "tipo": "FIXED",
+      "pattern": "9"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "pag",
+      "pai": "infNFe",
+      "path": "/NFe/infNFe/pag",
+      "ordem": "wf00",
+      "versao": "4.00",
+      "tipo": "PAI",
+      "pattern": ""
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "detPag",
+      "pai": "pag",
+      "path": "/NFe/infNFe/pag/detPag",
+      "ordem": "wg00",
+      "versao": "4.00",
+      "tipo": "PAI",
+      "pattern": ""
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "tPag",
+      "pai": "detPag",
+      "path": "/NFe/infNFe/pag/detPag/tPag",
+      "ordem": "wg02",
+      "tipo": "FIXED",
+      "pattern": "01"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "vPag",
+      "pai": "detPag",
+      "path": "/NFe/infNFe/pag/detPag/vPag",
+      "ordem": "wg04",
+      "tipo": "FIXED",
+      "pattern": "11.52"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "infRespTec",
+      "pai": "infNFe",
+      "path": "/NFe/infNFe/infRespTec",
+      "ordem": "yb00",
+      "versao": "4.00",
+      "tipo": "PAI",
+      "pattern": ""
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "CNPJ",
+      "pai": "infRespTec",
+      "path": "/NFe/infNFe/infRespTec/CNPJ",
+      "ordem": "yb01",
+      "tipo": "FIXED",
+      "pattern": "11172508000193"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "xContato",
+      "pai": "infRespTec",
+      "path": "/NFe/infNFe/infRespTec/xContato",
+      "ordem": "yb02",
+      "versao": "4.00",
+      "tipo": "RANGE_ALFANUMERICO",
+      "pattern": "2-60"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "email",
+      "pai": "infRespTec",
+      "path": "/NFe/infNFe/infRespTec/email",
+      "ordem": "yb03",
+      "tipo": "FIXED",
+      "pattern": "teste@elias.com"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "fone",
+      "pai": "infRespTec",
+      "path": "/NFe/infNFe/infRespTec/fone",
+      "ordem": "yb04",
+      "versao": "4.00",
+      "tipo": "REGEX",
+      "pattern": "[0-9]{6,14}"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "infNFeSupl",
+      "pai": "NFe",
+      "path": "/NFe/infNFeSupl",
+      "ordem": "yi00",
+      "versao": "4.00",
+      "tipo": "PAI",
+      "pattern": ""
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "qrCode",
+      "pai": "infNFeSupl",
+      "path": "/NFe/infNFeSupl/qrCode",
+      "ordem": "yi01",
+      "tipo": "FIXED",
+      "pattern": "http://www.dfe.ms.gov.br/nfce/qrcode?p=50230702935843000105650010059115871443667767|2|2|64|ca0ff89f05643b91629ad12bbe8a5fbb8202a6fa"
+    },
+    {
+      "totais": {
+        "valorTotal": false
+      },
+      "atributos": [],
+      "tagsCustom": [],
+      "nome": "urlChave",
+      "pai": "infNFeSupl",
+      "path": "/NFe/infNFeSupl/urlChave",
+      "ordem": "yi02",
+      "tipo": "FIXED",
+      "pattern": "http://www.dfe.ms.gov.br/nfce/consulta"
+    }
+  ],
+  "__v": 0
+}]

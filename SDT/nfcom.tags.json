@@ -1,0 +1,4016 @@
+[{
+  "_id": {
+    "$oid": "64c167075d2b286666ae25e3"
+  },
+  "nome": "NFCom",
+  "pai": "enviNFCom",
+  "path": "/NFCom",
+  "ordem": "aa00",
+  "tipo": "ROOT",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae25e4"
+  },
+  "nome": "infNFCom",
+  "pai": "NFCom",
+  "path": "/NFCom/infNFCom",
+  "ordem": "ab00",
+  "tipo": "FIXED",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": [
+    {
+      "nome": "versao",
+      "valor": "1.00"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae25e5"
+  },
+  "nome": "ide",
+  "pai": "infNFCom",
+  "path": "/NFCom/infNFCom/ide",
+  "ordem": "ac00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae25e6"
+  },
+  "nome": "cUF",
+  "pai": "ide",
+  "path": "/NFCom/infNFCom/ide/cUF",
+  "ordem": "ac01",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "11|12|13|14|15|16|17|21|22|23|24|25|26|27|28|29|31|32|33|35|41|42|43|50|51|52|53",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae25e7"
+  },
+  "nome": "tpAmb",
+  "pai": "ide",
+  "path": "/NFCom/infNFCom/ide/tpAmb",
+  "ordem": "ac02",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "1|2",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae25e8"
+  },
+  "nome": "mod",
+  "pai": "ide",
+  "path": "/NFCom/infNFCom/ide/mod",
+  "ordem": "ac03",
+  "tipo": "FIXED",
+  "pattern": "62",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae25e9"
+  },
+  "nome": "serie",
+  "pai": "ide",
+  "path": "/NFCom/infNFCom/ide/serie",
+  "ordem": "ac04",
+  "tipo": "REGEX",
+  "pattern": "0|[1-9]{1}[0-9]{0,2}",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae25ea"
+  },
+  "nome": "nNF",
+  "pai": "ide",
+  "path": "/NFCom/infNFCom/ide/nNF",
+  "ordem": "ac05",
+  "tipo": "REGEX",
+  "pattern": "[1-9]{1}[0-9]{0,8}",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae25eb"
+  },
+  "nome": "cNF",
+  "pai": "ide",
+  "path": "/NFCom/infNFCom/ide/cNF",
+  "ordem": "ac06",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{7}",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae25ec"
+  },
+  "nome": "cDV",
+  "pai": "ide",
+  "path": "/NFCom/infNFCom/ide/cDV",
+  "ordem": "ac07",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{1}",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae25ed"
+  },
+  "nome": "dhEmi",
+  "pai": "ide",
+  "path": "/NFCom/infNFCom/ide/dhEmi",
+  "ordem": "ac08",
+  "tipo": "DATE",
+  "pattern": "yyyy-MM-dd'T'HH:mm:ssXXX",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae25ee"
+  },
+  "nome": "tpEmis",
+  "pai": "ide",
+  "path": "/NFCom/infNFCom/ide/tpEmis",
+  "ordem": "ac09",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "1|2",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae25ef"
+  },
+  "nome": "nSiteAutoriz",
+  "pai": "ide",
+  "path": "/NFCom/infNFCom/ide/nSiteAutoriz",
+  "ordem": "ac10",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{1}",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae25f0"
+  },
+  "nome": "cMunFG",
+  "pai": "ide",
+  "path": "/NFCom/infNFCom/ide/cMunFG",
+  "ordem": "ac11",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{7}",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae25f1"
+  },
+  "nome": "finNFCom",
+  "pai": "ide",
+  "path": "/NFCom/infNFCom/ide/finNFCom",
+  "ordem": "ac12",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "0|3|4",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae25f2"
+  },
+  "nome": "tpFat",
+  "pai": "ide",
+  "path": "/NFCom/infNFCom/ide/tpFat",
+  "ordem": "ac13",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "0|1|2",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae25f3"
+  },
+  "nome": "verProc",
+  "pai": "ide",
+  "path": "/NFCom/infNFCom/ide/verProc",
+  "ordem": "ac14",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-20",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae25f4"
+  },
+  "nome": "indPrePago",
+  "pai": "ide",
+  "path": "/NFCom/infNFCom/ide/indPrePago",
+  "ordem": "ac15",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "1",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae25f5"
+  },
+  "nome": "indCessaoMeiosRede",
+  "pai": "ide",
+  "path": "/NFCom/infNFCom/ide/indCessaoMeiosRede",
+  "ordem": "ac16",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "1",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae25f6"
+  },
+  "nome": "dhCont",
+  "pai": "ide",
+  "path": "/NFCom/infNFCom/ide/dhCont",
+  "ordem": "ac17",
+  "tipo": "DATE",
+  "pattern": "yyyy-MM-dd'T'HH:mm:ssXXX",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae25f7"
+  },
+  "nome": "xJust",
+  "pai": "ide",
+  "path": "/NFCom/infNFCom/ide/xJust",
+  "ordem": "ac18",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "15-256",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae25f8"
+  },
+  "nome": "emit",
+  "pai": "infNFCom",
+  "path": "/NFCom/infNFCom/emit",
+  "ordem": "at00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae25f9"
+  },
+  "nome": "CNPJ",
+  "pai": "emit",
+  "path": "/NFCom/infNFCom/emit/CNPJ",
+  "ordem": "at01",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{14}",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae25fa"
+  },
+  "nome": "IE",
+  "pai": "emit",
+  "path": "/NFCom/infNFCom/emit/IE",
+  "ordem": "at02",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{2,14}",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae25fb"
+  },
+  "nome": "IEUFDest",
+  "pai": "emit",
+  "path": "/NFCom/infNFCom/emit/IEUFDest",
+  "ordem": "at03",
+  "tipo": "FIXED",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae25fc"
+  },
+  "nome": "CRT",
+  "pai": "emit",
+  "path": "/NFCom/infNFCom/emit/CRT",
+  "ordem": "at04",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "1|2|3",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae25fd"
+  },
+  "nome": "xNome",
+  "pai": "emit",
+  "path": "/NFCom/infNFCom/emit/xNome",
+  "ordem": "at05",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae25fe"
+  },
+  "nome": "xFant",
+  "pai": "emit",
+  "path": "/NFCom/infNFCom/emit/xFant",
+  "ordem": "at06",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-60",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae25ff"
+  },
+  "nome": "enderEmit",
+  "pai": "emit",
+  "path": "/NFCom/infNFCom/emit/enderEmit",
+  "ordem": "ba00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2600"
+  },
+  "nome": "xLgr",
+  "pai": "enderEmit",
+  "path": "/NFCom/infNFCom/emit/enderEmit/xLgr",
+  "ordem": "ba01",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2601"
+  },
+  "nome": "nro",
+  "pai": "enderEmit",
+  "path": "/NFCom/infNFCom/emit/enderEmit/nro",
+  "ordem": "ba02",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-60",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2602"
+  },
+  "nome": "xCpl",
+  "pai": "enderEmit",
+  "path": "/NFCom/infNFCom/emit/enderEmit/xCpl",
+  "ordem": "ba03",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-60",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2603"
+  },
+  "nome": "xBairro",
+  "pai": "enderEmit",
+  "path": "/NFCom/infNFCom/emit/enderEmit/xBairro",
+  "ordem": "ba04",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2604"
+  },
+  "nome": "cMun",
+  "pai": "enderEmit",
+  "path": "/NFCom/infNFCom/emit/enderEmit/cMun",
+  "ordem": "ba05",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{7}",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2605"
+  },
+  "nome": "xMun",
+  "pai": "enderEmit",
+  "path": "/NFCom/infNFCom/emit/enderEmit/xMun",
+  "ordem": "ba06",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2606"
+  },
+  "nome": "CEP",
+  "pai": "enderEmit",
+  "path": "/NFCom/infNFCom/emit/enderEmit/CEP",
+  "ordem": "ba07",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{8}",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2607"
+  },
+  "nome": "UF",
+  "pai": "enderEmit",
+  "path": "/NFCom/infNFCom/emit/enderEmit/UF",
+  "ordem": "ba08",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "AC|AL|AM|AP|BA|CE|DF|ES|GO|MA|MG|MS|MT|PA|PB|PE|PI|PR|RJ|RN|RO|RR|RS|SC|SE|SP|TO|EX",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2608"
+  },
+  "nome": "fone",
+  "pai": "enderEmit",
+  "path": "/NFCom/infNFCom/emit/enderEmit/fone",
+  "ordem": "ba09",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{7,12}",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2609"
+  },
+  "nome": "email",
+  "pai": "enderEmit",
+  "path": "/NFCom/infNFCom/emit/enderEmit/email",
+  "ordem": "ba10",
+  "tipo": "FIXED",
+  "pattern": "teste@teste.com",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae260a"
+  },
+  "nome": "dest",
+  "pai": "infNFCom",
+  "path": "/NFCom/infNFCom/dest",
+  "ordem": "bl00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae260b"
+  },
+  "nome": "xNome",
+  "pai": "dest",
+  "path": "/NFCom/infNFCom/dest/xNome",
+  "ordem": "bl01",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae260c"
+  },
+  "nome": "CNPJ",
+  "pai": "dest",
+  "path": "/NFCom/infNFCom/dest/CNPJ",
+  "ordem": "bl02",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{0}|[0-9]{14}",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "choiceElement": "CNPJ"
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae260d"
+  },
+  "nome": "CPF",
+  "pai": "dest",
+  "path": "/NFCom/infNFCom/dest/CPF",
+  "ordem": "bl03",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{11}",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "choiceElement": "CPF"
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae260e"
+  },
+  "nome": "idOutros",
+  "pai": "dest",
+  "path": "/NFCom/infNFCom/dest/idOutros",
+  "ordem": "bl04",
+  "tipo": "REGEX",
+  "pattern": "([!-ÿ]{0}|[!-ÿ]{2,20})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "choiceElement": "idOutros"
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae260f"
+  },
+  "nome": "indIEDest",
+  "pai": "dest",
+  "path": "/NFCom/infNFCom/dest/indIEDest",
+  "ordem": "bl05",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "1|2|9",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2610"
+  },
+  "nome": "IE",
+  "pai": "dest",
+  "path": "/NFCom/infNFCom/dest/IE",
+  "ordem": "bl06",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{0,14}|ISENTO",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2611"
+  },
+  "nome": "IM",
+  "pai": "dest",
+  "path": "/NFCom/infNFCom/dest/IM",
+  "ordem": "bl07",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-15",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2612"
+  },
+  "nome": "enderDest",
+  "pai": "dest",
+  "path": "/NFCom/infNFCom/dest/enderDest",
+  "ordem": "bq00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2613"
+  },
+  "nome": "xLgr",
+  "pai": "enderDest",
+  "path": "/NFCom/infNFCom/dest/enderDest/xLgr",
+  "ordem": "bq01",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2614"
+  },
+  "nome": "nro",
+  "pai": "enderDest",
+  "path": "/NFCom/infNFCom/dest/enderDest/nro",
+  "ordem": "bq02",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-60",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2615"
+  },
+  "nome": "xCpl",
+  "pai": "enderDest",
+  "path": "/NFCom/infNFCom/dest/enderDest/xCpl",
+  "ordem": "bq03",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-60",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2616"
+  },
+  "nome": "xBairro",
+  "pai": "enderDest",
+  "path": "/NFCom/infNFCom/dest/enderDest/xBairro",
+  "ordem": "bq04",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2617"
+  },
+  "nome": "cMun",
+  "pai": "enderDest",
+  "path": "/NFCom/infNFCom/dest/enderDest/cMun",
+  "ordem": "bq05",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{7}",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2618"
+  },
+  "nome": "xMun",
+  "pai": "enderDest",
+  "path": "/NFCom/infNFCom/dest/enderDest/xMun",
+  "ordem": "bq06",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2619"
+  },
+  "nome": "CEP",
+  "pai": "enderDest",
+  "path": "/NFCom/infNFCom/dest/enderDest/CEP",
+  "ordem": "bq07",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{8}",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae261a"
+  },
+  "nome": "UF",
+  "pai": "enderDest",
+  "path": "/NFCom/infNFCom/dest/enderDest/UF",
+  "ordem": "bq08",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "AC|AL|AM|AP|BA|CE|DF|ES|GO|MA|MG|MS|MT|PA|PB|PE|PI|PR|RJ|RN|RO|RR|RS|SC|SE|SP|TO|EX",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae261b"
+  },
+  "nome": "cPais",
+  "pai": "enderDest",
+  "path": "/NFCom/infNFCom/dest/enderDest/cPais",
+  "ordem": "bq09",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{1,4}",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae261c"
+  },
+  "nome": "xPais",
+  "pai": "enderDest",
+  "path": "/NFCom/infNFCom/dest/enderDest/xPais",
+  "ordem": "bq10",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae261d"
+  },
+  "nome": "fone",
+  "pai": "enderDest",
+  "path": "/NFCom/infNFCom/dest/enderDest/fone",
+  "ordem": "bq11",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{7,12}",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae261e"
+  },
+  "nome": "email",
+  "pai": "enderDest",
+  "path": "/NFCom/infNFCom/dest/enderDest/email",
+  "ordem": "bq12",
+  "tipo": "FIXED",
+  "pattern": "teste@teste.com",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae261f"
+  },
+  "nome": "assinante",
+  "pai": "infNFCom",
+  "path": "/NFCom/infNFCom/assinante",
+  "ordem": "cd00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2620"
+  },
+  "nome": "iCodAssinante",
+  "pai": "assinante",
+  "path": "/NFCom/infNFCom/assinante/iCodAssinante",
+  "ordem": "cd01",
+  "tipo": "REGEX",
+  "pattern": "([!-ÿ]{0}|[!-ÿ]{1,30})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2621"
+  },
+  "nome": "tpAssinante",
+  "pai": "assinante",
+  "path": "/NFCom/infNFCom/assinante/tpAssinante",
+  "ordem": "cd02",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "1|2|3|4|5|6|7|8|99",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2622"
+  },
+  "nome": "tpServUtil",
+  "pai": "assinante",
+  "path": "/NFCom/infNFCom/assinante/tpServUtil",
+  "ordem": "cd03",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "1|2|3|4|5|6|7|",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2623"
+  },
+  "nome": "nContrato",
+  "pai": "assinante",
+  "path": "/NFCom/infNFCom/assinante/nContrato",
+  "ordem": "cd04",
+  "tipo": "REGEX",
+  "pattern": "([!-ÿ]{0}|[!-ÿ]{1,15})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2624"
+  },
+  "nome": "dContratoIni",
+  "pai": "assinante",
+  "path": "/NFCom/infNFCom/assinante/dContratoIni",
+  "ordem": "cd05",
+  "tipo": "REGEX",
+  "pattern": "((((20|19|18)(([02468][048])|([13579][26]))-02-29))|((20|19|18)[0-9][0-9])-((((0[1-9])|(1[0-2]))-((0[1-9])|(1\\d)|(2[0-8])))|((((0[13578])|(1[02]))-31)|(((0[1,3-9])|(1[0-2]))-(29|30)))))",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2625"
+  },
+  "nome": "dContratoFim",
+  "pai": "assinante",
+  "path": "/NFCom/infNFCom/assinante/dContratoFim",
+  "ordem": "cd06",
+  "tipo": "REGEX",
+  "pattern": "((((20|19|18)(([02468][048])|([13579][26]))-02-29))|((20|19|18)[0-9][0-9])-((((0[1-9])|(1[0-2]))-((0[1-9])|(1\\d)|(2[0-8])))|((((0[13578])|(1[02]))-31)|(((0[1,3-9])|(1[0-2]))-(29|30)))))",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2626"
+  },
+  "nome": "NroTermPrinc",
+  "pai": "assinante",
+  "path": "/NFCom/infNFCom/assinante/NroTermPrinc",
+  "ordem": "cd07",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{7,12}",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2627"
+  },
+  "nome": "cUFPrinc",
+  "pai": "assinante",
+  "path": "/NFCom/infNFCom/assinante/cUFPrinc",
+  "ordem": "cd08",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "11|12|13|14|15|16|17|21|22|23|24|25|26|27|28|29|31|32|33|35|41|42|43|50|51|52|53",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2628"
+  },
+  "nome": "NroTermAdic",
+  "pai": "assinante",
+  "path": "/NFCom/infNFCom/assinante/NroTermAdic",
+  "ordem": "cd09",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{7,12}",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2629"
+  },
+  "nome": "cUFAdic",
+  "pai": "assinante",
+  "path": "/NFCom/infNFCom/assinante/cUFAdic",
+  "ordem": "cd10",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "11|12|13|14|15|16|17|21|22|23|24|25|26|27|28|29|31|32|33|35|41|42|43|50|51|52|53",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae262a"
+  },
+  "nome": "gSub",
+  "pai": "infNFCom",
+  "path": "/NFCom/infNFCom/gSub",
+  "ordem": "ck00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae262b"
+  },
+  "nome": "chNFCom",
+  "pai": "gSub",
+  "path": "/NFCom/infNFCom/gSub/chNFCom",
+  "ordem": "ck01",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{44}",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "choiceElement": "chNFCom"
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae262c"
+  },
+  "nome": "gNF",
+  "pai": "gSub",
+  "path": "/NFCom/infNFCom/gSub/gNF",
+  "ordem": "ck00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "choiceElement": "gNF"
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae262d"
+  },
+  "nome": "CNPJ",
+  "pai": "gNF",
+  "path": "/NFCom/infNFCom/gSub/gNF/CNPJ",
+  "ordem": "ck01",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{14}",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae262e"
+  },
+  "nome": "mod",
+  "pai": "gNF",
+  "path": "/NFCom/infNFCom/gSub/gNF/mod",
+  "ordem": "ck02",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "21|22",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae262f"
+  },
+  "nome": "serie",
+  "pai": "gNF",
+  "path": "/NFCom/infNFCom/gSub/gNF/serie",
+  "ordem": "ck03",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "3-3",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2630"
+  },
+  "nome": "nNF",
+  "pai": "gNF",
+  "path": "/NFCom/infNFCom/gSub/gNF/nNF",
+  "ordem": "ck04",
+  "tipo": "REGEX",
+  "pattern": "[1-9]{1}[0-9]{0,8}",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2631"
+  },
+  "nome": "CompetEmis",
+  "pai": "gNF",
+  "path": "/NFCom/infNFCom/gSub/gNF/CompetEmis",
+  "ordem": "ck05",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{1,6}",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2632"
+  },
+  "nome": "hash115",
+  "pai": "gNF",
+  "path": "/NFCom/infNFCom/gSub/gNF/hash115",
+  "ordem": "ck06",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "32-32",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2633"
+  },
+  "nome": "motSub",
+  "pai": "gSub",
+  "path": "/NFCom/infNFCom/gSub/motSub",
+  "ordem": "ck07",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "01|02|03|04|05",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2634"
+  },
+  "nome": "gCofat",
+  "pai": "infNFCom",
+  "path": "/NFCom/infNFCom/gCofat",
+  "ordem": "cr00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2635"
+  },
+  "nome": "chNFComLocal",
+  "pai": "gCofat",
+  "path": "/NFCom/infNFCom/gCofat/chNFComLocal",
+  "ordem": "cr01",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{44}",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2636"
+  },
+  "nome": "det",
+  "pai": "infNFCom",
+  "path": "/NFCom/infNFCom/det",
+  "ordem": "cr02",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": [
+    {
+      "nome": "nItemAnt",
+      "valor": "[1-9]{1}[0-9]{0,3}"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2637"
+  },
+  "nome": "prod",
+  "pai": "det",
+  "path": "/NFCom/infNFCom/det/prod",
+  "ordem": "cs00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2638"
+  },
+  "nome": "cProd",
+  "pai": "prod",
+  "path": "/NFCom/infNFCom/det/prod/cProd",
+  "ordem": "cs01",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-60",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2639"
+  },
+  "nome": "xProd",
+  "pai": "prod",
+  "path": "/NFCom/infNFCom/det/prod/xProd",
+  "ordem": "cs02",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-120",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae263a"
+  },
+  "nome": "cClass",
+  "pai": "prod",
+  "path": "/NFCom/infNFCom/det/prod/cClass",
+  "ordem": "cs03",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{7}",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae263b"
+  },
+  "nome": "CFOP",
+  "pai": "prod",
+  "path": "/NFCom/infNFCom/det/prod/CFOP",
+  "ordem": "cs04",
+  "tipo": "REGEX",
+  "pattern": "[123567][0-9]([0-9][1-9]|[1-9][0-9])",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae263c"
+  },
+  "nome": "CNPJLD",
+  "pai": "prod",
+  "path": "/NFCom/infNFCom/det/prod/CNPJLD",
+  "ordem": "cs05",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{14}",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae263d"
+  },
+  "nome": "uMed",
+  "pai": "prod",
+  "path": "/NFCom/infNFCom/det/prod/uMed",
+  "ordem": "cs06",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "1|2|3|4",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae263e"
+  },
+  "nome": "qFaturada",
+  "pai": "prod",
+  "path": "/NFCom/infNFCom/det/prod/qFaturada",
+  "ordem": "cs07",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{1,11}(\\.[0-9]{2,4})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae263f"
+  },
+  "nome": "vItem",
+  "pai": "prod",
+  "path": "/NFCom/infNFCom/det/prod/vItem",
+  "ordem": "cs08",
+  "tipo": "FIXED",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2640"
+  },
+  "nome": "vDesc",
+  "pai": "prod",
+  "path": "/NFCom/infNFCom/det/prod/vDesc",
+  "ordem": "cs09",
+  "tipo": "REGEX",
+  "pattern": "0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2641"
+  },
+  "nome": "vOutro",
+  "pai": "prod",
+  "path": "/NFCom/infNFCom/det/prod/vOutro",
+  "ordem": "cs10",
+  "tipo": "REGEX",
+  "pattern": "0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2642"
+  },
+  "nome": "vProd",
+  "pai": "prod",
+  "path": "/NFCom/infNFCom/det/prod/vProd",
+  "ordem": "cs11",
+  "tipo": "FIXED",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2643"
+  },
+  "nome": "dExpiracao",
+  "pai": "prod",
+  "path": "/NFCom/infNFCom/det/prod/dExpiracao",
+  "ordem": "cs12",
+  "tipo": "REGEX",
+  "pattern": "((((20|19|18)(([02468][048])|([13579][26]))-02-29))|((20|19|18)[0-9][0-9])-((((0[1-9])|(1[0-2]))-((0[1-9])|(1\\d)|(2[0-8])))|((((0[13578])|(1[02]))-31)|(((0[1,3-9])|(1[0-2]))-(29|30)))))",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2644"
+  },
+  "nome": "indDevolucao",
+  "pai": "prod",
+  "path": "/NFCom/infNFCom/det/prod/indDevolucao",
+  "ordem": "cs13",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "1",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2645"
+  },
+  "nome": "imposto",
+  "pai": "det",
+  "path": "/NFCom/infNFCom/det/imposto",
+  "ordem": "dg00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2646"
+  },
+  "nome": "ICMS00",
+  "pai": "imposto",
+  "path": "/NFCom/infNFCom/det/imposto/ICMS00",
+  "ordem": "dh00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2647"
+  },
+  "nome": "CST",
+  "pai": "ICMS00",
+  "path": "/NFCom/infNFCom/det/imposto/ICMS00/CST",
+  "ordem": "dh01",
+  "tipo": "FIXED",
+  "pattern": "00",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2648"
+  },
+  "nome": "vBC",
+  "pai": "ICMS00",
+  "path": "/NFCom/infNFCom/det/imposto/ICMS00/vBC",
+  "ordem": "dh02",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2649"
+  },
+  "nome": "pICMS",
+  "pai": "ICMS00",
+  "path": "/NFCom/infNFCom/det/imposto/ICMS00/pICMS",
+  "ordem": "dh03",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,2}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae264a"
+  },
+  "nome": "vICMS",
+  "pai": "ICMS00",
+  "path": "/NFCom/infNFCom/det/imposto/ICMS00/vICMS",
+  "ordem": "dh04",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae264b"
+  },
+  "nome": "pFCP",
+  "pai": "ICMS00",
+  "path": "/NFCom/infNFCom/det/imposto/ICMS00/pFCP",
+  "ordem": "dh05",
+  "tipo": "REGEX",
+  "pattern": "0\\.[0-9]{2,4}|[1-9]{1}[0-9]{0,2}(\\.[0-9]{2,4})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae264c"
+  },
+  "nome": "vFCP",
+  "pai": "ICMS00",
+  "path": "/NFCom/infNFCom/det/imposto/ICMS00/vFCP",
+  "ordem": "dh06",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae264d"
+  },
+  "nome": "ICMS20",
+  "pai": "imposto",
+  "path": "/NFCom/infNFCom/det/imposto/ICMS20",
+  "ordem": "dl00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae264e"
+  },
+  "nome": "CST",
+  "pai": "ICMS20",
+  "path": "/NFCom/infNFCom/det/imposto/ICMS20/CST",
+  "ordem": "dl01",
+  "tipo": "FIXED",
+  "pattern": "20",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae264f"
+  },
+  "nome": "pRedBC",
+  "pai": "ICMS20",
+  "path": "/NFCom/infNFCom/det/imposto/ICMS20/pRedBC",
+  "ordem": "dl02",
+  "tipo": "REGEX",
+  "pattern": "0\\.[0-9]{2}|[1-9]{1}[0-9]{0,2}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2650"
+  },
+  "nome": "vBC",
+  "pai": "ICMS20",
+  "path": "/NFCom/infNFCom/det/imposto/ICMS20/vBC",
+  "ordem": "dl03",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2651"
+  },
+  "nome": "pICMS",
+  "pai": "ICMS20",
+  "path": "/NFCom/infNFCom/det/imposto/ICMS20/pICMS",
+  "ordem": "dl04",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,2}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2652"
+  },
+  "nome": "vICMS",
+  "pai": "ICMS20",
+  "path": "/NFCom/infNFCom/det/imposto/ICMS20/vICMS",
+  "ordem": "dl05",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2653"
+  },
+  "nome": "vICMSDeson",
+  "pai": "ICMS20",
+  "path": "/NFCom/infNFCom/det/imposto/ICMS20/vICMSDeson",
+  "ordem": "dl06",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2654"
+  },
+  "nome": "cBenef",
+  "pai": "ICMS20",
+  "path": "/NFCom/infNFCom/det/imposto/ICMS20/cBenef",
+  "ordem": "dl07",
+  "tipo": "FIXED",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2655"
+  },
+  "nome": "pFCP",
+  "pai": "ICMS20",
+  "path": "/NFCom/infNFCom/det/imposto/ICMS20/pFCP",
+  "ordem": "dl08",
+  "tipo": "REGEX",
+  "pattern": "0\\.[0-9]{2,4}|[1-9]{1}[0-9]{0,2}(\\.[0-9]{2,4})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2656"
+  },
+  "nome": "vFCP",
+  "pai": "ICMS20",
+  "path": "/NFCom/infNFCom/det/imposto/ICMS20/vFCP",
+  "ordem": "dl09",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2657"
+  },
+  "nome": "ICMS40",
+  "pai": "imposto",
+  "path": "/NFCom/infNFCom/det/imposto/ICMS40",
+  "ordem": "dq00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2658"
+  },
+  "nome": "CST",
+  "pai": "ICMS40",
+  "path": "/NFCom/infNFCom/det/imposto/ICMS40/CST",
+  "ordem": "dq01",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "40|41",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2659"
+  },
+  "nome": "vICMSDeson",
+  "pai": "ICMS40",
+  "path": "/NFCom/infNFCom/det/imposto/ICMS40/vICMSDeson",
+  "ordem": "dq02",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae265a"
+  },
+  "nome": "cBenef",
+  "pai": "ICMS40",
+  "path": "/NFCom/infNFCom/det/imposto/ICMS40/cBenef",
+  "ordem": "dq03",
+  "tipo": "FIXED",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae265b"
+  },
+  "nome": "ICMS51",
+  "pai": "imposto",
+  "path": "/NFCom/infNFCom/det/imposto/ICMS51",
+  "ordem": "dr00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae265c"
+  },
+  "nome": "CST",
+  "pai": "ICMS51",
+  "path": "/NFCom/infNFCom/det/imposto/ICMS51/CST",
+  "ordem": "dr01",
+  "tipo": "FIXED",
+  "pattern": "51",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae265d"
+  },
+  "nome": "vICMSDeson",
+  "pai": "ICMS51",
+  "path": "/NFCom/infNFCom/det/imposto/ICMS51/vICMSDeson",
+  "ordem": "dr02",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae265e"
+  },
+  "nome": "cBenef",
+  "pai": "ICMS51",
+  "path": "/NFCom/infNFCom/det/imposto/ICMS51/cBenef",
+  "ordem": "dr03",
+  "tipo": "FIXED",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae265f"
+  },
+  "nome": "ICMS90",
+  "pai": "imposto",
+  "path": "/NFCom/infNFCom/det/imposto/ICMS90",
+  "ordem": "ds00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2660"
+  },
+  "nome": "CST",
+  "pai": "ICMS90",
+  "path": "/NFCom/infNFCom/det/imposto/ICMS90/CST",
+  "ordem": "ds01",
+  "tipo": "FIXED",
+  "pattern": "90",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2661"
+  },
+  "nome": "vBC",
+  "pai": "ICMS90",
+  "path": "/NFCom/infNFCom/det/imposto/ICMS90/vBC",
+  "ordem": "ds02",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2662"
+  },
+  "nome": "pICMS",
+  "pai": "ICMS90",
+  "path": "/NFCom/infNFCom/det/imposto/ICMS90/pICMS",
+  "ordem": "ds03",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,2}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2663"
+  },
+  "nome": "vICMS",
+  "pai": "ICMS90",
+  "path": "/NFCom/infNFCom/det/imposto/ICMS90/vICMS",
+  "ordem": "ds04",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2664"
+  },
+  "nome": "ICMSSN",
+  "pai": "imposto",
+  "path": "/NFCom/infNFCom/det/imposto/ICMSSN",
+  "ordem": "dt00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2665"
+  },
+  "nome": "CST",
+  "pai": "ICMSSN",
+  "path": "/NFCom/infNFCom/det/imposto/ICMSSN/CST",
+  "ordem": "dt01",
+  "tipo": "FIXED",
+  "pattern": "90",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2666"
+  },
+  "nome": "indSN",
+  "pai": "ICMSSN",
+  "path": "/NFCom/infNFCom/det/imposto/ICMSSN/indSN",
+  "ordem": "dt02",
+  "tipo": "FIXED",
+  "pattern": "1",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2667"
+  },
+  "nome": "ICMSUFDest",
+  "pai": "imposto",
+  "path": "/NFCom/infNFCom/det/imposto/ICMSUFDest",
+  "ordem": "dv00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": [
+    {
+      "nome": "cUFDest",
+      "valor": ""
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2668"
+  },
+  "nome": "vBCUFDest",
+  "pai": "ICMSUFDest",
+  "path": "/NFCom/infNFCom/det/imposto/ICMSUFDest/vBCUFDest",
+  "ordem": "dv01",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2669"
+  },
+  "nome": "pFCPUFDest",
+  "pai": "ICMSUFDest",
+  "path": "/NFCom/infNFCom/det/imposto/ICMSUFDest/pFCPUFDest",
+  "ordem": "dv02",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,2}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae266a"
+  },
+  "nome": "pICMSUFDest",
+  "pai": "ICMSUFDest",
+  "path": "/NFCom/infNFCom/det/imposto/ICMSUFDest/pICMSUFDest",
+  "ordem": "dv03",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,2}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae266b"
+  },
+  "nome": "vFCPUFDest",
+  "pai": "ICMSUFDest",
+  "path": "/NFCom/infNFCom/det/imposto/ICMSUFDest/vFCPUFDest",
+  "ordem": "dv04",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae266c"
+  },
+  "nome": "vICMSUFDest",
+  "pai": "ICMSUFDest",
+  "path": "/NFCom/infNFCom/det/imposto/ICMSUFDest/vICMSUFDest",
+  "ordem": "dv05",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae266d"
+  },
+  "nome": "vICMSUFEmi",
+  "pai": "ICMSUFDest",
+  "path": "/NFCom/infNFCom/det/imposto/ICMSUFDest/vICMSUFEmi",
+  "ordem": "dv06",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae266e"
+  },
+  "nome": "cBenefUFDest",
+  "pai": "ICMSUFDest",
+  "path": "/NFCom/infNFCom/det/imposto/ICMSUFDest/cBenefUFDest",
+  "ordem": "dv07",
+  "tipo": "FIXED",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae266f"
+  },
+  "nome": "indSemCST",
+  "pai": "imposto",
+  "path": "/NFCom/infNFCom/det/imposto/indSemCST",
+  "ordem": "dv08",
+  "tipo": "FIXED",
+  "pattern": "1",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "choiceElement": "indSemCST"
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2670"
+  },
+  "nome": "PIS",
+  "pai": "imposto",
+  "path": "/NFCom/infNFCom/det/imposto/PIS",
+  "ordem": "ec00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2671"
+  },
+  "nome": "CST",
+  "pai": "PIS",
+  "path": "/NFCom/infNFCom/det/imposto/PIS/CST",
+  "ordem": "ec01",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "01|02|06|07|08|09|49",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2672"
+  },
+  "nome": "vBC",
+  "pai": "PIS",
+  "path": "/NFCom/infNFCom/det/imposto/PIS/vBC",
+  "ordem": "ec02",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2673"
+  },
+  "nome": "pPIS",
+  "pai": "PIS",
+  "path": "/NFCom/infNFCom/det/imposto/PIS/pPIS",
+  "ordem": "ec03",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2,4}|[1-9]{1}[0-9]{0,2}(\\.[0-9]{2,4})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2674"
+  },
+  "nome": "vPIS",
+  "pai": "PIS",
+  "path": "/NFCom/infNFCom/det/imposto/PIS/vPIS",
+  "ordem": "ec04",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2675"
+  },
+  "nome": "COFINS",
+  "pai": "imposto",
+  "path": "/NFCom/infNFCom/det/imposto/COFINS",
+  "ordem": "eh00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2676"
+  },
+  "nome": "CST",
+  "pai": "COFINS",
+  "path": "/NFCom/infNFCom/det/imposto/COFINS/CST",
+  "ordem": "eh01",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "01|02|06|07|08|09|49",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2677"
+  },
+  "nome": "vBC",
+  "pai": "COFINS",
+  "path": "/NFCom/infNFCom/det/imposto/COFINS/vBC",
+  "ordem": "eh02",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2678"
+  },
+  "nome": "pCOFINS",
+  "pai": "COFINS",
+  "path": "/NFCom/infNFCom/det/imposto/COFINS/pCOFINS",
+  "ordem": "eh03",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2,4}|[1-9]{1}[0-9]{0,2}(\\.[0-9]{2,4})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2679"
+  },
+  "nome": "vCOFINS",
+  "pai": "COFINS",
+  "path": "/NFCom/infNFCom/det/imposto/COFINS/vCOFINS",
+  "ordem": "eh04",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae267a"
+  },
+  "nome": "FUST",
+  "pai": "imposto",
+  "path": "/NFCom/infNFCom/det/imposto/FUST",
+  "ordem": "em00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae267b"
+  },
+  "nome": "vBC",
+  "pai": "FUST",
+  "path": "/NFCom/infNFCom/det/imposto/FUST/vBC",
+  "ordem": "em01",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae267c"
+  },
+  "nome": "pFUST",
+  "pai": "FUST",
+  "path": "/NFCom/infNFCom/det/imposto/FUST/pFUST",
+  "ordem": "em02",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2,4}|[1-9]{1}[0-9]{0,2}(\\.[0-9]{2,4})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae267d"
+  },
+  "nome": "vFUST",
+  "pai": "FUST",
+  "path": "/NFCom/infNFCom/det/imposto/FUST/vFUST",
+  "ordem": "em03",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae267e"
+  },
+  "nome": "FUNTTEL",
+  "pai": "imposto",
+  "path": "/NFCom/infNFCom/det/imposto/FUNTTEL",
+  "ordem": "eq00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae267f"
+  },
+  "nome": "vBC",
+  "pai": "FUNTTEL",
+  "path": "/NFCom/infNFCom/det/imposto/FUNTTEL/vBC",
+  "ordem": "eq01",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2680"
+  },
+  "nome": "pFUNTTEL",
+  "pai": "FUNTTEL",
+  "path": "/NFCom/infNFCom/det/imposto/FUNTTEL/pFUNTTEL",
+  "ordem": "eq02",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2,4}|[1-9]{1}[0-9]{0,2}(\\.[0-9]{2,4})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2681"
+  },
+  "nome": "vFUNTTEL",
+  "pai": "FUNTTEL",
+  "path": "/NFCom/infNFCom/det/imposto/FUNTTEL/vFUNTTEL",
+  "ordem": "eq03",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2682"
+  },
+  "nome": "retTrib",
+  "pai": "imposto",
+  "path": "/NFCom/infNFCom/det/imposto/retTrib",
+  "ordem": "eu00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2683"
+  },
+  "nome": "vRetPIS",
+  "pai": "retTrib",
+  "path": "/NFCom/infNFCom/det/imposto/retTrib/vRetPIS",
+  "ordem": "eu01",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{1,13}(\\.[0-9]{2,8})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2684"
+  },
+  "nome": "vRetCofins",
+  "pai": "retTrib",
+  "path": "/NFCom/infNFCom/det/imposto/retTrib/vRetCofins",
+  "ordem": "eu02",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{1,13}(\\.[0-9]{2,8})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2685"
+  },
+  "nome": "vRetCSLL",
+  "pai": "retTrib",
+  "path": "/NFCom/infNFCom/det/imposto/retTrib/vRetCSLL",
+  "ordem": "eu03",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{1,13}(\\.[0-9]{2,8})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2686"
+  },
+  "nome": "vBCIRRF",
+  "pai": "retTrib",
+  "path": "/NFCom/infNFCom/det/imposto/retTrib/vBCIRRF",
+  "ordem": "eu04",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{1,13}(\\.[0-9]{2,8})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2687"
+  },
+  "nome": "vIRRF",
+  "pai": "retTrib",
+  "path": "/NFCom/infNFCom/det/imposto/retTrib/vIRRF",
+  "ordem": "eu05",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{1,13}(\\.[0-9]{2,8})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2688"
+  },
+  "nome": "gProcRef",
+  "pai": "det",
+  "path": "/NFCom/infNFCom/det/gProcRef",
+  "ordem": "fa00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2689"
+  },
+  "nome": "vItem",
+  "pai": "gProcRef",
+  "path": "/NFCom/infNFCom/det/gProcRef/vItem",
+  "ordem": "fa01",
+  "tipo": "FIXED",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae268a"
+  },
+  "nome": "qFaturada",
+  "pai": "gProcRef",
+  "path": "/NFCom/infNFCom/det/gProcRef/qFaturada",
+  "ordem": "fa02",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{1,11}(\\.[0-9]{2,4})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae268b"
+  },
+  "nome": "vProd",
+  "pai": "gProcRef",
+  "path": "/NFCom/infNFCom/det/gProcRef/vProd",
+  "ordem": "fa03",
+  "tipo": "FIXED",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae268c"
+  },
+  "nome": "vDesc",
+  "pai": "gProcRef",
+  "path": "/NFCom/infNFCom/det/gProcRef/vDesc",
+  "ordem": "fa04",
+  "tipo": "REGEX",
+  "pattern": "0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae268d"
+  },
+  "nome": "vOutro",
+  "pai": "gProcRef",
+  "path": "/NFCom/infNFCom/det/gProcRef/vOutro",
+  "ordem": "fa05",
+  "tipo": "REGEX",
+  "pattern": "0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae268e"
+  },
+  "nome": "indDevolucao",
+  "pai": "gProcRef",
+  "path": "/NFCom/infNFCom/det/gProcRef/indDevolucao",
+  "ordem": "fa06",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "1",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae268f"
+  },
+  "nome": "vBC",
+  "pai": "gProcRef",
+  "path": "/NFCom/infNFCom/det/gProcRef/vBC",
+  "ordem": "fa07",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2690"
+  },
+  "nome": "pICMS",
+  "pai": "gProcRef",
+  "path": "/NFCom/infNFCom/det/gProcRef/pICMS",
+  "ordem": "fa08",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,2}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2691"
+  },
+  "nome": "vICMS",
+  "pai": "gProcRef",
+  "path": "/NFCom/infNFCom/det/gProcRef/vICMS",
+  "ordem": "fa09",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2692"
+  },
+  "nome": "vPIS",
+  "pai": "gProcRef",
+  "path": "/NFCom/infNFCom/det/gProcRef/vPIS",
+  "ordem": "fa10",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2693"
+  },
+  "nome": "vCOFINS",
+  "pai": "gProcRef",
+  "path": "/NFCom/infNFCom/det/gProcRef/vCOFINS",
+  "ordem": "fa11",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2694"
+  },
+  "nome": "gProc",
+  "pai": "gProcRef",
+  "path": "/NFCom/infNFCom/det/gProcRef/gProc",
+  "ordem": "fm00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2695"
+  },
+  "nome": "tpProc",
+  "pai": "gProc",
+  "path": "/NFCom/infNFCom/det/gProcRef/gProc/tpProc",
+  "ordem": "fm01",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "0|1|2",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2696"
+  },
+  "nome": "nProcesso",
+  "pai": "gProc",
+  "path": "/NFCom/infNFCom/det/gProcRef/gProc/nProcesso",
+  "ordem": "fm02",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-60",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2697"
+  },
+  "nome": "gRessarc",
+  "pai": "det",
+  "path": "/NFCom/infNFCom/det/gRessarc",
+  "ordem": "fp00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2698"
+  },
+  "nome": "tpRessarc",
+  "pai": "gRessarc",
+  "path": "/NFCom/infNFCom/det/gRessarc/tpRessarc",
+  "ordem": "fp01",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "1|2|99",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae2699"
+  },
+  "nome": "dRef",
+  "pai": "gRessarc",
+  "path": "/NFCom/infNFCom/det/gRessarc/dRef",
+  "ordem": "fp02",
+  "tipo": "REGEX",
+  "pattern": "((((20|19|18)(([02468][048])|([13579][26]))-02-29))|((20|19|18)[0-9][0-9])-((((0[1-9])|(1[0-2]))-((0[1-9])|(1\\d)|(2[0-8])))|((((0[13578])|(1[02]))-31)|(((0[1,3-9])|(1[0-2]))-(29|30)))))",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae269a"
+  },
+  "nome": "nProcesso",
+  "pai": "gRessarc",
+  "path": "/NFCom/infNFCom/det/gRessarc/nProcesso",
+  "ordem": "fp03",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-60",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae269b"
+  },
+  "nome": "nProtReclama",
+  "pai": "gRessarc",
+  "path": "/NFCom/infNFCom/det/gRessarc/nProtReclama",
+  "ordem": "fp04",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-60",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae269c"
+  },
+  "nome": "xObs",
+  "pai": "gRessarc",
+  "path": "/NFCom/infNFCom/det/gRessarc/xObs",
+  "ordem": "fp05",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "15-100",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae269d"
+  },
+  "nome": "infAdProd",
+  "pai": "det",
+  "path": "/NFCom/infNFCom/det/infAdProd",
+  "ordem": "fp06",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-500",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae269e"
+  },
+  "nome": "total",
+  "pai": "infNFCom",
+  "path": "/NFCom/infNFCom/total",
+  "ordem": "fw00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae269f"
+  },
+  "nome": "vProd",
+  "pai": "total",
+  "path": "/NFCom/infNFCom/total/vProd",
+  "ordem": "fw01",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26a0"
+  },
+  "nome": "ICMSTot",
+  "pai": "total",
+  "path": "/NFCom/infNFCom/total/ICMSTot",
+  "ordem": "fx00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26a1"
+  },
+  "nome": "vBC",
+  "pai": "ICMSTot",
+  "path": "/NFCom/infNFCom/total/ICMSTot/vBC",
+  "ordem": "fx01",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26a2"
+  },
+  "nome": "vICMS",
+  "pai": "ICMSTot",
+  "path": "/NFCom/infNFCom/total/ICMSTot/vICMS",
+  "ordem": "fx02",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26a3"
+  },
+  "nome": "vICMSDeson",
+  "pai": "ICMSTot",
+  "path": "/NFCom/infNFCom/total/ICMSTot/vICMSDeson",
+  "ordem": "fx03",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26a4"
+  },
+  "nome": "vFCP",
+  "pai": "ICMSTot",
+  "path": "/NFCom/infNFCom/total/ICMSTot/vFCP",
+  "ordem": "fx04",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26a5"
+  },
+  "nome": "vCOFINS",
+  "pai": "total",
+  "path": "/NFCom/infNFCom/total/vCOFINS",
+  "ordem": "fx05",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26a6"
+  },
+  "nome": "vPIS",
+  "pai": "total",
+  "path": "/NFCom/infNFCom/total/vPIS",
+  "ordem": "fx06",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26a7"
+  },
+  "nome": "vFUNTTEL",
+  "pai": "total",
+  "path": "/NFCom/infNFCom/total/vFUNTTEL",
+  "ordem": "fx07",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26a8"
+  },
+  "nome": "vFUST",
+  "pai": "total",
+  "path": "/NFCom/infNFCom/total/vFUST",
+  "ordem": "fx08",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26a9"
+  },
+  "nome": "vRetTribTot",
+  "pai": "total",
+  "path": "/NFCom/infNFCom/total/vRetTribTot",
+  "ordem": "gg00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26aa"
+  },
+  "nome": "vRetPIS",
+  "pai": "vRetTribTot",
+  "path": "/NFCom/infNFCom/total/vRetTribTot/vRetPIS",
+  "ordem": "gg01",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26ab"
+  },
+  "nome": "vRetCofins",
+  "pai": "vRetTribTot",
+  "path": "/NFCom/infNFCom/total/vRetTribTot/vRetCofins",
+  "ordem": "gg02",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26ac"
+  },
+  "nome": "vRetCSLL",
+  "pai": "vRetTribTot",
+  "path": "/NFCom/infNFCom/total/vRetTribTot/vRetCSLL",
+  "ordem": "gg03",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26ad"
+  },
+  "nome": "vIRRF",
+  "pai": "vRetTribTot",
+  "path": "/NFCom/infNFCom/total/vRetTribTot/vIRRF",
+  "ordem": "gg04",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26ae"
+  },
+  "nome": "vDesc",
+  "pai": "total",
+  "path": "/NFCom/infNFCom/total/vDesc",
+  "ordem": "gg05",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26af"
+  },
+  "nome": "vOutro",
+  "pai": "total",
+  "path": "/NFCom/infNFCom/total/vOutro",
+  "ordem": "gg06",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26b0"
+  },
+  "nome": "vNF",
+  "pai": "total",
+  "path": "/NFCom/infNFCom/total/vNF",
+  "ordem": "gg07",
+  "tipo": "REGEX",
+  "pattern": "0|0\\.[0-9]{2}|[1-9]{1}[0-9]{0,12}(\\.[0-9]{2})?",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26b1"
+  },
+  "nome": "gFidelidade",
+  "pai": "infNFCom",
+  "path": "/NFCom/infNFCom/gFidelidade",
+  "ordem": "go00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26b2"
+  },
+  "nome": "qtdSaldoPts",
+  "pai": "gFidelidade",
+  "path": "/NFCom/infNFCom/gFidelidade/qtdSaldoPts",
+  "ordem": "go01",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{1,20}",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26b3"
+  },
+  "nome": "dRefSaldoPts",
+  "pai": "gFidelidade",
+  "path": "/NFCom/infNFCom/gFidelidade/dRefSaldoPts",
+  "ordem": "go02",
+  "tipo": "REGEX",
+  "pattern": "((((20|19|18)(([02468][048])|([13579][26]))-02-29))|((20|19|18)[0-9][0-9])-((((0[1-9])|(1[0-2]))-((0[1-9])|(1\\d)|(2[0-8])))|((((0[13578])|(1[02]))-31)|(((0[1,3-9])|(1[0-2]))-(29|30)))))",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26b4"
+  },
+  "nome": "qtdPtsResg",
+  "pai": "gFidelidade",
+  "path": "/NFCom/infNFCom/gFidelidade/qtdPtsResg",
+  "ordem": "go03",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{1,20}",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26b5"
+  },
+  "nome": "dRefResgPts",
+  "pai": "gFidelidade",
+  "path": "/NFCom/infNFCom/gFidelidade/dRefResgPts",
+  "ordem": "go04",
+  "tipo": "REGEX",
+  "pattern": "((((20|19|18)(([02468][048])|([13579][26]))-02-29))|((20|19|18)[0-9][0-9])-((((0[1-9])|(1[0-2]))-((0[1-9])|(1\\d)|(2[0-8])))|((((0[13578])|(1[02]))-31)|(((0[1,3-9])|(1[0-2]))-(29|30)))))",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26b6"
+  },
+  "nome": "gFat",
+  "pai": "infNFCom",
+  "path": "/NFCom/infNFCom/gFat",
+  "ordem": "gs00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26b7"
+  },
+  "nome": "CompetFat",
+  "pai": "gFat",
+  "path": "/NFCom/infNFCom/gFat/CompetFat",
+  "ordem": "gs01",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{1,6}",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26b8"
+  },
+  "nome": "dVencFat",
+  "pai": "gFat",
+  "path": "/NFCom/infNFCom/gFat/dVencFat",
+  "ordem": "gs02",
+  "tipo": "REGEX",
+  "pattern": "((((20|19|18)(([02468][048])|([13579][26]))-02-29))|((20|19|18)[0-9][0-9])-((((0[1-9])|(1[0-2]))-((0[1-9])|(1\\d)|(2[0-8])))|((((0[13578])|(1[02]))-31)|(((0[1,3-9])|(1[0-2]))-(29|30)))))",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26b9"
+  },
+  "nome": "dPerUsoIni",
+  "pai": "gFat",
+  "path": "/NFCom/infNFCom/gFat/dPerUsoIni",
+  "ordem": "gs03",
+  "tipo": "REGEX",
+  "pattern": "((((20|19|18)(([02468][048])|([13579][26]))-02-29))|((20|19|18)[0-9][0-9])-((((0[1-9])|(1[0-2]))-((0[1-9])|(1\\d)|(2[0-8])))|((((0[13578])|(1[02]))-31)|(((0[1,3-9])|(1[0-2]))-(29|30)))))",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26ba"
+  },
+  "nome": "dPerUsoFim",
+  "pai": "gFat",
+  "path": "/NFCom/infNFCom/gFat/dPerUsoFim",
+  "ordem": "gs04",
+  "tipo": "REGEX",
+  "pattern": "((((20|19|18)(([02468][048])|([13579][26]))-02-29))|((20|19|18)[0-9][0-9])-((((0[1-9])|(1[0-2]))-((0[1-9])|(1\\d)|(2[0-8])))|((((0[13578])|(1[02]))-31)|(((0[1,3-9])|(1[0-2]))-(29|30)))))",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26bb"
+  },
+  "nome": "codBarras",
+  "pai": "gFat",
+  "path": "/NFCom/infNFCom/gFat/codBarras",
+  "ordem": "gs05",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{1,48}",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26bc"
+  },
+  "nome": "codDebAuto",
+  "pai": "gFat",
+  "path": "/NFCom/infNFCom/gFat/codDebAuto",
+  "ordem": "gs06",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{1,20}",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26bd"
+  },
+  "nome": "codBanco",
+  "pai": "gFat",
+  "path": "/NFCom/infNFCom/gFat/codBanco",
+  "ordem": "gs07",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "3-5",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26be"
+  },
+  "nome": "codAgencia",
+  "pai": "gFat",
+  "path": "/NFCom/infNFCom/gFat/codAgencia",
+  "ordem": "gs08",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-10",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26bf"
+  },
+  "nome": "enderCorresp",
+  "pai": "gFat",
+  "path": "/NFCom/infNFCom/gFat/enderCorresp",
+  "ordem": "gw00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26c0"
+  },
+  "nome": "xLgr",
+  "pai": "enderCorresp",
+  "path": "/NFCom/infNFCom/gFat/enderCorresp/xLgr",
+  "ordem": "gw01",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26c1"
+  },
+  "nome": "nro",
+  "pai": "enderCorresp",
+  "path": "/NFCom/infNFCom/gFat/enderCorresp/nro",
+  "ordem": "gw02",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-60",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26c2"
+  },
+  "nome": "xCpl",
+  "pai": "enderCorresp",
+  "path": "/NFCom/infNFCom/gFat/enderCorresp/xCpl",
+  "ordem": "gw03",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-60",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26c3"
+  },
+  "nome": "xBairro",
+  "pai": "enderCorresp",
+  "path": "/NFCom/infNFCom/gFat/enderCorresp/xBairro",
+  "ordem": "gw04",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26c4"
+  },
+  "nome": "cMun",
+  "pai": "enderCorresp",
+  "path": "/NFCom/infNFCom/gFat/enderCorresp/cMun",
+  "ordem": "gw05",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{7}",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26c5"
+  },
+  "nome": "xMun",
+  "pai": "enderCorresp",
+  "path": "/NFCom/infNFCom/gFat/enderCorresp/xMun",
+  "ordem": "gw06",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26c6"
+  },
+  "nome": "CEP",
+  "pai": "enderCorresp",
+  "path": "/NFCom/infNFCom/gFat/enderCorresp/CEP",
+  "ordem": "gw07",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{8}",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26c7"
+  },
+  "nome": "UF",
+  "pai": "enderCorresp",
+  "path": "/NFCom/infNFCom/gFat/enderCorresp/UF",
+  "ordem": "gw08",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "AC|AL|AM|AP|BA|CE|DF|ES|GO|MA|MG|MS|MT|PA|PB|PE|PI|PR|RJ|RN|RO|RR|RS|SC|SE|SP|TO|EX",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26c8"
+  },
+  "nome": "fone",
+  "pai": "enderCorresp",
+  "path": "/NFCom/infNFCom/gFat/enderCorresp/fone",
+  "ordem": "gw09",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{7,12}",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26c9"
+  },
+  "nome": "email",
+  "pai": "enderCorresp",
+  "path": "/NFCom/infNFCom/gFat/enderCorresp/email",
+  "ordem": "gw10",
+  "tipo": "FIXED",
+  "pattern": "teste@teste.com",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26ca"
+  },
+  "nome": "gPIX",
+  "pai": "gFat",
+  "path": "/NFCom/infNFCom/gFat/gPIX",
+  "ordem": "hh00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26cb"
+  },
+  "nome": "urlQRCodePIX",
+  "pai": "gPIX",
+  "path": "/NFCom/infNFCom/gFat/gPIX/urlQRCodePIX",
+  "ordem": "hh01",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-2000",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26cc"
+  },
+  "nome": "gFatCentral",
+  "pai": "infNFCom",
+  "path": "/NFCom/infNFCom/gFatCentral",
+  "ordem": "hj00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26cd"
+  },
+  "nome": "CNPJ",
+  "pai": "gFatCentral",
+  "path": "/NFCom/infNFCom/gFatCentral/CNPJ",
+  "ordem": "hj01",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{14}",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26ce"
+  },
+  "nome": "cUF",
+  "pai": "gFatCentral",
+  "path": "/NFCom/infNFCom/gFatCentral/cUF",
+  "ordem": "hj02",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "11|12|13|14|15|16|17|21|22|23|24|25|26|27|28|29|31|32|33|35|41|42|43|50|51|52|53",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26cf"
+  },
+  "nome": "autXML",
+  "pai": "infNFCom",
+  "path": "/NFCom/infNFCom/autXML",
+  "ordem": "hl00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26d0"
+  },
+  "nome": "CNPJ",
+  "pai": "autXML",
+  "path": "/NFCom/infNFCom/autXML/CNPJ",
+  "ordem": "hl01",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{14}",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "choiceElement": "CNPJ"
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26d1"
+  },
+  "nome": "CPF",
+  "pai": "autXML",
+  "path": "/NFCom/infNFCom/autXML/CPF",
+  "ordem": "hl02",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{11}",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  },
+  "choiceElement": "CPF"
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26d2"
+  },
+  "nome": "infAdic",
+  "pai": "infNFCom",
+  "path": "/NFCom/infNFCom/infAdic",
+  "ordem": "hm00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26d3"
+  },
+  "nome": "infAdFisco",
+  "pai": "infAdic",
+  "path": "/NFCom/infNFCom/infAdic/infAdFisco",
+  "ordem": "hm01",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-2000",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26d4"
+  },
+  "nome": "infCpl",
+  "pai": "infAdic",
+  "path": "/NFCom/infNFCom/infAdic/infCpl",
+  "ordem": "hm02",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "1-3000",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26d5"
+  },
+  "nome": "gRespTec",
+  "pai": "infNFCom",
+  "path": "/NFCom/infNFCom/gRespTec",
+  "ordem": "hp00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26d6"
+  },
+  "nome": "CNPJ",
+  "pai": "gRespTec",
+  "path": "/NFCom/infNFCom/gRespTec/CNPJ",
+  "ordem": "hp01",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{14}",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26d7"
+  },
+  "nome": "xContato",
+  "pai": "gRespTec",
+  "path": "/NFCom/infNFCom/gRespTec/xContato",
+  "ordem": "hp02",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "2-60",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26d8"
+  },
+  "nome": "email",
+  "pai": "gRespTec",
+  "path": "/NFCom/infNFCom/gRespTec/email",
+  "ordem": "hp03",
+  "tipo": "FIXED",
+  "pattern": "teste@teste.com",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26d9"
+  },
+  "nome": "fone",
+  "pai": "gRespTec",
+  "path": "/NFCom/infNFCom/gRespTec/fone",
+  "ordem": "hp04",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{7,12}",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26da"
+  },
+  "nome": "idCSRT",
+  "pai": "gRespTec",
+  "path": "/NFCom/infNFCom/gRespTec/idCSRT",
+  "ordem": "hp05",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{3}",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26db"
+  },
+  "nome": "hashCSRT",
+  "pai": "gRespTec",
+  "path": "/NFCom/infNFCom/gRespTec/hashCSRT",
+  "ordem": "hp06",
+  "tipo": "FIXED",
+  "pattern": "fWxpstRiP8MsMNrMli1X7AdKMsI=",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26dc"
+  },
+  "nome": "infNFComSupl",
+  "pai": "NFCom",
+  "path": "/NFCom/infNFComSupl",
+  "ordem": "hu00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c167075d2b286666ae26dd"
+  },
+  "nome": "qrCodNFCom",
+  "pai": "infNFComSupl",
+  "path": "/NFCom/infNFComSupl/qrCodNFCom",
+  "ordem": "hu01",
+  "tipo": "REGEX",
+  "pattern": "((HTTPS?|https?)://.*\\?chNFCom=[0-9]{44}&tpAmb=[1-2](&sign=[!-ÿ]{1}[ -ÿ]{0,}[!-ÿ]{1}|[!-ÿ]{1})?)",
+  "versao": "1.00",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c270282ab026a33754fdaa"
+  },
+  "nome": "eventoNFCom",
+  "pai": "",
+  "path": "/eventoNFCom",
+  "ordem": "aa00",
+  "tipo": "ROOT",
+  "versao": "eventoNFCom",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": [
+    {
+      "nome": "versao",
+      "valor": "1.00"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64c270282ab026a33754fdab"
+  },
+  "nome": "infEvento",
+  "pai": "eventoNFCom",
+  "path": "/eventoNFCom/infEvento",
+  "ordem": "al00",
+  "tipo": "FIXED",
+  "pattern": "",
+  "versao": "eventoNFCom",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": [
+    {
+      "nome": "Id",
+      "valor": "ID[0-9]{53}"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64c270282ab026a33754fdac"
+  },
+  "nome": "cOrgao",
+  "pai": "infEvento",
+  "path": "/eventoNFCom/infEvento/cOrgao",
+  "ordem": "al01",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "11|12|13|14|15|16|17|21|22|23|24|25|26|27|28|29|31|32|33|35|41|42|43|50|51|52|53|90|91|92|93",
+  "versao": "eventoNFCom",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c270282ab026a33754fdad"
+  },
+  "nome": "tpAmb",
+  "pai": "infEvento",
+  "path": "/eventoNFCom/infEvento/tpAmb",
+  "ordem": "al02",
+  "tipo": "RANDON_PARAMETER",
+  "pattern": "1|2",
+  "versao": "eventoNFCom",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c270282ab026a33754fdae"
+  },
+  "nome": "CNPJ",
+  "pai": "infEvento",
+  "path": "/eventoNFCom/infEvento/CNPJ",
+  "ordem": "al03",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{14}",
+  "versao": "eventoNFCom",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c270282ab026a33754fdaf"
+  },
+  "nome": "chNFCom",
+  "pai": "infEvento",
+  "path": "/eventoNFCom/infEvento/chNFCom",
+  "ordem": "al04",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{44}",
+  "versao": "eventoNFCom",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c270282ab026a33754fdb0"
+  },
+  "nome": "dhEvento",
+  "pai": "infEvento",
+  "path": "/eventoNFCom/infEvento/dhEvento",
+  "ordem": "al05",
+  "tipo": "DATE",
+  "pattern": "yyyy-MM-dd'T'HH:mm:ssXXX",
+  "versao": "eventoNFCom",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c270282ab026a33754fdb1"
+  },
+  "nome": "tpEvento",
+  "pai": "infEvento",
+  "path": "/eventoNFCom/infEvento/tpEvento",
+  "ordem": "al06",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{6}",
+  "versao": "eventoNFCom",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c270282ab026a33754fdb2"
+  },
+  "nome": "nSeqEvento",
+  "pai": "infEvento",
+  "path": "/eventoNFCom/infEvento/nSeqEvento",
+  "ordem": "al07",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{1,3}",
+  "versao": "eventoNFCom",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c270282ab026a33754fdb3"
+  },
+  "nome": "detEvento",
+  "pai": "infEvento",
+  "path": "/eventoNFCom/infEvento/detEvento",
+  "ordem": "am00",
+  "tipo": "PAI",
+  "pattern": "",
+  "versao": "eventoNFCom",
+  "totais": {
+    "valorTotal": false
+  },
+  "atributos": [
+    {
+      "nome": "versaoEvento",
+      "valor": "4.00"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64c270282ab026a33754fdb4"
+  },
+  "nome": "evCancNFCom",
+  "pai": "detEvento",
+  "path": "/eventoNFCom/infEvento/detEvento/evCancNFCom",
+  "ordem": "an00",
+  "tipo": "PAI",
+  "versao": "eventoNFCom",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c270282ab026a33754fdb5"
+  },
+  "nome": "descEvento",
+  "pai": "evCancNFCom",
+  "path": "/eventoNFCom/infEvento/detEvento/evCancNFCom/descEvento",
+  "ordem": "an01",
+  "tipo": "FIXED",
+  "pattern": "Cancelamento",
+  "versao": "eventoNFCom",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c270282ab026a33754fdb6"
+  },
+  "nome": "nProt",
+  "pai": "evCancNFCom",
+  "path": "/eventoNFCom/infEvento/detEvento/evCancNFCom/nProt",
+  "ordem": "an02",
+  "tipo": "REGEX",
+  "pattern": "[0-9]{16}",
+  "versao": "eventoNFCom",
+  "totais": {
+    "valorTotal": false
+  }
+},
+{
+  "_id": {
+    "$oid": "64c270282ab026a33754fdb7"
+  },
+  "nome": "xJust",
+  "pai": "evCancNFCom",
+  "path": "/eventoNFCom/infEvento/detEvento/evCancNFCom/xJust",
+  "ordem": "an03",
+  "tipo": "RANGE_ALFANUMERICO",
+  "pattern": "15-255",
+  "versao": "eventoNFCom",
+  "totais": {
+    "valorTotal": false
+  }
+}]
